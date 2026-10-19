@@ -24,8 +24,9 @@ export GOOGLE_GENAI_USE_VERTEXAI=true
 echo "▶ project: $GOOGLE_CLOUD_PROJECT"
 
 gcloud services enable aiplatform.googleapis.com --quiet
-if ! command -v ffmpeg >/dev/null; then
-  sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
+# ffmpeg for audio checks, Japanese fonts so captions never render as boxes
+if ! command -v ffmpeg >/dev/null || ! fc-list | grep -qi "Noto Sans CJK"; then
+  sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-noto-cjk >/dev/null
 fi
 
 if [[ ! -d .venv ]]; then

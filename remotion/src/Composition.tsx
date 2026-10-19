@@ -15,6 +15,7 @@ import data from "./shots.json";
 const FPS = 30;
 const ENDING_SECONDS = 3.5;
 const FONT = "M PLUS Rounded 1c";
+const FONT_STACK = `"${FONT}", "Noto Sans CJK JP", "Noto Sans JP", sans-serif`;
 
 loadFont({ family: FONT, url: staticFile("MPLUSRounded1c-ExtraBold.ttf"), weight: "800" });
 
@@ -46,7 +47,7 @@ const Captions: React.FC<{ captions: Caption[] }> = ({ captions }) => {
         right: 50,
         top: 1080,
         textAlign: "center",
-        fontFamily: FONT,
+        fontFamily: FONT_STACK,
         fontWeight: 800,
         fontSize: loud ? 112 : 100,
         lineHeight: 1.2,
@@ -71,7 +72,7 @@ const Ending: React.FC = () => {
       <div
         lang="ja"
         style={{
-          fontFamily: FONT,
+          fontFamily: FONT_STACK,
           fontWeight: 800,
           fontSize: 104,
           color: "#ffe14d",
@@ -91,7 +92,7 @@ const Ending: React.FC = () => {
         style={{
           position: "absolute",
           bottom: 360,
-          fontFamily: FONT,
+          fontFamily: FONT_STACK,
           fontWeight: 800,
           fontSize: 30,
           color: "rgba(255,255,255,0.7)",
