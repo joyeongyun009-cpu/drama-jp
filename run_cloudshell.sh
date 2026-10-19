@@ -8,16 +8,23 @@ set -euo pipefail
 cd "$(dirname "$0")"
 
 MODE="${1:-preview}"
-export GOOGLE_CLOUD_PROJECT="$(gcloud config get-value project 2>/dev/null)"
-export GOOGLE_CLOUD_LOCATION=global
-export GOOGLE_GENAI_USE_ENTERPRISE=true
-if [[ -z "$GOOGLE_CLOUD_PROJECT" ]]; then
-  echo "❌ プロジェクトが選ばれていません / 프로젝트가 선택되지 않았어요: gcloud config set project <PROJECT_ID>"
+PROJECT="$(gcloud config get-value project 2>/dev/null || true)"
+if [[ -z "$PROJECT" ]]; then
+  PROJECT="$(gcloud projects list --format='value(projectId)' --limit=1)"
+  gcloud config set project "$PROJECT" --quiet
+fi
+if [[ -z "$PROJECT" ]]; then
+  echo "❌ 프로젝트를 찾지 못했어요: gcloud config set project <PROJECT_ID>"
   exit 1
 fi
+export GOOGLE_CLOUD_PROJECT="$PROJECT"
+export GOOGLE_CLOUD_LOCATION=global
+export GOOGLE_GENAI_USE_ENTERPRISE=true
+export GOOGLE_GENAI_USE_VERTEXAI=true
 echo "▶ project: $GOOGLE_CLOUD_PROJECT"
 
 gcloud services enable aiplatform.googleapis.com --quiet
+command -v ffmpeg >/dev/null || sudo apt-get install -y -qq ffmpeg >/dev/null
 
 if [[ ! -d .venv ]]; then
   python3 -m venv .venv
