@@ -10,6 +10,11 @@ cd "$(dirname "$0")"
 MODE="${1:-preview}"
 EP="${2:?편 번호를 적어 주세요. 예: bash run_cloudshell.sh preview ep02}"
 [[ -f "episodes/$EP/story.json" ]] || { echo "❌ episodes/$EP/story.json 이 없어요"; exit 1; }
+if [[ -z "$(gcloud auth list --filter=status:ACTIVE --format='value(account)' 2>/dev/null)" ]]; then
+  echo "❌ Cloud Shell 로그인이 풀렸어요. 아래를 붙여넣고 안내대로 로그인한 뒤, 같은 명령어를 다시 실행하세요:"
+  echo "   gcloud auth login"
+  exit 1
+fi
 PROJECT="$(gcloud config get-value project 2>/dev/null || true)"
 if [[ -z "$PROJECT" ]]; then
   PROJECT="$(gcloud projects list --format='value(projectId)' --limit=1)"
