@@ -1,4 +1,7 @@
-# 嫁と老眼鏡 — Japanese drama short (Gemini Omni + Remotion)
+# drama-jp
+일본어 드라마 쇼츠 제작 도구 — 사용법은 [쇼츠_제작_순서.md](쇼츠_제작_순서.md)
+
+## 嫁と老眼鏡 — Japanese drama short (Gemini Omni + Remotion)
 
 Requires `GOOGLE_API_KEY` and `GOOGLE_GENAI_USE_ENTERPRISE=true` in the environment.
 Python venv with `google-genai`, `faster-whisper`: `/home/user/tts-venv`.
