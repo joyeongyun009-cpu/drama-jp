@@ -56,7 +56,8 @@ const Captions: React.FC<{ captions: Caption[] }> = ({ captions }) => {
         textAlign: "center",
         fontFamily: FONT_STACK,
         fontWeight: 800,
-        fontSize: loud ? 112 : 100,
+        // Shrink long chunks so they stay on one line (about 940px of usable width).
+        fontSize: Math.min(loud ? 112 : 100, Math.floor(940 / Math.max(1, c.text.length))),
         lineHeight: 1.2,
         color: loud ? "#ffe14d" : "#ffffff",
         textShadow: outline(8),

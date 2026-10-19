@@ -3,9 +3,9 @@
 # Needs GOOGLE_API_KEY + GOOGLE_GENAI_USE_ENTERPRISE=true (Express Mode),
 # or GOOGLE_CLOUD_PROJECT + ADC.
 #
-#   python scripts/generate.py refs              # character portraits -> refs/
-#   python scripts/generate.py shots --only s01  # one shot (cost check)
-#   python scripts/generate.py shots             # all missing shots -> remotion/public/shots/
+#   python scripts/generate.py refs --ep ep02              # character portraits -> refs/
+#   python scripts/generate.py shots --ep ep02 --only s01  # one shot (cost check)
+#   python scripts/generate.py shots --ep ep02             # all missing shots -> remotion/public/shots/ep02/
 import argparse
 import base64
 import json
@@ -18,13 +18,23 @@ from google.genai import interactions
 
 ROOT = Path(__file__).resolve().parent.parent
 REFS = ROOT / "refs"
-SHOTS = ROOT / "remotion" / "public" / "shots"
+SHOTS_ROOT = ROOT / "remotion" / "public" / "shots"
 IMAGE_MODEL = "gemini-3-pro-image"
 OMNI_MODEL = "gemini-omni-1.1-flash-preview"
 
 
-def load_story():
-    return json.loads((ROOT / "story.json").read_text(encoding="utf-8"))
+# Appended to every shot so stray labels or invented lines never sneak in.
+SHOT_RULES = (
+    "Strict rules: absolutely no on-screen text of any kind (no name labels, no character "
+    "name tags, no lower-third titles, no captions, no subtitles, no watermarks, no logos, "
+    "no readable writing on phones, papers or signs). Only the characters or narrator described in this shot "
+    "speak, and they say only the exact Japanese lines quoted here; if no line is quoted, "
+    "nobody speaks. No background voices saying words, only ambient sound."
+)
+
+
+def load_story(ep):
+    return json.loads((ROOT / "episodes" / ep / "story.json").read_text(encoding="utf-8"))
 
 
 def make_refs(client, story, only):
@@ -49,7 +59,8 @@ def image_input(path):
             "data": base64.b64encode(path.read_bytes()).decode("utf-8")}
 
 
-def make_shots(client, story, only):
+def make_shots(client, story, only, ep):
+    SHOTS = SHOTS_ROOT / ep
     SHOTS.mkdir(parents=True, exist_ok=True)
     for shot in story["shots"]:
         out = SHOTS / f"{shot['id']}.mp4"
@@ -58,7 +69,7 @@ def make_shots(client, story, only):
         refs = [REFS / f"{r}.png" for r in shot["refs"] if (REFS / f"{r}.png").exists()]
         names = ", ".join(f"{r} = {story['characters'][r]['name']}" for r in shot["refs"])
         prompt = (f"{story['style']} Setting: {story['location']} "
-                  f"Characters in the reference images: {names}. {shot['prompt']}")
+                  f"Characters in the reference images: {names}. {shot['prompt']} {SHOT_RULES}")
         task = "reference_to_video" if refs else "text_to_video"
         print(f"[shot] {shot['id']} ({task}, {shot['duration']}) ...", flush=True)
         started = client.interactions.create(
@@ -85,11 +96,15 @@ def make_shots(client, story, only):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("what", choices=["refs", "shots"])
+    ap.add_argument("--ep", required=True)
     ap.add_argument("--only", nargs="*", default=[])
     a = ap.parse_args()
     client = genai.Client()
-    story = load_story()
-    (make_refs if a.what == "refs" else make_shots)(client, story, set(a.only))
+    story = load_story(a.ep)
+    if a.what == "refs":
+        make_refs(client, story, set(a.only))
+    else:
+        make_shots(client, story, set(a.only), a.ep)
 
 
 if __name__ == "__main__":

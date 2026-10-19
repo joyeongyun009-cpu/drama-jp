@@ -1,11 +1,12 @@
 # Times each shot's caption chunks to the speech in its clip and writes
 # remotion/src/shots.json for the video.
 #
-#   python scripts/align.py
+#   python scripts/align.py --ep ep02
 #
 # Chunks come from story.json ("／"-separated). Where Whisper finds speech, the
 # chunks are spread over the spoken span in proportion to their length; shots
 # without speech (narration captions) spread them over the whole clip.
+import argparse
 import json
 import subprocess
 from pathlib import Path
@@ -14,7 +15,7 @@ import numpy as np
 from faster_whisper import WhisperModel
 
 ROOT = Path(__file__).resolve().parent.parent
-SHOTS = ROOT / "remotion" / "public" / "shots"
+SHOTS_ROOT = ROOT / "remotion" / "public" / "shots"
 OUT = ROOT / "remotion" / "src" / "shots.json"
 
 
@@ -42,7 +43,11 @@ def spread(chunks, start, end):
 
 
 def main():
-    story = json.loads((ROOT / "story.json").read_text(encoding="utf-8"))
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--ep", required=True)
+    ep = ap.parse_args().ep
+    SHOTS = SHOTS_ROOT / ep
+    story = json.loads((ROOT / "episodes" / ep / "story.json").read_text(encoding="utf-8"))
     model = WhisperModel("small", device="cpu", compute_type="int8")
     result = []
     for shot in story["shots"]:
@@ -60,7 +65,7 @@ def main():
         else:
             start, end = 0.4, dur - 0.4
             heard = ""
-        result.append({"id": shot["id"], "file": f"shots/{clip.name}", "duration": round(dur, 3),
+        result.append({"id": shot["id"], "file": f"shots/{ep}/{clip.name}", "duration": round(dur, 3),
                        "captions": spread(chunks, start, end), "heard": heard})
         print(f"{shot['id']} {dur:.1f}s heard: {heard or '(no speech)'}")
     ending = story["ending"]

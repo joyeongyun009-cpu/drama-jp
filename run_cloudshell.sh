@@ -2,12 +2,14 @@
 # Runs the whole drama pipeline inside Google Cloud Shell, which is already
 # signed in as you, so no API key is needed.
 #
-#   bash run_cloudshell.sh preview   # character photos + shot 1 + short preview video
-#   bash run_cloudshell.sh all       # every shot + final video
+#   bash run_cloudshell.sh preview ep02   # character photos + shot 1 + short preview video
+#   bash run_cloudshell.sh all ep02       # every shot + final video
 set -euo pipefail
 cd "$(dirname "$0")"
 
 MODE="${1:-preview}"
+EP="${2:?편 번호를 적어 주세요. 예: bash run_cloudshell.sh preview ep02}"
+[[ -f "episodes/$EP/story.json" ]] || { echo "❌ episodes/$EP/story.json 이 없어요"; exit 1; }
 PROJECT="$(gcloud config get-value project 2>/dev/null || true)"
 if [[ -z "$PROJECT" ]]; then
   PROJECT="$(gcloud projects list --format='value(projectId)' --limit=1)"
@@ -35,22 +37,22 @@ if [[ ! -d .venv ]]; then
 fi
 PY=.venv/bin/python
 
-$PY scripts/generate.py refs
+$PY scripts/generate.py refs --ep "$EP"
 if [[ "$MODE" == "preview" ]]; then
-  $PY scripts/generate.py shots --only s01
+  $PY scripts/generate.py shots --ep "$EP" --only s01
 else
-  $PY scripts/generate.py shots
+  $PY scripts/generate.py shots --ep "$EP"
 fi
-$PY scripts/align.py
+$PY scripts/align.py --ep "$EP"
 
 cd remotion
 [[ -d node_modules ]] || npm ci --silent
-npx remotion render Drama out/drama.mp4 --log=error
+npx remotion render Drama "out/$EP.mp4" --log=error
 cd ..
 
 zip -qr refs.zip refs
 echo ""
-echo "✅ 完成 / 완성: remotion/out/drama.mp4"
+echo "✅ 完成 / 완성: remotion/out/$EP.mp4"
 echo "   ダウンロード / 다운로드:"
-echo "   cloudshell download remotion/out/drama.mp4"
+echo "   cloudshell download remotion/out/$EP.mp4"
 echo "   cloudshell download refs.zip"
