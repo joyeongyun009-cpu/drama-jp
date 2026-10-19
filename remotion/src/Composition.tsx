@@ -29,6 +29,13 @@ const TOTAL = shotFrames.reduce((a, b) => a + b, 0) + Math.round(ENDING_SECONDS 
 
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 
+// Thick outline from stacked shadows (works even where -webkit-text-stroke does not).
+const outline = (r: number) =>
+  Array.from({ length: 16 }, (_, i) => {
+    const a = (i / 16) * Math.PI * 2;
+    return `${(Math.cos(a) * r).toFixed(1)}px ${(Math.sin(a) * r).toFixed(1)}px 0 #000`;
+  }).join(", ") + ", 0 8px 14px rgba(0,0,0,0.6)";
+
 // Big centered caption: one chunk at a time, popping in with a slight overshoot.
 const Captions: React.FC<{ captions: Caption[] }> = ({ captions }) => {
   const frame = useCurrentFrame();
@@ -52,11 +59,9 @@ const Captions: React.FC<{ captions: Caption[] }> = ({ captions }) => {
         fontSize: loud ? 112 : 100,
         lineHeight: 1.2,
         color: loud ? "#ffe14d" : "#ffffff",
-        WebkitTextStroke: "16px #000000",
-        paintOrder: "stroke fill",
+        textShadow: outline(8),
         scale: String(0.6 + 0.4 * p),
         opacity: Math.min(1, p * 2),
-        filter: "drop-shadow(0 6px 10px rgba(0,0,0,0.5))",
       }}
     >
       {c.text}
@@ -77,8 +82,7 @@ const Ending: React.FC = () => {
           fontSize: 104,
           color: "#ffe14d",
           textAlign: "center",
-          WebkitTextStroke: "14px #000",
-          paintOrder: "stroke fill",
+          textShadow: outline(7),
           opacity: p,
           scale: String(0.8 + 0.2 * p),
           padding: "0 60px",
