@@ -63,6 +63,9 @@ $PY scripts/align.py --ep "$EP"
 cd remotion
 [[ -d node_modules ]] || npm ci --silent
 npx remotion render Drama "out/$EP.mp4" --log=error
+# 유튜브 권장 음량(-14 LUFS)으로 맞춤 (영상은 그대로, 소리만)
+ffmpeg -y -v error -i "out/$EP.mp4" -c:v copy -af loudnorm=I=-14:TP=-1.5:LRA=11 -ar 48000 -c:a aac -b:a 192k "out/$EP.loud.mp4" \
+  && mv "out/$EP.loud.mp4" "out/$EP.mp4"
 cd ..
 
 zip -qr refs.zip refs
