@@ -43,6 +43,16 @@ if [[ "$MODE" == "preview" ]]; then
 else
   $PY scripts/generate.py shots --ep "$EP"
 fi
+# BGM: story.json의 "bgm" 파일이 없으면, 홈 폴더에 올린 가장 최근 mp3를 그 이름으로 복사
+BGM="$($PY -c "import json,sys; b=json.load(open('episodes/$EP/story.json')).get('bgm'); print(b['file'] if b else '')")"
+if [[ -n "$BGM" && ! -f "remotion/public/$BGM" ]]; then
+  NEWEST="$(ls -t ~/*.mp3 2>/dev/null | head -1 || true)"
+  if [[ -n "$NEWEST" ]]; then
+    mkdir -p "remotion/public/$(dirname "$BGM")"
+    cp "$NEWEST" "remotion/public/$BGM"
+    echo "▶ BGM: $(basename "$NEWEST")"
+  fi
+fi
 $PY scripts/align.py --ep "$EP"
 
 cd remotion

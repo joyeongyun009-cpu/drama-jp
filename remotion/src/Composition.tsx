@@ -1,4 +1,4 @@
-import { Video } from "@remotion/media";
+import { Audio, Video } from "@remotion/media";
 import { loadFont } from "@remotion/fonts";
 import React from "react";
 import {
@@ -20,14 +20,37 @@ const FONT_STACK = `"${FONT}", "Noto Sans CJK JP", "Noto Sans JP", sans-serif`;
 loadFont({ family: FONT, url: staticFile("MPLUSRounded1c-ExtraBold.ttf"), weight: "800" });
 
 type Caption = { text: string; start: number; end: number };
-type Shot = { id: string; file: string; duration: number; captions: Caption[] };
+type Shot = { id: string; file: string; duration: number; captions: Caption[]; heard?: string };
+type Bgm = { file: string; volume: number } | null;
 
 const shots = data.shots as Shot[];
+const bgm = ((data as { bgm?: Bgm }).bgm ?? null) as Bgm;
 const shotFrames = shots.map((s) => Math.floor(s.duration * FPS));
 const shotStarts = shotFrames.map((_, i) => shotFrames.slice(0, i).reduce((a, b) => a + b, 0));
 const TOTAL = shotFrames.reduce((a, b) => a + b, 0) + Math.round(ENDING_SECONDS * FPS);
 
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
+
+// Spans (in frames) where someone is speaking, so the music can step aside.
+const speech = shots.flatMap((s, i) =>
+  s.heard && s.captions.length
+    ? [[shotStarts[i] + s.captions[0].start * FPS, shotStarts[i] + s.captions[s.captions.length - 1].end * FPS]]
+    : [],
+);
+const DUCK = 0.35; // music level while someone speaks
+const RAMP = 9; // frames to fade between levels
+
+const bgmVolume = (f: number) => {
+  if (!bgm) return 0;
+  const near = Math.min(
+    ...speech.map(([a, b]) => (f < a ? a - f : f > b ? f - b : 0)),
+    RAMP,
+  );
+  const duck = interpolate(near, [0, RAMP], [DUCK, 1], clamp);
+  const fadeIn = interpolate(f, [0, 15], [0, 1], clamp);
+  const fadeOut = interpolate(f, [TOTAL - 2 * FPS, TOTAL - 1], [1, 0], clamp);
+  return bgm.volume * duck * fadeIn * fadeOut;
+};
 
 // Thick outline from stacked shadows (works even where -webkit-text-stroke does not).
 const outline = (r: number) =>
@@ -121,6 +144,7 @@ export const Drama: React.FC = () => (
     <Sequence name="ending" from={TOTAL - Math.round(ENDING_SECONDS * FPS)}>
       <Ending />
     </Sequence>
+    {bgm ? <Audio src={staticFile(bgm.file)} loop loopVolumeCurveBehavior="extend" volume={bgmVolume} /> : null}
   </AbsoluteFill>
 );
 

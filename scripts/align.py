@@ -69,7 +69,11 @@ def main():
                        "captions": spread(chunks, start, end), "heard": heard})
         print(f"{shot['id']} {dur:.1f}s heard: {heard or '(no speech)'}")
     ending = story["ending"]
-    OUT.write_text(json.dumps({"shots": result, "ending": ending}, ensure_ascii=False, indent=1),
+    bgm = story.get("bgm")
+    if bgm and not (ROOT / "remotion" / "public" / bgm["file"]).exists():
+        print(f"⚠ BGM 파일이 없어요 (remotion/public/{bgm['file']}) → 음악 없이 만듭니다")
+        bgm = None
+    OUT.write_text(json.dumps({"shots": result, "ending": ending, "bgm": bgm}, ensure_ascii=False, indent=1),
                    encoding="utf-8")
 
 

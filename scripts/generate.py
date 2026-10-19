@@ -29,7 +29,7 @@ SHOT_RULES = (
     "name tags, no lower-third titles, no captions, no subtitles, no watermarks, no logos, "
     "no readable writing on phones, papers or signs). Only the characters or narrator described in this shot "
     "speak, and they say only the exact Japanese lines quoted here; if no line is quoted, "
-    "nobody speaks. No background voices saying words, only ambient sound."
+    "nobody speaks. No background voices saying words, no background music, only ambient sound."
 )
 
 
