@@ -1,0 +1,99 @@
+{
+  "title": "嫁に「老眼鏡なんてみっともない」と言われた姑の、その後",
+  "style": "Photorealistic cinematic Japanese TV drama, shot on a 35mm lens, shallow depth of field, warm natural indoor lighting, realistic skin texture, vertical 9:16 framing. All dialogue is spoken in natural Japanese. No on-screen text, no subtitles, no watermarks.",
+  "location": "A bright, upscale family restaurant in Tokyo at lunchtime, wooden tables, other diners in the background.",
+  "characters": {
+    "kazuko": {
+      "name": "和子（姑・68歳）",
+      "image_prompt": "Photorealistic portrait of a 68-year-old Japanese woman, kind but dignified face, short neat gray-black bob, light makeup, beige knit cardigan over a cream blouse, thin gold reading glasses hanging on a fine chain around her neck. Upper body, facing camera, soft restaurant background, natural window light, 9:16 vertical."
+    },
+    "rena": {
+      "name": "麗奈（嫁・38歳）",
+      "image_prompt": "Photorealistic portrait of a 38-year-old Japanese woman, fashionable and slightly haughty expression, long wavy brown hair, polished makeup, white silk blouse, designer handbag strap on shoulder. Upper body, facing camera, soft restaurant background, natural window light, 9:16 vertical."
+    },
+    "kenta": {
+      "name": "健太（息子・40歳）",
+      "image_prompt": "Photorealistic portrait of a 40-year-old Japanese man, mild timid expression, short black hair, navy sweater over white shirt. Upper body, soft restaurant background, 9:16 vertical."
+    },
+    "sota": {
+      "name": "蒼太（孫・7歳）",
+      "image_prompt": "Photorealistic portrait of a cheerful 7-year-old Japanese boy, round face, short bowl haircut, striped T-shirt, a small birthday paper crown on his head. Upper body, soft restaurant background, 9:16 vertical."
+    }
+  },
+  "shots": [
+    {
+      "id": "s01",
+      "duration": "6s",
+      "refs": ["rena", "kazuko"],
+      "prompt": "Hook shot. Close-up at a family restaurant table. The older woman (kazuko) has just put on her thin gold reading glasses to read the menu. The younger woman (rena) suddenly snatches the menu out of her hands, glaring, and says sharply in Japanese: 「お義母さん、それ人前でかけないでくださいよ。みっともない」. Kazuko freezes, shocked.",
+      "captions": "お義母さん／それ人前で／かけないで／ください！／みっともない"
+    },
+    {
+      "id": "s02",
+      "duration": "5s",
+      "refs": ["kazuko"],
+      "prompt": "Medium shot of kazuko sitting still, the reading glasses half lowered, her face stiff with embarrassment. Diners at nearby tables glance over. Silence, only restaurant ambience. A birthday cake with candles sits on the table.",
+      "captions": "孫の誕生日／家族で来た／レストランで"
+    },
+    {
+      "id": "s03",
+      "duration": "7s",
+      "refs": ["rena"],
+      "prompt": "Rena leans in and says in a lowered but cutting voice in Japanese: 「年寄りくさいのよ。あっちに私のママ友も来てるんだから」, then tilts her head toward a nearby table where three stylish women in their late thirties are sitting and watching.",
+      "captions": "年寄りくさいのよ／あっちに／私のママ友も／来てるんだから"
+    },
+    {
+      "id": "s04",
+      "duration": "6s",
+      "refs": ["kazuko", "kenta"],
+      "prompt": "Kazuko quietly takes off the reading glasses, folds them and slips them into a small brown leather case, eyes lowered. Beside her, her son kenta stares down at his plate and says nothing. Melancholic, quiet mood.",
+      "captions": "息子は／何も言わなかった"
+    },
+    {
+      "id": "s05",
+      "duration": "6s",
+      "refs": ["rena"],
+      "prompt": "Time skip to the end of the meal. A waiter places the bill on the table. Rena picks up the long printed receipt, squints hard, and slowly holds it farther and farther away from her face, frowning.",
+      "captions": "そして／お会計"
+    },
+    {
+      "id": "s06",
+      "duration": "6s",
+      "refs": ["rena"],
+      "prompt": "Rena, flustered, mutters in Japanese: 「…え、これ何円？字が小さすぎて…」. At the next table her three mom friends notice, exchange looks and smirk behind their hands.",
+      "captions": "え…これ何円？／字が／小さすぎて…"
+    },
+    {
+      "id": "s07",
+      "duration": "7s",
+      "refs": ["kazuko", "rena"],
+      "prompt": "Kazuko calmly opens the brown leather case, takes out her thin gold reading glasses and holds them out to rena with a gentle, composed smile. She says softly in Japanese: 「貸してあげる。似合うわよ」.",
+      "captions": "貸してあげる／似合うわよ"
+    },
+    {
+      "id": "s08",
+      "duration": "6s",
+      "refs": ["sota", "rena"],
+      "prompt": "Rena's face turns red. The little boy sota, wearing a paper birthday crown, laughs innocently and says loudly in Japanese: 「ママもおばあちゃんとおそろいだね！」. The mom friends at the next table burst into giggles.",
+      "captions": "ママも／おばあちゃんと／おそろいだね！"
+    },
+    {
+      "id": "s09",
+      "duration": "6s",
+      "refs": ["rena", "kazuko"],
+      "prompt": "Rena sheepishly puts on the gold reading glasses, reads the receipt, and mumbles in Japanese, not making eye contact: 「…ありがとうございます」. Kazuko sips her green tea, satisfied.",
+      "captions": "…ありがとう／ございます"
+    },
+    {
+      "id": "s10",
+      "duration": "6s",
+      "refs": ["kazuko"],
+      "prompt": "Slow push-in close-up on kazuko's face as she smiles warmly and serenely, soft golden window light behind her. No dialogue, gentle ambience.",
+      "captions": "老いを笑う人も／いつか必ず／同じ道を通る"
+    }
+  ],
+  "ending": {
+    "question": "あなたなら、\nどうしますか？",
+    "note": "※本内容は、実際のエピソードを基に再構成したものです。"
+  }
+}
