@@ -59,6 +59,8 @@ def main():
         chunks = [c for c in shot["captions"].split("／") if c]
         segs, _ = model.transcribe(audio16k(clip), language="ja", vad_filter=True)
         segs = [s for s in segs if s.text.strip()]
+        if shot.get("speech") is False:  # silent shot: ignore anything Whisper thinks it heard
+            segs = []
         if segs:
             start, end = segs[0].start, min(dur - 0.1, segs[-1].end + 0.2)
             heard = "".join(s.text for s in segs)
