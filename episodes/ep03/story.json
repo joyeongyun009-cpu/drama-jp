@@ -42,8 +42,8 @@
       "refs": [
         "kazuko"
       ],
-      "prompt": "A Japanese community center room with folding tables, several elderly people holding smartphones, bright fluorescent light. A young female instructor stands at a whiteboard (no readable writing). First a calm female Japanese narrator voice-over says: 「毎週火曜、こっそり通い始めたスマホ教室」. Then the instructor says in Japanese: 「宅配業者を装った詐欺メッセージが増えています。押してしまったら、すぐカード会社に連絡を」. Kazuko, at a front table, listens seriously. Kazuko does not speak.",
-      "captions": "毎週火曜——／こっそり通い始めた／スマホ教室／宅配業者を装った／詐欺メッセージに注意／押してしまったら／すぐカード会社へ"
+      "prompt": "A bright Japanese community center room with folding tables and a few friendly elderly students learning to use smartphones. A young, cheerful female instructor stands at a whiteboard (no readable writing). First a calm female Japanese narrator voice-over says: 「毎週火曜、こっそり通い始めたスマホ教室」. Then the instructor smiles and says in Japanese: 「知らないメッセージのリンクは、押さないでくださいね。困ったら、すぐ電話で相談を」. Kazuko, at a front table, nods and listens seriously. Kazuko does not speak.",
+      "captions": "毎週火曜——／こっそり通い始めた／スマホ教室／知らないメッセージの／リンクは押さない／困ったら／すぐ電話で相談"
     },
     {
       "id": "s04",
@@ -90,8 +90,8 @@
         "kazuko",
         "rena"
       ],
-      "prompt": "Role reversal. Kazuko sits beside rena, calmly opens her small handwritten notebook (writing unreadable), points at the back of rena's credit card and says steadily in Japanese: 「落ち着いて。まずカード会社に電話して、カードを止めてもらうの。カードの裏の番号よ」. Rena nods, trembling. Rena does not speak.",
-      "captions": "落ち着いて／まずカード会社に電話して／カードを止めてもらうの／カードの裏の番号よ"
+      "prompt": "Role reversal in the living room. Kazuko sits down beside rena on the sofa, calmly opens her small handwritten notebook (writing unreadable), and gently hands rena her phone. Kazuko says steadily and kindly in Japanese: 「落ち着いて。まずカード会社に電話して、止めてもらうの。大丈夫よ」. Rena nods, still shaky. Rena does not speak.",
+      "captions": "落ち着いて／まずカード会社に電話して／止めてもらうの／大丈夫よ"
     },
     {
       "id": "s09",
