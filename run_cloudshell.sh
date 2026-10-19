@@ -24,7 +24,9 @@ export GOOGLE_GENAI_USE_VERTEXAI=true
 echo "▶ project: $GOOGLE_CLOUD_PROJECT"
 
 gcloud services enable aiplatform.googleapis.com --quiet
-command -v ffmpeg >/dev/null || sudo apt-get install -y -qq ffmpeg >/dev/null
+if ! command -v ffmpeg >/dev/null; then
+  sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
+fi
 
 if [[ ! -d .venv ]]; then
   python3 -m venv .venv
