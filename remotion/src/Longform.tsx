@@ -224,16 +224,14 @@ const Subtitle: React.FC<{ captions: Caption[]; left?: number; right?: number }>
   );
 };
 
-// Dialogue: a speech bubble with the speaker's name tag.
-const Bubble: React.FC<{ captions: Caption[]; speaker?: string; color?: string; offsetSec?: number }> = ({
+// Dialogue: a speech bubble with the speaker's color as the border (no name on screen).
+const Bubble: React.FC<{ captions: Caption[]; color?: string; offsetSec?: number }> = ({
   captions,
-  speaker,
   color,
   offsetSec = 0,
 }) => {
   const { c, p } = useCaption(captions, offsetSec);
   if (!c) return null;
-  const name = c.speaker ?? speaker ?? "";
   const tag = c.color ?? color ?? "#888";
   return (
     <div
@@ -267,21 +265,6 @@ const Bubble: React.FC<{ captions: Caption[]; speaker?: string; color?: string; 
           boxShadow: "0 10px 30px rgba(0,0,0,0.45)",
         }}
       >
-        <div
-          style={{
-            position: "absolute",
-            top: -34,
-            left: 40,
-            background: tag,
-            color: "#fff",
-            fontSize: 38,
-            padding: "6px 26px",
-            borderRadius: 999,
-            boxShadow: "0 4px 10px rgba(0,0,0,0.35)",
-          }}
-        >
-          {name}
-        </div>
         {c.text}
       </div>
     </div>
@@ -535,7 +518,7 @@ const SceneView: React.FC<{ scene: Scene }> = ({ scene }) => {
       return (
         <AbsoluteFill>
           <Picture scene={scene} />
-          <Bubble captions={scene.captions} speaker={scene.speaker} color={scene.color} />
+          <Bubble captions={scene.captions} color={scene.color} />
         </AbsoluteFill>
       );
     default:
