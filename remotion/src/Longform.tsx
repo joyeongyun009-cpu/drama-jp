@@ -75,8 +75,9 @@ const outline = (r: number) =>
 
 // ───────────── image motion ─────────────
 
-// Returns the CSS transform for one frame of a motion. All moves run for the
-// whole scene so long scenes never freeze into a still picture.
+// Returns the CSS transform for one frame of a motion. Moves are big on
+// purpose (small moves looked like still pictures), start on the first frame
+// and keep going until the last one, and long scenes travel further.
 const motionStyle = (
   motion: string,
   frame: number,
@@ -84,52 +85,58 @@ const motionStyle = (
   focus: [number, number],
 ): React.CSSProperties => {
   const t = frame / FPS;
-  const p = easeInOut(Math.min(1, frame / Math.max(1, frames - 1)));
+  const lin = Math.min(1, frame / Math.max(1, frames - 1));
+  const p = 0.75 * lin + 0.25 * easeInOut(lin); // mostly steady speed: no slow start, no stop at the end
+  const long = interpolate(frames / FPS, [5, 10], [1, 1.35], clamp); // longer scene = bigger move
+  const zoom = Math.min(0.8, 0.6 * long); // 1.0 -> 1.6x (up to 1.8x on long scenes)
   const origin = `${focus[0] * 100}% ${focus[1] * 100}%`;
-  const after = (sec: number) => easeInOut(interpolate(t, [sec, frames / FPS], [0, 1], clamp));
+  const after = (sec: number) => {
+    const k = interpolate(t, [sec, frames / FPS], [0, 1], clamp);
+    return 0.75 * k + 0.25 * easeInOut(k);
+  };
   switch (motion) {
     case "zoom_out_big":
-      return { transform: `scale(${1.45 - 0.45 * p})`, transformOrigin: origin };
+      return { transform: `scale(${1 + zoom * (1 - p)})`, transformOrigin: origin };
     case "pan_left":
     case "pan_right": {
       const dir = motion === "pan_right" ? -1 : 1; // camera right = picture moves left
-      return { transform: `translateX(${dir * (0.3 * p - 0.15) * W}px) scale(1.4)` };
+      return { transform: `translateX(${dir * (0.44 * p - 0.22) * W}px) scale(${1.5 + 0.12 * p})` };
     }
     case "pan_up":
     case "pan_down": {
       const dir = motion === "pan_down" ? -1 : 1;
-      return { transform: `translateY(${dir * (0.3 * p - 0.15) * H}px) scale(1.45)` };
+      return { transform: `translateY(${dir * (0.5 * p - 0.25) * H}px) scale(${1.6 + 0.12 * p})` };
     }
     case "slide_in_left":
     case "slide_in_right": {
-      const k = interpolate(t, [0, 0.4], [0, 1], { ...clamp, easing: Easing.out(Easing.back(1.4)) });
+      const k = interpolate(t, [0, 0.4], [0, 1], { ...clamp, easing: Easing.out(Easing.back(1.6)) });
       const from = motion === "slide_in_left" ? -W : W;
       return {
-        transform: `translateX(${(1 - k) * from}px) scale(${1 + 0.2 * after(0.4)})`,
+        transform: `translateX(${(1 - k) * from}px) scale(${1 + 0.4 * after(0.4)})`,
         transformOrigin: origin,
       };
     }
     case "punch_zoom": {
-      const hit = interpolate(t, [0, 0.2], [1, 1.55], { ...clamp, easing: Easing.out(Easing.cubic) });
-      const s = t < 0.5 ? hit : 1.55 + 0.1 * after(0.5);
-      const shake = t > 0.2 && t < 0.5 ? (1 - (t - 0.2) / 0.3) * 18 : 0;
+      const hit = interpolate(t, [0, 0.2], [1, 1.65], { ...clamp, easing: Easing.out(Easing.cubic) });
+      const s = t < 0.5 ? hit : 1.65 + 0.2 * after(0.5);
+      const shake = t > 0.2 && t < 0.5 ? (1 - (t - 0.2) / 0.3) * 30 : 0;
       return {
         transform: `translate(${Math.sin(frame * 2.7) * shake}px, ${Math.cos(frame * 3.1) * shake}px) scale(${s})`,
         transformOrigin: origin,
       };
     }
     case "shake": {
-      const amp = t < 0.7 ? 24 * (1 - t / 0.7) : 0;
+      const amp = t < 0.8 ? 40 * (1 - t / 0.8) : 0;
       return {
-        transform: `translate(${Math.sin(frame * 2.9) * amp}px, ${Math.cos(frame * 3.7) * amp}px) scale(${1.2 + 0.15 * after(0.7)})`,
+        transform: `translate(${Math.sin(frame * 2.9) * amp}px, ${Math.cos(frame * 3.7) * amp}px) scale(${1.25 + 0.35 * after(0.8)})`,
         transformOrigin: origin,
       };
     }
     case "push_slow":
-      return { transform: `scale(${1 + 0.2 * (frame / Math.max(1, frames - 1))})`, transformOrigin: origin };
+      return { transform: `scale(${1 + 0.35 * lin})`, transformOrigin: origin };
     case "zoom_in_big":
     default:
-      return { transform: `scale(${1 + 0.45 * p})`, transformOrigin: origin };
+      return { transform: `scale(${1 + zoom * p})`, transformOrigin: origin };
   }
 };
 
