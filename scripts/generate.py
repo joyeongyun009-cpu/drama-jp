@@ -130,6 +130,7 @@ def make_image(client, story, im, out):
     if refs:
         text = (f"Keep each person's face, hair and age exactly like the reference photos ({names}). "
                 f"{text}")
+    text += " The story takes place in Japan: every person in the picture is Japanese (East Asian), in a Japanese setting."
     contents = [text, *[types.Part.from_bytes(data=p.read_bytes(), mime_type="image/png") for p in refs]]
     print(f"[image] {im['id']} ...", flush=True)
     saved = False
