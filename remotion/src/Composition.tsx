@@ -20,7 +20,16 @@ const FONT_STACK = `"${FONT}", "Noto Sans CJK JP", "Noto Sans JP", sans-serif`;
 loadFont({ family: FONT, url: staticFile("MPLUSRounded1c-ExtraBold.ttf"), weight: "800" });
 
 type Caption = { text: string; start: number; end: number };
-type Shot = { id: string; file: string; duration: number; captions: Caption[]; heard?: string };
+type Shot = {
+  id: string;
+  file?: string;
+  card?: string; // black title card instead of a clip
+  label?: string; // small name tag, e.g. 義妹・典子
+  note?: string; // narration line shown at the top for the whole shot
+  duration: number;
+  captions: Caption[];
+  heard?: string;
+};
 type Bgm = { file: string; volume: number } | null;
 
 const shots = data.shots as Shot[];
@@ -93,6 +102,75 @@ const Captions: React.FC<{ captions: Caption[] }> = ({ captions }) => {
   );
 };
 
+// Name tag (first 2.5 s) and the narration line at the top of the frame.
+const TopText: React.FC<{ label?: string; note?: string }> = ({ label, note }) => {
+  const frame = useCurrentFrame();
+  const p = interpolate(frame, [3, 12], [0, 1], clamp);
+  const tag = interpolate(frame, [0, 6, 2.5 * FPS, 2.5 * FPS + 8], [0, 1, 1, 0], clamp);
+  return (
+    <>
+      {label ? (
+        <div
+          lang="ja"
+          style={{
+            position: "absolute",
+            left: 60,
+            top: 170,
+            padding: "8px 28px",
+            borderRadius: 999,
+            background: "rgba(200,30,50,0.92)",
+            color: "#fff",
+            fontFamily: FONT_STACK,
+            fontWeight: 800,
+            fontSize: 54,
+            opacity: tag,
+            transform: `translateX(${(1 - tag) * -40}px)`,
+          }}
+        >
+          {label}
+        </div>
+      ) : null}
+      {note ? (
+        <div
+          lang="ja"
+          style={{
+            position: "absolute",
+            left: 50,
+            right: 50,
+            top: 270,
+            textAlign: "center",
+            fontFamily: FONT_STACK,
+            fontWeight: 800,
+            // line breaks come from story.json (\n); size to the longest line
+            fontSize: Math.min(72, Math.floor(960 / Math.max(1, ...note.split("\n").map((l) => l.length)))),
+            lineHeight: 1.3,
+            whiteSpace: "pre-line",
+            color: "#fff",
+            textShadow: outline(7),
+            opacity: p,
+          }}
+        >
+          {note}
+        </div>
+      ) : null}
+    </>
+  );
+};
+
+// 三週間前―― style card: white flash, then the text types in on black.
+const Card: React.FC<{ text: string }> = ({ text }) => {
+  const frame = useCurrentFrame();
+  const shown = Math.min(text.length, Math.floor(Math.max(0, frame - 4) / 3) + 1);
+  return (
+    <AbsoluteFill style={{ background: "black", alignItems: "center", justifyContent: "center" }}>
+      <div lang="ja" style={{ fontFamily: FONT_STACK, fontWeight: 800, fontSize: 110, color: "#fff", letterSpacing: 8 }}>
+        {text.slice(0, shown)}
+      </div>
+      <AbsoluteFill style={{ background: "white", opacity: interpolate(frame, [0, 2, 6], [1, 1, 0], clamp) }} />
+    </AbsoluteFill>
+  );
+};
+
 const Ending: React.FC = () => {
   const frame = useCurrentFrame();
   const p = interpolate(frame, [0, 12], [0, 1], { ...clamp, easing: Easing.bezier(0.16, 1, 0.3, 1) });
@@ -115,6 +193,23 @@ const Ending: React.FC = () => {
       >
         {data.ending.question}
       </div>
+      {(data.ending as { cta?: string }).cta ? (
+        <div
+          lang="ja"
+          style={{
+            position: "absolute",
+            bottom: 520,
+            fontFamily: FONT_STACK,
+            fontWeight: 800,
+            fontSize: 60,
+            color: "#fff",
+            textShadow: outline(5),
+            opacity: interpolate(frame, [10, 20], [0, 1], clamp),
+          }}
+        >
+          {(data.ending as { cta?: string }).cta}
+        </div>
+      ) : null}
       <div
         lang="ja"
         style={{
@@ -137,7 +232,12 @@ export const Drama: React.FC = () => (
   <AbsoluteFill style={{ background: "black" }}>
     {shots.map((s, i) => (
       <Sequence key={s.id} name={s.id} from={shotStarts[i]} durationInFrames={shotFrames[i]}>
-        <Video src={staticFile(s.file)} objectFit="cover" style={{ width: "100%", height: "100%" }} />
+        {s.card ? (
+          <Card text={s.card} />
+        ) : (
+          <Video src={staticFile(s.file ?? "")} objectFit="cover" style={{ width: "100%", height: "100%" }} />
+        )}
+        <TopText label={s.label} note={s.note} />
         <Captions captions={s.captions} />
       </Sequence>
     ))}

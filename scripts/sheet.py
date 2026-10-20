@@ -9,13 +9,14 @@ from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parent.parent
-COLS, TW, TH = 8, 400, 225
 
 ap = argparse.ArgumentParser()
 ap.add_argument("--ep", required=True)
 ep = ap.parse_args().ep
 story = json.loads((ROOT / "episodes" / ep / "story.json").read_text(encoding="utf-8"))
-ids = [im["id"] for im in story["images"]]
+ids = [im["id"] for im in story.get("images", [])]
+# 16:9 → 8 across; 9:16 shorts → 10 across with tall tiles
+COLS, TW, TH = (10, 216, 384) if story.get("aspect") == "9:16" else (8, 400, 225)
 rows = (len(ids) + COLS - 1) // COLS
 sheet = Image.new("RGB", (COLS * TW, rows * TH), "black")
 draw = ImageDraw.Draw(sheet)

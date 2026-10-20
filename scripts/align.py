@@ -57,12 +57,18 @@ def main():
     model = WhisperModel("small", device="cpu", compute_type="int8")
     result = []
     for shot in story["shots"]:
-        clip = SHOTS / f"{shot['id']}.mp4"
+        extra = {k: shot[k] for k in ("label", "note") if shot.get(k)}
+        if shot.get("card"):  # black title card (e.g. 三週間前――), no video
+            result.append({"id": shot["id"], "card": shot["card"], "duration": float(shot.get("seconds", 2)),
+                           "captions": [], "heard": "", **extra})
+            print(f"{shot['id']} card: {shot['card']}")
+            continue
+        clip = SHOTS / f"{shot.get('reuse', shot['id'])}.mp4"  # "reuse": play another shot's clip again
         if not clip.exists():
             print(f"skip {shot['id']} (no clip)")
             continue
         dur = duration(clip)
-        chunks = [c for c in shot["captions"].split("／") if c]
+        chunks = [c for c in shot.get("captions", "").split("／") if c]
         segs, _ = model.transcribe(audio16k(clip), language="ja", vad_filter=True)
         segs = [s for s in segs if s.text.strip()]
         if shot.get("speech") is False:  # silent shot: ignore anything Whisper thinks it heard
@@ -74,7 +80,7 @@ def main():
             start, end = 0.4, dur - 0.4
             heard = ""
         result.append({"id": shot["id"], "file": f"shots/{ep}/{clip.name}", "duration": round(dur, 3),
-                       "captions": spread(chunks, start, end), "heard": heard})
+                       "captions": spread(chunks, start, end), "heard": heard, **extra})
         print(f"{shot['id']} {dur:.1f}s heard: {heard or '(no speech)'}")
     ending = story["ending"]
     bgm = story.get("bgm")

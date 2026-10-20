@@ -121,21 +121,68 @@ def check(story):
     return err, warn
 
 
+def check_shorts(story):
+    """Promo / drama shorts made the step-by-step way (images → clips)."""
+    err, warn = [], []
+    images = {im["id"] for im in story.get("images", [])}
+    ids = set()
+    for sh in story["shots"]:
+        sid = sh["id"]
+        if sid in ids:
+            err.append(f"{sid}: 영상 번호가 겹쳐요")
+        ids.add(sid)
+        if sh.get("card"):
+            continue
+        if sh.get("reuse"):
+            if sh["reuse"] not in ids:
+                err.append(f"{sid}: 다시 쓰는 영상 {sh['reuse']}이(가) 앞에 없어요")
+            continue
+        sec = float(str(sh.get("duration", "0")).rstrip("s"))
+        if not 5 <= sec <= OMNI_MAX_SEC:
+            err.append(f"{sid}: Omni 영상은 5~{OMNI_MAX_SEC}초예요 ({sec:g}초)")
+        for sp, ja in sh.get("lines", []):
+            if f"「{ja}」" not in sh["prompt"]:
+                err.append(f"{sid}: 대사 「{ja[:15]}…」가 prompt 안에 「」로 그대로 들어 있지 않아요")
+            if "".join(sh.get("captions", "").split("／")) != ja:
+                warn.append(f"{sid}: 자막(captions)이 대사와 달라요 — 줄바꿈(／)만 넣었는지 확인")
+            if len(ja) / max(sec, 1) > 6:
+                warn.append(f"{sid}: {sec:g}초에 {len(ja)}자는 빨라요")
+        if images:
+            if sh.get("image") not in images:
+                err.append(f"{sid}: 바탕 그림(image)이 없거나 images에 없어요")
+        for r in sh.get("refs", []):
+            if r not in story["characters"]:
+                err.append(f"{sid}: 없는 인물 '{r}'")
+    for im in story.get("images", []):
+        p = im["prompt"].lower()
+        if "japanese" not in p:
+            warn.append(f"{im['id']}: 'Japanese'가 없어요 → 외국인이 나올 수 있어요")
+    e = story.get("ending", {})
+    if "フィクション" not in e.get("note", ""):
+        err.append("ending.note에 「フィクション」이 없어요")
+    if "実話" in story.get("title", ""):
+        err.append("제목에 「実話」(실화)가 있어요 → 빼기")
+    return err, warn
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--ep", required=True)
     ep = ap.parse_args().ep
     story = json.loads((ROOT / "episodes" / ep / "story.json").read_text(encoding="utf-8"))
-    if story.get("format") != "longform":
+    if story.get("format") == "longform":
+        err, warn = check(story)
+    elif story.get("images"):
+        err, warn = check_shorts(story)
+    else:
         return
-    err, warn = check(story)
     for w in warn:
         print(f"⚠ {w}")
     for e in err:
         print(f"❌ {e}")
     if err:
         sys.exit(f"\n❌ 대본(story.json)에 고칠 곳이 {len(err)}개 있어요. 이 화면을 Claude에게 보여 주세요.")
-    print(f"✅ 대본 점검 통과 (장면 {len(story['scenes'])}개, 그림 {len(story['images'])}장, 영상 {len(story['shots'])}개)")
+    print(f"✅ 대본 점검 통과 (그림 {len(story.get('images', []))}장, 영상 {len(story['shots'])}개)")
 
 
 if __name__ == "__main__":

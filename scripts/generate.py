@@ -81,7 +81,7 @@ def make_shots(client, story, only, ep):
     SHOTS = SHOTS_ROOT / ep
     SHOTS.mkdir(parents=True, exist_ok=True)
     todo = [sh for sh in story["shots"]
-            if not (only and sh["id"] not in only) and not (SHOTS / f"{sh['id']}.mp4").exists()]
+            if not sh.get("card") and not sh.get("reuse") and not (only and sh["id"] not in only) and not (SHOTS / f"{sh['id']}.mp4").exists()]
     in_parallel(lambda shot: make_shot(client, story, shot, SHOTS / f"{shot['id']}.mp4"), todo, 3)
 
 
@@ -124,8 +124,10 @@ def make_shot(client, story, shot, out):
 def make_images(client, story, only, ep):
     out_dir = SHOTS_ROOT / ep
     out_dir.mkdir(parents=True, exist_ok=True)
-    todo = [im for im in story["images"]
+    todo = [im for im in story.get("images", [])
             if not (only and im["id"] not in only) and not (out_dir / f"{im['id']}.png").exists()]
+    if not todo:
+        return
     print(f"[image] {len(todo)}장 만들기 (4장씩 동시에)", flush=True)
     in_parallel(lambda im: make_image(client, story, im, out_dir / f"{im['id']}.png"), todo, 4)
 
@@ -146,7 +148,7 @@ def make_image(client, story, im, out):
         try:
             cfg = types.GenerateContentConfig(
                 response_modalities=["IMAGE"],
-                image_config=types.ImageConfig(aspect_ratio="16:9", **({"image_size": size} if size else {})))
+                image_config=types.ImageConfig(aspect_ratio=story.get("aspect", "16:9"), **({"image_size": size} if size else {})))
             resp = client.models.generate_content(model=IMAGE_MODEL, contents=contents, config=cfg)
         except Exception as e:  # noqa: BLE001 - one bad image must not stop the other 63
             wait = min(120, 20 * (attempt + 1))

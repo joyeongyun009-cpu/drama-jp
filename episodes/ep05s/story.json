@@ -1,0 +1,284 @@
+{
+ "title": "遺言の日、義妹はなぜ青ざめたのか",
+ "promo_for": "ep05",
+ "style": "Photorealistic cinematic Japanese TV drama, shot on a 35mm lens, shallow depth of field, realistic skin texture, vertical 9:16 framing. All dialogue is spoken in natural Japanese. No on-screen text of any kind: no name labels, no captions, no subtitles, no watermarks, no logos.",
+ "location": "",
+ "aspect": "9:16",
+ "bgm": {
+  "file": "bgm/bach_cello_prelude.mp3",
+  "volume": 0.22
+ },
+ "characters": {
+  "kazuko": {
+   "name": "和子（姑）",
+   "image_prompt": "Photorealistic portrait of a elderly Japanese woman in her late 60s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes. Upper body, facing camera, plain soft background, natural window light, 9:16 vertical. No text."
+  },
+  "rena": {
+   "name": "麗奈（嫁）",
+   "image_prompt": "Photorealistic portrait of a Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face. Upper body, facing camera, plain soft background, natural window light, 9:16 vertical. No text."
+  },
+  "noriko": {
+   "name": "典子（和子の義理の妹・60代後半）",
+   "image_prompt": "Photorealistic portrait of a Japanese woman in her early 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile. Upper body, facing camera, plain soft background, natural window light, 9:16 vertical. No text."
+  },
+  "lawyer": {
+   "name": "弁護士（50代）",
+   "image_prompt": "Photorealistic portrait of a Japanese man in his 50s, gray suit, rimless glasses, lawyer's badge on his lapel, leather document folder. Upper body, facing camera, plain soft background, natural window light, 9:16 vertical. No text."
+  }
+ },
+ "images": [
+  {
+   "id": "img_01",
+   "refs": [
+    "noriko"
+   ],
+   "prompt": "Japanese woman in her early 60s, permed dyed brown hair, pearl necklace, sharp eyebrows, wearing a formal dark kimono, standing up abruptly from a low table in a Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, face pale with shock, mouth open, cinematic, photorealistic, vertical 9:16 framing, no text, no watermark"
+  },
+  {
+   "id": "img_02",
+   "refs": [
+    "kazuko",
+    "rena",
+    "noriko"
+   ],
+   "prompt": "elderly Japanese woman in her late 60s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes, walking out of a large Japanese university hospital entrance holding a white envelope, calm unreadable face; beside her Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face, looking concerned; autumn trees; in the far background across the street, Japanese woman in her early 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile, half hidden behind a pillar, watching, cinematic, photorealistic, vertical 9:16 framing, no text, no watermark"
+  },
+  {
+   "id": "img_03",
+   "refs": [
+    "noriko"
+   ],
+   "prompt": "Japanese woman in her early 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile, holding out a paulownia wood box of luxury melon at the genkan entrance of an old Japanese house with an exaggerated sweet smile, red autumn maple outside, cinematic, photorealistic, vertical 9:16 framing, no text, no watermark"
+  },
+  {
+   "id": "img_04",
+   "refs": [
+    "noriko"
+   ],
+   "prompt": "Japanese woman in her early 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile, alone in a tatami room, kneeling and stroking a folded pale lavender kimono taken from a paulownia kimono chest, greedy eyes, cinematic, photorealistic, vertical 9:16 framing, no text, no watermark"
+  },
+  {
+   "id": "img_05",
+   "refs": [
+    "noriko",
+    "rena"
+   ],
+   "prompt": "Japanese woman in her early 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile, blocking the front door of an old Japanese house with crossed arms and a fake smile; outside the door Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face, holding cloth-wrapped bento containers, hurt expression, autumn, cinematic, photorealistic, vertical 9:16 framing, no text, no watermark"
+  },
+  {
+   "id": "img_06",
+   "refs": [
+    "rena"
+   ],
+   "prompt": "Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face, from behind, quietly walking away from the doorstep of an old Japanese house; on the doorstep a cloth-wrapped bento with a small folded memo on top, autumn leaves drifting, cinematic, photorealistic, vertical 9:16 framing, no text, no watermark"
+  },
+  {
+   "id": "img_07",
+   "refs": [
+    "noriko",
+    "kazuko"
+   ],
+   "prompt": "Japanese woman in her early 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile, sitting very close to elderly Japanese woman in her late 60s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes on the sofa with a pushy smile and leaning in; the older woman calmly holds a teacup, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, cinematic, photorealistic, vertical 9:16 framing, no text, no watermark"
+  },
+  {
+   "id": "img_08",
+   "refs": [
+    "kazuko"
+   ],
+   "prompt": "close-up of elderly Japanese woman in her late 60s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes, calmly sipping green tea from a teacup on the sofa, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, cinematic, photorealistic, vertical 9:16 framing, no text, no watermark"
+  },
+  {
+   "id": "img_09",
+   "refs": [
+    "kazuko"
+   ],
+   "prompt": "elderly Japanese woman in her late 60s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes, sitting alone on the sofa in a dim Japanese living room at night, face softly lit by her smartphone screen, calm unreadable expression, the screen itself not visible, cinematic, photorealistic, vertical 9:16 framing, no text, no watermark"
+  },
+  {
+   "id": "img_10",
+   "refs": [
+    "noriko",
+    "kazuko",
+    "lawyer"
+   ],
+   "prompt": "Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window; Japanese woman in her early 60s, permed dyed brown hair, pearl necklace, sharp eyebrows, wearing a formal dark kimono, kneeling at the low table trying to hide a greedy smile; at the head of the table elderly Japanese woman in her late 60s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes, calm; beside her Japanese man in his 50s, gray suit, rimless glasses, lawyer's badge on his lapel, leather document folder, cinematic, photorealistic, vertical 9:16 framing, no text, no watermark"
+  }
+ ],
+ "shots": [
+  {
+   "id": "s01",
+   "image": "img_01",
+   "duration": "5s",
+   "refs": [
+    "noriko"
+   ],
+   "prompt": "She jumps up from the low table, pale with shock, and cries out in Japanese: 「そんな…！」 Quick push-in on her pale face, then she freezes.",
+   "captions": "そんな…！",
+   "lines": [
+    [
+     "典子",
+     "そんな…！"
+    ]
+   ],
+   "label": "義妹・典子",
+   "note": "遺言の日。\n義妹は、なぜ青ざめたのか"
+  },
+  {
+   "id": "s02",
+   "card": "三週間前――",
+   "seconds": 1.8
+  },
+  {
+   "id": "s03",
+   "image": "img_02",
+   "duration": "7s",
+   "refs": [
+    "kazuko",
+    "rena",
+    "noriko"
+   ],
+   "prompt": "The elderly woman (kazuko) walks out of the hospital and says lightly in Japanese to the younger woman: 「少し、検査が長引いてね。」 Then the focus shifts to the woman (noriko) watching from behind the pillar across the street with greedy eyes.",
+   "captions": "少し、検査が長引いてね。",
+   "lines": [
+    [
+     "和子",
+     "少し、検査が長引いてね。"
+    ]
+   ],
+   "label": "姑・和子",
+   "note": "何の検査だったのか。\n和子は何も言わなかった"
+  },
+  {
+   "id": "s04a",
+   "image": "img_03",
+   "duration": "8s",
+   "refs": [
+    "noriko",
+    "kazuko"
+   ],
+   "prompt": "At the genkan, the woman (noriko) holds out the melon box with an exaggerated sweet smile and says in Japanese: 「お義姉さん、体は大丈夫？何でも言ってちょうだいね。私たち、家族なんだから。」",
+   "captions": "お義姉さん、体は大丈夫？／何でも言ってちょうだいね。／私たち、家族なんだから。",
+   "lines": [
+    [
+     "典子",
+     "お義姉さん、体は大丈夫？何でも言ってちょうだいね。私たち、家族なんだから。"
+    ]
+   ],
+   "note": "\"余命わずか\"の噂に、\n十年ぶりの義妹が現れた"
+  },
+  {
+   "id": "s04b",
+   "image": "img_04",
+   "duration": "5s",
+   "refs": [
+    "noriko"
+   ],
+   "prompt": "Alone in the tatami room she strokes the lavender kimono and whispers in Japanese with greedy eyes: 「このお着物、私が頂いてもいいかしら。」",
+   "captions": "このお着物、／私が頂いてもいいかしら。",
+   "lines": [
+    [
+     "典子",
+     "このお着物、私が頂いてもいいかしら。"
+    ]
+   ]
+  },
+  {
+   "id": "s05a",
+   "image": "img_05",
+   "duration": "7s",
+   "refs": [
+    "noriko",
+    "rena"
+   ],
+   "prompt": "The woman (noriko) blocks the door with a fake smile and says in Japanese to the younger woman (rena) outside: 「あら麗奈さん、今日は私たちが見てるからいいのよ。帰ってちょうだい。」 Then she closes the door on her.",
+   "captions": "あら麗奈さん、／今日は私たちが見てるからいいのよ。／帰ってちょうだい。",
+   "lines": [
+    [
+     "典子",
+     "あら麗奈さん、今日は私たちが見てるからいいのよ。帰ってちょうだい。"
+    ]
+   ],
+   "label": "嫁・麗奈"
+  },
+  {
+   "id": "s05b",
+   "image": "img_06",
+   "duration": "5s",
+   "refs": [
+    "rena"
+   ],
+   "prompt": "She quietly places the bento with the small memo on the doorstep, bows slightly to the closed door and walks away, autumn leaves drifting. Nobody speaks.",
+   "captions": "「お義母さん、温かいうちに／食べてくださいね」",
+   "speech": false,
+   "note": "それでも嫁は、\nおかずとメモを置いて帰った"
+  },
+  {
+   "id": "s06a",
+   "image": "img_07",
+   "duration": "8s",
+   "refs": [
+    "noriko",
+    "kazuko"
+   ],
+   "prompt": "On the sofa the woman (noriko) leans in close to the elderly woman (kazuko) and says in Japanese: 「嫁なんて、しょせん他人でしょ。血のつながった私たちに残すのが筋ってものよ。」 The elderly woman listens silently.",
+   "captions": "嫁なんて、しょせん他人でしょ。／血のつながった私たちに／残すのが筋ってものよ。",
+   "lines": [
+    [
+     "典子",
+     "嫁なんて、しょせん他人でしょ。血のつながった私たちに残すのが筋ってものよ。"
+    ]
+   ]
+  },
+  {
+   "id": "s06b",
+   "image": "img_08",
+   "duration": "5s",
+   "refs": [
+    "kazuko"
+   ],
+   "prompt": "She takes a sip of tea, puts the cup down and replies calmly in Japanese: 「考えておくわね。」",
+   "captions": "考えておくわね。",
+   "lines": [
+    [
+     "和子",
+     "考えておくわね。"
+    ]
+   ]
+  },
+  {
+   "id": "s07",
+   "image": "img_09",
+   "duration": "5s",
+   "refs": [
+    "kazuko"
+   ],
+   "prompt": "Very slow push-in on her calm eyes lit by the phone screen. The screen is never shown. Nobody speaks.",
+   "captions": "",
+   "speech": false,
+   "note": "和子は、何も言わなかった"
+  },
+  {
+   "id": "s08",
+   "image": "img_10",
+   "duration": "5s",
+   "refs": [
+    "noriko",
+    "kazuko",
+    "lawyer"
+   ],
+   "prompt": "Close on the woman in the kimono (noriko) struggling to hide a greedy smile, then the elderly woman (kazuko) at the head of the table slowly begins to open her mouth. Nobody speaks.",
+   "captions": "",
+   "speech": false
+  },
+  {
+   "id": "s09",
+   "reuse": "s01",
+   "captions": "そんな…！"
+  }
+ ],
+ "ending": {
+  "question": "和子は、\n何を告げたのか――",
+  "cta": "答えは関連動画で▶",
+  "note": "※よくある出来事をもとにしたフィクションです。"
+ }
+}
