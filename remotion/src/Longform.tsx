@@ -27,7 +27,7 @@ loadFont({ family: FONT, url: staticFile("MPLUSRounded1c-ExtraBold.ttf"), weight
 loadFont({ family: HAND, url: staticFile("KleeOne-SemiBold.ttf"), weight: "600" });
 
 type Caption = { text: string; start: number; end: number; speaker?: string; color?: string };
-type ClipPart = { file: string | null; id: string; from: number; seconds: number; captions: Caption[] };
+type ClipPart = { file: string | null; id: string; from: number; seconds: number; zoom?: number; captions: Caption[] };
 type Message = { name: string; text: string; at: number; color: string };
 type Scene = {
   id: string;
@@ -305,7 +305,7 @@ const ClipScene: React.FC<{ scene: Scene }> = ({ scene }) => {
                 src={staticFile(part.file)}
                 trimBefore={Math.round(part.from * FPS)}
                 objectFit="cover"
-                style={{ width: "100%", height: "100%" }}
+                style={{ width: "100%", height: "100%", transform: `scale(${part.zoom ?? 1})` }}
               />
             ) : (
               <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", color: "#888", fontSize: 90, fontFamily: FONT_STACK }}>

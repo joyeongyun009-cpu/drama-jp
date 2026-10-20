@@ -28,16 +28,41 @@ def duration(path):
     return float(r.stdout.strip())
 
 
+NO_LINE_START = set("、。！？」』）・ーぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮん…")
+PARTICLES = set("はがをにでともへやの")
+
+
+def bars_zoom(path):
+    """Omni sometimes bakes black bars into a 16:9 clip; return the zoom that hides them."""
+    r = subprocess.run(["ffmpeg", "-v", "info", "-i", str(path), "-vf", "cropdetect=limit=24:round=2:reset=0",
+                        "-f", "null", "-"], capture_output=True, text=True)
+    crops = re.findall(r"crop=(\d+):(\d+):(\d+):(\d+)", r.stderr)
+    probe = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries",
+                            "stream=width,height", "-of", "csv=p=0", str(path)], capture_output=True, text=True)
+    if not crops or "," not in probe.stdout:
+        return 1.0
+    w, h = map(int, probe.stdout.strip().split(",")[:2])
+    cw, ch = int(crops[-1][0]), int(crops[-1][1])
+    zoom = max(w / max(cw, 1), h / max(ch, 1))
+    return round(min(zoom, 1.4), 3) if zoom > 1.03 else 1.0
+
+
 def wrap(chunk):
-    """Break a chunk into at most two lines, preferring a 、 near the middle."""
+    """Break a chunk into at most two lines at a natural place: after 、。 if one is near the
+    middle, else after a particle, and never so that the second line starts with 」』、。 or a small kana."""
     if len(chunk) <= LINE_CHARS:
         return chunk
     mid = len(chunk) / 2
-    cuts = [m.end() for m in re.finditer("[、。！？]", chunk[:-1])]
-    cut = min(cuts, key=lambda c: abs(c - mid)) if cuts else 0
-    if not cuts or abs(cut - mid) > 6 or len(chunk) - cut > LINE_CHARS or cut > LINE_CHARS:
-        cut = (len(chunk) + 1) // 2
-    return chunk[:cut] + "\n" + chunk[cut:]
+    best, best_score = (len(chunk) + 1) // 2, 1e9
+    for cut in range(len(chunk) - LINE_CHARS, LINE_CHARS + 1):
+        if cut <= 0 or cut >= len(chunk) or chunk[cut] in NO_LINE_START:
+            continue
+        prev = chunk[cut - 1]
+        score = abs(cut - mid) + (0 if prev in "、。！？」』" else 3 if prev in PARTICLES else 8)
+        score += 4 if chunk[cut] in PARTICLES else 0  # do not cut just before a particle
+        if score < best_score:
+            best, best_score = cut, score
+    return chunk[:best] + "\n" + chunk[best:]
 
 
 def chunks_of(text):
@@ -116,8 +141,11 @@ def build(story, ep, upto=None):
         heard = "".join(s.text for s in segs)
         print(f"  {cid} {dur:.1f}s heard: {heard or '(no speech)'}")
         cut_in, cut_out = (max(0, start - 0.3), min(dur, end + 0.5)) if trim_tight else (0, dur)
+        zoom = bars_zoom(path)
+        if zoom > 1:
+            print(f"  {cid}: 위아래/옆 검은 띠 → {zoom:.2f}배 확대해서 없앰")
         caps = spread([t for _, t in texts], start - cut_in, end - cut_in)
-        return {"file": f"shots/{ep}/{cid}.mp4", "id": cid, "from": round(cut_in, 2),
+        return {"file": f"shots/{ep}/{cid}.mp4", "id": cid, "from": round(cut_in, 2), "zoom": zoom,
                 "seconds": round(cut_out - cut_in, 2),
                 "captions": [dict(x, speaker=sp, color=speakers.get(sp, "#888")) for x, (sp, _) in zip(caps, texts)],
                 "speech": [round(start - cut_in, 2), round(end - cut_in, 2)]}
