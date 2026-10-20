@@ -156,11 +156,27 @@ def tts_name(text, voice, rate):
     return hashlib.sha1(f"{voice}|{rate}|{text}".encode("utf-8")).hexdigest()[:16] + ".mp3"
 
 
+class _GcloudSession:
+    """Calls Google APIs with the Cloud Shell login (gcloud), refreshing the token every 30 minutes.
+    google.auth.default() fails in Cloud Shell ("service account info is missing 'email' field")."""
+
+    def __init__(self):
+        import requests
+        self.http = requests.Session()
+        self.token, self.at = None, 0.0
+
+    def post(self, url, json, headers):
+        if time.time() - self.at > 1800:
+            import subprocess
+            self.token = subprocess.run(["gcloud", "auth", "print-access-token"], capture_output=True,
+                                        text=True, check=True).stdout.strip()
+            self.at = time.time()
+        return self.http.post(url, json=json, headers={**headers, "Authorization": f"Bearer {self.token}"},
+                              timeout=120)
+
+
 def tts_session():
-    import google.auth
-    from google.auth.transport.requests import AuthorizedSession
-    creds, project = google.auth.default(scopes=["https://www.googleapis.com/auth/cloud-platform"])
-    return AuthorizedSession(creds), os.environ.get("GOOGLE_CLOUD_PROJECT") or project
+    return _GcloudSession(), os.environ["GOOGLE_CLOUD_PROJECT"]
 
 
 def make_voice(story, only, ep):
