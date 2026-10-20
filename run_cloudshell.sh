@@ -68,16 +68,25 @@ FORMAT="$($PY -c "import json; print(json.load(open('episodes/$EP/story.json')).
 UPTO=()
 # ── 단계별 (쇼츠·롱폼 공통): images → redo → clips → all ──
 SHOTS_DIR="remotion/public/shots/$EP"
+CLIPS_STARTED=""
 if [[ "$MODE" == "redo" ]]; then
   # 다시 만들 그림·영상 지우기: 12 → img_12, s05a / clip01a → 그 영상
+  # 영상 단계를 이미 시작했으면(영상이 하나라도 있으면) 고친 그림을 쓰는 영상도 같이 다시 만듦
+  CLIPS_STARTED="$(ls "$SHOTS_DIR"/*.mp4 >/dev/null 2>&1 && echo yes || true)"
   for X in "${REDO[@]}"; do
     [[ "$X" =~ ^[0-9]+$ ]] && X="img_$(printf %02d "$((10#$X))")"
     rm -f "$SHOTS_DIR/$X.png" "$SHOTS_DIR/$X.mp4" && echo "▶ 다시 만들기: $X"
+    if [[ -n "$CLIPS_STARTED" && "$X" == img_* ]]; then
+      for C in $($PY -c "import json; print(' '.join(s['id'] for s in json.load(open('episodes/$EP/story.json'))['shots'] if s.get('image') == '$X'))"); do
+        rm -f "$SHOTS_DIR/$C.mp4" && echo "▶ 다시 만들기: $C (이 그림으로 만든 영상)"
+      done
+    fi
   done
 fi
 if [[ "$MODE" == "images" || "$MODE" == "redo" ]]; then
   $PY scripts/generate.py images --ep "$EP"
-  [[ "$MODE" == "redo" ]] && $PY scripts/generate.py shots --ep "$EP"
+  # 그림 단계에서는 영상을 만들지 않음 (영상은 clips 단계에서)
+  [[ "$MODE" == "redo" && -n "$CLIPS_STARTED" ]] && $PY scripts/generate.py shots --ep "$EP"
   $PY scripts/sheet.py --ep "$EP"
   echo "✅ 그림 단계 끝. 이상한 그림 번호를 Claude에게 알려 주거나, 괜찮으면 다음: bash run_cloudshell.sh clips $EP"
   exit 0
