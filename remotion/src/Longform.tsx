@@ -42,6 +42,7 @@ type Scene = {
   imageId?: string;
   imagePrompt?: string;
   motion?: string;
+  strong?: boolean;
   focus?: [number, number] | null;
   filter?: string | null;
   audio?: string;
@@ -83,6 +84,7 @@ const motionStyle = (
   frame: number,
   frames: number,
   focus: [number, number],
+  strong: boolean,
 ): React.CSSProperties => {
   const t = frame / FPS;
   const lin = Math.min(1, frame / Math.max(1, frames - 1));
@@ -109,7 +111,8 @@ const motionStyle = (
     }
     case "slide_in_left":
     case "slide_in_right": {
-      const k = interpolate(t, [0, 0.4], [0, 1], { ...clamp, easing: Easing.out(Easing.back(1.6)) });
+      // smooth glide in (no bounce)
+      const k = interpolate(t, [0, 0.45], [0, 1], { ...clamp, easing: Easing.out(Easing.cubic) });
       const from = motion === "slide_in_left" ? -W : W;
       return {
         transform: `translateX(${(1 - k) * from}px) scale(${1 + 0.4 * after(0.4)})`,
@@ -119,14 +122,14 @@ const motionStyle = (
     case "punch_zoom": {
       const hit = interpolate(t, [0, 0.2], [1, 1.65], { ...clamp, easing: Easing.out(Easing.cubic) });
       const s = t < 0.5 ? hit : 1.65 + 0.2 * after(0.5);
-      const shake = t > 0.2 && t < 0.5 ? (1 - (t - 0.2) / 0.3) * 30 : 0;
+      const shake = strong && t > 0.2 && t < 0.5 ? (1 - (t - 0.2) / 0.3) * 30 : 0;
       return {
         transform: `translate(${Math.sin(frame * 2.7) * shake}px, ${Math.cos(frame * 3.1) * shake}px) scale(${s})`,
         transformOrigin: origin,
       };
     }
     case "shake": {
-      const amp = t < 0.8 ? 40 * (1 - t / 0.8) : 0;
+      const amp = t < 0.8 ? (strong ? 40 : 14) * (1 - t / 0.8) : 0;
       return {
         transform: `translate(${Math.sin(frame * 2.9) * amp}px, ${Math.cos(frame * 3.7) * amp}px) scale(${1.25 + 0.35 * after(0.8)})`,
         transformOrigin: origin,
@@ -146,7 +149,7 @@ const Picture: React.FC<{ scene: Scene; dim?: boolean }> = ({ scene, dim }) => {
   const sepia = scene.filter === "sepia";
   return (
     <AbsoluteFill style={{ overflow: "hidden", background: "#111" }}>
-      <AbsoluteFill style={motionStyle(scene.motion ?? "zoom_in_big", frame, scene.frames, focus)}>
+      <AbsoluteFill style={motionStyle(scene.motion ?? "zoom_in_big", frame, scene.frames, focus, scene.strong ?? false)}>
         {scene.image ? (
           <Img
             src={staticFile(scene.image)}

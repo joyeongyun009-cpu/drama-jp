@@ -170,8 +170,11 @@ def build(story, ep, upto=None):
                 warnings.append(f"{sc['id']}: 앞 장면과 같은 움직임({motion}) → {alt}로 바꿈")
                 motion = alt
             prev_motion = motion
-            out.update(motion=motion, focus=sc.get("focus"), filter=sc.get("filter"))
-            if MOTION_SFX.get(motion):
+            # Only scenes the script marks as a shock (impact sound / flash cut) get the shake;
+            # everywhere else the moves stay smooth (user: constant shaking looked awkward).
+            strong = sc.get("sfx") == "impact" or sc.get("transition") == "flash"
+            out.update(motion=motion, focus=sc.get("focus"), filter=sc.get("filter"), strong=strong)
+            if MOTION_SFX.get(motion) and (motion != "punch_zoom" or strong):
                 out["sfx"].append(MOTION_SFX[motion])
         else:
             prev_motion = None
@@ -216,6 +219,7 @@ def build(story, ep, upto=None):
         elif t == "end":
             out["text"] = sc["ja"]
             out["disclaimer"] = sc.get("disclaimer", "")
+        out["sfx"] = list(dict.fromkeys(out["sfx"]))  # one sound of each kind
         out["frames"] = max(1, round(seconds * FPS))
         scenes.append(out)
 
