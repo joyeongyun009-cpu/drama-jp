@@ -28,7 +28,7 @@
  "characters": {
   "kazuko": {
    "name": "和子（姑）",
-   "image_prompt": "Photorealistic portrait of a elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes. Upper body, facing camera, plain soft background, natural window light, 9:16 vertical. No text."
+   "image_prompt": "Photorealistic portrait of a elderly Japanese woman in her late 60s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes. Upper body, facing camera, plain soft background, natural window light, 9:16 vertical. No text."
   },
   "rena": {
    "name": "麗奈（嫁）",
@@ -44,7 +44,7 @@
   },
   "noriko": {
    "name": "典子（和子の義理の妹・60代後半）",
-   "image_prompt": "Photorealistic portrait of a Japanese woman in her late 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile. Upper body, facing camera, plain soft background, natural window light, 9:16 vertical. No text."
+   "image_prompt": "Photorealistic portrait of a Japanese woman in her early 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile. Upper body, facing camera, plain soft background, natural window light, 9:16 vertical. No text."
   },
   "koji": {
    "name": "浩二（典子の息子・40代半ば）",
@@ -65,21 +65,21 @@
    "refs": [
     "kazuko"
    ],
-   "prompt": "old two-story Japanese house with a dark tiled roof and a small garden with a red maple tree, quiet suburban Tokyo street, autumn, morning sunlight, elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes watering plants in the garden, wide establishing shot, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+   "prompt": "old two-story Japanese house with a dark tiled roof and a small garden with a red maple tree, quiet suburban Tokyo street, autumn, morning sunlight, elderly Japanese woman in her late 60s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes watering plants in the garden, wide establishing shot, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
   },
   {
    "id": "img_02",
    "refs": [
     "kazuko"
    ],
-   "prompt": "elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes gently touching the trunk of a red maple tree in her garden, nostalgic smile, autumn morning, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+   "prompt": "elderly Japanese woman in her late 60s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes gently touching the trunk of a red maple tree in her garden, nostalgic smile, autumn morning, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
   },
   {
    "id": "img_03",
    "refs": [
     "kazuko"
    ],
-   "prompt": "a Japanese funeral reception room, relatives in black mourning clothes arguing tensely around a low table, elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes in a black mourning dress sitting sadly apart, sepia-toned nostalgic flashback, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+   "prompt": "a Japanese funeral reception room, relatives in black mourning clothes arguing tensely around a low table, elderly Japanese woman in her late 60s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes in a black mourning dress sitting sadly apart, sepia-toned nostalgic flashback, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
   },
   {
    "id": "img_04",
@@ -101,7 +101,7 @@
     "kazuko",
     "rena"
    ],
-   "prompt": "entrance of a large modern Japanese university hospital, autumn trees, overcast sky, elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes and Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face walking toward the entrance, low angle, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+   "prompt": "entrance of a large modern Japanese university hospital, autumn trees, overcast sky, elderly Japanese woman in her late 60s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes and Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face walking toward the entrance, low angle, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
   },
   {
    "id": "img_07",
@@ -109,7 +109,7 @@
     "kazuko",
     "rena"
    ],
-   "prompt": "elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes walking out of the hospital entrance holding a large white envelope, calm unreadable face, Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face beside her looking concerned, entrance of a large modern Japanese university hospital, autumn trees, overcast sky, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+   "prompt": "elderly Japanese woman in her late 60s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes walking out of the hospital entrance holding a large white envelope, calm unreadable face, Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face beside her looking concerned, entrance of a large modern Japanese university hospital, autumn trees, overcast sky, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
   },
   {
    "id": "img_08",
@@ -123,21 +123,21 @@
    "refs": [
     "noriko"
    ],
-   "prompt": "Japanese woman in her late 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile peeking from behind a pillar across the street from a hospital, holding a shopping bag, eyes wide with curiosity, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+   "prompt": "Japanese woman in her early 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile peeking from behind a pillar across the street from a hospital, holding a shopping bag, eyes wide with curiosity, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
   },
   {
    "id": "img_10",
    "refs": [
     "noriko"
    ],
-   "prompt": "Japanese woman in her late 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile in a dim living room at night typing on her smartphone, face lit by the screen, sly smile, subject on the left third, calm empty space on the right, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+   "prompt": "Japanese woman in her early 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile in a dim living room at night typing on her smartphone, face lit by the screen, sly smile, subject on the left third, calm empty space on the right, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
   },
   {
    "id": "img_11",
    "refs": [
     "noriko"
    ],
-   "prompt": "extreme close-up of Japanese woman in her late 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile smirking, face lit by phone light at night, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+   "prompt": "extreme close-up of Japanese woman in her early 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile smirking, face lit by phone light at night, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
   },
   {
    "id": "img_12",
@@ -152,21 +152,21 @@
     "kazuko",
     "rena"
    ],
-   "prompt": "elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes teaching Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face how to cook simmered vegetables, both laughing, steam rising, old-fashioned Japanese home kitchen with a gas stove and a simmering pot, warm light, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+   "prompt": "elderly Japanese woman in her late 60s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes teaching Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face how to cook simmered vegetables, both laughing, steam rising, old-fashioned Japanese home kitchen with a gas stove and a simmering pot, warm light, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
   },
   {
    "id": "img_14",
    "refs": [
     "noriko"
    ],
-   "prompt": "dark room, extreme close-up of Japanese woman in her late 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile's eyes glinting in smartphone light, ominous, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+   "prompt": "dark room, extreme close-up of Japanese woman in her early 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile's eyes glinting in smartphone light, ominous, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
   },
   {
    "id": "img_15",
    "refs": [
     "noriko"
    ],
-   "prompt": "Japanese woman in her late 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile standing at the genkan entrance of an old Japanese house holding a paulownia wooden box of luxury melon, exaggerated sweet smile, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+   "prompt": "Japanese woman in her early 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile standing at the genkan entrance of an old Japanese house holding a paulownia wooden box of luxury melon, exaggerated sweet smile, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
   },
   {
    "id": "img_16",
@@ -174,7 +174,7 @@
     "kazuko",
     "noriko"
    ],
-   "prompt": "Japanese woman in her late 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile holding elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes's hands on the sofa, overly sweet expression, elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes smiling calmly, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+   "prompt": "Japanese woman in her early 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile holding elderly Japanese woman in her late 60s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes's hands on the sofa, overly sweet expression, elderly Japanese woman in her late 60s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes smiling calmly, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
   },
   {
    "id": "img_17",
@@ -196,7 +196,7 @@
     "kazuko",
     "rena"
    ],
-   "prompt": "Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window crowded with gifts, a melon box, a bouquet and gift bags, elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes sitting serenely smiling, Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face standing in the kitchen doorway looking puzzled, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+   "prompt": "Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window crowded with gifts, a melon box, a bouquet and gift bags, elderly Japanese woman in her late 60s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes sitting serenely smiling, Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face standing in the kitchen doorway looking puzzled, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
   },
   {
    "id": "img_20",
@@ -204,21 +204,21 @@
     "kazuko",
     "rena"
    ],
-   "prompt": "elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes and Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face sitting at the low table drinking tea at dusk after guests left, Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face puzzled, elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes smiling serenely, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+   "prompt": "elderly Japanese woman in her late 60s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes and Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face sitting at the low table drinking tea at dusk after guests left, Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face puzzled, elderly Japanese woman in her late 60s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes smiling serenely, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
   },
   {
    "id": "img_21",
    "refs": [
     "noriko"
    ],
-   "prompt": "Japanese woman in her late 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile secretly taking photos of the room with her smartphone, furtive glance over her shoulder, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+   "prompt": "Japanese woman in her early 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile secretly taking photos of the room with her smartphone, furtive glance over her shoulder, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
   },
   {
    "id": "img_22",
    "refs": [
     "noriko"
    ],
-   "prompt": "Japanese woman in her late 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile opening the chest and touching a folded pale lavender plain iromuji kimono with a single family crest, greedy eyes, tatami room with a Buddhist family altar and a traditional paulownia wood kimono chest, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+   "prompt": "Japanese woman in her early 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile opening the chest and touching a folded pale lavender plain iromuji kimono with a single family crest, greedy eyes, tatami room with a Buddhist family altar and a traditional paulownia wood kimono chest, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
   },
   {
    "id": "img_23",
@@ -226,7 +226,7 @@
     "kazuko",
     "koji"
    ],
-   "prompt": "Japanese man in his mid 40s, slicked-back hair, wrinkled gray suit with a loosened tie, restless eyes leaning close to elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes on the sofa, sly whispering expression, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+   "prompt": "Japanese man in his mid 40s, slicked-back hair, wrinkled gray suit with a loosened tie, restless eyes leaning close to elderly Japanese woman in her late 60s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes on the sofa, sly whispering expression, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
   },
   {
    "id": "img_24",
@@ -261,7 +261,7 @@
     "koji",
     "sayaka"
    ],
-   "prompt": "Japanese woman in her late 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile leaning forward whispering with a scheming face, Japanese man in his mid 40s, slicked-back hair, wrinkled gray suit with a loosened tie, restless eyes and Japanese woman in her early 30s, long straight dark brown hair, trendy beige trench coat, designer handbag, smartphone in hand listening, Japanese family restaurant booth at night, drink bar in the background, fluorescent light, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+   "prompt": "Japanese woman in her early 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile leaning forward whispering with a scheming face, Japanese man in his mid 40s, slicked-back hair, wrinkled gray suit with a loosened tie, restless eyes and Japanese woman in her early 30s, long straight dark brown hair, trendy beige trench coat, designer handbag, smartphone in hand listening, Japanese family restaurant booth at night, drink bar in the background, fluorescent light, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
   },
   {
    "id": "img_29",
@@ -296,21 +296,21 @@
    "refs": [
     "noriko"
    ],
-   "prompt": "Japanese woman in her late 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile waving her hand dismissively and laughing, Japanese family restaurant booth at night, drink bar in the background, fluorescent light, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+   "prompt": "Japanese woman in her early 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile waving her hand dismissively and laughing, Japanese family restaurant booth at night, drink bar in the background, fluorescent light, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
   },
   {
    "id": "img_34",
    "refs": [
     "kazuko"
    ],
-   "prompt": "elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes sitting alone on the sofa at night, face lit by her smartphone screen, calm unreadable expression, dim Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+   "prompt": "elderly Japanese woman in her late 60s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes sitting alone on the sofa at night, face lit by her smartphone screen, calm unreadable expression, dim Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
   },
   {
    "id": "img_35",
    "refs": [
     "kazuko"
    ],
-   "prompt": "extreme close-up of elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes's eyes behind reading glasses reflecting a phone screen, unreadable expression, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+   "prompt": "extreme close-up of elderly Japanese woman in her late 60s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes's eyes behind reading glasses reflecting a phone screen, unreadable expression, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
   },
   {
    "id": "img_36",
@@ -318,7 +318,7 @@
     "rena",
     "noriko"
    ],
-   "prompt": "Japanese woman in her late 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile blocking the front door of an old Japanese house with crossed arms and a fake smile, Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face outside holding bento containers, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+   "prompt": "Japanese woman in her early 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile blocking the front door of an old Japanese house with crossed arms and a fake smile, Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face outside holding bento containers, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
   },
   {
    "id": "img_37",
@@ -339,7 +339,7 @@
     "noriko",
     "koji"
    ],
-   "prompt": "Japanese woman in her late 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile and Japanese man in his mid 40s, slicked-back hair, wrinkled gray suit with a loosened tie, restless eyes sitting on both sides of elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes on the sofa, pressuring her, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+   "prompt": "Japanese woman in her early 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile and Japanese man in his mid 40s, slicked-back hair, wrinkled gray suit with a loosened tie, restless eyes sitting on both sides of elderly Japanese woman in her late 60s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes on the sofa, pressuring her, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
   },
   {
    "id": "img_40",
@@ -347,7 +347,7 @@
     "kazuko",
     "noriko"
    ],
-   "prompt": "elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes calmly sipping green tea from a teacup, Japanese woman in her late 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile beside her with a smug satisfied face, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+   "prompt": "elderly Japanese woman in her late 60s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes calmly sipping green tea from a teacup, Japanese woman in her early 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile beside her with a smug satisfied face, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
   },
   {
    "id": "img_41",
@@ -369,14 +369,14 @@
    "refs": [
     "kazuko"
    ],
-   "prompt": "elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes standing by the window making a phone call with a simple senior smartphone, determined and calm, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+   "prompt": "elderly Japanese woman in her late 60s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes standing by the window making a phone call with a simple senior smartphone, determined and calm, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
   },
   {
    "id": "img_44",
    "refs": [
     "kazuko"
    ],
-   "prompt": "close-up of elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes speaking on the phone, serene but firm expression, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+   "prompt": "close-up of elderly Japanese woman in her late 60s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes speaking on the phone, serene but firm expression, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
   },
   {
    "id": "img_45",
@@ -385,7 +385,7 @@
     "koji",
     "sayaka"
    ],
-   "prompt": "Japanese woman in her late 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile, Japanese man in his mid 40s, slicked-back hair, wrinkled gray suit with a loosened tie, restless eyes and Japanese woman in her early 30s, long straight dark brown hair, trendy beige trench coat, designer handbag, smartphone in hand in their best formal clothes arriving at the gate of a old two-story Japanese house with a dark tiled roof and a small garden with a red maple tree, quiet suburban Tokyo street, autumn, smug smiles, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+   "prompt": "Japanese woman in her early 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile, Japanese man in his mid 40s, slicked-back hair, wrinkled gray suit with a loosened tie, restless eyes and Japanese woman in her early 30s, long straight dark brown hair, trendy beige trench coat, designer handbag, smartphone in hand in their best formal clothes arriving at the gate of a old two-story Japanese house with a dark tiled roof and a small garden with a red maple tree, quiet suburban Tokyo street, autumn, smug smiles, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
   },
   {
    "id": "img_46",
@@ -396,14 +396,14 @@
     "sayaka",
     "lawyer"
    ],
-   "prompt": "wide shot, elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes seated at the head of the low table with Japanese man in his 50s, gray suit, rimless glasses, lawyer's badge on his lapel, leather document folder beside her, Japanese woman in her late 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile, Japanese man in his mid 40s, slicked-back hair, wrinkled gray suit with a loosened tie, restless eyes and Japanese woman in her early 30s, long straight dark brown hair, trendy beige trench coat, designer handbag, smartphone in hand seated facing them in formal clothes, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+   "prompt": "wide shot, elderly Japanese woman in her late 60s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes seated at the head of the low table with Japanese man in his 50s, gray suit, rimless glasses, lawyer's badge on his lapel, leather document folder beside her, Japanese woman in her early 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile, Japanese man in his mid 40s, slicked-back hair, wrinkled gray suit with a loosened tie, restless eyes and Japanese woman in her early 30s, long straight dark brown hair, trendy beige trench coat, designer handbag, smartphone in hand seated facing them in formal clothes, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
   },
   {
    "id": "img_47",
    "refs": [
     "noriko"
    ],
-   "prompt": "close-up of Japanese woman in her late 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile trying to hide a greedy smile, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+   "prompt": "close-up of Japanese woman in her early 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile trying to hide a greedy smile, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
   },
   {
    "id": "img_48",
@@ -417,7 +417,7 @@
    "refs": [
     "kazuko"
    ],
-   "prompt": "elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes calmly holding up her smartphone screen toward the relatives, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+   "prompt": "elderly Japanese woman in her late 60s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes calmly holding up her smartphone screen toward the relatives, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
   },
   {
    "id": "img_50",
@@ -432,21 +432,21 @@
     "kazuko",
     "lawyer"
    ],
-   "prompt": "Japanese man in his 50s, gray suit, rimless glasses, lawyer's badge on his lapel, leather document folder laying out official documents on the low table, elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes calm beside him, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+   "prompt": "Japanese man in his 50s, gray suit, rimless glasses, lawyer's badge on his lapel, leather document folder laying out official documents on the low table, elderly Japanese woman in her late 60s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes calm beside him, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
   },
   {
    "id": "img_52",
    "refs": [
     "noriko"
    ],
-   "prompt": "Japanese woman in her late 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile standing up abruptly in shock, mouth open, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+   "prompt": "Japanese woman in her early 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile standing up abruptly in shock, mouth open, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
   },
   {
    "id": "img_53",
    "refs": [
     "kazuko"
    ],
-   "prompt": "elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes speaking gently with dignity, soft window light on her face, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+   "prompt": "elderly Japanese woman in her late 60s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes speaking gently with dignity, soft window light on her face, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
   },
   {
    "id": "img_54",
@@ -455,7 +455,7 @@
     "koji",
     "sayaka"
    ],
-   "prompt": "Japanese woman in her late 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile, Japanese man in his mid 40s, slicked-back hair, wrinkled gray suit with a loosened tie, restless eyes and Japanese woman in her early 30s, long straight dark brown hair, trendy beige trench coat, designer handbag, smartphone in hand leaving the house at dusk with heads down, long shadows, old two-story Japanese house with a dark tiled roof and a small garden with a red maple tree, quiet suburban Tokyo street, autumn, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+   "prompt": "Japanese woman in her early 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile, Japanese man in his mid 40s, slicked-back hair, wrinkled gray suit with a loosened tie, restless eyes and Japanese woman in her early 30s, long straight dark brown hair, trendy beige trench coat, designer handbag, smartphone in hand leaving the house at dusk with heads down, long shadows, old two-story Japanese house with a dark tiled roof and a small garden with a red maple tree, quiet suburban Tokyo street, autumn, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
   },
   {
    "id": "img_55",
@@ -463,7 +463,7 @@
     "kazuko",
     "rena"
    ],
-   "prompt": "elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes and Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face sitting side by side, wooden engawa veranda facing a Japanese garden, red maple leaves falling, warm golden afternoon light, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+   "prompt": "elderly Japanese woman in her late 60s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes and Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face sitting side by side, wooden engawa veranda facing a Japanese garden, red maple leaves falling, warm golden afternoon light, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
   },
   {
    "id": "img_56",
@@ -488,7 +488,7 @@
     "kazuko",
     "rena"
    ],
-   "prompt": "Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face bowing her head in tears while elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes gently holds her hands, wooden engawa veranda facing a Japanese garden, red maple leaves falling, warm golden afternoon light, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+   "prompt": "Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face bowing her head in tears while elderly Japanese woman in her late 60s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes gently holds her hands, wooden engawa veranda facing a Japanese garden, red maple leaves falling, warm golden afternoon light, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
   },
   {
    "id": "img_60",
@@ -507,7 +507,7 @@
     "rena",
     "sota"
    ],
-   "prompt": "elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes and Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face in aprons serving curry rice to children, Japanese boy about 8 years old, short black hair, striped T-shirt helping carry plates, bright community children's cafeteria in a newly renovated community hall, long tables, children eating curry rice, warm light, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+   "prompt": "elderly Japanese woman in her late 60s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes and Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face in aprons serving curry rice to children, Japanese boy about 8 years old, short black hair, striped T-shirt helping carry plates, bright community children's cafeteria in a newly renovated community hall, long tables, children eating curry rice, warm light, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
   },
   {
    "id": "img_63",
@@ -520,7 +520,7 @@
     "kazuko",
     "rena"
    ],
-   "prompt": "close-up of elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes and Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face laughing together in aprons, children's cafeteria softly blurred behind, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+   "prompt": "close-up of elderly Japanese woman in her late 60s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes and Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face laughing together in aprons, children's cafeteria softly blurred behind, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
   }
  ],
  "shots": [
@@ -531,7 +531,7 @@
     "noriko",
     "koji"
    ],
-   "prompt": "In the dim hallway of an old Japanese house, Japanese woman in her late 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile, whispers to Japanese man in his mid 40s, slicked-back hair, wrinkled gray suit with a loosened tie, restless eyes, while glancing toward the living room. NORIKO says in Japanese: 「お義姉さん、もう長くないんでしょ？だったら今のうちに、遺言を書かせておかないとね。」 KOJI only nods silently.",
+   "prompt": "In the dim hallway of an old Japanese house, Japanese woman in her early 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile, whispers to Japanese man in his mid 40s, slicked-back hair, wrinkled gray suit with a loosened tie, restless eyes, while glancing toward the living room. NORIKO says in Japanese: 「お義姉さん、もう長くないんでしょ？だったら今のうちに、遺言を書かせておかないとね。」 KOJI only nods silently.",
    "lines": [
     [
      "典子",
@@ -546,7 +546,7 @@
     "noriko",
     "koji"
    ],
-   "prompt": "In the dim hallway of an old Japanese house, Japanese man in his mid 40s, slicked-back hair, wrinkled gray suit with a loosened tie, restless eyes, leans toward Japanese woman in her late 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile, with a greedy smirk, glancing toward the living room. KOJI says in Japanese in a low voice: 「ああ。あの嫁に取られる前にな。」 NORIKO smiles and says nothing.",
+   "prompt": "In the dim hallway of an old Japanese house, Japanese man in his mid 40s, slicked-back hair, wrinkled gray suit with a loosened tie, restless eyes, leans toward Japanese woman in her early 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile, with a greedy smirk, glancing toward the living room. KOJI says in Japanese in a low voice: 「ああ。あの嫁に取られる前にな。」 NORIKO smiles and says nothing.",
    "lines": [
     [
      "浩二",
@@ -561,7 +561,7 @@
     "kazuko",
     "noriko"
    ],
-   "prompt": "Japanese woman in her late 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile sitting beside elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes on the sofa, leaning in with a pressuring face, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window. NORIKO says in Japanese: 「嫁なんて、しょせん他人でしょ。血のつながった私たちに残すのが筋ってものよ。」 KAZUKO listens silently.",
+   "prompt": "Japanese woman in her early 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile sitting beside elderly Japanese woman in her late 60s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes on the sofa, leaning in with a pressuring face, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window. NORIKO says in Japanese: 「嫁なんて、しょせん他人でしょ。血のつながった私たちに残すのが筋ってものよ。」 KAZUKO listens silently.",
    "lines": [
     [
      "典子",
@@ -575,7 +575,7 @@
    "refs": [
     "kazuko"
    ],
-   "prompt": "elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes, seated at the head of the low table facing her relatives, calm gentle smile, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window. KAZUKO says slowly in Japanese: 「皆さん、心配かけてごめんなさいね。私、病気じゃないの。ただの人間ドックよ。」",
+   "prompt": "elderly Japanese woman in her late 60s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes, seated at the head of the low table facing her relatives, calm gentle smile, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window. KAZUKO says slowly in Japanese: 「皆さん、心配かけてごめんなさいね。私、病気じゃないの。ただの人間ドックよ。」",
    "lines": [
     [
      "和子",
@@ -589,7 +589,7 @@
    "refs": [
     "kazuko"
    ],
-   "prompt": "Close-up of elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes, seated at the head of the low table in a Japanese living room, she lifts her smartphone a little, gives a quiet knowing smile and says in Japanese: 「それにね、私、最近はLINEも読めるのよ。」",
+   "prompt": "Close-up of elderly Japanese woman in her late 60s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes, seated at the head of the low table in a Japanese living room, she lifts her smartphone a little, gives a quiet knowing smile and says in Japanese: 「それにね、私、最近はLINEも読めるのよ。」",
    "lines": [
     [
      "和子",
@@ -604,7 +604,7 @@
     "kazuko",
     "rena"
    ],
-   "prompt": "elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes handing a white envelope to Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face, wooden engawa veranda facing a Japanese garden, red maple leaves falling, warm golden afternoon light. KAZUKO says in Japanese: 「麗奈さん。あなたには、これを受け取ってほしいの。」 REINA receives it with trembling hands, tears in her eyes, silent.",
+   "prompt": "elderly Japanese woman in her late 60s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes handing a white envelope to Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face, wooden engawa veranda facing a Japanese garden, red maple leaves falling, warm golden afternoon light. KAZUKO says in Japanese: 「麗奈さん。あなたには、これを受け取ってほしいの。」 REINA receives it with trembling hands, tears in her eyes, silent.",
    "lines": [
     [
      "和子",
@@ -693,7 +693,7 @@
    "type": "narration",
    "image": "img_01",
    "motion": "zoom_out_big",
-   "ja": "東京の郊外。古い一軒家で一人暮らしをする和子は、今年七十八歳になる。夫を亡くして十年。庭の手入れと、近所の友人とのお茶が、何よりの楽しみだった。",
+   "ja": "東京の郊外。古い一軒家で一人暮らしをする和子は、今年六十八歳になる。夫を亡くして十年。庭の手入れと、近所の友人とのお茶が、何よりの楽しみだった。",
    "transition": "fade",
    "id": "s009"
   },
