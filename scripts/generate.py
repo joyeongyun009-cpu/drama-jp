@@ -116,23 +116,31 @@ def make_images(client, story, only, ep):
                     f"{text}")
         contents = [text, *[types.Part.from_bytes(data=p.read_bytes(), mime_type="image/png") for p in refs]]
         print(f"[image] {im['id']} ...", flush=True)
-        for size in ("2K", None):
+        saved = False
+        for attempt in range(6):  # busy / quota errors come in bursts: wait and try again
+            size = "2K" if attempt < 5 else None  # last try: default size rather than nothing
             try:
                 cfg = types.GenerateContentConfig(
                     response_modalities=["IMAGE"],
                     image_config=types.ImageConfig(aspect_ratio="16:9", **({"image_size": size} if size else {})))
                 resp = client.models.generate_content(model=IMAGE_MODEL, contents=contents, config=cfg)
-                break
             except Exception as e:  # noqa: BLE001 - one bad image must not stop the other 63
-                print(f"[image] {im['id']} error: {e}", file=sys.stderr)
-                resp = None
-        for part in (resp.parts or []) if resp else []:
-            if part.inline_data is not None:
-                part.as_image().save(out)
-                print(f"[image] saved {out.name}")
+                wait = min(120, 20 * (attempt + 1))
+                print(f"[image] {im['id']} 잠시 후 다시 ({wait}초): {str(e)[:120]}", flush=True)
+                time.sleep(wait)
+                continue
+            for part in resp.parts or []:
+                if part.inline_data is not None:
+                    part.as_image().save(out)
+                    print(f"[image] saved {out.name}", flush=True)
+                    saved = True
+                    break
+            if saved:
                 break
-        else:
-            print(f"[image] no image returned for {im['id']} (skip)", file=sys.stderr)
+            reason = resp.candidates[0].finish_reason if resp.candidates else resp.prompt_feedback
+            print(f"[image] {im['id']} 그림이 안 나옴 ({reason}) → 다시", flush=True)
+        if not saved:
+            print(f"[image] ❌ {im['id']} 못 만듦 (나중에 같은 명령어로 다시 시도)", flush=True)
 
 
 def tts(session, project, text, voice, rate, out):
