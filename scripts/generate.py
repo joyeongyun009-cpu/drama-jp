@@ -66,81 +66,97 @@ def image_input(path):
             "data": base64.b64encode(path.read_bytes()).decode("utf-8")}
 
 
+def in_parallel(fn, items, workers):
+    """Runs fn(item) for several items at once; one failure never stops the others."""
+    from concurrent.futures import ThreadPoolExecutor
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        for item, fut in [(i, pool.submit(fn, i)) for i in items]:
+            try:
+                fut.result()
+            except Exception as e:  # noqa: BLE001
+                print(f"❌ {item.get('id')}: {str(e)[:200]}", file=sys.stderr, flush=True)
+
+
 def make_shots(client, story, only, ep):
     SHOTS = SHOTS_ROOT / ep
     SHOTS.mkdir(parents=True, exist_ok=True)
-    for shot in story["shots"]:
-        out = SHOTS / f"{shot['id']}.mp4"
-        if (only and shot["id"] not in only) or out.exists():
-            continue
-        refs = [REFS / f"{r}.png" for r in shot["refs"] if (REFS / f"{r}.png").exists()]
-        names = ", ".join(f"{r} = {story['characters'][r]['name']}" for r in shot["refs"])
-        setting = f" Setting: {story['location']}" if story.get("location") else ""
-        prompt = (f"{story['style']}{setting} "
-                  f"Characters in the reference images: {names}. {shot['prompt']} {SHOT_RULES}")
-        task = "reference_to_video" if refs else "text_to_video"
-        print(f"[shot] {shot['id']} ({task}, {shot['duration']}) ...", flush=True)
-        started = client.interactions.create(
-            model=OMNI_MODEL,
-            input=[{"type": "text", "text": prompt}, *[image_input(p) for p in refs]],
-            generation_config=interactions.GenerationConfig(
-                video_config=interactions.VideoConfig(task=task)),
-            response_format=interactions.VideoResponseFormat(
-                aspect_ratio=story.get("aspect", "9:16"), duration=shot["duration"]),
-            background=True,
-        )
-        it = started
-        while it.status not in ("completed", "failed"):
-            time.sleep(10)
-            it = client.interactions.get(id=started.id)
-        if it.status != "completed":
-            print(f"[shot] {shot['id']} failed: {it}", file=sys.stderr)
-            continue
-        data = [c for s in it.steps if s.type == "model_output" for c in s.content]
-        out.write_bytes(base64.b64decode(data[0].data))
-        print(f"[shot] saved {out.name}")
+    todo = [sh for sh in story["shots"]
+            if not (only and sh["id"] not in only) and not (SHOTS / f"{sh['id']}.mp4").exists()]
+    in_parallel(lambda shot: make_shot(client, story, shot, SHOTS / f"{shot['id']}.mp4"), todo, 3)
+
+
+def make_shot(client, story, shot, out):
+    refs = [REFS / f"{r}.png" for r in shot["refs"] if (REFS / f"{r}.png").exists()]
+    names = ", ".join(f"{r} = {story['characters'][r]['name']}" for r in shot["refs"])
+    setting = f" Setting: {story['location']}" if story.get("location") else ""
+    prompt = (f"{story['style']}{setting} "
+              f"Characters in the reference images: {names}. {shot['prompt']} {SHOT_RULES}")
+    task = "reference_to_video" if refs else "text_to_video"
+    print(f"[shot] {shot['id']} ({task}, {shot['duration']}) ...", flush=True)
+    started = client.interactions.create(
+        model=OMNI_MODEL,
+        input=[{"type": "text", "text": prompt}, *[image_input(p) for p in refs]],
+        generation_config=interactions.GenerationConfig(
+            video_config=interactions.VideoConfig(task=task)),
+        response_format=interactions.VideoResponseFormat(
+            aspect_ratio=story.get("aspect", "9:16"), duration=shot["duration"]),
+        background=True,
+    )
+    it = started
+    while it.status not in ("completed", "failed"):
+        time.sleep(10)
+        it = client.interactions.get(id=started.id)
+    if it.status != "completed":
+        print(f"[shot] {shot['id']} failed: {it}", file=sys.stderr)
+        return
+    data = [c for s in it.steps if s.type == "model_output" for c in s.content]
+    out.write_bytes(base64.b64decode(data[0].data))
+    print(f"[shot] saved {out.name}")
 
 
 def make_images(client, story, only, ep):
     out_dir = SHOTS_ROOT / ep
     out_dir.mkdir(parents=True, exist_ok=True)
-    for im in story["images"]:
-        out = out_dir / f"{im['id']}.png"
-        if (only and im["id"] not in only) or out.exists():
+    todo = [im for im in story["images"]
+            if not (only and im["id"] not in only) and not (out_dir / f"{im['id']}.png").exists()]
+    print(f"[image] {len(todo)}장 만들기 (4장씩 동시에)", flush=True)
+    in_parallel(lambda im: make_image(client, story, im, out_dir / f"{im['id']}.png"), todo, 4)
+
+
+def make_image(client, story, im, out):
+    refs = [REFS / f"{r}.png" for r in im["refs"] if (REFS / f"{r}.png").exists()]
+    names = ", ".join(f"{r} = {story['characters'][r]['name']}" for r in im["refs"])
+    text = im["prompt"]
+    if refs:
+        text = (f"Keep each person's face, hair and age exactly like the reference photos ({names}). "
+                f"{text}")
+    contents = [text, *[types.Part.from_bytes(data=p.read_bytes(), mime_type="image/png") for p in refs]]
+    print(f"[image] {im['id']} ...", flush=True)
+    saved = False
+    for attempt in range(6):  # busy / quota errors come in bursts: wait and try again
+        size = "2K" if attempt < 5 else None  # last try: default size rather than nothing
+        try:
+            cfg = types.GenerateContentConfig(
+                response_modalities=["IMAGE"],
+                image_config=types.ImageConfig(aspect_ratio="16:9", **({"image_size": size} if size else {})))
+            resp = client.models.generate_content(model=IMAGE_MODEL, contents=contents, config=cfg)
+        except Exception as e:  # noqa: BLE001 - one bad image must not stop the other 63
+            wait = min(120, 20 * (attempt + 1))
+            print(f"[image] {im['id']} 잠시 후 다시 ({wait}초): {str(e)[:120]}", flush=True)
+            time.sleep(wait)
             continue
-        refs = [REFS / f"{r}.png" for r in im["refs"] if (REFS / f"{r}.png").exists()]
-        names = ", ".join(f"{r} = {story['characters'][r]['name']}" for r in im["refs"])
-        text = im["prompt"]
-        if refs:
-            text = (f"Keep each person's face, hair and age exactly like the reference photos ({names}). "
-                    f"{text}")
-        contents = [text, *[types.Part.from_bytes(data=p.read_bytes(), mime_type="image/png") for p in refs]]
-        print(f"[image] {im['id']} ...", flush=True)
-        saved = False
-        for attempt in range(6):  # busy / quota errors come in bursts: wait and try again
-            size = "2K" if attempt < 5 else None  # last try: default size rather than nothing
-            try:
-                cfg = types.GenerateContentConfig(
-                    response_modalities=["IMAGE"],
-                    image_config=types.ImageConfig(aspect_ratio="16:9", **({"image_size": size} if size else {})))
-                resp = client.models.generate_content(model=IMAGE_MODEL, contents=contents, config=cfg)
-            except Exception as e:  # noqa: BLE001 - one bad image must not stop the other 63
-                wait = min(120, 20 * (attempt + 1))
-                print(f"[image] {im['id']} 잠시 후 다시 ({wait}초): {str(e)[:120]}", flush=True)
-                time.sleep(wait)
-                continue
-            for part in resp.parts or []:
-                if part.inline_data is not None:
-                    part.as_image().save(out)
-                    print(f"[image] saved {out.name}", flush=True)
-                    saved = True
-                    break
-            if saved:
+        for part in resp.parts or []:
+            if part.inline_data is not None:
+                part.as_image().save(out)
+                print(f"[image] saved {out.name}", flush=True)
+                saved = True
                 break
-            reason = resp.candidates[0].finish_reason if resp.candidates else resp.prompt_feedback
-            print(f"[image] {im['id']} 그림이 안 나옴 ({reason}) → 다시", flush=True)
-        if not saved:
-            print(f"[image] ❌ {im['id']} 못 만듦 (나중에 같은 명령어로 다시 시도)", flush=True)
+        if saved:
+            break
+        reason = resp.candidates[0].finish_reason if resp.candidates else resp.prompt_feedback
+        print(f"[image] {im['id']} 그림이 안 나옴 ({reason}) → 다시", flush=True)
+    if not saved:
+        print(f"[image] ❌ {im['id']} 못 만듦 (나중에 같은 명령어로 다시 시도)", flush=True)
 
 
 def tts(session, project, text, voice, rate, out):
