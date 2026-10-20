@@ -188,8 +188,18 @@ class _GcloudSession:
         if time.time() - self.at > 1800:
             self.token = self._token()
             self.at = time.time()
-        return self.http.post(url, json=json, headers={**headers, "Authorization": f"Bearer {self.token}"},
-                              timeout=120)
+        for attempt in range(4):  # a stuck or dropped request is retried instead of hanging the run
+            try:
+                r = self.http.post(url, json=json, headers={**headers, "Authorization": f"Bearer {self.token}"},
+                                   timeout=(10, 40))
+                if r.status_code not in (429, 500, 502, 503, 504):
+                    return r
+            except Exception as e:  # noqa: BLE001
+                if attempt == 3:
+                    raise
+                print(f"[voice] 다시 시도 ({e.__class__.__name__})", flush=True)
+            time.sleep(5 * (attempt + 1))
+        return r
 
 
 def tts_session():
