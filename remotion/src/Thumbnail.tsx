@@ -70,7 +70,51 @@ export const Thumbnail: React.FC<Props> = ({ left, right, lines }) => (
   </AbsoluteFill>
 );
 
+// Shorts cover (1080x1920): shock image on top, calm image below, split on a
+// slight diagonal, the two lines in the middle where the feed shows them best.
+export const ThumbnailVertical: React.FC<Props> = ({ left, right, lines }) => (
+  <AbsoluteFill style={{ background: "black" }}>
+    <div style={{ position: "absolute", left: 0, right: 0, top: 0, height: "58%" }}>
+      <Photo src={left} clip="polygon(0 0, 100% 0, 100% 88%, 0 100%)" shade="linear-gradient(180deg, rgba(0,0,0,0) 60%, rgba(0,0,0,0.35))" />
+    </div>
+    <div style={{ position: "absolute", left: 0, right: 0, bottom: 0, height: "50%" }}>
+      <Photo src={right} clip="polygon(0 16%, 100% 0, 100% 100%, 0 100%)" shade="linear-gradient(0deg, rgba(0,0,0,0) 60%, rgba(0,0,0,0.35))" />
+    </div>
+    <svg width={1080} height={1920} style={{ position: "absolute", inset: 0 }}>
+      <line x1={0} y1={1114} x2={1080} y2={960} stroke="white" strokeWidth={12} />
+    </svg>
+    <div
+      lang="ja"
+      style={{
+        position: "absolute",
+        left: 20,
+        right: 20,
+        top: 820,
+        textAlign: "center",
+        fontFamily: FONT_STACK,
+        fontWeight: 800,
+        lineHeight: 1.15,
+        transform: "rotate(-4deg)",
+      }}
+    >
+      {lines.map((line, i) => (
+        <div
+          key={line}
+          style={{
+            fontSize: Math.min(i === 0 ? 120 : 140, Math.floor(1020 / Math.max(1, line.length))),
+            color: i === 0 ? "#ffffff" : "#ffe14d",
+            textShadow: `${stroke(i === 0 ? 8 : 10, i === 0 ? "#000" : "#c4002f")}, ${stroke(i === 0 ? 13 : 16, "#000")}`,
+          }}
+        >
+          {line}
+        </div>
+      ))}
+    </div>
+  </AbsoluteFill>
+);
+
 export const ThumbnailComposition = () => (
+  <>
   <Composition
     id="Thumbnail"
     component={Thumbnail}
@@ -80,4 +124,14 @@ export const ThumbnailComposition = () => (
     height={720}
     defaultProps={{ left: null, right: null, lines: ["", ""] } as Props}
   />
+  <Composition
+    id="ThumbnailVertical"
+    component={ThumbnailVertical}
+    durationInFrames={1}
+    fps={30}
+    width={1080}
+    height={1920}
+    defaultProps={{ left: null, right: null, lines: ["", ""] } as Props}
+  />
+  </>
 );

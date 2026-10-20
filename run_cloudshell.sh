@@ -25,9 +25,9 @@ REDO=("$@")
 python3 scripts/check.py --ep "$EP"
 # 썸네일만: 이미 만든 그림으로 1초 만에 만듦
 if [[ "$MODE" == "thumb" ]]; then
-  python3 scripts/thumbnail.py --ep "$EP"
+  COMP="$(python3 scripts/thumbnail.py --ep "$EP")"
   cd remotion && { [[ -d node_modules ]] || npm ci --silent; }
-  npx remotion still Thumbnail "out/${EP}_thumb.jpg" --props="out/${EP}_thumb_props.json" --log=error
+  npx remotion still "$COMP" "out/${EP}_thumb.jpg" --props="out/${EP}_thumb_props.json" --log=error
   echo "✅ 썸네일: cloudshell download remotion/out/${EP}_thumb.jpg"
   exit 0
 fi
@@ -155,8 +155,8 @@ else
   done
   ffmpeg -y -v error -f concat -safe 0 -i "$PARTS/list.txt" -c copy "out/$EP.mp4"
   if $PY -c "import json,sys; sys.exit(0 if 'thumbnail' in json.load(open('../episodes/$EP/story.json')) else 1)"; then
-    (cd .. && $PY scripts/thumbnail.py --ep "$EP" >/dev/null)
-    npx remotion still Thumbnail "out/${EP}_thumb.jpg" --props="out/${EP}_thumb_props.json" --log=error
+    COMP="$(cd .. && $PY scripts/thumbnail.py --ep "$EP")"
+    npx remotion still "$COMP" "out/${EP}_thumb.jpg" --props="out/${EP}_thumb_props.json" --log=error
   fi
 fi
 # 유튜브 권장 음량(-14 LUFS)으로 맞춤 (영상은 그대로, 소리만)
