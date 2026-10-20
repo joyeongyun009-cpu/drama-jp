@@ -1,0 +1,1409 @@
+{
+ "format": "longform",
+ "title": "遺産目当てに急に優しくなった親戚たち。和子の遺言は…",
+ "style": "Photorealistic cinematic Japanese TV drama, shot on a 35mm lens, shallow depth of field, realistic skin texture, horizontal 16:9 framing. All dialogue is spoken in natural Japanese.",
+ "location": "",
+ "aspect": "16:9",
+ "bgm": {
+  "file": "bgm/bach_cello_prelude.mp3",
+  "volume": 0.25,
+  "duck": 0.08
+ },
+ "voice": {
+  "narrator": "ja-JP-Chirp3-HD-Gacrux",
+  "letter": "ja-JP-Chirp3-HD-Sulafat",
+  "speaking_rate": 0.95,
+  "padding_sec": 0.6,
+  "min_scene_sec": 2.5
+ },
+ "speakers": {
+  "和子": "#C9A15B",
+  "麗奈": "#E58FA6",
+  "健太": "#5B8DC9",
+  "典子": "#9B59B6",
+  "浩二": "#7F8C8D",
+  "さやか": "#E67E22",
+  "弁護士": "#34495E"
+ },
+ "characters": {
+  "kazuko": {
+   "name": "和子（姑）",
+   "image_prompt": "Photorealistic portrait of a elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes. Upper body, facing camera, plain soft background, natural window light, 9:16 vertical. No text."
+  },
+  "rena": {
+   "name": "麗奈（嫁）",
+   "image_prompt": "Photorealistic portrait of a Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face. Upper body, facing camera, plain soft background, natural window light, 9:16 vertical. No text."
+  },
+  "kenta": {
+   "name": "健太（息子）",
+   "image_prompt": "Photorealistic portrait of a Japanese man in his early 40s, short black hair, navy knit sweater, mild face. Upper body, facing camera, plain soft background, natural window light, 9:16 vertical. No text."
+  },
+  "sota": {
+   "name": "蒼太（孫）",
+   "image_prompt": "Photorealistic portrait of a Japanese boy about 8 years old, short black hair, striped T-shirt. Upper body, facing camera, plain soft background, natural window light, 9:16 vertical. No text."
+  },
+  "noriko": {
+   "name": "典子（和子の義理の妹・60代後半）",
+   "image_prompt": "Photorealistic portrait of a Japanese woman in her late 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile. Upper body, facing camera, plain soft background, natural window light, 9:16 vertical. No text."
+  },
+  "koji": {
+   "name": "浩二（典子の息子・40代半ば）",
+   "image_prompt": "Photorealistic portrait of a Japanese man in his mid 40s, slicked-back hair, wrinkled gray suit with a loosened tie, restless eyes. Upper body, facing camera, plain soft background, natural window light, 9:16 vertical. No text."
+  },
+  "sayaka": {
+   "name": "さやか（典子の娘・30代前半）",
+   "image_prompt": "Photorealistic portrait of a Japanese woman in her early 30s, long straight dark brown hair, trendy beige trench coat, designer handbag, smartphone in hand. Upper body, facing camera, plain soft background, natural window light, 9:16 vertical. No text."
+  },
+  "lawyer": {
+   "name": "弁護士（50代）",
+   "image_prompt": "Photorealistic portrait of a Japanese man in his 50s, gray suit, rimless glasses, lawyer's badge on his lapel, leather document folder. Upper body, facing camera, plain soft background, natural window light, 9:16 vertical. No text."
+  }
+ },
+ "images": [
+  {
+   "id": "img_01",
+   "refs": [
+    "kazuko"
+   ],
+   "prompt": "old two-story Japanese house with a dark tiled roof and a small garden with a red maple tree, quiet suburban Tokyo street, autumn, morning sunlight, elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes watering plants in the garden, wide establishing shot, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_02",
+   "refs": [
+    "kazuko"
+   ],
+   "prompt": "elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes gently touching the trunk of a red maple tree in her garden, nostalgic smile, autumn morning, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_03",
+   "refs": [
+    "kazuko"
+   ],
+   "prompt": "a Japanese funeral reception room, relatives in black mourning clothes arguing tensely around a low table, elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes in a black mourning dress sitting sadly apart, sepia-toned nostalgic flashback, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_04",
+   "refs": [
+    "rena"
+   ],
+   "prompt": "Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face standing at the front door of a old two-story Japanese house with a dark tiled roof and a small garden with a red maple tree, quiet suburban Tokyo street, autumn, holding furoshiki-wrapped food containers, smiling, about to ring the doorbell, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_05",
+   "refs": [
+    "rena"
+   ],
+   "prompt": "Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face laughing mockingly while talking on her phone in a hallway, sepia-toned nostalgic flashback, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_06",
+   "refs": [
+    "kazuko",
+    "rena"
+   ],
+   "prompt": "entrance of a large modern Japanese university hospital, autumn trees, overcast sky, elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes and Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face walking toward the entrance, low angle, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_07",
+   "refs": [
+    "kazuko",
+    "rena"
+   ],
+   "prompt": "elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes walking out of the hospital entrance holding a large white envelope, calm unreadable face, Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face beside her looking concerned, entrance of a large modern Japanese university hospital, autumn trees, overcast sky, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_08",
+   "refs": [
+    "rena"
+   ],
+   "prompt": "close side profile of Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face, worried expression, hospital background softly blurred, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_09",
+   "refs": [
+    "noriko"
+   ],
+   "prompt": "Japanese woman in her late 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile peeking from behind a pillar across the street from a hospital, holding a shopping bag, eyes wide with curiosity, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_10",
+   "refs": [
+    "noriko"
+   ],
+   "prompt": "Japanese woman in her late 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile in a dim living room at night typing on her smartphone, face lit by the screen, sly smile, subject on the left third, calm empty space on the right, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_11",
+   "refs": [
+    "noriko"
+   ],
+   "prompt": "extreme close-up of Japanese woman in her late 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile smirking, face lit by phone light at night, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_12",
+   "refs": [
+    "rena"
+   ],
+   "prompt": "Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face packing homemade side dishes into bento containers, worried but determined, small modern Japanese apartment kitchen at night, warm pendant light, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_13",
+   "refs": [
+    "kazuko",
+    "rena"
+   ],
+   "prompt": "elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes teaching Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face how to cook simmered vegetables, both laughing, steam rising, old-fashioned Japanese home kitchen with a gas stove and a simmering pot, warm light, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_14",
+   "refs": [
+    "noriko"
+   ],
+   "prompt": "dark room, extreme close-up of Japanese woman in her late 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile's eyes glinting in smartphone light, ominous, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_15",
+   "refs": [
+    "noriko"
+   ],
+   "prompt": "Japanese woman in her late 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile standing at the genkan entrance of an old Japanese house holding a paulownia wooden box of luxury melon, exaggerated sweet smile, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_16",
+   "refs": [
+    "kazuko",
+    "noriko"
+   ],
+   "prompt": "Japanese woman in her late 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile holding elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes's hands on the sofa, overly sweet expression, elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes smiling calmly, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_17",
+   "refs": [
+    "koji"
+   ],
+   "prompt": "Japanese man in his mid 40s, slicked-back hair, wrinkled gray suit with a loosened tie, restless eyes at the front door of an old Japanese house holding an enormous bouquet of flowers, forced smile, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_18",
+   "refs": [
+    "sayaka"
+   ],
+   "prompt": "Japanese woman in her early 30s, long straight dark brown hair, trendy beige trench coat, designer handbag, smartphone in hand entering the room with two small children and handing over a gift bag, fake cheerful smile, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_19",
+   "refs": [
+    "kazuko",
+    "rena"
+   ],
+   "prompt": "Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window crowded with gifts, a melon box, a bouquet and gift bags, elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes sitting serenely smiling, Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face standing in the kitchen doorway looking puzzled, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_20",
+   "refs": [
+    "kazuko",
+    "rena"
+   ],
+   "prompt": "elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes and Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face sitting at the low table drinking tea at dusk after guests left, Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face puzzled, elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes smiling serenely, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_21",
+   "refs": [
+    "noriko"
+   ],
+   "prompt": "Japanese woman in her late 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile secretly taking photos of the room with her smartphone, furtive glance over her shoulder, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_22",
+   "refs": [
+    "noriko"
+   ],
+   "prompt": "Japanese woman in her late 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile opening the chest and touching a folded pale lavender plain iromuji kimono with a single family crest, greedy eyes, tatami room with a Buddhist family altar and a traditional paulownia wood kimono chest, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_23",
+   "refs": [
+    "kazuko",
+    "koji"
+   ],
+   "prompt": "Japanese man in his mid 40s, slicked-back hair, wrinkled gray suit with a loosened tie, restless eyes leaning close to elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes on the sofa, sly whispering expression, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_24",
+   "refs": [
+    "sayaka"
+   ],
+   "prompt": "Japanese woman in her early 30s, long straight dark brown hair, trendy beige trench coat, designer handbag, smartphone in hand in the hallway of an old Japanese house holding up her smartphone as if measuring the room, scheming smile, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_25",
+   "refs": [
+    "rena"
+   ],
+   "prompt": "Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face frozen while holding a plate, listening in shock toward the next room, old-fashioned Japanese home kitchen with a gas stove and a simmering pot, warm light, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_26",
+   "refs": [
+    "rena"
+   ],
+   "prompt": "close-up of Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face's hand tightly gripping a dish towel, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_27",
+   "refs": [],
+   "prompt": "exterior of a Japanese family restaurant in front of a train station at night, glowing sign without readable text, wide shot, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_28",
+   "refs": [
+    "noriko",
+    "koji",
+    "sayaka"
+   ],
+   "prompt": "Japanese woman in her late 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile leaning forward whispering with a scheming face, Japanese man in his mid 40s, slicked-back hair, wrinkled gray suit with a loosened tie, restless eyes and Japanese woman in her early 30s, long straight dark brown hair, trendy beige trench coat, designer handbag, smartphone in hand listening, Japanese family restaurant booth at night, drink bar in the background, fluorescent light, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_29",
+   "refs": [
+    "koji"
+   ],
+   "prompt": "Japanese man in his mid 40s, slicked-back hair, wrinkled gray suit with a loosened tie, restless eyes smirking and tapping the table, Japanese family restaurant booth at night, drink bar in the background, fluorescent light, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_30",
+   "refs": [
+    "koji"
+   ],
+   "prompt": "Japanese man in his mid 40s, slicked-back hair, wrinkled gray suit with a loosened tie, restless eyes alone in his car at night staring at a pile of overdue notice envelopes, anxious face, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_31",
+   "refs": [
+    "sayaka"
+   ],
+   "prompt": "Japanese woman in her early 30s, long straight dark brown hair, trendy beige trench coat, designer handbag, smartphone in hand in a cramped small company apartment cluttered with children's toys, sighing, looking at a real estate app on her phone, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_32",
+   "refs": [
+    "sayaka"
+   ],
+   "prompt": "Japanese woman in her early 30s, long straight dark brown hair, trendy beige trench coat, designer handbag, smartphone in hand typing on her smartphone with a satisfied smile, Japanese family restaurant booth at night, drink bar in the background, fluorescent light, subject on the left third, calm space on the right, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_33",
+   "refs": [
+    "noriko"
+   ],
+   "prompt": "Japanese woman in her late 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile waving her hand dismissively and laughing, Japanese family restaurant booth at night, drink bar in the background, fluorescent light, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_34",
+   "refs": [
+    "kazuko"
+   ],
+   "prompt": "elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes sitting alone on the sofa at night, face lit by her smartphone screen, calm unreadable expression, dim Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_35",
+   "refs": [
+    "kazuko"
+   ],
+   "prompt": "extreme close-up of elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes's eyes behind reading glasses reflecting a phone screen, unreadable expression, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_36",
+   "refs": [
+    "rena",
+    "noriko"
+   ],
+   "prompt": "Japanese woman in her late 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile blocking the front door of an old Japanese house with crossed arms and a fake smile, Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face outside holding bento containers, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_37",
+   "refs": [
+    "rena"
+   ],
+   "prompt": "Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face walking away down an autumn residential street holding bento containers, sad but resolute, maple leaves, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_38",
+   "refs": [],
+   "prompt": "a bento box wrapped in cloth left on the doorstep of an old Japanese house with a small handwritten memo on top, autumn leaves, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_39",
+   "refs": [
+    "kazuko",
+    "noriko",
+    "koji"
+   ],
+   "prompt": "Japanese woman in her late 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile and Japanese man in his mid 40s, slicked-back hair, wrinkled gray suit with a loosened tie, restless eyes sitting on both sides of elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes on the sofa, pressuring her, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_40",
+   "refs": [
+    "kazuko",
+    "noriko"
+   ],
+   "prompt": "elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes calmly sipping green tea from a teacup, Japanese woman in her late 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile beside her with a smug satisfied face, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_41",
+   "refs": [
+    "rena"
+   ],
+   "prompt": "Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face gripping a dish towel with tears welling up, old-fashioned Japanese home kitchen with a gas stove and a simmering pot, warm light, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_42",
+   "refs": [
+    "rena",
+    "kenta"
+   ],
+   "prompt": "Japanese man in his early 40s, short black hair, navy knit sweater, mild face gently placing his hand on Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face's shoulder, firm reassuring face, small modern Japanese apartment kitchen at night, warm pendant light, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_43",
+   "refs": [
+    "kazuko"
+   ],
+   "prompt": "elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes standing by the window making a phone call with a simple senior smartphone, determined and calm, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_44",
+   "refs": [
+    "kazuko"
+   ],
+   "prompt": "close-up of elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes speaking on the phone, serene but firm expression, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_45",
+   "refs": [
+    "noriko",
+    "koji",
+    "sayaka"
+   ],
+   "prompt": "Japanese woman in her late 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile, Japanese man in his mid 40s, slicked-back hair, wrinkled gray suit with a loosened tie, restless eyes and Japanese woman in her early 30s, long straight dark brown hair, trendy beige trench coat, designer handbag, smartphone in hand in their best formal clothes arriving at the gate of a old two-story Japanese house with a dark tiled roof and a small garden with a red maple tree, quiet suburban Tokyo street, autumn, smug smiles, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_46",
+   "refs": [
+    "kazuko",
+    "noriko",
+    "koji",
+    "sayaka",
+    "lawyer"
+   ],
+   "prompt": "wide shot, elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes seated at the head of the low table with Japanese man in his 50s, gray suit, rimless glasses, lawyer's badge on his lapel, leather document folder beside her, Japanese woman in her late 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile, Japanese man in his mid 40s, slicked-back hair, wrinkled gray suit with a loosened tie, restless eyes and Japanese woman in her early 30s, long straight dark brown hair, trendy beige trench coat, designer handbag, smartphone in hand seated facing them in formal clothes, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_47",
+   "refs": [
+    "noriko"
+   ],
+   "prompt": "close-up of Japanese woman in her late 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile trying to hide a greedy smile, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_48",
+   "refs": [
+    "sayaka"
+   ],
+   "prompt": "Japanese woman in her early 30s, long straight dark brown hair, trendy beige trench coat, designer handbag, smartphone in hand turning pale, staring at her own smartphone in horror, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_49",
+   "refs": [
+    "kazuko"
+   ],
+   "prompt": "elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes calmly holding up her smartphone screen toward the relatives, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_50",
+   "refs": [
+    "koji"
+   ],
+   "prompt": "Japanese man in his mid 40s, slicked-back hair, wrinkled gray suit with a loosened tie, restless eyes frozen, avoiding eye contact, sweating, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_51",
+   "refs": [
+    "kazuko",
+    "lawyer"
+   ],
+   "prompt": "Japanese man in his 50s, gray suit, rimless glasses, lawyer's badge on his lapel, leather document folder laying out official documents on the low table, elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes calm beside him, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_52",
+   "refs": [
+    "noriko"
+   ],
+   "prompt": "Japanese woman in her late 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile standing up abruptly in shock, mouth open, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_53",
+   "refs": [
+    "kazuko"
+   ],
+   "prompt": "elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes speaking gently with dignity, soft window light on her face, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_54",
+   "refs": [
+    "noriko",
+    "koji",
+    "sayaka"
+   ],
+   "prompt": "Japanese woman in her late 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile, Japanese man in his mid 40s, slicked-back hair, wrinkled gray suit with a loosened tie, restless eyes and Japanese woman in her early 30s, long straight dark brown hair, trendy beige trench coat, designer handbag, smartphone in hand leaving the house at dusk with heads down, long shadows, old two-story Japanese house with a dark tiled roof and a small garden with a red maple tree, quiet suburban Tokyo street, autumn, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_55",
+   "refs": [
+    "kazuko",
+    "rena"
+   ],
+   "prompt": "elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes and Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face sitting side by side, wooden engawa veranda facing a Japanese garden, red maple leaves falling, warm golden afternoon light, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_56",
+   "refs": [
+    "rena"
+   ],
+   "prompt": "Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face holding a white envelope with tears in her eyes, wooden engawa veranda facing a Japanese garden, red maple leaves falling, warm golden afternoon light, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_57",
+   "refs": [],
+   "prompt": "close-up of a handwritten letter on traditional washi paper with gentle elderly handwriting, soft light, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_58",
+   "refs": [],
+   "prompt": "a folded pale lavender plain iromuji kimono with a single white family crest resting in a paulownia wooden box, soft golden light, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_59",
+   "refs": [
+    "kazuko",
+    "rena"
+   ],
+   "prompt": "Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face bowing her head in tears while elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes gently holds her hands, wooden engawa veranda facing a Japanese garden, red maple leaves falling, warm golden afternoon light, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_60",
+   "refs": [],
+   "prompt": "wide shot of a Japanese garden with a red maple tree in golden afternoon light, leaves falling, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_61",
+   "refs": [],
+   "prompt": "exterior of a newly renovated community hall used as a children's cafeteria, children entering, autumn, signboard without readable text, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_62",
+   "refs": [
+    "kazuko",
+    "rena",
+    "sota"
+   ],
+   "prompt": "elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes and Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face in aprons serving curry rice to children, Japanese boy about 8 years old, short black hair, striped T-shirt helping carry plates, bright community children's cafeteria in a newly renovated community hall, long tables, children eating curry rice, warm light, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_63",
+   "refs": [],
+   "prompt": "a short apology letter placed on a Buddhist family altar with incense smoke, quiet tatami room, soft light, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_64",
+   "refs": [
+    "kazuko",
+    "rena"
+   ],
+   "prompt": "close-up of elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes and Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face laughing together in aprons, children's cafeteria softly blurred behind, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  }
+ ],
+ "shots": [
+  {
+   "id": "clip01a",
+   "duration": "10s",
+   "refs": [
+    "noriko",
+    "koji"
+   ],
+   "prompt": "In the dim hallway of an old Japanese house, Japanese woman in her late 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile, whispers to Japanese man in his mid 40s, slicked-back hair, wrinkled gray suit with a loosened tie, restless eyes, while glancing toward the living room. NORIKO says in Japanese: 「お義姉さん、もう長くないんでしょ？だったら今のうちに、遺言を書かせておかないとね。」 KOJI only nods silently.",
+   "lines": [
+    [
+     "典子",
+     "お義姉さん、もう長くないんでしょ？だったら今のうちに、遺言を書かせておかないとね。"
+    ]
+   ]
+  },
+  {
+   "id": "clip01b",
+   "duration": "5s",
+   "refs": [
+    "noriko",
+    "koji"
+   ],
+   "prompt": "In the dim hallway of an old Japanese house, Japanese man in his mid 40s, slicked-back hair, wrinkled gray suit with a loosened tie, restless eyes, leans toward Japanese woman in her late 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile, with a greedy smirk, glancing toward the living room. KOJI says in Japanese in a low voice: 「ああ。あの嫁に取られる前にな。」 NORIKO smiles and says nothing.",
+   "lines": [
+    [
+     "浩二",
+     "ああ。あの嫁に取られる前にな。"
+    ]
+   ]
+  },
+  {
+   "id": "clip02",
+   "duration": "9s",
+   "refs": [
+    "kazuko",
+    "noriko"
+   ],
+   "prompt": "Japanese woman in her late 60s, permed dyed brown hair, pearl necklace, purple knit cardigan, sharp eyebrows, calculating smile sitting beside elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes on the sofa, leaning in with a pressuring face, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window. NORIKO says in Japanese: 「嫁なんて、しょせん他人でしょ。血のつながった私たちに残すのが筋ってものよ。」 KAZUKO listens silently.",
+   "lines": [
+    [
+     "典子",
+     "嫁なんて、しょせん他人でしょ。血のつながった私たちに残すのが筋ってものよ。"
+    ]
+   ]
+  },
+  {
+   "id": "clip03a",
+   "duration": "10s",
+   "refs": [
+    "kazuko"
+   ],
+   "prompt": "elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes, seated at the head of the low table facing her relatives, calm gentle smile, Japanese living room in an old house, low wooden table, beige sofa, sliding paper door to a tatami room, autumn light through the window. KAZUKO says slowly in Japanese: 「皆さん、心配かけてごめんなさいね。私、病気じゃないの。ただの人間ドックよ。」",
+   "lines": [
+    [
+     "和子",
+     "皆さん、心配かけてごめんなさいね。私、病気じゃないの。ただの人間ドックよ。"
+    ]
+   ]
+  },
+  {
+   "id": "clip03b",
+   "duration": "6s",
+   "refs": [
+    "kazuko"
+   ],
+   "prompt": "Close-up of elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes, seated at the head of the low table in a Japanese living room, she lifts her smartphone a little, gives a quiet knowing smile and says in Japanese: 「それにね、私、最近はLINEも読めるのよ。」",
+   "lines": [
+    [
+     "和子",
+     "それにね、私、最近はLINEも読めるのよ。"
+    ]
+   ]
+  },
+  {
+   "id": "clip04",
+   "duration": "7s",
+   "refs": [
+    "kazuko",
+    "rena"
+   ],
+   "prompt": "elderly Japanese woman in her late 70s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes handing a white envelope to Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face, wooden engawa veranda facing a Japanese garden, red maple leaves falling, warm golden afternoon light. KAZUKO says in Japanese: 「麗奈さん。あなたには、これを受け取ってほしいの。」 REINA receives it with trembling hands, tears in her eyes, silent.",
+   "lines": [
+    [
+     "和子",
+     "麗奈さん。あなたには、これを受け取ってほしいの。"
+    ]
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "chapter": "intro",
+   "type": "clip",
+   "sfx": "impact",
+   "id": "s001",
+   "transition": "cut",
+   "clips": [
+    "clip01a"
+   ]
+  },
+  {
+   "chapter": "intro",
+   "type": "clip",
+   "id": "s002",
+   "transition": "cut",
+   "clips": [
+    "clip03b"
+   ]
+  },
+  {
+   "chapter": "intro",
+   "type": "image",
+   "image": "img_48",
+   "motion": "punch_zoom",
+   "duration": 1.2,
+   "sfx": "impact",
+   "transition": "flash",
+   "id": "s003"
+  },
+  {
+   "chapter": "intro",
+   "type": "image",
+   "image": "img_52",
+   "motion": "shake",
+   "duration": 1.2,
+   "sfx": "impact",
+   "transition": "flash",
+   "id": "s004"
+  },
+  {
+   "chapter": "intro",
+   "type": "image",
+   "image": "img_50",
+   "motion": "punch_zoom",
+   "duration": 1.2,
+   "sfx": "impact",
+   "transition": "flash",
+   "id": "s005"
+  },
+  {
+   "chapter": "intro",
+   "type": "narration",
+   "image": "img_46",
+   "motion": "pan_right",
+   "ja": "この三週間後、親戚たちは全員、顔色を失うことになる。",
+   "id": "s006",
+   "transition": "cut"
+  },
+  {
+   "chapter": "intro",
+   "type": "title",
+   "ja": "遺産目当てに急に優しくなった親戚たち。和子の遺言は…",
+   "duration": 3.5,
+   "id": "s007",
+   "transition": "cut"
+  },
+  {
+   "chapter": "intro",
+   "type": "card",
+   "ja": "三週間前——",
+   "duration": 1.8,
+   "id": "s008",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch1",
+   "type": "narration",
+   "image": "img_01",
+   "motion": "zoom_out_big",
+   "ja": "東京の郊外。古い一軒家で一人暮らしをする和子は、今年七十八歳になる。夫を亡くして十年。庭の手入れと、近所の友人とのお茶が、何よりの楽しみだった。",
+   "transition": "fade",
+   "id": "s009"
+  },
+  {
+   "chapter": "ch1",
+   "type": "narration",
+   "image": "img_02",
+   "motion": "push_slow",
+   "ja": "庭の紅葉は、亡き夫が結婚した年に植えたものだ。毎年秋になると、和子はその木が赤く色づくのを、何よりも楽しみにしていた。",
+   "id": "s010",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch1",
+   "type": "narration",
+   "image": "img_03",
+   "motion": "pan_right",
+   "ja": "夫の葬儀の後、典子は『お義兄さんの財産は、うちにも分けるべきだ』と言い張った。和子がきっぱり断ると、それきり連絡は途絶えた。以来十年、正月の挨拶すら来なくなって久しい。",
+   "filter": "sepia",
+   "id": "s011",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch1",
+   "type": "narration",
+   "image": "img_04",
+   "motion": "slide_in_right",
+   "ja": "そんな和子のもとに、最近よく顔を出すのが、息子・健太の嫁、麗奈だ。",
+   "sfx": "whoosh",
+   "id": "s012",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch1",
+   "type": "narration",
+   "image": "img_05",
+   "motion": "pan_left",
+   "ja": "以前の麗奈は、スマホも使えない義母を、陰で笑っていた。だが、こっそりスマホ教室に通い、詐欺から自分を救ってくれた義母の姿に、麗奈は自分の小ささを思い知った。それ以来、二人の関係はすっかり変わった。",
+   "filter": "sepia",
+   "id": "s013",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch1",
+   "type": "narration",
+   "image": "img_06",
+   "motion": "pan_up",
+   "ja": "その日、麗奈は和子に付き添って、大学病院を訪れていた。朝早くから受付を済ませ、いくつもの検査室を回る。待合室で待つ間、和子はほとんど口をきかなかった。",
+   "id": "s014",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch1",
+   "type": "line",
+   "image": "img_07",
+   "motion": "zoom_in_big",
+   "speaker": "和子",
+   "ja": "少し、検査が長引いてね。",
+   "id": "s015",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch1",
+   "type": "narration",
+   "image": "img_08",
+   "motion": "slide_in_left",
+   "ja": "何の検査だったのか。和子はそれ以上、何も言わなかった。麗奈も、それ以上は聞けなかった。",
+   "id": "s016",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch1",
+   "type": "narration",
+   "image": "img_09",
+   "motion": "punch_zoom",
+   "ja": "そして、その姿を、偶然見かけた人物がいた。和子の義理の妹、典子である。",
+   "sfx": "impact",
+   "id": "s017",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch1",
+   "type": "chat",
+   "image": "img_10",
+   "group": "親戚グループ",
+   "ja": "その夜、親戚のグループLINEに、一通のメッセージが届いた。",
+   "messages": [
+    [
+     "典子",
+     "お義姉さん、大学病院から深刻な顔で出てきたのよ"
+    ],
+    [
+     "さやか",
+     "え、病気？"
+    ],
+    [
+     "浩二",
+     "マジかよ"
+    ],
+    [
+     "典子",
+     "がんらしいわよ"
+    ]
+   ],
+   "id": "s018",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch1",
+   "type": "narration",
+   "image": "img_11",
+   "motion": "zoom_in_big",
+   "ja": "噂は、たった一晩で『がん』にまで膨らんでいった。",
+   "id": "s019",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch1",
+   "type": "narration",
+   "image": "img_12",
+   "motion": "pan_left",
+   "ja": "噂を耳にした麗奈は、胸が締めつけられた。夫の健太は仕事が忙しく、平日はなかなか実家に顔を出せない。だからこそ、自分が支えようと決めた。その日から毎日、手作りのおかずを持って、和子の家に通い始めた。",
+   "id": "s020",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch1",
+   "type": "narration",
+   "image": "img_13",
+   "motion": "zoom_out_big",
+   "ja": "和子は、麗奈が来るたびに、昔から作ってきた煮物の味を、一つずつ教えた。二人きりの台所には、いつしか笑い声が増えていった。",
+   "id": "s021",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch1",
+   "type": "narration",
+   "image": "img_14",
+   "motion": "push_slow",
+   "ja": "だが、この噂が、思わぬ人たちを呼び寄せることになる。",
+   "transition": "fade",
+   "id": "s022"
+  },
+  {
+   "chapter": "ch2",
+   "type": "narration",
+   "image": "img_15",
+   "motion": "slide_in_left",
+   "ja": "数日後。十年も顔を見せなかった典子が、桐箱入りの高級メロンを抱えて、突然やって来た。玄関先に立つその顔は、十年ぶりとは思えないほどの満面の笑みだった。",
+   "sfx": "whoosh",
+   "id": "s023",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch2",
+   "type": "line",
+   "image": "img_16",
+   "motion": "zoom_in_big",
+   "speaker": "典子",
+   "ja": "お義姉さん、体は大丈夫？何でも言ってちょうだいね。私たち、家族なんだから。",
+   "id": "s024",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch2",
+   "type": "narration",
+   "image": "img_17",
+   "motion": "slide_in_right",
+   "ja": "翌日には、典子の息子の浩二が、抱えきれないほどの花束を持って現れた。",
+   "sfx": "whoosh",
+   "id": "s025",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch2",
+   "type": "narration",
+   "image": "img_18",
+   "motion": "slide_in_left",
+   "ja": "さらに娘のさやかまで、子どもたちを連れて押しかけてきた。",
+   "sfx": "whoosh",
+   "id": "s026",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch2",
+   "type": "narration",
+   "image": "img_19",
+   "motion": "pan_right",
+   "ja": "急に優しくなった親戚たち。戸惑う麗奈をよそに、和子はただ穏やかに微笑み、贈り物を受け取っていた。",
+   "id": "s027",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch2",
+   "type": "line",
+   "image": "img_20",
+   "motion": "zoom_in_big",
+   "speaker": "麗奈",
+   "ja": "お義母さん、あの人たち、急にどうしたんでしょう…",
+   "id": "s028",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch2",
+   "type": "line",
+   "image": "img_20",
+   "motion": "push_slow",
+   "speaker": "和子",
+   "ja": "さあねえ。賑やかでいいじゃない。",
+   "id": "s029",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch2",
+   "type": "narration",
+   "image": "img_21",
+   "motion": "punch_zoom",
+   "ja": "だが典子は、和子が席を立つたびに、部屋の中をこっそりスマホで撮影していた。",
+   "sfx": "impact",
+   "id": "s030",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch2",
+   "type": "line",
+   "image": "img_22",
+   "motion": "zoom_in_big",
+   "speaker": "典子",
+   "ja": "このお着物、私が頂いてもいいかしら。",
+   "id": "s031",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch2",
+   "type": "line",
+   "image": "img_23",
+   "motion": "pan_left",
+   "speaker": "浩二",
+   "ja": "伯母さん、土地の権利書って、どこにしまってあるの？",
+   "id": "s032",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch2",
+   "type": "line",
+   "image": "img_24",
+   "motion": "zoom_out_big",
+   "speaker": "さやか",
+   "ja": "ここ、リフォームしたら素敵よね。うちの子たちの部屋にちょうどいいわ。",
+   "id": "s033",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch2",
+   "type": "narration",
+   "image": "img_25",
+   "motion": "punch_zoom",
+   "ja": "台所でその声を聞いていた麗奈は、言葉を失った。",
+   "id": "s034",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch2",
+   "type": "clip",
+   "id": "s035",
+   "transition": "cut",
+   "clips": [
+    "clip01a",
+    "clip01b"
+   ]
+  },
+  {
+   "chapter": "ch2",
+   "type": "narration",
+   "image": "img_26",
+   "motion": "push_slow",
+   "ja": "十年間、電話一本よこさなかった人たちが、なぜ今になって。麗奈の中で、すべてがつながった。彼らの本当の目当て。それは、和子の財産だった。",
+   "transition": "fade",
+   "id": "s036"
+  },
+  {
+   "chapter": "ch3",
+   "type": "narration",
+   "image": "img_27",
+   "motion": "zoom_out_big",
+   "ja": "その週末。典子たちは、駅前のファミリーレストランに集まっていた。ドリンクバーのコーヒーを前に、三人は顔を寄せ合った。",
+   "id": "s037",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch3",
+   "type": "line",
+   "image": "img_28",
+   "motion": "pan_right",
+   "speaker": "典子",
+   "ja": "あの嫁、毎日通ってるでしょ。絶対、財産狙いよ。",
+   "id": "s038",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch3",
+   "type": "line",
+   "image": "img_29",
+   "motion": "zoom_in_big",
+   "speaker": "浩二",
+   "ja": "だったら先に遺言を書かせればいい。俺たちに有利なやつをな。",
+   "id": "s039",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch3",
+   "type": "narration",
+   "image": "img_30",
+   "motion": "pan_left",
+   "ja": "浩二には、事業に失敗して作った借金があった。伯母の土地は、彼にとって最後の頼みの綱だったのだ。",
+   "id": "s040",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch3",
+   "type": "narration",
+   "image": "img_31",
+   "motion": "zoom_out_big",
+   "ja": "一方のさやかは、夫の転勤で、狭い社宅暮らしが何年も続いていた。庭付きの広い一軒家は、彼女の長年の夢だったのだ。",
+   "id": "s041",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch3",
+   "type": "narration",
+   "image": "img_32",
+   "motion": "punch_zoom",
+   "ja": "話をまとめたさやかは、スマホに作戦を打ち込み、送信ボタンを押した。",
+   "id": "s042",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch3",
+   "type": "chat",
+   "image": "img_32",
+   "group": "森川家みんな（6）",
+   "ja": "だが、さやかは気づいていなかった。送り先が、和子も入っている家族全員のグループだったことに。",
+   "messages": [
+    [
+     "さやか",
+     "作戦まとめ！①毎日交代で伯母さんちに行く ②あの嫁は近づけない ③今月中に遺言を書かせる"
+    ]
+   ],
+   "id": "s043",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch3",
+   "type": "narration",
+   "image": "img_33",
+   "motion": "slide_in_right",
+   "ja": "どうせ伯母さんは、LINEなんて読めやしない。誰もが、そう思い込んでいた。",
+   "sfx": "whoosh",
+   "id": "s044",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch3",
+   "type": "narration",
+   "image": "img_34",
+   "motion": "parallax",
+   "ja": "同じ頃。和子は一人、スマホの画面を、静かに見つめていた。",
+   "id": "s045",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch3",
+   "type": "narration",
+   "image": "img_35",
+   "motion": "push_slow",
+   "ja": "和子は、何も言わなかった。",
+   "transition": "fade",
+   "id": "s046"
+  },
+  {
+   "chapter": "ch3",
+   "type": "line",
+   "image": "img_36",
+   "motion": "slide_in_left",
+   "speaker": "典子",
+   "ja": "あら麗奈さん、今日は私たちが見てるからいいのよ。帰ってちょうだい。",
+   "sfx": "whoosh",
+   "id": "s047",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch3",
+   "type": "narration",
+   "image": "img_37",
+   "motion": "pan_right",
+   "ja": "追い返されても、麗奈は翌日、またおかずを持ってやって来た。玄関に上がることさえ許されない日もあった。",
+   "id": "s048",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch3",
+   "type": "narration",
+   "image": "img_38",
+   "motion": "zoom_in_big",
+   "ja": "それでも麗奈は、おかずを玄関先に置き、小さなメモを添えて帰った。『お義母さん、温かいうちに食べてくださいね』。",
+   "id": "s049",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch3",
+   "type": "narration",
+   "image": "img_39",
+   "motion": "pan_left",
+   "ja": "そして数日後。典子と浩二は、ついに和子に詰め寄った。",
+   "id": "s050",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch3",
+   "type": "clip",
+   "id": "s051",
+   "transition": "cut",
+   "clips": [
+    "clip02"
+   ]
+  },
+  {
+   "chapter": "ch3",
+   "type": "narration",
+   "image": "img_40",
+   "motion": "push_slow",
+   "ja": "和子は黙って、湯呑みのお茶をすすった。そして、ただ一言だけ、こう言った。",
+   "id": "s052",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch3",
+   "type": "line",
+   "image": "img_40",
+   "motion": "zoom_in_big",
+   "speaker": "和子",
+   "ja": "考えておくわね。",
+   "id": "s053",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch3",
+   "type": "narration",
+   "image": "img_41",
+   "motion": "punch_zoom",
+   "ja": "台所で聞いていた麗奈は、布巾を強く握りしめた。",
+   "id": "s054",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch3",
+   "type": "line",
+   "image": "img_42",
+   "motion": "zoom_out_big",
+   "speaker": "健太",
+   "ja": "麗奈は、そんな人間じゃない。俺が一番よく知ってる。",
+   "transition": "fade",
+   "id": "s055"
+  },
+  {
+   "chapter": "ch4",
+   "type": "narration",
+   "image": "img_43",
+   "motion": "pan_left",
+   "ja": "そして、三週間後。和子は、親戚全員に電話をかけた。",
+   "id": "s056",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch4",
+   "type": "line",
+   "image": "img_44",
+   "motion": "push_slow",
+   "speaker": "和子",
+   "ja": "大事な話があるの。みんな、家に来てちょうだい。",
+   "id": "s057",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch4",
+   "type": "narration",
+   "image": "img_45",
+   "motion": "slide_in_right",
+   "ja": "いよいよ遺言の発表に違いない。典子は新調した着物を、浩二は一張羅のスーツを着込み、さやかは子どもを夫に預けて、一人でやって来た。",
+   "sfx": "whoosh",
+   "id": "s058",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch4",
+   "type": "narration",
+   "image": "img_46",
+   "motion": "zoom_out_big",
+   "ja": "居間には、見知らぬ男性が座っていた。和子が呼んだ弁護士だった。台所では、麗奈が不安そうに、湯呑みを並べていた。",
+   "id": "s059",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch4",
+   "type": "narration",
+   "image": "img_47",
+   "motion": "punch_zoom",
+   "ja": "典子は、緩む口元を、抑えきれなかった。",
+   "id": "s060",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch4",
+   "type": "clip",
+   "id": "s061",
+   "transition": "cut",
+   "clips": [
+    "clip03a",
+    "clip03b"
+   ]
+  },
+  {
+   "chapter": "ch4",
+   "type": "narration",
+   "image": "img_48",
+   "motion": "shake",
+   "ja": "さやかの顔から、みるみる血の気が引いていった。",
+   "sfx": "impact",
+   "id": "s062",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch4",
+   "type": "narration",
+   "image": "img_49",
+   "motion": "zoom_in_big",
+   "ja": "和子のスマホには、あの日さやかが送った『作戦』が、はっきりと残っていた。",
+   "id": "s063",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch4",
+   "type": "narration",
+   "image": "img_50",
+   "motion": "punch_zoom",
+   "ja": "浩二は、目を合わせることさえできなかった。",
+   "id": "s064",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch4",
+   "type": "line",
+   "image": "img_51",
+   "motion": "pan_down",
+   "speaker": "和子",
+   "ja": "それから、財産のことだけど。預金と、貸していた土地は、もう地域の子ども食堂に寄付する手続きを済ませてあるの。",
+   "id": "s065",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch4",
+   "type": "line",
+   "image": "img_52",
+   "motion": "punch_zoom",
+   "speaker": "典子",
+   "ja": "そんな…！",
+   "sfx": "impact",
+   "transition": "flash",
+   "id": "s066"
+  },
+  {
+   "chapter": "ch4",
+   "type": "line",
+   "image": "img_53",
+   "motion": "push_slow",
+   "speaker": "和子",
+   "ja": "財産はね、残すものじゃなくて、生きているうちに使い道を決めるものなの。",
+   "id": "s067",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch4",
+   "type": "narration",
+   "image": "img_03",
+   "motion": "pan_left",
+   "ja": "十年前、遺産をめぐって家族がばらばらになっていくのを、和子はその目で見てきた。だからこそ、同じことを繰り返したくはなかったのだ。",
+   "filter": "sepia",
+   "id": "s068",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch4",
+   "type": "narration",
+   "image": "img_54",
+   "motion": "pan_right",
+   "ja": "親戚たちは、誰一人言い返せないまま、肩を落として帰っていった。",
+   "transition": "fade",
+   "id": "s069"
+  },
+  {
+   "chapter": "ch5",
+   "type": "narration",
+   "image": "img_55",
+   "motion": "zoom_out_big",
+   "ja": "静かになった家の縁側。和子は、麗奈を呼んだ。",
+   "transition": "fade",
+   "id": "s070"
+  },
+  {
+   "chapter": "ch5",
+   "type": "clip",
+   "id": "s071",
+   "transition": "cut",
+   "clips": [
+    "clip04"
+   ]
+  },
+  {
+   "chapter": "ch5",
+   "type": "line",
+   "image": "img_56",
+   "motion": "push_slow",
+   "speaker": "麗奈",
+   "ja": "お義母さん…",
+   "id": "s072",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch5",
+   "type": "letter",
+   "image": "img_57",
+   "motion": "pan_down",
+   "voice": "letter",
+   "ja": "麗奈さんへ。毎日、温かいおかずを届けてくれてありがとう。玄関先に置いてくれたメモは、全部取ってあります。病気の噂を信じて、本気で心配してくれたのは、あなただけでした。財産は残せないけれど、母の形見の着物だけは、あなたに着てほしいと思っています。これからも、一緒に煮物を作りましょうね。",
+   "id": "s073",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch5",
+   "type": "narration",
+   "image": "img_58",
+   "motion": "zoom_in_big",
+   "ja": "封筒と一緒に渡されたのは、和子が母から受け継いだ、一つ紋の色無地の着物だった。",
+   "id": "s074",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch5",
+   "type": "line",
+   "image": "img_59",
+   "motion": "parallax",
+   "speaker": "麗奈",
+   "ja": "…大切にします。一生、大切にします。",
+   "id": "s075",
+   "transition": "cut"
+  },
+  {
+   "chapter": "ch5",
+   "type": "narration",
+   "image": "img_60",
+   "motion": "zoom_out_big",
+   "ja": "和子が本当に残したかったもの。それは、お金ではなかった。",
+   "transition": "fade",
+   "id": "s076"
+  },
+  {
+   "chapter": "epilogue",
+   "type": "narration",
+   "image": "img_61",
+   "motion": "slide_in_left",
+   "ja": "数か月後。地域の子ども食堂は、新しい建物で再出発した。",
+   "sfx": "whoosh",
+   "id": "s077",
+   "transition": "cut"
+  },
+  {
+   "chapter": "epilogue",
+   "type": "narration",
+   "image": "img_62",
+   "motion": "pan_right",
+   "ja": "そこには、エプロン姿でカレーを配る和子と麗奈、そして孫の蒼太の姿があった。",
+   "id": "s078",
+   "transition": "cut"
+  },
+  {
+   "chapter": "epilogue",
+   "type": "narration",
+   "image": "img_63",
+   "motion": "zoom_in_big",
+   "ja": "親戚たちからは、その後、短い詫びの手紙が届いた。和子はそれを、黙って仏壇に供えた。",
+   "id": "s079",
+   "transition": "cut"
+  },
+  {
+   "chapter": "epilogue",
+   "type": "narration",
+   "image": "img_64",
+   "motion": "push_slow",
+   "ja": "本当に大切なものは、遺産の額では測れない。",
+   "id": "s080",
+   "transition": "cut"
+  },
+  {
+   "chapter": "epilogue",
+   "type": "end",
+   "ja": "あなたの周りにも、急に優しくなった人はいませんか？",
+   "disclaimer": "※よくある出来事をもとにしたフィクションです。",
+   "duration": 6,
+   "id": "s081",
+   "transition": "cut"
+  }
+ ]
+}

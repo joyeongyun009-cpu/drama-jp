@@ -4,6 +4,11 @@
 #
 #   bash run_cloudshell.sh preview ep02   # character photos + shot 1 + short preview video
 #   bash run_cloudshell.sh all ep02       # every shot + final video
+#
+# Longform episodes (story.json "format": "longform", 16:9) use the same two
+# commands: preview = intro + chapter 1 at half size + voice samples,
+# all = every image / clip / narration + the full video, rendered in
+# 2-minute parts so a rerun picks up where it stopped.
 set -euo pipefail
 cd "$(dirname "$0")"
 
@@ -43,7 +48,19 @@ fi
 PY=.venv/bin/python
 
 $PY scripts/generate.py refs --ep "$EP"
-if [[ "$MODE" == "preview" ]]; then
+FORMAT="$($PY -c "import json; print(json.load(open('episodes/$EP/story.json')).get('format', 'shorts'))")"
+UPTO=()
+if [[ "$FORMAT" == "longform" ]]; then
+  # ── 롱폼 (16:9): 이미지 + 움직임 + 나레이션 + 입을 여는 영상 ──
+  gcloud services enable texttospeech.googleapis.com --quiet
+  if [[ "$MODE" == "preview" ]]; then
+    UPTO=(--upto ch1)   # 미리보기: 인트로 + 1장만
+    $PY scripts/generate.py samples --ep "$EP"
+  fi
+  $PY scripts/generate.py images --ep "$EP" "${UPTO[@]}"
+  $PY scripts/generate.py shots --ep "$EP" "${UPTO[@]}"
+  $PY scripts/generate.py voice --ep "$EP" "${UPTO[@]}"
+elif [[ "$MODE" == "preview" ]]; then
   $PY scripts/generate.py shots --ep "$EP" --only s01
 else
   $PY scripts/generate.py shots --ep "$EP"
@@ -58,17 +75,40 @@ if [[ -n "$BGM" && ! -f "remotion/public/$BGM" ]]; then
     echo "▶ BGM: $(basename "$NEWEST")"
   fi
 fi
-$PY scripts/align.py --ep "$EP"
+$PY scripts/align.py --ep "$EP" "${UPTO[@]}"
 
 cd remotion
 [[ -d node_modules ]] || npm ci --silent
-npx remotion render Drama "out/$EP.mp4" --log=error
+if [[ "$FORMAT" != "longform" ]]; then
+  npx remotion render Drama "out/$EP.mp4" --log=error
+elif [[ "$MODE" == "preview" ]]; then
+  npx remotion render Longform "out/$EP.mp4" --scale=0.5 --log=error
+else
+  # 2분씩 나눠서 만들고 이어 붙임 → 끊겨도 같은 명령어로 이어서 만듦
+  TOTAL="$(node -e "console.log(require('./src/longform.json').total)")"
+  PARTS="out/${EP}_parts"
+  SUM="$(sha1sum src/longform.json | cut -c1-16)"
+  [[ "$(cat "$PARTS/.sum" 2>/dev/null)" == "$SUM" ]] || { rm -rf "$PARTS"; mkdir -p "$PARTS"; echo "$SUM" > "$PARTS/.sum"; }
+  CHUNK=3600
+  : > "$PARTS/list.txt"
+  for ((A = 0; A < TOTAL; A += CHUNK)); do
+    B=$(( A + CHUNK - 1 < TOTAL - 1 ? A + CHUNK - 1 : TOTAL - 1 ))
+    PART="$PARTS/p$(printf %06d "$A").mp4"
+    if [[ ! -f "$PART" ]]; then
+      echo "▶ 렌더링 $(( A * 100 / TOTAL ))% ..."
+      npx remotion render Longform "$PART.tmp.mp4" --frames="$A-$B" --log=error
+      mv "$PART.tmp.mp4" "$PART"
+    fi
+    echo "file '$(basename "$PART")'" >> "$PARTS/list.txt"
+  done
+  ffmpeg -y -v error -f concat -safe 0 -i "$PARTS/list.txt" -c copy "out/$EP.mp4"
+fi
 # 유튜브 권장 음량(-14 LUFS)으로 맞춤 (영상은 그대로, 소리만)
 ffmpeg -y -v error -i "out/$EP.mp4" -c:v copy -af loudnorm=I=-14:TP=-1.5:LRA=11 -ar 48000 -c:a aac -b:a 192k "out/$EP.loud.mp4" \
   && mv "out/$EP.loud.mp4" "out/$EP.mp4"
 cd ..
 
-zip -qr refs.zip refs
+zip -qr refs.zip refs $( [[ -d voice_samples ]] && echo voice_samples )
 echo ""
 echo "✅ 完成 / 완성: remotion/out/$EP.mp4"
 echo "   ダウンロード / 다운로드:"

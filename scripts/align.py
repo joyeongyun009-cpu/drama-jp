@@ -45,9 +45,15 @@ def spread(chunks, start, end):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--ep", required=True)
-    ep = ap.parse_args().ep
+    ap.add_argument("--upto", help="longform preview: last chapter to include (e.g. ch1)")
+    args = ap.parse_args()
+    ep = args.ep
     SHOTS = SHOTS_ROOT / ep
     story = json.loads((ROOT / "episodes" / ep / "story.json").read_text(encoding="utf-8"))
+    if story.get("format") == "longform":
+        import longform
+        longform.build(story, ep, args.upto)
+        return
     model = WhisperModel("small", device="cpu", compute_type="int8")
     result = []
     for shot in story["shots"]:

@@ -3,3 +3,5 @@ out
 remotion/public/shots
 refs
 remotion/public/bgm
+voice_samples
+__pycache__
