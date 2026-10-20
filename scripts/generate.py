@@ -157,7 +157,7 @@ def tts_name(text, voice, rate):
 
 
 class _GcloudSession:
-    """Calls Google APIs with the Cloud Shell login (gcloud), refreshing the token every 30 minutes.
+    """Calls Google APIs with the Cloud Shell login, refreshing the token every 30 minutes.
     google.auth.default() fails in Cloud Shell ("service account info is missing 'email' field")."""
 
     def __init__(self):
@@ -165,11 +165,28 @@ class _GcloudSession:
         self.http = requests.Session()
         self.token, self.at = None, 0.0
 
+    def _token(self):
+        # 1) Cloud Shell's metadata server hands out the signed-in user's token directly.
+        try:
+            r = self.http.get("http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/"
+                              "default/token", headers={"Metadata-Flavor": "Google"}, timeout=5)
+            if r.ok and r.json().get("access_token"):
+                return r.json()["access_token"]
+        except Exception:  # noqa: BLE001 - fall back to gcloud
+            pass
+        # 2) gcloud, a few tries (it can briefly fail after a long run)
+        import subprocess
+        for _ in range(3):
+            r = subprocess.run(["gcloud", "auth", "print-access-token"], capture_output=True, text=True)
+            if r.returncode == 0 and r.stdout.strip():
+                return r.stdout.strip()
+            print(r.stderr.strip(), file=sys.stderr)
+            time.sleep(5)
+        sys.exit("❌ 로그인이 풀렸어요. `gcloud auth login` 을 붙여넣어 로그인한 뒤, 같은 명령어를 다시 실행하세요.")
+
     def post(self, url, json, headers):
         if time.time() - self.at > 1800:
-            import subprocess
-            self.token = subprocess.run(["gcloud", "auth", "print-access-token"], capture_output=True,
-                                        text=True, check=True).stdout.strip()
+            self.token = self._token()
             self.at = time.time()
         return self.http.post(url, json=json, headers={**headers, "Authorization": f"Bearer {self.token}"},
                               timeout=120)
