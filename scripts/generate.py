@@ -89,6 +89,13 @@ def make_shot(client, story, shot, out):
     refs = [REFS / f"{r}.png" for r in shot["refs"] if (REFS / f"{r}.png").exists()]
     names = ", ".join(f"{r} = {story['characters'][r]['name']}" for r in shot["refs"])
     setting = f" Setting: {story['location']}" if story.get("location") else ""
+    # Longform: build the clip on a finished still ("image": "img_47") so faces, clothes and
+    # room match the pictures around it.
+    scene = SHOTS_ROOT / out.parent.name / f"{shot.get('image', '')}.png"
+    if shot.get("image") and scene.exists():
+        refs = [scene, *refs]
+        setting += (" The first reference image is the exact scene: keep the same people, clothes, room, "
+                    "lighting and camera angle, and bring it to life.")
     prompt = (f"{story['style']}{setting} "
               f"Characters in the reference images: {names}. {shot['prompt']} {SHOT_RULES}")
     task = "reference_to_video" if refs else "text_to_video"

@@ -6,15 +6,20 @@
 #   bash run_cloudshell.sh all ep02       # every shot + final video
 #   bash run_cloudshell.sh thumb ep05     # YouTube thumbnail only (story.json "thumbnail")
 #
-# Longform episodes (story.json "format": "longform", 16:9) use the same two
-# commands: preview = intro + chapter 1 at half size + voice samples,
-# all = every image / clip / narration + the full video, rendered in
-# 2-minute parts so a rerun picks up where it stopped.
+# Longform episodes (story.json "format": "longform", 16:9), step by step:
+#   bash run_cloudshell.sh images ep06          # 1. all images + one numbered overview picture
+#   bash run_cloudshell.sh redo ep06 12 30      # 2. remake only images 12 and 30 (or clip01a ...)
+#   bash run_cloudshell.sh clips ep06           # 3. talking clips, made from the finished images
+#   bash run_cloudshell.sh all ep06             # 4. narration + the full video + thumbnail (once)
+# preview = intro + chapter 1 at half size + voice samples. The video is
+# rendered in 2-minute parts so a rerun picks up where it stopped.
 set -euo pipefail
 cd "$(dirname "$0")"
 
 MODE="${1:-preview}"
 EP="${2:?편 번호를 적어 주세요. 예: bash run_cloudshell.sh preview ep02}"
+shift 2
+REDO=("$@")
 [[ -f "episodes/$EP/story.json" ]] || { echo "❌ episodes/$EP/story.json 이 없어요"; exit 1; }
 # 썸네일만: 이미 만든 그림으로 1초 만에 만듦
 if [[ "$MODE" == "thumb" ]]; then
@@ -62,6 +67,31 @@ UPTO=()
 if [[ "$FORMAT" == "longform" ]]; then
   # ── 롱폼 (16:9): 이미지 + 움직임 + 나레이션 + 입을 여는 영상 ──
   gcloud services enable texttospeech.googleapis.com --quiet
+  SHOTS_DIR="remotion/public/shots/$EP"
+  if [[ "$MODE" == "redo" ]]; then
+    # 다시 만들 그림·영상 지우기: 12 → img_12, clip01a → clip01a
+    for X in "${REDO[@]}"; do
+      [[ "$X" =~ ^[0-9]+$ ]] && X="img_$(printf %02d "$((10#$X))")"
+      rm -f "$SHOTS_DIR/$X.png" "$SHOTS_DIR/$X.mp4" && echo "▶ 다시 만들기: $X"
+    done
+  fi
+  if [[ "$MODE" == "images" || "$MODE" == "redo" ]]; then
+    $PY scripts/generate.py images --ep "$EP"
+    [[ "$MODE" == "redo" ]] && $PY scripts/generate.py shots --ep "$EP"
+    $PY scripts/sheet.py --ep "$EP"
+    echo "✅ 그림 단계 끝. 이상한 그림 번호를 Claude에게 알려 주거나, 괜찮으면 다음: bash run_cloudshell.sh clips $EP"
+    exit 0
+  fi
+  if [[ "$MODE" == "clips" ]]; then
+    $PY scripts/generate.py shots --ep "$EP"
+    mkdir -p remotion/out && rm -f "remotion/out/${EP}_clips.zip"
+    for C in $($PY -c "import json; print(' '.join(s['id'] for s in json.load(open('episodes/$EP/story.json'))['shots']))"); do
+      [[ -f "$SHOTS_DIR/$C.mp4" ]] && zip -qj "remotion/out/${EP}_clips.zip" "$SHOTS_DIR/$C.mp4"
+    done
+    echo "✅ 영상 단계 끝. 확인: cloudshell download remotion/out/${EP}_clips.zip"
+    echo "   괜찮으면 다음: bash run_cloudshell.sh all $EP"
+    exit 0
+  fi
   if [[ "$MODE" == "preview" ]]; then
     UPTO=(--upto ch1)   # 미리보기: 인트로 + 1장만
     $PY scripts/generate.py samples --ep "$EP"
