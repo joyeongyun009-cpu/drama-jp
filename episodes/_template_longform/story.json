@@ -1,0 +1,178 @@
+{
+ "format": "longform",
+ "title": "（日本語タイトル）",
+ "thumbnail": {
+  "left": "img_02",
+  "right": "img_01",
+  "lines": [
+   "（上の行・白）",
+   "（下の行・黄色・決めゼリフ）"
+  ]
+ },
+ "style": "Photorealistic cinematic Japanese TV drama, shot on a 35mm lens, shallow depth of field, realistic skin texture, horizontal 16:9 framing. All dialogue is spoken in natural Japanese.",
+ "location": "",
+ "aspect": "16:9",
+ "bgm": {
+  "file": "bgm/bach_cello_prelude.mp3",
+  "volume": 0.25,
+  "duck": 0.08
+ },
+ "voice": {
+  "narrator": "ja-JP-Chirp3-HD-Gacrux",
+  "letter": "ja-JP-Chirp3-HD-Sulafat",
+  "speaking_rate": 0.95,
+  "padding_sec": 0.6,
+  "min_scene_sec": 2.5
+ },
+ "speakers": {
+  "和子": "#C9A15B",
+  "麗奈": "#E58FA6",
+  "健太": "#5B8DC9"
+ },
+ "characters": {
+  "kazuko": {
+   "name": "和子（姑）",
+   "image_prompt": "Photorealistic portrait of a elderly Japanese woman in her late 60s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes. Upper body, facing camera, plain soft background, natural window light, 9:16 vertical. No text."
+  },
+  "rena": {
+   "name": "麗奈（嫁）",
+   "image_prompt": "Photorealistic portrait of a Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face. Upper body, facing camera, plain soft background, natural window light, 9:16 vertical. No text."
+  },
+  "kenta": {
+   "name": "健太（息子）",
+   "image_prompt": "Photorealistic portrait of a Japanese man in his early 40s, short black hair, navy knit sweater, mild face. Upper body, facing camera, plain soft background, natural window light, 9:16 vertical. No text."
+  },
+  "sota": {
+   "name": "蒼太（孫）",
+   "image_prompt": "Photorealistic portrait of a Japanese boy about 8 years old, short black hair, striped T-shirt. Upper body, facing camera, plain soft background, natural window light, 9:16 vertical. No text."
+  }
+ },
+ "images": [
+  {
+   "id": "img_01",
+   "refs": [
+    "kazuko"
+   ],
+   "prompt": "elderly Japanese woman in her late 60s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes sitting calmly in a Japanese living room in an old house, autumn light through the window, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_02",
+   "refs": [
+    "rena"
+   ],
+   "prompt": "Japanese woman in her mid 30s, long wavy brown hair, white blouse, kind warm face gasping in shock in a Japanese living room, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_03",
+   "refs": [],
+   "prompt": "wide shot of an old two-story Japanese house in a quiet Tokyo suburb, autumn, Japanese neighbors walking by, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  }
+ ],
+ "shots": [
+  {
+   "id": "clip01",
+   "image": "img_01",
+   "duration": "8s",
+   "refs": [
+    "kazuko"
+   ],
+   "prompt": "elderly Japanese woman in her late 60s, short neatly permed gray hair, beige cardigan over a cream blouse, reading glasses on a beaded chain, gentle but perceptive eyes sitting in a Japanese living room, looks up and says calmly in Japanese: 「ちょっと、話があるの。」",
+   "lines": [
+    [
+     "和子",
+     "ちょっと、話があるの。"
+    ]
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "id": "s001",
+   "chapter": "intro",
+   "type": "clip",
+   "clips": [
+    "clip01"
+   ],
+   "sfx": "impact",
+   "transition": "cut"
+  },
+  {
+   "id": "s002",
+   "chapter": "intro",
+   "type": "image",
+   "image": "img_02",
+   "motion": "punch_zoom",
+   "duration": 1.2,
+   "sfx": "impact",
+   "transition": "flash"
+  },
+  {
+   "id": "s003",
+   "chapter": "intro",
+   "type": "title",
+   "ja": "（タイトル）",
+   "duration": 3.5,
+   "transition": "cut"
+  },
+  {
+   "id": "s004",
+   "chapter": "intro",
+   "type": "card",
+   "ja": "三週間前——",
+   "duration": 1.8,
+   "transition": "cut"
+  },
+  {
+   "id": "s005",
+   "chapter": "ch1",
+   "type": "narration",
+   "image": "img_03",
+   "motion": "zoom_out_big",
+   "ja": "（ナレーション）",
+   "transition": "fade"
+  },
+  {
+   "id": "s006",
+   "chapter": "ch1",
+   "type": "line",
+   "image": "img_01",
+   "motion": "push_slow",
+   "speaker": "和子",
+   "ja": "（セリフ）",
+   "transition": "cut"
+  },
+  {
+   "id": "s007",
+   "chapter": "ch1",
+   "type": "chat",
+   "image": "img_03",
+   "group": "家族グループ",
+   "ja": "（ナレーション）",
+   "messages": [
+    [
+     "麗奈",
+     "（メッセージ）"
+    ]
+   ],
+   "transition": "cut"
+  },
+  {
+   "id": "s008",
+   "chapter": "ch5",
+   "type": "letter",
+   "image": "img_01",
+   "motion": "pan_down",
+   "ja": "（手紙の文。一文ずつ。で区切る。）",
+   "transition": "cut"
+  },
+  {
+   "id": "s009",
+   "chapter": "epilogue",
+   "type": "end",
+   "ja": "（最後の質問）",
+   "disclaimer": "※この物語はフィクションです。",
+   "duration": 6,
+   "transition": "cut"
+  }
+ ]
+}

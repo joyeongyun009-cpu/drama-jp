@@ -21,6 +21,8 @@ EP="${2:?편 번호를 적어 주세요. 예: bash run_cloudshell.sh preview ep0
 shift 2
 REDO=("$@")
 [[ -f "episodes/$EP/story.json" ]] || { echo "❌ episodes/$EP/story.json 이 없어요"; exit 1; }
+# 대본 점검 (롱폼): 문제가 있으면 아무것도 만들기 전에 멈춤
+python3 scripts/check.py --ep "$EP"
 # 썸네일만: 이미 만든 그림으로 1초 만에 만듦
 if [[ "$MODE" == "thumb" ]]; then
   python3 scripts/thumbnail.py --ep "$EP"
