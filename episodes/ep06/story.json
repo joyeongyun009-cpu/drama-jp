@@ -1,0 +1,1165 @@
+{
+ "format": "longform",
+ "title": "夫の会社が倒産した翌日、ママ友LINEから私が消えた【もしも小公女が今の日本だったら】",
+ "thumbnail": {
+  "left": "img_26",
+  "right": "img_14",
+  "lines": [
+   "夫の会社が倒産した翌日",
+   "ママ友LINEから私が消えた"
+  ]
+ },
+ "style": "Photorealistic cinematic drama, shot on a 35mm lens, shallow depth of field, realistic skin texture, horizontal 16:9 framing.",
+ "location": "",
+ "aspect": "16:9",
+ "narration": {
+  "audio": "narration/ep06.mp3",
+  "srt": "episodes/ep06/narration.srt"
+ },
+ "bgm": {
+  "file": "bgm/bach_cello_prelude.mp3",
+  "volume": 0.25,
+  "duck": 0.08
+ },
+ "voice": {
+  "narrator": "ja-JP-Chirp3-HD-Gacrux",
+  "letter": "ja-JP-Chirp3-HD-Sulafat",
+  "speaking_rate": 0.95,
+  "padding_sec": 0.6,
+  "min_scene_sec": 2.5
+ },
+ "speakers": {
+  "セーラ": "#E58FA6",
+  "ラヴィニア": "#7FB3E0",
+  "弁護士": "#8A8A8A",
+  "ミンチン先生": "#8E4E7A",
+  "美紗": "#C9A15B",
+  "娘": "#6CC3A0",
+  "玲子": "#D9824B",
+  "ママ": "#9AA5B1",
+  "奈々": "#5B8DC9"
+ },
+ "characters": {
+  "sara_party": {
+   "name": "セーラ（パーティードレス）",
+   "image_prompt": "Photorealistic period drama still, Sony A7R V 85mm f/1.8, 4K, crisp clean sharpness, no film grain, soft natural window light, 16:9. Absolutely no text, no numbers, no letters visible anywhere. Single image, one person only.\nONLY this: a character reference portrait of an 11-year-old English girl in London, 1890s. Front-facing medium shot from the waist up, plain light grey studio background. Slim, slightly tall for her age, thin face with an intense, thoughtful, old-fashioned expression. Short, heavy, jet-black hair just above the shoulders, curling only at the tips. Large green-grey eyes with long black lashes. Pale skin. She wears a pale rose-pink silk gauze party frock with lace trim, Victorian style. Calm, dignified posture, a very slight gentle smile. Nothing else.\nDo NOT make her look like an anime or cartoon character. No long hair, no blue ribbon, no brown hair. Not illustration, not painting."
+  },
+  "sara_black": {
+   "name": "セーラ（黒い服）",
+   "image_prompt": "Photorealistic period drama still, Sony A7R V 85mm f/1.8, 4K, crisp clean sharpness, no film grain, soft natural window light, 16:9. Absolutely no text, no numbers, no letters visible anywhere. Single image, one person only.\nONLY this: a character reference portrait of the same 11-year-old English girl, London 1890s. Front-facing full-body shot, plain light grey studio background. Slim, thin face, short heavy jet-black hair just above the shoulders curling at the tips, large green-grey eyes with long black lashes, pale skin. She wears an old black velvet dress that she has outgrown: too short, showing her thin legs in black stockings, sleeves slightly short at the wrists, worn black boots. She holds a large doll with golden-brown hair against her chest. Composed face, no tears, chin slightly raised. Nothing else.\nDo NOT make her look like an anime or cartoon character. Not illustration, not painting."
+  },
+  "minchin": {
+   "name": "ミンチン先生",
+   "image_prompt": "Photorealistic period drama still, Sony A7R V 85mm f/1.8, 4K, crisp clean sharpness, no film grain, soft natural window light, 16:9. Absolutely no text, no numbers, no letters visible anywhere. Single image, one person only.\nONLY this: a character reference portrait of a tall, gaunt English headmistress, London 1890s. Front-facing medium shot from the waist up, plain light grey studio background. She must look about 50: natural fine lines, a few grey strands in dark brown hair pulled into a severe tight bun. Large, cold, pale eyes, thin lips with a stiff, cold, practised smile. Long face, upright rigid posture, hands folded. High-collared dark plum silk dress, a small brooch at the throat, steel-rimmed eyeglasses hanging on a chain. Respectable, hard, polished. Nothing else.\nDo NOT smooth her skin. Do NOT make her look younger than 46. Not illustration, not cartoon."
+  },
+  "solicitor": {
+   "name": "弁護士",
+   "image_prompt": "Photorealistic period drama still, Sony A7R V 85mm f/1.8, 4K, crisp clean sharpness, no film grain, soft natural window light, 16:9. Absolutely no text, no numbers, no letters visible anywhere. Single image, one person only.\nONLY this: a character reference portrait of a small, thin, sharp-featured English solicitor, London 1890s. Front-facing medium shot from the waist up, plain light grey studio background. He must look about 60: thin grey hair neatly combed, deep lines, narrow face, sharp nose, dry unimpressed expression. Small round eyeglasses. Black frock coat, white high collar, dark cravat, holding a leather document case. Nothing else.\nDo NOT smooth his skin. Not illustration, not cartoon."
+  },
+  "lavinia": {
+   "name": "ラヴィニア",
+   "image_prompt": "Photorealistic period drama still, Sony A7R V 85mm f/1.8, 4K, crisp clean sharpness, no film grain, soft natural window light, 16:9. Absolutely no text, no numbers, no letters visible anywhere. Single image, one person only.\nONLY this: a character reference portrait of a pretty 13-year-old English schoolgirl, London 1890s. Front-facing medium shot from the waist up, plain light grey studio background. Long wavy fair blonde hair tied back with a wide satin bow, blue eyes, rosy cheeks, chin slightly lifted, a superior, faintly spiteful half-smile. Fashionable light blue Victorian dress with puffed sleeves and lace collar. Nothing else.\nNot illustration, not cartoon."
+  },
+  "misa": {
+   "name": "美紗（47歳）",
+   "image_prompt": "Photorealistic, NHK drama still, Sony A7R V 85mm f/1.8, 4K, crisp clean sharpness, no film grain, natural lighting, 16:9. Absolutely no text, no numbers, no Japanese characters visible on any surface. Single image, one person only.\nONLY this: a character reference portrait of a Japanese woman aged 47. Front-facing medium shot from the waist up, plain light grey background. Shoulder-length dark brown hair with soft inward curls, a few grey strands at the temples. Kind, intelligent face, natural fine lines around the eyes, light natural makeup. Small pearl stud earrings. Simple black knee-length dress with a round neck and a thin black cardigan, the kind Japanese mothers wear to school events. Calm, upright posture, gentle closed-mouth expression. Nothing else.\nShe must look 47. Natural fine lines. Do NOT smooth her skin. Do NOT make her look younger than 44."
+  },
+  "misa_daughter": {
+   "name": "美紗の娘（中2）",
+   "image_prompt": "Photorealistic, NHK drama still, Sony A7R V 85mm f/1.8, 4K, crisp clean sharpness, no film grain, natural lighting, 16:9. Absolutely no text, no numbers, no Japanese characters visible on any surface. Single image, one person only.\nONLY this: a character reference portrait of a 14-year-old Japanese girl, second year of junior high school. Front-facing medium shot from the waist up, plain light grey background. Straight black hair in a neat low ponytail, natural bangs, no makeup, bright honest eyes, a small natural smile. Navy blazer school uniform with a white blouse and a dark ribbon tie, no logo, no badge. Nothing else.\nShe must look exactly 14."
+  },
+  "misa_husband": {
+   "name": "美紗の夫（50歳）",
+   "image_prompt": "Photorealistic, NHK drama still, Sony A7R V 85mm f/1.8, 4K, crisp clean sharpness, no film grain, natural lighting, 16:9. Absolutely no text, no numbers, no Japanese characters visible on any surface. Single image, one person only.\nONLY this: a character reference portrait of a Japanese man aged 50. Front-facing medium shot from the waist up, plain light grey background. Short black hair greying at the sides, slightly tired eyes, natural lines on the forehead, clean-shaven. White shirt with the top button undone, loosened navy tie, grey suit trousers. Quiet, worn-out expression. Nothing else.\nHe must look 50. Do NOT smooth his skin. Do NOT make him look younger than 47."
+  },
+  "reiko": {
+   "name": "玲子（48歳）",
+   "image_prompt": "Photorealistic, NHK drama still, Sony A7R V 85mm f/1.8, 4K, crisp clean sharpness, no film grain, natural lighting, 16:9. Absolutely no text, no numbers, no Japanese characters visible on any surface. Single image, one person only.\nONLY this: a character reference portrait of a Japanese woman aged 48. Front-facing medium shot from the waist up, plain light grey background. Glossy chestnut-brown hair in a sleek chin-length bob, carefully done makeup, well-groomed eyebrows, faint fine lines she tries to hide. Cream silk blouse, a fine gold necklace, a beige designer-style jacket with no visible logo. Confident posture, a polite but guarded smile. Nothing else.\nShe must look 48. Natural fine lines. Do NOT smooth her skin. Do NOT make her look younger than 45."
+  },
+  "kidoku_mama": {
+   "name": "既読だけのママ（45歳）",
+   "image_prompt": "Photorealistic, NHK drama still, Sony A7R V 85mm f/1.8, 4K, crisp clean sharpness, no film grain, natural lighting, 16:9. Absolutely no text, no numbers, no Japanese characters visible on any surface. Single image, one person only.\nONLY this: a character reference portrait of an ordinary Japanese woman aged 45. Front-facing medium shot from the waist up, plain light grey background. Medium-length black hair tied loosely at the nape, a few loose strands, minimal makeup, an average, approachable face with a slightly uneasy expression. Light grey knit sweater over a white collar, a small canvas tote bag strap on her shoulder. Nothing else.\nShe must look 45. Natural fine lines. Do NOT smooth her skin. Do NOT make her look younger than 42."
+  },
+  "nana": {
+   "name": "奈々（46歳）",
+   "image_prompt": "Photorealistic, NHK drama still, Sony A7R V 85mm f/1.8, 4K, crisp clean sharpness, no film grain, natural lighting, 16:9. Absolutely no text, no numbers, no Japanese characters visible on any surface. Single image, one person only.\nONLY this: a character reference portrait of a quiet Japanese woman aged 46. Front-facing medium shot from the waist up, plain light grey background. Short neat black hair just below the ears, no-nonsense simple style, very light makeup, thin silver-rimmed glasses, calm steady eyes, a faint warm expression. Plain navy cardigan over a simple off-white blouse. Modest, unremarkable at first glance, but kind. Nothing else.\nShe must look 46. Natural fine lines. Do NOT smooth her skin. Do NOT make her look younger than 43."
+  }
+ },
+ "images": [
+  {
+   "id": "img_01",
+   "refs": [],
+   "japanese": false,
+   "prompt": "Victorian London 1890s period drama, exterior of a large, respectable red-brick girls' boarding school on a foggy London square, black iron railings, a horse-drawn carriage at the door, gas lamps, grey morning, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_02",
+   "refs": [
+    "sara_party"
+   ],
+   "japanese": false,
+   "prompt": "Victorian London 1890s period drama, 11-year-old English girl with a thin face, short heavy jet-black hair just above the shoulders curling at the tips, large green-grey eyes, in a pale rose-pink silk gauze party frock with lace, standing calmly in an elegant schoolroom decorated for her birthday party, English schoolgirls in pretty dresses around her, opened gift boxes and ribbons, warm light, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_03",
+   "refs": [],
+   "japanese": false,
+   "prompt": "Victorian London 1890s period drama, close-up of a large, beautiful Paris-made doll with golden-brown hair in a lace-trimmed silk dress, sitting on an open trunk overflowing with tiny doll dresses, furs and hats, on a velvet table, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_04",
+   "refs": [
+    "lavinia",
+    "sara_party"
+   ],
+   "japanese": false,
+   "prompt": "Victorian London 1890s period drama, 13-year-old English girl with long wavy blonde hair tied with a wide satin bow, light blue Victorian dress, with a spiteful half-smile, leaning toward 11-year-old English girl with a thin face, short heavy jet-black hair just above the shoulders curling at the tips, large green-grey eyes, in a pale rose-pink silk gauze party frock with lace in a schoolroom full of English schoolgirls, other girls watching, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_05",
+   "refs": [
+    "lavinia"
+   ],
+   "japanese": false,
+   "prompt": "Victorian London 1890s period drama, close-up of 13-year-old English girl with long wavy blonde hair tied with a wide satin bow, light blue Victorian dress, chin lifted, mocking superior smile, schoolroom background softly blurred, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_06",
+   "refs": [
+    "sara_party"
+   ],
+   "japanese": false,
+   "prompt": "Victorian London 1890s period drama, close-up of 11-year-old English girl with a thin face, short heavy jet-black hair just above the shoulders curling at the tips, large green-grey eyes, in a pale rose-pink silk gauze party frock with lace, thoughtful, dignified, quietly answering, soft window light, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_07",
+   "refs": [
+    "minchin",
+    "solicitor"
+   ],
+   "japanese": false,
+   "prompt": "Victorian London 1890s period drama, the tall door of a festive schoolroom opening; in the doorway stand tall gaunt English headmistress about 50, dark brown hair in a severe tight bun with grey strands, cold pale eyes, thin lips, high-collared dark plum silk dress, and small thin sharp-featured English solicitor about 60, thin grey hair, small round eyeglasses, black frock coat holding a leather document case, grave expressions, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_08",
+   "refs": [
+    "solicitor"
+   ],
+   "japanese": false,
+   "prompt": "Victorian London 1890s period drama, small thin sharp-featured English solicitor about 60, thin grey hair, small round eyeglasses, black frock coat, sitting in a dark wood-panelled parlour, speaking flatly with a dry unimpressed face, papers on his knee, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_09",
+   "refs": [],
+   "japanese": false,
+   "prompt": "Victorian London 1890s period drama, an old leather ledger with blank columns and a single worn copper penny lying on a dark mahogany desk, an oil lamp, gloomy light, no readable writing, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_10",
+   "refs": [
+    "minchin"
+   ],
+   "japanese": false,
+   "prompt": "Victorian London 1890s period drama, close-up of tall gaunt English headmistress about 50, dark brown hair in a severe tight bun with grey strands, cold pale eyes, thin lips, high-collared dark plum silk dress, eyes wide with shock turning into fury, in a dark parlour, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_11",
+   "refs": [
+    "minchin"
+   ],
+   "japanese": false,
+   "prompt": "Victorian London 1890s period drama, tall gaunt English headmistress about 50, dark brown hair in a severe tight bun with grey strands, cold pale eyes, thin lips, high-collared dark plum silk dress, shouting furiously and pointing toward the door, in a wood-panelled parlour, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_12",
+   "refs": [
+    "solicitor"
+   ],
+   "japanese": false,
+   "prompt": "Victorian London 1890s period drama, small thin sharp-featured English solicitor about 60, thin grey hair, small round eyeglasses, black frock coat, shrugging his shoulders with a cold, calculating little smile, standing by the parlour fireplace, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_13",
+   "refs": [
+    "minchin",
+    "sara_party"
+   ],
+   "japanese": false,
+   "prompt": "Victorian London 1890s period drama, tall gaunt English headmistress about 50, dark brown hair in a severe tight bun with grey strands, cold pale eyes, thin lips, high-collared dark plum silk dress, giving a cold order, looking down at 11-year-old English girl with a thin face, short heavy jet-black hair just above the shoulders curling at the tips, large green-grey eyes, in a pale rose-pink silk gauze party frock with lace who stands very still in a dim school corridor, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_14",
+   "refs": [
+    "sara_black"
+   ],
+   "japanese": false,
+   "prompt": "Victorian London 1890s period drama, 11-year-old English girl with a thin face, short heavy jet-black hair just above the shoulders curling at the tips, large green-grey eyes, in an outgrown, too-short old black velvet dress and black stockings, holding a large doll with golden-brown hair against her chest, standing alone in a grand school corridor, chin slightly raised, composed, no tears, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_15",
+   "refs": [
+    "sara_black"
+   ],
+   "japanese": false,
+   "prompt": "Victorian London 1890s period drama, 11-year-old English girl with a thin face, short heavy jet-black hair just above the shoulders curling at the tips, large green-grey eyes, in an outgrown, too-short old black velvet dress and black stockings, sitting on a narrow iron bed in a bare, cold attic room under a sloping roof, one small skylight, a single candle, night, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_16",
+   "refs": [],
+   "prompt": "close-up of a Japanese woman's hands gently closing an old hardcover children's storybook with a plain cloth cover, on a wooden table under a warm reading lamp at night, no readable letters, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_17",
+   "refs": [],
+   "prompt": "a Japanese woman in her late 40s seen from behind, standing at the window of a modern Japanese apartment at night, looking out over the lights of Tokyo, thoughtful, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_18",
+   "refs": [],
+   "prompt": "a quiet modern Japanese residential street in a Tokyo suburb in the morning, Japanese junior high school students in navy uniforms walking to school, a school building in the distance, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_19",
+   "refs": [
+    "misa"
+   ],
+   "prompt": "Japanese woman aged 47 with shoulder-length dark brown hair in soft inward curls and a few grey strands, in a soft beige knit top, making tea in a bright, tidy Japanese home kitchen in the morning, gentle smile, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_20",
+   "refs": [
+    "misa",
+    "reiko",
+    "kidoku_mama",
+    "nana"
+   ],
+   "prompt": "four Japanese mothers in their mid 40s having lunch at a stylish Japanese cafe; at the center Japanese woman aged 47 with shoulder-length dark brown hair in soft inward curls and a few grey strands is laughing and leading the talk; Japanese woman aged 48 with a sleek glossy chestnut-brown chin-length bob, cream silk blouse, beige jacket, fine gold necklace; Japanese woman aged 45 with medium-length black hair tied loosely at the nape, light grey knit sweater; Japanese woman aged 46 with short neat black hair, thin silver-rimmed glasses, plain navy cardigan, sitting quietly at the edge, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_21",
+   "refs": [
+    "misa_husband",
+    "misa"
+   ],
+   "prompt": "at dawn in a Japanese dining room, Japanese man aged 50, short black hair greying at the sides, white shirt with a loosened navy tie sits with his head in his hands over scattered documents; behind him Japanese woman aged 47 with shoulder-length dark brown hair in soft inward curls and a few grey strands stands frozen in shock, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_22",
+   "refs": [
+    "reiko",
+    "kidoku_mama"
+   ],
+   "prompt": "Japanese mothers whispering to each other in front of a Japanese junior high school gate, glancing sideways, holding smartphones, Japanese woman aged 48 with a sleek glossy chestnut-brown chin-length bob, cream silk blouse, beige jacket, fine gold necklace in the center, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_23",
+   "refs": [
+    "misa"
+   ],
+   "prompt": "Japanese woman aged 47 with shoulder-length dark brown hair in soft inward curls and a few grey strands, sitting alone on a sofa in a dim Japanese living room, staring at her silent smartphone, worried, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_24",
+   "refs": [
+    "reiko",
+    "kidoku_mama"
+   ],
+   "prompt": "Japanese woman aged 48 with a sleek glossy chestnut-brown chin-length bob, cream silk blouse, beige jacket, fine gold necklace, smiling while typing on her smartphone at a Japanese cafe table, with other Japanese mothers looking at their phones; one empty chair, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_25",
+   "refs": [
+    "misa"
+   ],
+   "prompt": "Japanese woman aged 47 with shoulder-length dark brown hair in soft inward curls and a few grey strands, in a simple black knee-length dress and thin black cardigan, standing in front of a bedroom mirror in a Japanese home, straightening her back, determined, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_26",
+   "refs": [
+    "misa",
+    "reiko"
+   ],
+   "prompt": "the back of a Japanese junior high school classroom during an open class day, Japanese parents standing in a row; Japanese woman aged 47 with shoulder-length dark brown hair in soft inward curls and a few grey strands in a black dress and cardigan stands alone, a little apart; the other Japanese mothers, including Japanese woman aged 48 with a sleek glossy chestnut-brown chin-length bob, cream silk blouse, beige jacket, fine gold necklace, turn their faces away; Japanese students at desks in the foreground, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_27",
+   "refs": [
+    "misa"
+   ],
+   "prompt": "close-up of Japanese woman aged 47 with shoulder-length dark brown hair in soft inward curls and a few grey strands, eyes lowered, holding back her feelings, soft evening light in a Japanese home, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_28",
+   "refs": [
+    "misa",
+    "misa_daughter"
+   ],
+   "prompt": "Japanese woman aged 47 with shoulder-length dark brown hair in soft inward curls and a few grey strands quietly watching from the doorway as her daughter, 14-year-old Japanese girl with a neat low black ponytail and bangs, navy blazer school uniform, does homework at a desk in a Japanese home at night, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_29",
+   "refs": [
+    "misa_daughter"
+   ],
+   "prompt": "14-year-old Japanese girl with a neat low black ponytail and bangs, navy blazer school uniform, now in a casual sweatshirt, at a Japanese dinner table, looking up innocently with chopsticks in hand, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_30",
+   "refs": [
+    "misa"
+   ],
+   "prompt": "Japanese woman aged 47 with shoulder-length dark brown hair in soft inward curls and a few grey strands, at a Japanese dinner table, forcing a bright smile while her eyes look sad, warm lamp light, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_31",
+   "refs": [
+    "reiko"
+   ],
+   "prompt": "Japanese woman aged 48 with a sleek glossy chestnut-brown chin-length bob, cream silk blouse, beige jacket, fine gold necklace, sitting on a stylish sofa in her elegant Japanese living room, looking at her smartphone with a calm, decided expression, screen not visible, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_32",
+   "refs": [
+    "reiko"
+   ],
+   "prompt": "Japanese woman aged 48 with a sleek glossy chestnut-brown chin-length bob, cream silk blouse, beige jacket, fine gold necklace, standing alone by a dark window at night in a Japanese house, arms folded, anxious, an empty dining chair behind her, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_33",
+   "refs": [
+    "reiko"
+   ],
+   "prompt": "close-up of Japanese woman aged 48 with a sleek glossy chestnut-brown chin-length bob, cream silk blouse, beige jacket, fine gold necklace, defensive, eyes glistening, lips pressed together, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_34",
+   "refs": [
+    "kidoku_mama"
+   ],
+   "prompt": "Japanese woman aged 45 with medium-length black hair tied loosely at the nape, light grey knit sweater, in a small Japanese home kitchen, reading her smartphone with a sympathetic, troubled face, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_35",
+   "refs": [
+    "kidoku_mama"
+   ],
+   "prompt": "close-up of a Japanese woman's thumb hovering over a glowing smartphone screen, hesitating, light grey knit sleeve, the screen shows only a soft blur with no readable text, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_36",
+   "refs": [
+    "kidoku_mama"
+   ],
+   "prompt": "Japanese woman aged 45 with medium-length black hair tied loosely at the nape, light grey knit sweater, placing her smartphone face down on a Japanese kitchen table and letting out a small sigh, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_37",
+   "refs": [
+    "sara_black",
+    "lavinia"
+   ],
+   "japanese": false,
+   "prompt": "Victorian London 1890s period drama, English schoolgirls in pretty dresses whispering together at the far end of a school hall, glancing at 11-year-old English girl with a thin face, short heavy jet-black hair just above the shoulders curling at the tips, large green-grey eyes, in an outgrown, too-short old black velvet dress and black stockings, who walks alone carrying a heavy basket; 13-year-old English girl with long wavy blonde hair tied with a wide satin bow, light blue Victorian dress among them, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_38",
+   "refs": [
+    "nana"
+   ],
+   "prompt": "Japanese woman aged 46 with short neat black hair, thin silver-rimmed glasses, plain navy cardigan, sitting quietly at the edge of a Japanese cafe table, watching the others with calm, thoughtful eyes, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_39",
+   "refs": [
+    "misa"
+   ],
+   "prompt": "Japanese woman aged 47 with shoulder-length dark brown hair in soft inward curls and a few grey strands, in a dark Japanese living room at night, her smartphone on the low table suddenly lighting up, she looks at it, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_40",
+   "refs": [
+    "misa"
+   ],
+   "prompt": "close-up of Japanese woman aged 47 with shoulder-length dark brown hair in soft inward curls and a few grey strands, holding her smartphone in both hands at night, tears welling, a small grateful smile, screen not visible, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_41",
+   "refs": [
+    "nana"
+   ],
+   "prompt": "a few years earlier: Japanese woman aged 46 with short neat black hair, thin silver-rimmed glasses, plain navy cardigan, standing alone at the edge of a Japanese school sports day field, Japanese parents chatting in groups away from her, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_42",
+   "refs": [
+    "sara_black"
+   ],
+   "japanese": false,
+   "prompt": "Victorian London 1890s period drama, a cold attic at night, 11-year-old English girl with a thin face, short heavy jet-black hair just above the shoulders curling at the tips, large green-grey eyes, in an outgrown, too-short old black velvet dress and black stockings asleep on a narrow iron bed; beside her a tray with a hot meal, tea and a warm blanket has quietly appeared, soft warm glow, nobody else visible, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_43",
+   "refs": [
+    "nana",
+    "misa"
+   ],
+   "prompt": "Japanese woman aged 46 with short neat black hair, thin silver-rimmed glasses, plain navy cardigan and Japanese woman aged 47 with shoulder-length dark brown hair in soft inward curls and a few grey strands, sitting together on a bench in a small Japanese park at dusk, the first gently resting her hand on the other's hand, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_44",
+   "refs": [
+    "sara_black"
+   ],
+   "japanese": false,
+   "prompt": "Victorian London 1890s period drama, 11-year-old English girl with a thin face, short heavy jet-black hair just above the shoulders curling at the tips, large green-grey eyes, in an outgrown, too-short old black velvet dress and black stockings, standing in a bare attic, looking up at the moonlight through a small skylight, dignified and hopeful, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_45",
+   "refs": [
+    "minchin"
+   ],
+   "japanese": false,
+   "prompt": "Victorian London 1890s period drama, tall gaunt English headmistress about 50, dark brown hair in a severe tight bun with grey strands, cold pale eyes, thin lips, high-collared dark plum silk dress, standing at the top of a grand school staircase, looking down coldly, hands folded, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  },
+  {
+   "id": "img_46",
+   "refs": [],
+   "prompt": "a Japanese woman in her 40s on an evening commuter train in Tokyo, looking at her smartphone with a reflective expression, city lights outside the window, cinematic, photorealistic, 16:9 widescreen, high resolution, no text, no watermark"
+  }
+ ],
+ "shots": [
+  {
+   "id": "clip01",
+   "image": "img_07",
+   "duration": "8s",
+   "refs": [
+    "minchin",
+    "solicitor"
+   ],
+   "prompt": "Victorian London 1890s. The tall schoolroom door swings open; the headmistress and the thin solicitor with a document case step in with grave faces; the birthday party falls silent. Nobody speaks."
+  },
+  {
+   "id": "clip02",
+   "image": "img_15",
+   "duration": "8s",
+   "refs": [
+    "sara_black"
+   ],
+   "prompt": "Victorian London 1890s. In the cold bare attic, the girl in the outgrown black dress slowly sits down on the iron bed, the candle flame trembles, she looks up at the small skylight. Nobody speaks."
+  },
+  {
+   "id": "clip03",
+   "image": "img_25",
+   "duration": "10s",
+   "refs": [
+    "misa"
+   ],
+   "prompt": "The Japanese woman in a black dress buttons her thin black cardigan in front of the mirror, takes a deep breath and straightens her back, then turns toward the door. Nobody speaks."
+  },
+  {
+   "id": "clip04",
+   "image": "img_26",
+   "duration": "8s",
+   "refs": [
+    "misa",
+    "reiko"
+   ],
+   "prompt": "At the back of the Japanese classroom, the woman standing alone looks toward the other mothers; their eyes meet for a moment, then they turn away one by one. She keeps standing straight. Nobody speaks."
+  },
+  {
+   "id": "clip05",
+   "image": "img_36",
+   "duration": "8s",
+   "refs": [
+    "kidoku_mama"
+   ],
+   "prompt": "The Japanese woman looks at her phone for a moment, then slowly puts it face down on the kitchen table and lets out a quiet sigh. Nobody speaks."
+  },
+  {
+   "id": "clip06",
+   "image": "img_39",
+   "duration": "5s",
+   "refs": [
+    "misa"
+   ],
+   "prompt": "In the dark living room the smartphone on the low table lights up and vibrates; the Japanese woman slowly reaches for it. Nobody speaks."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "s01",
+   "chapter": "intro",
+   "srt": [
+    1,
+    1
+   ],
+   "type": "narration",
+   "image": "img_01",
+   "motion": "zoom_out_big",
+   "transition": "fade"
+  },
+  {
+   "id": "s02",
+   "chapter": "intro",
+   "srt": [
+    2,
+    2
+   ],
+   "type": "narration",
+   "image": "img_02",
+   "motion": "zoom_in_big"
+  },
+  {
+   "id": "s03",
+   "chapter": "intro",
+   "srt": [
+    3,
+    3
+   ],
+   "type": "narration",
+   "image": "img_03",
+   "motion": "pan_right"
+  },
+  {
+   "id": "s04",
+   "chapter": "intro",
+   "srt": [
+    4,
+    4
+   ],
+   "type": "narration",
+   "image": "img_04",
+   "motion": "push_slow"
+  },
+  {
+   "id": "s05",
+   "chapter": "intro",
+   "srt": [
+    5,
+    5
+   ],
+   "type": "line",
+   "image": "img_05",
+   "motion": "zoom_in_big",
+   "speaker": "ラヴィニア"
+  },
+  {
+   "id": "s06",
+   "chapter": "intro",
+   "srt": [
+    6,
+    6
+   ],
+   "type": "line",
+   "image": "img_06",
+   "motion": "push_slow",
+   "speaker": "セーラ"
+  },
+  {
+   "id": "s07",
+   "chapter": "ch1",
+   "srt": [
+    7,
+    8
+   ],
+   "type": "clip",
+   "clips": [
+    "clip01"
+   ]
+  },
+  {
+   "id": "s09",
+   "chapter": "ch1",
+   "srt": [
+    9,
+    9
+   ],
+   "type": "line",
+   "image": "img_08",
+   "motion": "push_slow",
+   "speaker": "弁護士"
+  },
+  {
+   "id": "s10",
+   "chapter": "ch1",
+   "srt": [
+    10,
+    10
+   ],
+   "type": "narration",
+   "image": "img_09",
+   "motion": "zoom_in_big"
+  },
+  {
+   "id": "s11",
+   "chapter": "ch1",
+   "srt": [
+    11,
+    11
+   ],
+   "type": "narration",
+   "image": "img_10",
+   "motion": "punch_zoom",
+   "sfx": "impact",
+   "transition": "flash"
+  },
+  {
+   "id": "s12",
+   "chapter": "ch1",
+   "srt": [
+    12,
+    12
+   ],
+   "type": "line",
+   "image": "img_11",
+   "motion": "zoom_out_big",
+   "speaker": "ミンチン先生"
+  },
+  {
+   "id": "s13",
+   "chapter": "ch1",
+   "srt": [
+    13,
+    13
+   ],
+   "type": "narration",
+   "image": "img_12",
+   "motion": "pan_left"
+  },
+  {
+   "id": "s14",
+   "chapter": "ch1",
+   "srt": [
+    14,
+    14
+   ],
+   "type": "line",
+   "image": "img_12",
+   "motion": "push_slow",
+   "speaker": "弁護士"
+  },
+  {
+   "id": "s15",
+   "chapter": "ch1",
+   "srt": [
+    15,
+    15
+   ],
+   "type": "line",
+   "image": "img_13",
+   "motion": "zoom_in_big",
+   "speaker": "ミンチン先生"
+  },
+  {
+   "id": "s16",
+   "chapter": "ch1",
+   "srt": [
+    16,
+    16
+   ],
+   "type": "narration",
+   "image": "img_14",
+   "motion": "pan_up"
+  },
+  {
+   "id": "s17",
+   "chapter": "ch1",
+   "srt": [
+    17,
+    17
+   ],
+   "type": "clip",
+   "clips": [
+    "clip02"
+   ]
+  },
+  {
+   "id": "s18",
+   "chapter": "ch2",
+   "srt": [
+    18,
+    18
+   ],
+   "type": "narration",
+   "image": "img_16",
+   "motion": "push_slow",
+   "transition": "fade"
+  },
+  {
+   "id": "s19",
+   "chapter": "ch2",
+   "srt": [
+    19,
+    19
+   ],
+   "type": "narration",
+   "image": "img_17",
+   "motion": "zoom_in_big"
+  },
+  {
+   "id": "s20",
+   "chapter": "ch2",
+   "srt": [
+    20,
+    21
+   ],
+   "type": "narration",
+   "image": "img_18",
+   "motion": "zoom_out_big",
+   "transition": "fade"
+  },
+  {
+   "id": "s22",
+   "chapter": "ch2",
+   "srt": [
+    22,
+    23
+   ],
+   "type": "narration",
+   "image": "img_19",
+   "motion": "pan_right"
+  },
+  {
+   "id": "s24",
+   "chapter": "ch2",
+   "srt": [
+    24,
+    25
+   ],
+   "type": "narration",
+   "image": "img_20",
+   "motion": "zoom_in_big"
+  },
+  {
+   "id": "s26",
+   "chapter": "ch2",
+   "srt": [
+    26,
+    26
+   ],
+   "type": "narration",
+   "image": "img_21",
+   "motion": "punch_zoom",
+   "sfx": "impact",
+   "transition": "flash"
+  },
+  {
+   "id": "s27",
+   "chapter": "ch2",
+   "srt": [
+    27,
+    27
+   ],
+   "type": "narration",
+   "image": "img_22",
+   "motion": "pan_left"
+  },
+  {
+   "id": "s28",
+   "chapter": "ch2",
+   "srt": [
+    28,
+    28
+   ],
+   "type": "chat",
+   "image": "img_23",
+   "group": "2年B組ママ会",
+   "messages": [
+    [
+     "玲子",
+     "来週のランチ、どこにしましょう？"
+    ],
+    [
+     "美紗",
+     "駅前の新しいお店はどうかな？"
+    ]
+   ]
+  },
+  {
+   "id": "s29",
+   "chapter": "ch2",
+   "srt": [
+    29,
+    30
+   ],
+   "type": "chat",
+   "image": "img_24",
+   "motion": "push_slow",
+   "group": "ママ会（新）",
+   "messages": [
+    [
+     "玲子",
+     "これからはこっちで話そう"
+    ],
+    [
+     "ママ",
+     "了解です"
+    ]
+   ]
+  },
+  {
+   "id": "s31",
+   "chapter": "ch2",
+   "srt": [
+    31,
+    32
+   ],
+   "type": "clip",
+   "clips": [
+    "clip03"
+   ]
+  },
+  {
+   "id": "s33",
+   "chapter": "ch2",
+   "srt": [
+    33,
+    34
+   ],
+   "type": "clip",
+   "clips": [
+    "clip04"
+   ]
+  },
+  {
+   "id": "s35",
+   "chapter": "ch3",
+   "srt": [
+    35,
+    35
+   ],
+   "type": "narration",
+   "image": "img_20",
+   "motion": "zoom_out_big",
+   "transition": "fade"
+  },
+  {
+   "id": "s36",
+   "chapter": "ch3",
+   "srt": [
+    36,
+    36
+   ],
+   "type": "narration",
+   "image": "img_27",
+   "motion": "push_slow"
+  },
+  {
+   "id": "s37",
+   "chapter": "ch3",
+   "srt": [
+    37,
+    38
+   ],
+   "type": "narration",
+   "image": "img_28",
+   "motion": "pan_left"
+  },
+  {
+   "id": "s39",
+   "chapter": "ch3",
+   "srt": [
+    39,
+    39
+   ],
+   "type": "line",
+   "image": "img_29",
+   "motion": "zoom_in_big",
+   "speaker": "娘"
+  },
+  {
+   "id": "s40",
+   "chapter": "ch3",
+   "srt": [
+    40,
+    40
+   ],
+   "type": "narration",
+   "image": "img_30",
+   "motion": "push_slow"
+  },
+  {
+   "id": "s41",
+   "chapter": "ch3",
+   "srt": [
+    41,
+    42
+   ],
+   "type": "narration",
+   "image": "img_31",
+   "motion": "pan_right",
+   "transition": "fade"
+  },
+  {
+   "id": "s43",
+   "chapter": "ch3",
+   "srt": [
+    43,
+    44
+   ],
+   "type": "narration",
+   "image": "img_32",
+   "motion": "zoom_in_big"
+  },
+  {
+   "id": "s45",
+   "chapter": "ch3",
+   "srt": [
+    45,
+    45
+   ],
+   "type": "line",
+   "image": "img_33",
+   "motion": "push_slow",
+   "speaker": "玲子"
+  },
+  {
+   "id": "s46",
+   "chapter": "ch3",
+   "srt": [
+    46,
+    46
+   ],
+   "type": "narration",
+   "image": "img_33",
+   "motion": "zoom_out_big"
+  },
+  {
+   "id": "s47",
+   "chapter": "ch4",
+   "srt": [
+    47,
+    48
+   ],
+   "type": "narration",
+   "image": "img_34",
+   "motion": "pan_right",
+   "transition": "fade"
+  },
+  {
+   "id": "s49",
+   "chapter": "ch4",
+   "srt": [
+    49,
+    50
+   ],
+   "type": "narration",
+   "image": "img_35",
+   "motion": "zoom_in_big"
+  },
+  {
+   "id": "s51",
+   "chapter": "ch4",
+   "srt": [
+    51,
+    52
+   ],
+   "type": "clip",
+   "clips": [
+    "clip05"
+   ]
+  },
+  {
+   "id": "s53",
+   "chapter": "ch4",
+   "srt": [
+    53,
+    54
+   ],
+   "type": "narration",
+   "image": "img_37",
+   "motion": "pan_left",
+   "filter": "sepia"
+  },
+  {
+   "id": "s55",
+   "chapter": "ch5",
+   "srt": [
+    55,
+    55
+   ],
+   "type": "narration",
+   "image": "img_38",
+   "motion": "push_slow",
+   "transition": "fade"
+  },
+  {
+   "id": "s56",
+   "chapter": "ch5",
+   "srt": [
+    56,
+    56
+   ],
+   "type": "clip",
+   "clips": [
+    "clip06"
+   ]
+  },
+  {
+   "id": "s57",
+   "chapter": "ch5",
+   "srt": [
+    57,
+    58
+   ],
+   "type": "chat",
+   "image": "img_40",
+   "group": "奈々",
+   "messages": [
+    [
+     "奈々",
+     "無理しないでね。私はここにいます"
+    ]
+   ]
+  },
+  {
+   "id": "s59",
+   "chapter": "ch5",
+   "srt": [
+    59,
+    59
+   ],
+   "type": "narration",
+   "image": "img_40",
+   "motion": "push_slow"
+  },
+  {
+   "id": "s60",
+   "chapter": "ch5",
+   "srt": [
+    60,
+    60
+   ],
+   "type": "narration",
+   "image": "img_41",
+   "motion": "pan_right",
+   "filter": "sepia"
+  },
+  {
+   "id": "s61",
+   "chapter": "ch5",
+   "srt": [
+    61,
+    61
+   ],
+   "type": "narration",
+   "image": "img_42",
+   "motion": "zoom_in_big",
+   "transition": "fade"
+  },
+  {
+   "id": "s62",
+   "chapter": "ch5",
+   "srt": [
+    62,
+    62
+   ],
+   "type": "narration",
+   "image": "img_43",
+   "motion": "zoom_out_big",
+   "transition": "fade"
+  },
+  {
+   "id": "s63",
+   "chapter": "epilogue",
+   "srt": [
+    63,
+    63
+   ],
+   "type": "narration",
+   "image": "img_44",
+   "motion": "pan_up",
+   "transition": "fade"
+  },
+  {
+   "id": "s64",
+   "chapter": "epilogue",
+   "srt": [
+    64,
+    64
+   ],
+   "type": "narration",
+   "image": "img_45",
+   "motion": "push_slow"
+  },
+  {
+   "id": "s65",
+   "chapter": "epilogue",
+   "srt": [
+    65,
+    65
+   ],
+   "type": "narration",
+   "image": "img_46",
+   "motion": "zoom_in_big",
+   "transition": "fade"
+  },
+  {
+   "id": "s66",
+   "chapter": "epilogue",
+   "srt": [
+    66,
+    67
+   ],
+   "type": "narration",
+   "image": "img_20",
+   "motion": "zoom_out_big"
+  },
+  {
+   "id": "s68",
+   "chapter": "epilogue",
+   "srt": [
+    68,
+    68
+   ],
+   "type": "narration",
+   "image": "img_19",
+   "motion": "push_slow"
+  },
+  {
+   "id": "s69",
+   "chapter": "epilogue",
+   "srt": [
+    69,
+    69
+   ],
+   "type": "narration",
+   "image": "img_31",
+   "motion": "zoom_in_big"
+  },
+  {
+   "id": "s70",
+   "chapter": "epilogue",
+   "srt": [
+    70,
+    70
+   ],
+   "type": "narration",
+   "image": "img_34",
+   "motion": "push_slow"
+  },
+  {
+   "id": "s71",
+   "chapter": "epilogue",
+   "srt": [
+    71,
+    71
+   ],
+   "type": "narration",
+   "image": "img_38",
+   "motion": "zoom_in_big"
+  },
+  {
+   "id": "s72",
+   "chapter": "epilogue",
+   "srt": [
+    72,
+    72
+   ],
+   "type": "end",
+   "ja": "あなたは、誰になっていたでしょうか",
+   "disclaimer": "※この物語はフィクションです。",
+   "duration": 3
+  }
+ ]
+}

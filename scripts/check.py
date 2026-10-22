@@ -12,6 +12,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "scripts"))
 TYPES = {"narration", "line", "clip", "image", "title", "card", "chat", "letter", "end"}
 MOTIONS = {"zoom_in_big", "zoom_out_big", "pan_left", "pan_right", "pan_up", "pan_down",
            "slide_in_left", "slide_in_right", "punch_zoom", "shake", "push_slow", "parallax"}
@@ -38,16 +39,22 @@ def check(story):
             if r not in chars:
                 err.append(f"{im['id']}: 없는 인물 '{r}'")
         p = im["prompt"].lower()
+        if im.get("japanese") is False:  # foreign-story scene: no "Japanese" needed
+            continue
         # ep05 img_61: "children" without "Japanese" came out as foreign kids
         if re.search(r"\b(children|kids|people|relatives|students|customers|crowd)\b", p) and "japanese" not in p:
             warn.append(f"{im['id']}: 사람이 나오는데 'Japanese'가 없어요 → 외국인이 나올 수 있어요")
 
+    vrew = story.get("narration")
     used_images = set()
     for sh in story["shots"]:
         sec = float(str(sh.get("duration", "0")).rstrip("s"))
         if sec > OMNI_MAX_SEC:
             err.append(f"{sh['id']}: Omni 영상은 {OMNI_MAX_SEC}초까지예요 ({sec:g}초) → 대사별로 나누기 (clip01a, clip01b)")
-        if not sh.get("lines"):
+        if vrew:  # Vrew narration plays over silent clips
+            if sh.get("lines"):
+                err.append(f"{sh['id']}: Vrew 나레이션 편은 영상에 대사(lines)를 넣지 않아요 (목소리가 겹쳐요)")
+        elif not sh.get("lines"):
             err.append(f"{sh['id']}: lines(대사)가 없어요")
         for sp, ja in sh.get("lines", []):
             if f"「{ja}」" not in sh["prompt"]:
@@ -75,9 +82,9 @@ def check(story):
             continue
         if sc.get("chapter") not in CHAPTERS:
             err.append(f"{sid}: chapter는 {', '.join(CHAPTERS)} 중 하나여야 해요")
-        if t in ("narration", "line", "chat", "letter", "title", "card", "end") and not sc.get("ja"):
+        if t in ("narration", "line", "chat", "letter", "title", "card", "end") and not sc.get("ja") and not (vrew and t not in ("title", "card", "end")):
             err.append(f"{sid}: 일본어(ja)가 없어요")
-        if t in ("image", "title", "card", "end") and not sc.get("duration"):
+        if t in ("image", "title", "card", "end") and not sc.get("duration") and not vrew:
             err.append(f"{sid}: duration(초)이 없어요")
         if t == "line" and sc.get("speaker") not in story["speakers"]:
             err.append(f"{sid}: speaker '{sc.get('speaker')}'가 speakers에 없어요")
@@ -107,6 +114,9 @@ def check(story):
         if t == "end" and "フィクション" not in sc.get("disclaimer", ""):
             err.append(f"{sid}: 마지막 화면 disclaimer에 「フィクション」이 없어요 (실화라고 하면 안 돼요)")
 
+    if vrew:
+        err += check_vrew(story, shots)
+
     unused = sorted(set(images) - used_images - {s.get("image") for s in story["shots"]})
     if unused:
         warn.append(f"쓰이지 않는 그림 {len(unused)}장 (만들 필요 없음): {', '.join(unused)}")
@@ -119,6 +129,32 @@ def check(story):
         if th.get(k) not in images:
             err.append(f"thumbnail.{k} 그림 {th.get(k)}이(가) images에 없어요")
     return err, warn
+
+
+def check_vrew(story, shots):
+    """Vrew narration: scenes must cover the .srt lines 1..N in order, with no gap and no overlap."""
+    from longform import read_srt
+    err = []
+    srt_path = ROOT / story["narration"]["srt"]
+    if not srt_path.exists():
+        return [f"자막 파일이 없어요: {story['narration']['srt']}"]
+    if not (ROOT / "remotion" / "public" / story["narration"]["audio"]).exists():
+        err.append(f"나레이션 파일이 없어요: remotion/public/{story['narration']['audio']}")
+    srt = read_srt(srt_path)
+    want = 1
+    for sc in story["scenes"]:
+        a, b = sc.get("srt", [0, 0])
+        if a != want or b < a:
+            err.append(f"{sc['id']}: srt는 [{want}, …]로 시작해야 해요 (지금 {sc.get('srt')})")
+        want = b + 1
+        if sc.get("type") == "clip":
+            sec = srt[min(b, len(srt)) - 1][1] - srt[min(a, len(srt)) - 1][0]
+            for c in sc.get("clips", []):
+                if c in shots and float(shots[c]["duration"].rstrip("s")) < sec:
+                    err.append(f"{sc['id']}: 영상 {c}이(가) 장면({sec:.1f}초)보다 짧아요")
+    if want - 1 != len(srt):
+        err.append(f"장면이 자막 {want - 1}줄까지만 덮어요 (자막은 {len(srt)}줄)")
+    return err
 
 
 def check_shorts(story):

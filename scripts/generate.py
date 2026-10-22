@@ -139,7 +139,8 @@ def make_image(client, story, im, out):
     if refs:
         text = (f"Keep each person's face, hair and age exactly like the reference photos ({names}). "
                 f"{text}")
-    text += " The story takes place in Japan: every person in the picture is Japanese (East Asian), in a Japanese setting."
+    if im.get("japanese", True):  # "japanese": false = a scene from a foreign story (e.g. Victorian London)
+        text += " The story takes place in Japan: every person in the picture is Japanese (East Asian), in a Japanese setting."
     contents = [text, *[types.Part.from_bytes(data=p.read_bytes(), mime_type="image/png") for p in refs]]
     print(f"[image] {im['id']} ...", flush=True)
     saved = False
@@ -241,6 +242,9 @@ def tts_session():
 
 
 def make_voice(story, only, ep):
+    if story.get("narration"):
+        print("[voice] Vrew 나레이션 파일을 씁니다 (음성 만들기 없음)")
+        return
     session, project = tts_session()
     v = story["voice"]
     for sc in story["scenes"]:
@@ -257,6 +261,8 @@ SAMPLE_VOICES = ["Gacrux", "Kore", "Sulafat", "Vindemiatrix", "Achernar", "Aoede
 
 
 def make_samples(story):
+    if story.get("narration"):
+        return
     session, project = tts_session()
     first = next(sc["ja"] for sc in story["scenes"] if sc["type"] == "narration")
     for name in SAMPLE_VOICES:

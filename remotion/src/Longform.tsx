@@ -27,7 +27,16 @@ loadFont({ family: FONT, url: staticFile("MPLUSRounded1c-ExtraBold.ttf"), weight
 loadFont({ family: HAND, url: staticFile("KleeOne-SemiBold.ttf"), weight: "600" });
 
 type Caption = { text: string; start: number; end: number; speaker?: string; color?: string };
-type ClipPart = { file: string | null; id: string; from: number; seconds: number; zoom?: number; captions: Caption[] };
+type ClipPart = {
+  file: string | null;
+  id: string;
+  from: number;
+  seconds: number;
+  zoom?: number;
+  rate?: number;
+  muted?: boolean;
+  captions: Caption[];
+};
 type Message = { name: string; text: string; at: number; color: string };
 type Scene = {
   id: string;
@@ -59,6 +68,7 @@ type Timeline = {
   total: number;
   scenes: Scene[];
   bgm: { file: string; volume: number; duck: number; seconds: number } | null;
+  narration?: { file: string } | null; // one recorded narration (Vrew) for the whole video
 };
 
 const data = raw as unknown as Timeline;
@@ -290,6 +300,8 @@ const ClipScene: React.FC<{ scene: Scene }> = ({ scene }) => {
               <Video
                 src={staticFile(part.file)}
                 trimBefore={Math.round(part.from * FPS)}
+                playbackRate={part.rate ?? 1}
+                muted={part.muted ?? false}
                 objectFit="cover"
                 style={{ width: "100%", height: "100%", transform: `scale(${part.zoom ?? 1})` }}
               />
@@ -302,6 +314,8 @@ const ClipScene: React.FC<{ scene: Scene }> = ({ scene }) => {
           </Sequence>
         );
       })}
+      {/* Vrew narration: the scene's own captions over silent clips */}
+      <Subtitle captions={scene.captions} />
     </AbsoluteFill>
   );
 };
@@ -633,6 +647,7 @@ export const Longform: React.FC = () => {
           ))}
         </Sequence>
       ))}
+      {data.narration ? <Audio src={staticFile(data.narration.file)} /> : null}
       <Music />
     </AbsoluteFill>
   );

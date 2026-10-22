@@ -91,6 +91,39 @@ def spread(texts, start, end, **extra):
     return out
 
 
+def read_srt(path):
+    """[(start, end, text)] from a Vrew .srt file."""
+    def sec(t):
+        h, m, rest = t.strip().replace(",", ".").split(":")
+        return int(h) * 3600 + int(m) * 60 + float(rest)
+    out = []
+    for block in re.split(r"\n\s*\n", path.read_text(encoding="utf-8-sig").strip()):
+        rows = block.strip().splitlines()
+        if len(rows) >= 3 and "-->" in rows[1]:
+            a, b = rows[1].split("-->")
+            out.append((sec(a), sec(b), "".join(rows[2:]).strip()))
+    return out
+
+
+def vrew_times(story, keep):
+    """Vrew narration: each scene covers SRT lines "srt": [first, last]. Scenes start exactly where
+    their first line starts, so pictures change in step with the recorded voice."""
+    srt = read_srt(ROOT / story["narration"]["srt"])
+    audio = duration(PUBLIC / story["narration"]["audio"])
+    scenes = story["scenes"]  # whole story, so a preview stops where its last scene really ends
+    starts = [0.0 if i == 0 else srt[sc["srt"][0] - 1][0] for i, sc in enumerate(scenes)]
+    out = {}
+    for i, sc in enumerate(scenes):
+        a, b = sc["srt"]
+        t0 = starts[i]
+        t1 = starts[i + 1] if i + 1 < len(scenes) else max(audio, srt[b - 1][1]) + float(sc.get("duration", 0))
+        lines = [{"text": wrap(x[2]), "start": round(x[0] - t0, 2), "end": round(min(x[1], t1) - t0, 2)}
+                 for x in srt[a - 1:b]]
+        if sc["chapter"] in keep:
+            out[sc["id"]] = (round(t0 * FPS), round(t1 * FPS), lines)
+    return out
+
+
 def build(story, ep, upto=None):
     from generate import tts_name  # same cache names as the voice step
 
@@ -102,6 +135,7 @@ def build(story, ep, upto=None):
     keep = CHAPTERS[: CHAPTERS.index(upto) + 1] if upto else CHAPTERS
     missing, warnings = [], []
     whisper = None
+    vrew = vrew_times(story, keep) if story.get("narration") else None
 
     def image_src(iid):
         if (shots_dir / f"{iid}.png").exists():
@@ -150,6 +184,17 @@ def build(story, ep, upto=None):
                 "captions": [dict(x, speaker=sp, color=speakers.get(sp, "#888")) for x, (sp, _) in zip(caps, texts)],
                 "speech": [round(start - cut_in, 2), round(end - cut_in, 2)]}
 
+    def vrew_clip(cid, seconds):
+        """Vrew narration plays over the clip, so the clip is silent and slowed down if it is too short."""
+        path = shots_dir / f"{cid}.mp4"
+        if not path.exists():
+            missing.append(f"{cid}.mp4")
+            return {"file": None, "id": cid, "from": 0, "seconds": seconds, "captions": [], "speech": [0, 0]}
+        dur = duration(path)
+        zoom = bars_zoom(path)
+        return {"file": f"shots/{ep}/{cid}.mp4", "id": cid, "from": 0, "zoom": zoom, "seconds": seconds,
+                "rate": round(min(1.0, dur / seconds), 3), "muted": True, "captions": [], "speech": [0, 0]}
+
     scenes, prev_motion = [], None
     for sc in story["scenes"]:
         if sc["chapter"] not in keep:
@@ -181,7 +226,25 @@ def build(story, ep, upto=None):
 
         t = sc["type"]
         seconds = float(sc.get("duration", 0))
-        if t in ("narration", "line", "chat", "letter"):
+        if vrew:
+            f0, f1, lines = vrew[sc["id"]]
+            seconds = (f1 - f0) / FPS
+            if t != "end":
+                out["captions"] = lines
+            out["speech"] = [[x["start"], x["end"]] for x in lines]
+            if t == "line":
+                out["speaker"] = sc["speaker"]
+                out["color"] = speakers.get(sc["speaker"], "#888")
+            elif t == "chat":
+                out["group"] = sc["group"]
+                out["messages"] = [{"name": n, "text": m, "at": round(0.6 + i * CHAT_GAP, 2),
+                                    "color": speakers.get(n, "#888")} for i, (n, m) in enumerate(sc["messages"])]
+            elif t == "clip":
+                out["clips"] = [vrew_clip(cid, seconds / len(sc["clips"])) for cid in sc["clips"]]
+            elif t in ("title", "card", "end"):
+                out["text"] = sc["ja"]
+                out["disclaimer"] = sc.get("disclaimer", "")
+        elif t in ("narration", "line", "chat", "letter"):
             voice = v["letter"] if t == "letter" else v["narrator"]
             mp3 = shots_dir / "tts" / tts_name(sc["ja"], voice, v["speaking_rate"])
             if mp3.exists():
@@ -221,6 +284,8 @@ def build(story, ep, upto=None):
             out["disclaimer"] = sc.get("disclaimer", "")
         out["sfx"] = list(dict.fromkeys(out["sfx"]))  # one sound of each kind
         out["frames"] = max(1, round(seconds * FPS))
+        if vrew:
+            out["frames"] = vrew[sc["id"]][1] - vrew[sc["id"]][0]
         scenes.append(out)
 
     start = 0
@@ -228,6 +293,7 @@ def build(story, ep, upto=None):
         s["start"] = start
         start += s["frames"]
     total = start
+    narration = {"file": story["narration"]["audio"]} if vrew else None
 
     bgm = story.get("bgm")
     if bgm and (PUBLIC / bgm["file"]).exists():
@@ -236,7 +302,7 @@ def build(story, ep, upto=None):
         print(f"⚠ BGM 파일이 없어요 (remotion/public/{bgm['file']}) → 음악 없이 만듭니다")
         bgm = None
 
-    OUT.write_text(json.dumps({"total": total, "scenes": scenes, "bgm": bgm}, ensure_ascii=False, indent=1),
+    OUT.write_text(json.dumps({"total": total, "scenes": scenes, "bgm": bgm, "narration": narration}, ensure_ascii=False, indent=1),
                    encoding="utf-8")
 
     # Report (in Korean, for the user)
