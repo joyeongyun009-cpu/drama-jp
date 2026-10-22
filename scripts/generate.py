@@ -51,14 +51,22 @@ def make_refs(client, story, only):
         if (only and cid not in only) or out.exists():
             continue
         print(f"[ref] {cid} ...", flush=True)
-        resp = client.models.generate_content(model=IMAGE_MODEL, contents=ch["image_prompt"])
-        for part in resp.parts:
-            if part.inline_data is not None:
+        for attempt in range(6):  # busy / quota errors: wait and try again instead of stopping everything
+            try:
+                resp = client.models.generate_content(model=IMAGE_MODEL, contents=ch["image_prompt"])
+            except Exception as e:  # noqa: BLE001
+                wait = min(120, 20 * (attempt + 1))
+                print(f"[ref] {cid} 잠시 후 다시 ({wait}초): {str(e)[:120]}", flush=True)
+                time.sleep(wait)
+                continue
+            part = next((x for x in resp.parts or [] if x.inline_data is not None), None)
+            if part:
                 part.as_image().save(out)
-                print(f"[ref] saved {out.name}")
+                print(f"[ref] saved {out.name}", flush=True)
                 break
+            print(f"[ref] {cid} 사진이 안 나옴 → 다시", flush=True)
         else:
-            print(f"[ref] no image returned for {cid}", file=sys.stderr)
+            print(f"[ref] ❌ {cid} 못 만듦 (같은 명령어로 다시 시도)", flush=True)
 
 
 def image_input(path):
