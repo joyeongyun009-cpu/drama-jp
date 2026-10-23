@@ -439,15 +439,6 @@
    "prompt": "Victorian London 1890s. The tall schoolroom door swings open; the headmistress and the thin solicitor with a document case step in with grave faces; the birthday party falls silent. Nobody speaks."
   },
   {
-   "id": "clip02",
-   "image": "img_15",
-   "duration": "8s",
-   "refs": [
-    "sara_black"
-   ],
-   "prompt": "Victorian London 1890s. In the cold bare attic, the girl in the outgrown black dress slowly sits down on the iron bed, the candle flame trembles, she looks up at the small skylight. Nobody speaks."
-  },
-  {
    "id": "clip03",
    "image": "img_25",
    "duration": "10s",
@@ -483,21 +474,6 @@
     "misa"
    ],
    "prompt": "In the dark living room the smartphone on the low table lights up and vibrates; the Japanese woman slowly reaches for it. Nobody speaks."
-  },
-  {
-   "id": "clip07",
-   "image": "img_05",
-   "duration": "7s",
-   "refs": [
-    "lavinia"
-   ],
-   "prompt": "Victorian London 1890s. Close-up of the 13-year-old blonde English girl with the wide satin bow, leaning in with a mocking, spiteful half-smile, says in Japanese: 「一文無しで屋根裏に住んでも、空想できるの？」 Only this one person speaks.",
-   "lines": [
-    [
-     "ラヴィニア",
-     "一文無しで屋根裏に住んでも、空想できるの？"
-    ]
-   ]
   },
   {
    "id": "clip08",
@@ -659,10 +635,10 @@
     5,
     5
    ],
-   "type": "clip",
-   "clips": [
-    "clip07"
-   ]
+   "type": "line",
+   "image": "img_05",
+   "motion": "zoom_in_big",
+   "speaker": "ラヴィニア"
   },
   {
    "id": "s06",
@@ -789,10 +765,9 @@
     17,
     17
    ],
-   "type": "clip",
-   "clips": [
-    "clip02"
-   ]
+   "type": "narration",
+   "image": "img_15",
+   "motion": "zoom_in_big"
   },
   {
    "id": "s18",
