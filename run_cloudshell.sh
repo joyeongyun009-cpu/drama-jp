@@ -97,6 +97,8 @@ if [[ "$MODE" == "clips" ]]; then
   for C in $($PY -c "import json; print(' '.join(s['id'] for s in json.load(open('episodes/$EP/story.json'))['shots']))"); do
     [[ -f "$SHOTS_DIR/$C.mp4" ]] && zip -qj "remotion/out/${EP}_clips.zip" "$SHOTS_DIR/$C.mp4"
   done
+  # 말하는 영상의 대사를 Whisper로 듣고 글로 적어 zip에 함께 넣음 (Claude가 대사 확인용으로 읽음)
+  $PY scripts/heard.py --ep "$EP" && zip -qj "remotion/out/${EP}_clips.zip" "remotion/out/${EP}_heard.txt"
   echo "✅ 영상 단계 끝. 확인: cloudshell download remotion/out/${EP}_clips.zip"
   echo "   괜찮으면 다음: bash run_cloudshell.sh all $EP"
   exit 0
