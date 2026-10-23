@@ -1,0 +1,296 @@
+{
+ "title": "夫の会社が倒産した翌日、ママ友LINEから私が消えた",
+ "thumbnail": {
+  "left": "img_01",
+  "right": "img_11",
+  "lines": [
+   "夫の会社が倒産した翌日",
+   "ママ友LINEから私が消えた"
+  ]
+ },
+ "promo_for": "ep06",
+ "style": "Photorealistic cinematic Japanese TV drama, shot on a 35mm lens, shallow depth of field, realistic skin texture, vertical 9:16 framing. All dialogue is spoken in natural Japanese. No on-screen text of any kind: no name labels, no captions, no subtitles, no watermarks, no logos.",
+ "location": "",
+ "aspect": "9:16",
+ "bgm": {
+  "file": "bgm/bach_cello_prelude.mp3",
+  "volume": 0.3
+ },
+ "characters": {
+  "misa": {
+   "name": "美紗（47歳）",
+   "image_prompt": "Photorealistic, NHK drama still, Sony A7R V 85mm f/1.8, 4K, crisp clean sharpness, no film grain, natural lighting, 16:9. Absolutely no text, no numbers, no Japanese characters visible on any surface. Single image, one person only.\nONLY this: a character reference portrait of a Japanese woman aged 47. Front-facing medium shot from the waist up, plain light grey background. Shoulder-length dark brown hair with soft inward curls, a few grey strands at the temples. Kind, intelligent face, natural fine lines around the eyes, light natural makeup. Small pearl stud earrings. Simple black knee-length dress with a round neck and a thin black cardigan, the kind Japanese mothers wear to school events. Calm, upright posture, gentle closed-mouth expression. Nothing else.\nShe must look 47. Natural fine lines. Do NOT smooth her skin. Do NOT make her look younger than 44."
+  },
+  "misa_husband": {
+   "name": "美紗の夫（50歳）",
+   "image_prompt": "Photorealistic, NHK drama still, Sony A7R V 85mm f/1.8, 4K, crisp clean sharpness, no film grain, natural lighting, 16:9. Absolutely no text, no numbers, no Japanese characters visible on any surface. Single image, one person only.\nONLY this: a character reference portrait of a Japanese man aged 50. Front-facing medium shot from the waist up, plain light grey background. Short black hair greying at the sides, slightly tired eyes, natural lines on the forehead, clean-shaven. White shirt with the top button undone, loosened navy tie, grey suit trousers. Quiet, worn-out expression. Nothing else.\nHe must look 50. Do NOT smooth his skin. Do NOT make him look younger than 47."
+  },
+  "misa_daughter": {
+   "name": "美紗の娘（中2）",
+   "image_prompt": "Photorealistic, NHK drama still, Sony A7R V 85mm f/1.8, 4K, crisp clean sharpness, no film grain, natural lighting, 16:9. Absolutely no text, no numbers, no Japanese characters visible on any surface. Single image, one person only.\nONLY this: a character reference portrait of a 14-year-old Japanese girl, second year of junior high school. Front-facing medium shot from the waist up, plain light grey background. Straight black hair in a neat low ponytail, natural bangs, no makeup, bright honest eyes, a small natural smile. Navy blazer school uniform with a white blouse and a dark ribbon tie, no logo, no badge. Nothing else.\nShe must look exactly 14."
+  },
+  "reiko": {
+   "name": "玲子（48歳）",
+   "image_prompt": "Photorealistic, NHK drama still, Sony A7R V 85mm f/1.8, 4K, crisp clean sharpness, no film grain, natural lighting, 16:9. Absolutely no text, no numbers, no Japanese characters visible on any surface. Single image, one person only.\nONLY this: a character reference portrait of a Japanese woman aged 48. Front-facing medium shot from the waist up, plain light grey background. Glossy chestnut-brown hair in a sleek chin-length bob, carefully done makeup, well-groomed eyebrows, faint fine lines she tries to hide. Cream silk blouse, a fine gold necklace, a beige designer-style jacket with no visible logo. Confident posture, a polite but guarded smile. Nothing else.\nShe must look 48. Natural fine lines. Do NOT smooth her skin. Do NOT make her look younger than 45."
+  },
+  "kidoku_mama": {
+   "name": "既読だけのママ（45歳）",
+   "image_prompt": "Photorealistic, NHK drama still, Sony A7R V 85mm f/1.8, 4K, crisp clean sharpness, no film grain, natural lighting, 16:9. Absolutely no text, no numbers, no Japanese characters visible on any surface. Single image, one person only.\nONLY this: a character reference portrait of an ordinary Japanese woman aged 45. Front-facing medium shot from the waist up, plain light grey background. Medium-length black hair tied loosely at the nape, a few loose strands, minimal makeup, an average, approachable face with a slightly uneasy expression. Light grey knit sweater over a white collar, a small canvas tote bag strap on her shoulder. Nothing else.\nShe must look 45. Natural fine lines. Do NOT smooth her skin. Do NOT make her look younger than 42."
+  }
+ },
+ "images": [
+  {
+   "id": "img_01",
+   "refs": [
+    "misa",
+    "reiko"
+   ],
+   "prompt": "the back of a Japanese junior high school classroom on an open class day; on the left a group of Japanese mothers including Japanese woman aged 48 with a sleek glossy chestnut-brown chin-length bob, cream silk blouse, beige jacket, fine gold necklace turn their faces away; on the right, clearly apart, Japanese woman aged 47 with shoulder-length dark brown hair in soft inward curls and a few grey strands in a simple black dress and thin black cardigan stands completely alone with her back straight, cinematic, photorealistic, vertical 9:16 framing, no text, no watermark"
+  },
+  {
+   "id": "img_02",
+   "refs": [
+    "misa_husband",
+    "misa"
+   ],
+   "prompt": "at dawn in a Japanese dining room, Japanese man aged 50, short black hair greying at the sides, white shirt with a loosened navy tie sits with his head in his hands over scattered documents; behind him Japanese woman aged 47 with shoulder-length dark brown hair in soft inward curls and a few grey strands in a beige knit top stands frozen in shock, cinematic, photorealistic, vertical 9:16 framing, no text, no watermark"
+  },
+  {
+   "id": "img_03",
+   "refs": [
+    "reiko",
+    "kidoku_mama"
+   ],
+   "prompt": "Japanese woman aged 48 with a sleek glossy chestnut-brown chin-length bob, cream silk blouse, beige jacket, fine gold necklace whispering to Japanese woman aged 45 with medium-length black hair tied loosely at the nape, light grey knit sweater on a sidewalk near a Japanese junior high school in the morning, both holding smartphones, glancing sideways, plain wall and trees, no signs, cinematic, photorealistic, vertical 9:16 framing, no text, no watermark"
+  },
+  {
+   "id": "img_04",
+   "refs": [
+    "misa"
+   ],
+   "prompt": "Japanese woman aged 47 with shoulder-length dark brown hair in soft inward curls and a few grey strands, sitting alone on a sofa in a dim Japanese living room, staring at her silent smartphone, worried, the screen not visible, cinematic, photorealistic, vertical 9:16 framing, no text, no watermark"
+  },
+  {
+   "id": "img_05",
+   "refs": [
+    "reiko",
+    "kidoku_mama"
+   ],
+   "prompt": "Japanese woman aged 48 with a sleek glossy chestnut-brown chin-length bob, cream silk blouse, beige jacket, fine gold necklace, smiling while typing on her smartphone at a Japanese cafe table, other Japanese mothers around her looking at their phones, one empty chair, the screen not visible, cinematic, photorealistic, vertical 9:16 framing, no text, no watermark"
+  },
+  {
+   "id": "img_06",
+   "refs": [
+    "misa"
+   ],
+   "prompt": "Japanese woman aged 47 with shoulder-length dark brown hair in soft inward curls and a few grey strands, in a simple black knee-length dress and thin black cardigan, in front of a bedroom mirror in a Japanese home, straightening her back, determined, cinematic, photorealistic, vertical 9:16 framing, no text, no watermark"
+  },
+  {
+   "id": "img_07",
+   "refs": [
+    "misa_daughter"
+   ],
+   "prompt": "14-year-old Japanese girl with a neat low black ponytail and bangs, in a casual grey sweatshirt at a Japanese dinner table, looking up innocently with chopsticks in hand, cinematic, photorealistic, vertical 9:16 framing, no text, no watermark"
+  },
+  {
+   "id": "img_08",
+   "refs": [
+    "misa"
+   ],
+   "prompt": "Japanese woman aged 47 with shoulder-length dark brown hair in soft inward curls and a few grey strands, at a Japanese dinner table, forcing a bright smile while her eyes look sad, warm lamp light, cinematic, photorealistic, vertical 9:16 framing, no text, no watermark"
+  },
+  {
+   "id": "img_09",
+   "refs": [
+    "reiko"
+   ],
+   "prompt": "close-up of Japanese woman aged 48 with a sleek glossy chestnut-brown chin-length bob, cream silk blouse, beige jacket, fine gold necklace, defensive, eyes glistening, lips pressed together, in her elegant Japanese living room, cinematic, photorealistic, vertical 9:16 framing, no text, no watermark"
+  },
+  {
+   "id": "img_10",
+   "refs": [
+    "kidoku_mama"
+   ],
+   "prompt": "Japanese woman aged 45 with medium-length black hair tied loosely at the nape, light grey knit sweater, at a small Japanese kitchen table, looking at her smartphone with a troubled face, about to put it face down, cinematic, photorealistic, vertical 9:16 framing, no text, no watermark"
+  },
+  {
+   "id": "img_11",
+   "refs": [
+    "misa"
+   ],
+   "prompt": "Japanese woman aged 47 with shoulder-length dark brown hair in soft inward curls and a few grey strands, in a dark Japanese living room at night, the smartphone on the low table suddenly lighting up her face from below, the screen not visible, cinematic, photorealistic, vertical 9:16 framing, no text, no watermark"
+  }
+ ],
+ "shots": [
+  {
+   "id": "s01",
+   "image": "img_01",
+   "duration": "6s",
+   "refs": [
+    "misa",
+    "reiko"
+   ],
+   "prompt": "At the back of the classroom the woman in black (misa) looks toward the other mothers; they turn their faces away one by one. She keeps standing straight. Nobody speaks.",
+   "captions": "",
+   "speech": false,
+   "note": "もしも『小公女』が\n今の日本だったら――"
+  },
+  {
+   "id": "s02",
+   "card": "一週間前――",
+   "seconds": 1.8
+  },
+  {
+   "id": "s03",
+   "image": "img_02",
+   "duration": "6s",
+   "refs": [
+    "misa_husband",
+    "misa"
+   ],
+   "prompt": "The man (misa_husband) lifts his head slowly and says in a hoarse low voice in Japanese: 「…会社が、潰れた」 The woman behind him (misa) covers her mouth.",
+   "captions": "…会社が、潰れた",
+   "lines": [
+    [
+     "夫",
+     "…会社が、潰れた"
+    ]
+   ],
+   "note": "ある朝、\n夫の会社が倒産した"
+  },
+  {
+   "id": "s04",
+   "image": "img_03",
+   "duration": "6s",
+   "refs": [
+    "reiko",
+    "kidoku_mama"
+   ],
+   "prompt": "The woman with the chestnut bob (reiko) whispers in Japanese to the other woman: 「ねえ、聞いた？美紗さんのところ…」 The other woman's eyes widen.",
+   "captions": "ねえ、聞いた？／美紗さんのところ…",
+   "lines": [
+    [
+     "玲子",
+     "ねえ、聞いた？美紗さんのところ…"
+    ]
+   ],
+   "note": "噂は、その日のうちに\n広まった"
+  },
+  {
+   "id": "s05",
+   "image": "img_04",
+   "duration": "6s",
+   "refs": [
+    "misa"
+   ],
+   "prompt": "She keeps staring at the silent phone; nothing arrives. She slowly lowers it. Nobody speaks.",
+   "captions": "",
+   "speech": false,
+   "note": "三日後、\nグループLINEが急に静かになった"
+  },
+  {
+   "id": "s06",
+   "image": "img_05",
+   "duration": "6s",
+   "refs": [
+    "reiko",
+    "kidoku_mama"
+   ],
+   "prompt": "The woman with the chestnut bob (reiko) looks up from her phone at the others with a small smile and says in Japanese: 「これからは、こっちで話そう」",
+   "captions": "これからは、こっちで話そう",
+   "lines": [
+    [
+     "玲子",
+     "これからは、こっちで話そう"
+    ]
+   ],
+   "note": "でも本当は――\n美紗抜きの新グループが\nできていた"
+  },
+  {
+   "id": "s07",
+   "image": "img_06",
+   "duration": "6s",
+   "refs": [
+    "misa"
+   ],
+   "prompt": "She buttons her thin black cardigan in front of the mirror, takes a deep breath and straightens her back. Nobody speaks.",
+   "captions": "",
+   "speech": false,
+   "note": "それでも美紗は、\n一番いい服で授業参観へ"
+  },
+  {
+   "id": "s08",
+   "image": "img_07",
+   "duration": "5s",
+   "refs": [
+    "misa_daughter"
+   ],
+   "prompt": "The girl looks up with chopsticks in hand and says casually in Japanese: 「ママ、最近ランチ行かないね」",
+   "captions": "ママ、最近ランチ行かないね",
+   "lines": [
+    [
+     "娘",
+     "ママ、最近ランチ行かないね"
+    ]
+   ]
+  },
+  {
+   "id": "s09",
+   "image": "img_08",
+   "duration": "6s",
+   "refs": [
+    "misa"
+   ],
+   "prompt": "She forces a bright smile toward her daughter, but her eyes fill with sadness. Nobody speaks.",
+   "captions": "",
+   "speech": false,
+   "note": "娘にだけは、\n気づかれたくなかった"
+  },
+  {
+   "id": "s10",
+   "image": "img_09",
+   "duration": "5s",
+   "refs": [
+    "reiko"
+   ],
+   "prompt": "She says in a low, defensive voice in Japanese: 「私だって、必死だったのよ」",
+   "captions": "私だって、必死だったのよ",
+   "lines": [
+    [
+     "玲子",
+     "私だって、必死だったのよ"
+    ]
+   ],
+   "note": "グループを作った玲子にも\n言えない事情があった"
+  },
+  {
+   "id": "s11",
+   "image": "img_10",
+   "duration": "6s",
+   "refs": [
+    "kidoku_mama"
+   ],
+   "prompt": "She looks at the phone for a moment, then slowly puts it face down on the table and sighs. Nobody speaks.",
+   "captions": "",
+   "speech": false,
+   "note": "既読だけつけて、\nそっと画面を閉じたママたち"
+  },
+  {
+   "id": "s12",
+   "image": "img_11",
+   "duration": "6s",
+   "refs": [
+    "misa"
+   ],
+   "prompt": "In the dark room the phone lights up and vibrates; she slowly reaches for it, her face lit from below. The screen is never shown. Nobody speaks.",
+   "captions": "",
+   "speech": false,
+   "note": "そしてある夜、\n一通のLINEが届いた――"
+  }
+ ],
+ "ending": {
+  "question": "あなたなら、\n誰になっていた？",
+  "cta": "続きは関連動画で▶",
+  "note": "※この物語はフィクションです。"
+ }
+}
