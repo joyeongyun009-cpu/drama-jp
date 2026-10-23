@@ -33,7 +33,7 @@ def check(story):
     shots = {s["id"]: s for s in story["shots"]}
 
     for im in story["images"]:
-        if not re.fullmatch(r"img_\d{2}", im["id"]):
+        if not re.fullmatch(r"img_\d{2,3}", im["id"]):
             err.append(f"{im['id']}: 그림 이름은 img_01 형식이어야 해요")
         for r in im.get("refs", []):
             if r not in chars:

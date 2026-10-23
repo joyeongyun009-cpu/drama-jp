@@ -1,0 +1,4159 @@
+{
+ "format": "longform",
+ "title": "同窓会で「おむつの匂いがうつる」と私の手を払った社長夫人。3時間後、宴会場のスピーカーから流れた名前に…【スカッとする話】",
+ "thumbnail": {
+  "left": "img_03",
+  "right": "img_147",
+  "lines": [
+   "「おむつの匂いがうつる」",
+   "3時間後、社長夫人が凍りついた"
+  ]
+ },
+ "style": "Photorealistic cinematic Japanese TV drama, horizontal 16:9 framing. All dialogue is spoken in natural Japanese.",
+ "location": "",
+ "aspect": "16:9",
+ "narration": {
+  "audio": "narration/ep07.mp3",
+  "srt": "episodes/ep07/narration.srt"
+ },
+ "bgm": {
+  "file": "bgm/bach_cello_prelude.mp3",
+  "volume": 0.35,
+  "duck": 0.12
+ },
+ "voice": {
+  "narrator": "ja-JP-Chirp3-HD-Gacrux",
+  "letter": "ja-JP-Chirp3-HD-Sulafat",
+  "speaking_rate": 0.95,
+  "padding_sec": 0.6,
+  "min_scene_sec": 2.5
+ },
+ "speakers": {
+  "麗子": "#B03A48",
+  "美恵子": "#5B8DC9",
+  "キヨ": "#C9A15B",
+  "由美": "#9B7BC9",
+  "中島": "#4E9A6A",
+  "看護師": "#8A8A8A"
+ },
+ "characters": {
+  "mieko": {
+   "name": "美恵子（58歳）",
+   "file": "episodes/ep07/mieko.png",
+   "image_prompt": "(user photo)"
+  },
+  "mieko93": {
+   "name": "美恵子（1993年・25歳）",
+   "from": [
+    "mieko"
+   ],
+   "image_prompt": "Shot on 35mm film, warm muted film tone, slight grain, 1993 Japan. The same woman as the attached photo, 33 years younger, aged 25. Keep the face exactly the same as the attached person (same eyes, nose, mouth, bone structure, same gentle expression). Glossy black shoulder-length hair with soft curled bangs typical of early 1990s Japan, light natural makeup, gentle shy smile. Modest pale pink knee-length formal dress for a wedding guest, small pearl earrings. Front-facing upper-body portrait, plain soft light-grey background, soft even light. Photorealistic, Japanese TV drama still quality, natural skin texture, sharp focus on the face. No text, no subtitles, no watermark, no logo, no readable writing."
+  },
+  "mieko85": {
+   "name": "美恵子（1985年・17歳）",
+   "from": [
+    "mieko"
+   ],
+   "image_prompt": "Shot on 35mm film, warm muted film tone, slight grain, 1985 Japan. The same woman as the attached photo, 41 years younger, a 17-year-old Japanese high school girl. Keep the face exactly the same as the attached person (same eyes, nose, mouth, bone structure). Black hair in a feathered 1980s idol-style cut with bangs, no makeup, bright innocent smile. Navy sailor-style school uniform with a red scarf tie. Front-facing upper-body portrait, plain soft light-grey background, soft even light. Photorealistic, Japanese TV drama still quality, natural skin texture, sharp focus on the face. No text, no subtitles, no watermark, no logo, no readable writing."
+  },
+  "reiko85": {
+   "name": "麗子（1985年・17歳）",
+   "image_prompt": "Shot on 35mm film, warm muted film tone, slight grain, 1985 Japan. Reiko, a 17-year-old Japanese high school girl. Strikingly pretty face, sharp slightly upturned eyes, thin defined eyebrows, a small beauty mark under her left eye, proud ambitious expression with a faint smirk. Long straight black hair with a feathered fringe. Navy sailor-style school uniform with a red scarf tie. Front-facing upper-body portrait, plain soft light-grey background, soft even light. Photorealistic, Japanese TV drama still quality, natural skin texture, sharp focus on the face. No text, no subtitles, no watermark, no logo, no readable writing."
+  },
+  "reiko93": {
+   "name": "麗子（1993年・花嫁）",
+   "from": [
+    "reiko85"
+   ],
+   "image_prompt": "Shot on 35mm film, warm muted film tone, slight grain, 1993 Japan. The same woman as the attached reference, now aged 25, as a bride. Keep the face exactly the same (same eyes, nose, mouth, bone structure, same beauty mark under her left eye). White satin wedding dress with large puffed sleeves typical of early 1990s Japan, hair swept up with a sparkling tiara and veil, bold red lipstick, triumphant confident smile. Front-facing upper-body portrait, plain soft light-grey background, soft even light. Photorealistic, Japanese TV drama still quality, natural skin texture, sharp focus on the face. No text, no subtitles, no watermark, no logo, no readable writing."
+  },
+  "reiko58": {
+   "name": "麗子（58歳）",
+   "from": [
+    "reiko85"
+   ],
+   "image_prompt": "Present-day 2026, clean cinematic look. The same woman as the attached reference, now aged 58. Keep the face exactly the same (same eyes, nose, mouth, bone structure, same beauty mark under her left eye). Rich, elegant but cold: dyed dark-brown bob with a perfect salon blowout, heavy but refined makeup, arrogant faint smirk, chin slightly raised. Tailored ivory luxury skirt suit, large-bead pearl necklace, large pearl earrings. Front-facing upper-body portrait, plain soft light-grey background, soft even light. Photorealistic, Japanese TV drama still quality, natural skin texture, sharp focus on the face. No text, no subtitles, no watermark, no logo, no readable writing."
+  },
+  "kiyo85": {
+   "name": "キヨ（1985年・43歳）",
+   "image_prompt": "Shot on 35mm film, warm muted film tone, slight grain, 1985 Japan. Kiyo, a Japanese single mother aged 43 who works as a building cleaner. Gentle round face, small kind eyes, slightly sun-tanned tired skin, black hair tied back in a low bun with a few grey strands, humble warm smile. Plain light-blue cleaning work jacket with no logo, white cotton kitchen apron over it. Front-facing upper-body portrait, plain soft light-grey background, soft even light. Photorealistic, Japanese TV drama still quality, natural skin texture, sharp focus on the face. No text, no subtitles, no watermark, no logo, no readable writing."
+  },
+  "kiyo93": {
+   "name": "キヨ（1993年・51歳）",
+   "from": [
+    "kiyo85"
+   ],
+   "image_prompt": "Shot on 35mm film, warm muted film tone, slight grain, 1993 Japan. The same woman as the attached reference, now aged 51. Keep the face exactly the same (same eyes, nose, mouth, bone structure). More grey in her low bun, a few more wrinkles, shy anxious expression. Old faded indigo tsumugi kimono, clearly worn for many years, holding herself small and modest. Front-facing upper-body portrait, plain soft light-grey background, soft even light. Photorealistic, Japanese TV drama still quality, natural skin texture, sharp focus on the face. No text, no subtitles, no watermark, no logo, no readable writing."
+  },
+  "kiyo": {
+   "name": "キヨ（84歳）",
+   "from": [
+    "kiyo85"
+   ],
+   "image_prompt": "Present-day 2026, clean cinematic look. The same woman as the attached reference, now aged 84. Keep the face exactly the same (same small kind eyes, nose, mouth, bone structure). Short soft white permed hair, thin face with deep wrinkles, gentle smile. Soft beige knit cardigan over a pale floral blouse. Front-facing upper-body portrait, plain soft light-grey background, soft even light. Photorealistic, Japanese TV drama still quality, natural skin texture, sharp focus on the face. No text, no subtitles, no watermark, no logo, no readable writing."
+  },
+  "nakajima85": {
+   "name": "中島（1985年・17歳）",
+   "image_prompt": "Shot on 35mm film, warm muted film tone, slight grain, 1985 Japan. Nakajima, a 17-year-old Japanese high school boy on the baseball team. Buzz-cut black hair, sun-tanned face, wide cheerful grin, plain white baseball practice uniform with no text or logo. Front-facing upper-body portrait, plain soft light-grey background, soft even light. Photorealistic, Japanese TV drama still quality, natural skin texture, sharp focus on the face. No text, no subtitles, no watermark, no logo, no readable writing."
+  },
+  "nakajima": {
+   "name": "中島（58歳）",
+   "from": [
+    "nakajima85"
+   ],
+   "image_prompt": "Present-day 2026, clean cinematic look. The same man as the attached reference, now aged 58. Keep the face exactly the same (same eyes, nose, mouth, bone structure). Short grey hair, slightly fuller face, friendly honest eyes, calm serious mouth. Navy blazer over a white open-collar shirt, no tie. Front-facing upper-body portrait, plain soft light-grey background, soft even light. Photorealistic, Japanese TV drama still quality, natural skin texture, sharp focus on the face. No text, no subtitles, no watermark, no logo, no readable writing."
+  },
+  "yumi": {
+   "name": "由美（58歳）",
+   "image_prompt": "Present-day 2026, clean cinematic look. Yumi, a Japanese woman aged 58, the reunion organizer. Warm sensible face, short dark-brown hair with grey roots, thin gold-rimmed glasses, kind but serious expression. Muted lavender knit twin-set, small silver necklace. Front-facing upper-body portrait, plain soft light-grey background, soft even light. Photorealistic, Japanese TV drama still quality, natural skin texture, sharp focus on the face. No text, no subtitles, no watermark, no logo, no readable writing."
+  }
+ },
+ "images": [
+  {
+   "id": "img_01",
+   "refs": [
+    "reiko58",
+    "mieko"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. A glamorous hotel banquet hall at a high school reunion, round tables with white cloths, warm chandelier light, blurred classmates in their late 50s behind. On the left, the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob, tailored ivory luxury skirt suit, large-bead pearl necklace) stands with her chin raised, looking down with a cold sneer, her hand raised as if to brush something away. On the right, the attached reference woman Mieko (short silver-gray bob, navy knit cardigan worn open over a cream ribbed blouse, small pearl stud earrings) offers her right hand for a handshake with a gentle, hopeful smile. Medium two-shot, the arrogant woman in hard cool side light on her face, the gentle woman in soft warm light. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_02",
+   "refs": [],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Extreme close-up of two hands above a white banquet tablecloth. A manicured hand with glossy red nails, a large diamond ring and an ivory suit sleeve sharply slaps away a plain, slightly work-worn hand with short unpainted nails and a navy knit cardigan sleeve. Frozen motion blur at the moment of impact, wine glasses and warm chandelier bokeh behind. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_03",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Medium close-up of the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob, tailored ivory luxury skirt suit, large-bead pearl necklace) laughing with open contempt, head tilted back, a glass of red wine raised, eyes narrowed with cruel amusement. Two blurred classmates in their late 50s laugh awkwardly behind her. hard cool side light on her face, warm golden banquet bokeh behind. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_04",
+   "refs": [],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Wide establishing shot of a grand Japanese hotel banquet hall during a high school reunion in the evening. About forty men and women in their late 50s in formal wear around round tables with white cloths and flower centerpieces, glittering crystal chandeliers, a small stage with a blank cream banner. Warm golden light, lively nostalgic atmosphere, slightly high angle. No letters on the banner. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_05",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob, tailored ivory luxury skirt suit, large-bead pearl necklace) sits at the center of a round banquet table like a queen holding court, legs crossed, an expensive handbag with no visible logo beside her, classmates leaning in around her. Her pearls glow under the chandelier. Low-angle medium shot to make her look dominant, hard cool side light on her face. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_06",
+   "refs": [
+    "mieko"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Mieko (short silver-gray bob, navy knit cardigan worn open over a cream ribbed blouse, small pearl stud earrings) stands alone beside a banquet table, holding her slapped right hand gently against her chest with her left hand, calm but quietly hurt. Soft warm light on her face, the noisy reunion blurred behind her. Medium shot, graceful and dignified. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_07",
+   "refs": [
+    "mieko"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Intimate close-up of the attached reference woman Mieko (short silver-gray bob, navy knit cardigan worn open over a cream ribbed blouse, small pearl stud earrings) lowering her eyes in silence, lips gently closed, a quiet unbroken dignity in her face. Soft golden rim light outlines her silver hair, chandelier lights melt into warm bokeh. Beautiful, luminous, emotionally restrained portrait. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_08",
+   "refs": [],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Close-up of a banquet table late at night: a candle centerpiece burned down low with melted wax, half-empty wine glasses with lipstick marks, crumpled napkins. Dim amber light, the party has grown loose and tired, quiet tension, time has passed. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_09",
+   "refs": [],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Macro shot of a luxury smartphone in a cream leather case face-up on a white banquet tablecloth among wine glasses, its screen glowing brightly with an incoming call shown only as abstract light, no numbers. Tiny ripples tremble on red wine in a nearby glass. Cold screen light against warm amber surroundings. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_10",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. The glowing smartphone on speaker in the foreground, slightly out of focus. Behind it in sharp focus, the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob, tailored ivory luxury skirt suit, large-bead pearl necklace) freezes mid-laugh, the smile draining from her face, eyes fixed on the phone in disbelief. Classmates turn their heads toward the sound. Cold bluish phone light on her face. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_11",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Wide shot of the silent banquet hall: about forty classmates in their late 50s have all turned in their seats to stare at one woman, the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob, tailored ivory luxury skirt suit, large-bead pearl necklace), who stands frozen at the center table holding her phone. Some cover their mouths. Chandeliers above, a single cool spotlight-like light on her, the rest in warm dimness. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_12",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Extreme close-up of the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob, tailored ivory luxury skirt suit, large-bead pearl necklace)'s manicured fingers with red nails clutching her large-bead pearl necklace at her throat, knuckles white, trembling. Her chin and tense lips just visible at the top of the frame. Cold light, shallow focus on the pearls. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_13",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Close-up of the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob, tailored ivory luxury skirt suit, large-bead pearl necklace) shouting furiously at the smartphone held in her hand, mouth wide open, veins tense in her neck, eyes wild with panic and rage, her perfect hair slightly loosened. Classmates blurred and recoiling behind her. Harsh cold side light, deep shadows. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_14",
+   "refs": [
+    "yumi",
+    "nakajima"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. The smartphone on speaker lies on the white tablecloth in the foreground. Behind it, the attached reference woman Yumi (aged 58, short dark-brown hair, thin gold-rimmed glasses, muted lavender knit twin-set) covers her mouth with her hand and the attached reference man Nakajima (aged 58, short grey hair, navy blazer over a white open-collar shirt) leans forward, both listening in stunned silence, realization dawning on their faces. Dim amber light, tension. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_15",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Close-up of the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob, tailored ivory luxury skirt suit, large-bead pearl necklace) with eyes wide in shock and humiliation, one hand at her throat as her large-bead pearl necklace snaps, white pearls flying through the air in frozen motion. Warm chandelier bokeh behind, hard cool side light on her face. Dramatic, striking image. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_16",
+   "refs": [],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Low-angle close-up at floor level: dozens of white pearls bouncing and scattering across a patterned hotel banquet carpet, a pair of expensive ivory high heels standing still at the edge of the frame. Silence, chandelier light glinting on the pearls. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_17",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Close-up of the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob, tailored ivory luxury skirt suit, large-bead pearl necklace) sitting alone at a half-empty banquet table, half of her face in deep shadow, the other half lit coldly, staring blankly ahead. Empty chairs and abandoned glasses around her. Mysterious, ominous mood. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_18",
+   "refs": [],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Clear high blue October morning sky over an old Japanese public housing estate (danchi) of five-story concrete walk-up buildings built in the 1970s, ginkgo trees starting to turn yellow, laundry on balconies, quiet residential mood. No people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_19",
+   "refs": [
+    "mieko"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Mieko (short silver-gray bob, navy knit cardigan worn open over a cream ribbed blouse, small pearl stud earrings), carrying a simple canvas tote bag, walks along a tree-lined path toward an old five-story danchi building in the morning sun, autumn leaves on the ground. Medium-wide shot from behind at an angle, warm gentle light. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_20",
+   "refs": [],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Exterior of an aging five-story concrete danchi apartment building with an open stairwell and no elevator, weathered walls, a row of steel apartment doors on the ground floor, potted plants by one door. Morning light. Door numbers are not legible. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_21",
+   "refs": [
+    "mieko"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Mieko (short silver-gray bob, navy knit cardigan worn open over a cream ribbed blouse, small pearl stud earrings) stands at a slightly open old steel apartment door, leaning in and calling out cheerfully with a warm smile, one hand on the door. A dim small entryway with neatly placed slippers inside. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_22",
+   "refs": [
+    "kiyo",
+    "mieko"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. A small, tidy, old-fashioned tatami living room in a danchi apartment: the attached reference woman Kiyo (aged 84, short soft white permed hair, thin deeply wrinkled face, small kind eyes, beige knit cardigan over a pale floral blouse) sits on a floor cushion by a low table, smiling, while the attached reference woman Mieko (short silver-gray bob, navy knit cardigan worn open over a cream ribbed blouse, small pearl stud earrings) kneels beside her. Soft morning light through lace curtains, a small TV, a wall calendar with no readable writing. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_23",
+   "refs": [
+    "kiyo"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Warm close-up of the attached reference woman Kiyo (aged 84, short soft white permed hair, thin deeply wrinkled face, small kind eyes, beige knit cardigan over a pale floral blouse) smiling gently and speaking, holding someone's hand in both of hers, eyes crinkled with kindness. Soft window light, a slightly nostalgic, tender mood. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_24",
+   "refs": [
+    "mieko"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Mieko (short silver-gray bob, navy knit cardigan worn open over a cream ribbed blouse, small pearl stud earrings) warms rice porridge in a small dented pot on an old gas stove in a cramped danchi kitchen, a weekly pill organizer box and a teacup on the counter. Morning steam, warm light, careful everyday routine. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_25",
+   "refs": [],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Close-up of a worn floor cushion on tatami, covered with a hand-embroidered white crane on faded navy cloth, delicate careful stitches, soft morning light falling across it. Nostalgic, precious. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_26",
+   "refs": [],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Close-up of a low wooden table: an official white envelope and a folded notice letter that is blank with no writing, a pair of old reading glasses, a cup of green tea going cold. Quiet sense of an impending loss. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_27",
+   "refs": [
+    "kiyo"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Medium close-up of the attached reference woman Kiyo (aged 84, short soft white permed hair, thin deeply wrinkled face, small kind eyes, beige knit cardigan over a pale floral blouse) laughing softly, then her smile fading into a serious, worried look as she glances away. Soft light from a window, a small crane-embroidered cushion beside her. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_28",
+   "refs": [
+    "kiyo",
+    "mieko"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Kiyo (aged 84, short soft white permed hair, thin deeply wrinkled face, small kind eyes, beige knit cardigan over a pale floral blouse) holds the attached reference woman Mieko (short silver-gray bob, navy knit cardigan worn open over a cream ribbed blouse, small pearl stud earrings)'s hand tightly in both of hers, looking up at her with pleading eyes. Mieko gives a small nod, her eyes moist with emotion. Close two-shot, warm soft light, intimate and heavy with unspoken meaning. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_29",
+   "refs": [],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Evening at the hotel banquet hall entrance: a reception table with neatly arranged blank name cards, classmates in their late 50s greeting each other with hugs and laughter, warm chandelier light, festive nostalgic mood. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_30",
+   "refs": [
+    "yumi",
+    "mieko"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Yumi (aged 58, short dark-brown hair, thin gold-rimmed glasses, muted lavender knit twin-set) waves happily and hurries toward the attached reference woman Mieko (short silver-gray bob, navy knit cardigan worn open over a cream ribbed blouse, small pearl stud earrings), who smiles shyly in the doorway of the banquet hall. Warm golden light, joyful reunion after forty years. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_31",
+   "refs": [
+    "nakajima"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. A round banquet table of classmates in their late 50s with grey hair and wrinkles raising beer glasses in a toast, the attached reference man Nakajima (aged 58, short grey hair, navy blazer over a white open-collar shirt) in the middle grinning warmly. Warm candid party atmosphere, everyone has aged together. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_32",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob, tailored ivory luxury skirt suit, large-bead pearl necklace) makes a late grand entrance through tall double doors into the banquet hall, chin raised, holding a designer handbag with no logo, every head turning toward her. Backlit by the bright corridor, her pearls shining, imperious walk. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_33",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Portrait-style medium close-up of the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob, tailored ivory luxury skirt suit, large-bead pearl necklace) with a practiced, superior smile, chandelier light sparkling on her large pearl earrings and necklace, hard cool side light on her face. She looks rich, polished and dangerous. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_34",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob, tailored ivory luxury skirt suit, large-bead pearl necklace) sits down at the banquet table, waving one hand airily as she talks, other classmates listening politely with stiff smiles. Medium shot, she dominates the frame. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_35",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob, tailored ivory luxury skirt suit, large-bead pearl necklace) leans forward proudly at the table, gesturing grandly with her hand as if drawing a city skyline in the air, smug expression. Warm party light behind, hard cool side light on her face. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_36",
+   "refs": [
+    "mieko"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Close-up of the attached reference woman Mieko (short silver-gray bob, navy knit cardigan worn open over a cream ribbed blouse, small pearl stud earrings)'s hand freezing around a glass of oolong tea on the banquet table, her face slightly out of focus above it showing a flicker of shock. Shallow depth of field, warm light. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_37",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob, tailored ivory luxury skirt suit, large-bead pearl necklace) rolls her eyes and flicks her hand dismissively, lips curled in contempt, as she mocks old people. Medium close-up, hard cool side light on her face. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_38",
+   "refs": [
+    "reiko58",
+    "mieko"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Over-the-shoulder shot from behind the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob, tailored ivory luxury skirt suit, large-bead pearl necklace): in focus, the attached reference woman Mieko (short silver-gray bob, navy knit cardigan worn open over a cream ribbed blouse, small pearl stud earrings) stands modestly by the table while Reiko's cold eyes scan her from head to toe. Reiko's profile and pearl necklace sharp in the foreground. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_39",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob, tailored ivory luxury skirt suit, large-bead pearl necklace) feigns exaggerated surprise, one hand on her cheek, pointing a finger with a smirk as she mocks someone's plain clothes. Medium close-up, mean playful expression. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_40",
+   "refs": [
+    "mieko",
+    "reiko58"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Two-shot across the banquet table: the attached reference woman Mieko (short silver-gray bob, navy knit cardigan worn open over a cream ribbed blouse, small pearl stud earrings) answers calmly with a gentle face, while the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob, tailored ivory luxury skirt suit, large-bead pearl necklace) widens her eyes theatrically in mock astonishment. Warm light on Mieko, cold light on Reiko. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_41",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob, tailored ivory luxury skirt suit, large-bead pearl necklace) laughs mockingly with a hand over her chest, leaning toward the classmate beside her as if sharing a cruel joke. Medium shot, hard cool side light on her face. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_42",
+   "refs": [
+    "mieko",
+    "reiko58"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Mieko (short silver-gray bob, navy knit cardigan worn open over a cream ribbed blouse, small pearl stud earrings) rises from her chair and offers her right hand with a sincere, gentle smile toward the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob, tailored ivory luxury skirt suit, large-bead pearl necklace), who sits with arms crossed. Medium two-shot, soft warm light on Mieko. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_43",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob, tailored ivory luxury skirt suit, large-bead pearl necklace) wipes her hands meticulously with a white rolled hand towel (oshibori) with a disgusted grimace, as if she touched something dirty. Classmates behind her laugh stiffly and look away. Medium close-up. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_44",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob, tailored ivory luxury skirt suit, large-bead pearl necklace) tilts her head with a condescending, pitying smile, while the classmates around the table look down at their plates in awkward silence, no one stepping in. Medium-wide shot, heavy uncomfortable mood. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_45",
+   "refs": [
+    "mieko"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Close-up of the attached reference woman Mieko (short silver-gray bob, navy knit cardigan worn open over a cream ribbed blouse, small pearl stud earrings) lowering her slapped hand and speaking quietly with steady eyes and a calm, unshaken face, a gentle strength in her expression. Soft warm rim light, beautiful and dignified. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_46",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob, tailored ivory luxury skirt suit, large-bead pearl necklace) snorts with contempt and tosses back her glass of wine, eyes half-closed, utterly dismissive. Medium close-up, hard cool side light on her face. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_47",
+   "refs": [
+    "mieko",
+    "reiko58"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Mieko (short silver-gray bob, navy knit cardigan worn open over a cream ribbed blouse, small pearl stud earrings) quietly gazes at the profile of the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob, tailored ivory luxury skirt suit, large-bead pearl necklace), who is out of focus in the foreground. Mieko's eyes hold old memories and sadness. Warm soft light, nostalgic mood. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_48",
+   "refs": [
+    "mieko85",
+    "reiko85"
+   ],
+   "prompt": "Shot on 35mm film, warm muted film tone, slight grain, 1985 Japan, Japanese TV drama flashback still, 16:9. Summer 1985, two Japanese high school girls, the attached reference girl Mieko (17, black hair with feathered 1980s idol-style bangs, navy sailor uniform with a red scarf tie, long skirt below the knee) and the attached reference girl Reiko (17, beauty mark under her left eye, long straight black hair with a feathered fringe, navy sailor uniform with a red scarf tie, long skirt), walk side by side along a riverside path under green trees, laughing together, school bags in hand. Bright summer sunlight, cicada-filled atmosphere. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_49",
+   "refs": [
+    "mieko85",
+    "reiko85"
+   ],
+   "prompt": "Shot on 35mm film, warm muted film tone, slight grain, 1985 Japan, Japanese TV drama flashback still, 16:9. Full-length shot of the attached reference girl Mieko (17, black hair with feathered 1980s idol-style bangs, navy sailor uniform with a red scarf tie, long skirt below the knee) and the attached reference girl Reiko (17, beauty mark under her left eye, long straight black hair with a feathered fringe, navy sailor uniform with a red scarf tie, long skirt) posing playfully in front of a plain school gate with no sign, both with 1980s idol-style feathered bangs and long pleated skirts below the knee, loose white socks, leather school bags. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_50",
+   "refs": [
+    "mieko85",
+    "reiko85"
+   ],
+   "prompt": "Shot on 35mm film, warm muted film tone, slight grain, 1985 Japan, Japanese TV drama flashback still, 16:9. Late afternoon, the attached reference girl Mieko (17, black hair with feathered 1980s idol-style bangs, navy sailor uniform with a red scarf tie, long skirt below the knee) and the attached reference girl Reiko (17, beauty mark under her left eye, long straight black hair with a feathered fringe, navy sailor uniform with a red scarf tie, long skirt) run up the open concrete stairs of a five-story danchi apartment building, laundry hanging on balconies, golden summer light. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_51",
+   "refs": [],
+   "prompt": "Shot on 35mm film, warm muted film tone, slight grain, 1985 Japan, Japanese TV drama flashback still, 16:9. Interior of a small 1985 Japanese danchi apartment: a cramped kitchen with soy sauce sizzling in a pan sending up smoke, an old electric fan turning, a green mosquito coil curling thin smoke, a silver radio-cassette player on a shelf, a wall calendar with no readable writing. Warm nostalgic evening light. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_52",
+   "refs": [
+    "kiyo85"
+   ],
+   "prompt": "Shot on 35mm film, warm muted film tone, slight grain, 1985 Japan, Japanese TV drama flashback still, 16:9. the attached reference woman Kiyo (aged 43, black hair in a low bun with a few grey strands, plain light-blue cleaning work jacket with no logo, white apron) turns from the stove in a tiny danchi kitchen with a warm, welcoming smile, wiping her hands on her apron, steam rising behind her. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_53",
+   "refs": [
+    "kiyo85"
+   ],
+   "prompt": "Shot on 35mm film, warm muted film tone, slight grain, 1985 Japan, Japanese TV drama flashback still, 16:9. Late at night, the attached reference woman Kiyo (aged 43, black hair in a low bun with a few grey strands, plain light-blue cleaning work jacket with no logo, white apron) sits at a small low table under a bare light bulb doing piecework, assembling small paper boxes, tired but determined, a sleeping girl's schoolbag in the corner. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_54",
+   "refs": [],
+   "prompt": "Shot on 35mm film, warm muted film tone, slight grain, 1985 Japan, Japanese TV drama flashback still, 16:9. Close-up of a round low chabudai table piled high with handmade onigiri wrapped in seaweed, a glass pitcher of cold barley tea with droplets, a plate of pickles. Warm, homely, mouthwatering. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_55",
+   "refs": [
+    "nakajima85",
+    "kiyo85"
+   ],
+   "prompt": "Shot on 35mm film, warm muted film tone, slight grain, 1985 Japan, Japanese TV drama flashback still, 16:9. A lively crowded small danchi room: the attached reference boy Nakajima (17, buzz cut, sun-tanned, plain white baseball practice uniform with no logo) and two other sun-tanned high school baseball boys grab onigiri from the chabudai, laughing, while the attached reference woman Kiyo (aged 43, black hair in a low bun with a few grey strands, plain light-blue cleaning work jacket with no logo, white apron) laughs and keeps shaping more onigiri with her hands. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_56",
+   "refs": [
+    "mieko85"
+   ],
+   "prompt": "Shot on 35mm film, warm muted film tone, slight grain, 1985 Japan, Japanese TV drama flashback still, 16:9. the attached reference girl Mieko (17, black hair with feathered 1980s idol-style bangs, navy sailor uniform with a red scarf tie, long skirt below the knee) sits quietly at the edge of the lively room, holding an onigiri, watching the mother with a soft, longing expression, a little lonely. Gentle warm light. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_57",
+   "refs": [
+    "kiyo85",
+    "mieko85"
+   ],
+   "prompt": "Shot on 35mm film, warm muted film tone, slight grain, 1985 Japan, Japanese TV drama flashback still, 16:9. the attached reference woman Kiyo (aged 43, black hair in a low bun with a few grey strands, plain light-blue cleaning work jacket with no logo, white apron) gently pats the head of the attached reference girl Mieko (17, black hair with feathered 1980s idol-style bangs, navy sailor uniform with a red scarf tie, long skirt below the knee), smiling with motherly warmth. Mieko looks up, her eyes shining with happy tears. Close two-shot, golden evening light. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_58",
+   "refs": [
+    "mieko85",
+    "reiko85"
+   ],
+   "prompt": "Shot on 35mm film, warm muted film tone, slight grain, 1985 Japan, Japanese TV drama flashback still, 16:9. A small 1985 teenage girl's room: a large poster of a generic smiling 1980s-style female pop idol (not a real person) on the wall, the attached reference girl Mieko (17, black hair with feathered 1980s idol-style bangs, navy sailor uniform with a red scarf tie, long skirt below the knee) and the attached reference girl Reiko (17, beauty mark under her left eye, long straight black hair with a feathered fringe, navy sailor uniform with a red scarf tie, long skirt) lie on the tatami floor writing together in a plain college-ruled notebook, giggling. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_59",
+   "refs": [
+    "kiyo85"
+   ],
+   "prompt": "Shot on 35mm film, warm muted film tone, slight grain, 1985 Japan, Japanese TV drama flashback still, 16:9. Night, the attached reference woman Kiyo (aged 43, black hair in a low bun with a few grey strands, plain light-blue cleaning work jacket with no logo, white apron) sits by a small lamp embroidering a white crane onto white cloth with a needle, focused and gentle, the quiet room around her in shadow. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_60",
+   "refs": [],
+   "prompt": "Shot on 35mm film, warm muted film tone, slight grain, 1985 Japan, Japanese TV drama flashback still, 16:9. Extreme close-up of work-worn fingers pulling a needle with white thread through cloth, a delicate white crane slowly taking shape in embroidery. Warm lamplight. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_61",
+   "refs": [
+    "reiko85"
+   ],
+   "prompt": "Shot on 35mm film, warm muted film tone, slight grain, 1985 Japan, Japanese TV drama flashback still, 16:9. Autumn 1985, a school hallway with wooden floors and windows: the attached reference girl Reiko (17, beauty mark under her left eye, long straight black hair with a feathered fringe, navy sailor uniform with a red scarf tie, long skirt) stands sulkily with arms crossed, glancing anxiously toward the stairs. Golden autumn light. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_62",
+   "refs": [
+    "kiyo85"
+   ],
+   "prompt": "Shot on 35mm film, warm muted film tone, slight grain, 1985 Japan, Japanese TV drama flashback still, 16:9. the attached reference woman Kiyo (aged 43, black hair in a low bun with a few grey strands, plain light-blue cleaning work jacket with no logo, white apron), still in her light-blue work jacket, walks timidly down a school hallway, while students in uniforms whisper and stare at her from doorways. She bows her head slightly, embarrassed. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_63",
+   "refs": [
+    "reiko85",
+    "kiyo85"
+   ],
+   "prompt": "Shot on 35mm film, warm muted film tone, slight grain, 1985 Japan, Japanese TV drama flashback still, 16:9. Dusk on a narrow residential street: the attached reference girl Reiko (17, beauty mark under her left eye, long straight black hair with a feathered fringe, navy sailor uniform with a red scarf tie, long skirt) shouts angrily at the attached reference woman Kiyo (aged 43, black hair in a low bun with a few grey strands, plain light-blue cleaning work jacket with no logo, white apron), who stands with her head lowered. Long shadows, orange sunset light, a telephone pole and old houses. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_64",
+   "refs": [
+    "reiko85"
+   ],
+   "prompt": "Shot on 35mm film, warm muted film tone, slight grain, 1985 Japan, Japanese TV drama flashback still, 16:9. Close-up of the attached reference girl Reiko (17, beauty mark under her left eye, long straight black hair with a feathered fringe, navy sailor uniform with a red scarf tie, long skirt)'s furious, tearful face screaming, hatred and shame twisting her pretty features, beauty mark under her left eye. Harsh sunset light. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_65",
+   "refs": [
+    "kiyo85"
+   ],
+   "prompt": "Shot on 35mm film, warm muted film tone, slight grain, 1985 Japan, Japanese TV drama flashback still, 16:9. Close-up of the attached reference woman Kiyo (aged 43, black hair in a low bun with a few grey strands, plain light-blue cleaning work jacket with no logo, white apron) bowing her head silently, eyes lowered, lips pressed together in quiet pain, a few grey strands falling loose. Dim evening light. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_66",
+   "refs": [
+    "reiko85"
+   ],
+   "prompt": "Shot on 35mm film, warm muted film tone, slight grain, 1985 Japan, Japanese TV drama flashback still, 16:9. Night, the attached reference girl Reiko (17, beauty mark under her left eye, long straight black hair with a feathered fringe, navy sailor uniform with a red scarf tie, long skirt) stands at a small danchi window, her face lit by the distant glittering lights of the station area and new buildings, eyes burning with ambition. Dark room behind her. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_67",
+   "refs": [
+    "mieko85"
+   ],
+   "prompt": "Shot on 35mm film, warm muted film tone, slight grain, 1985 Japan, Japanese TV drama flashback still, 16:9. the attached reference girl Mieko (17, black hair with feathered 1980s idol-style bangs, navy sailor uniform with a red scarf tie, long skirt below the knee) watches from the dim room behind, her face uneasy and a little frightened, the lights from the window reflecting softly in her eyes. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_68",
+   "refs": [
+    "reiko93"
+   ],
+   "prompt": "Shot on 35mm film, warm muted film tone, slight grain, 1993 Japan, Japanese TV drama flashback still, 16:9. May 1993, the attached reference woman Reiko (25, a bride, beauty mark under her left eye, white satin wedding dress with large puffed sleeves, tiara and veil, bold red lipstick) stands beside a young groom in a white tuxedo in a luxurious hotel, smiling triumphantly, flashbulbs going off. Bubble-era glamour. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_69",
+   "refs": [
+    "reiko93"
+   ],
+   "prompt": "Shot on 35mm film, warm muted film tone, slight grain, 1993 Japan, Japanese TV drama flashback still, 16:9. A lavish early-1990s Japanese wedding reception hall: the attached reference woman Reiko (25, a bride, beauty mark under her left eye, white satin wedding dress with large puffed sleeves, tiara and veil, bold red lipstick) and the groom descend from the ceiling on a decorated gondola through billowing dry-ice smoke, spotlights cutting through the haze, guests applauding. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_70",
+   "refs": [
+    "reiko93"
+   ],
+   "prompt": "Shot on 35mm film, warm muted film tone, slight grain, 1993 Japan, Japanese TV drama flashback still, 16:9. the attached reference woman Reiko (25, a bride, beauty mark under her left eye, white satin wedding dress with large puffed sleeves, tiara and veil, bold red lipstick) and the groom light tall candles on guest tables during a candle service, guests snapping pictures with disposable cameras, bright flashes, chandeliers, extravagant flowers. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_71",
+   "refs": [
+    "mieko93"
+   ],
+   "prompt": "Shot on 35mm film, warm muted film tone, slight grain, 1993 Japan, Japanese TV drama flashback still, 16:9. the attached reference woman Mieko (25, glossy black shoulder-length hair with soft curled bangs, modest pale pink formal dress) sits at a guest table and stares toward the head table with growing unease: on the groom's side sit his wealthy parents, but on the bride's side there are no chairs at all. Shallow focus on Mieko's puzzled face. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_72",
+   "refs": [
+    "mieko93",
+    "reiko93"
+   ],
+   "prompt": "Shot on 35mm film, warm muted film tone, slight grain, 1993 Japan, Japanese TV drama flashback still, 16:9. At the cake-cutting, the attached reference woman Reiko (25, a bride, beauty mark under her left eye, white satin wedding dress with large puffed sleeves, tiara and veil, bold red lipstick) keeps a dazzling smile for the cameras while whispering coldly sideways to the attached reference woman Mieko (25, glossy black shoulder-length hair with soft curled bangs, modest pale pink formal dress), who leans in, shocked. Flashbulbs, a tall white wedding cake. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_73",
+   "refs": [],
+   "prompt": "Shot on 35mm film, warm muted film tone, slight grain, 1993 Japan, Japanese TV drama flashback still, 16:9. At the head table of a 1993 wedding reception, a wealthy, stern-looking couple in their late 50s (the groom's parents) in a black formal kimono and a morning coat, nodding solemnly, glasses of champagne. Luxurious, cold. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_74",
+   "refs": [
+    "kiyo93"
+   ],
+   "prompt": "Shot on 35mm film, warm muted film tone, slight grain, 1993 Japan, Japanese TV drama flashback still, 16:9. A grand early-1990s hotel lobby with marble floor and a row of green public telephones: the attached reference woman Kiyo (aged 51, greying low bun, old faded indigo tsumugi kimono) stands half-hidden behind the phones, small and hesitant, peeking toward the reception hall. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_75",
+   "refs": [],
+   "prompt": "Shot on 35mm film, warm muted film tone, slight grain, 1993 Japan, Japanese TV drama flashback still, 16:9. Close-up of an older woman's rough, work-worn hands holding a small bundle wrapped in white cloth against the sleeve of a faded indigo kimono, fingers trembling slightly. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_76",
+   "refs": [
+    "reiko93"
+   ],
+   "prompt": "Shot on 35mm film, warm muted film tone, slight grain, 1993 Japan, Japanese TV drama flashback still, 16:9. the attached reference woman Reiko (25, a bride, beauty mark under her left eye, white satin wedding dress with large puffed sleeves, tiara and veil, bold red lipstick) strides furiously across the marble lobby holding up the skirt of her wedding dress, veil flying, face contorted with anger. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_77",
+   "refs": [
+    "reiko93",
+    "kiyo93"
+   ],
+   "prompt": "Shot on 35mm film, warm muted film tone, slight grain, 1993 Japan, Japanese TV drama flashback still, 16:9. Beside the public telephones, the attached reference woman Reiko (25, a bride, beauty mark under her left eye, white satin wedding dress with large puffed sleeves, tiara and veil, bold red lipstick) hisses at the attached reference woman Kiyo (aged 51, greying low bun, old faded indigo tsumugi kimono), jabbing a finger at her, while the mother shrinks back, head bowed. Cold lobby light, tense confrontation. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_78",
+   "refs": [
+    "kiyo93"
+   ],
+   "prompt": "Shot on 35mm film, warm muted film tone, slight grain, 1993 Japan, Japanese TV drama flashback still, 16:9. the attached reference woman Kiyo (aged 51, greying low bun, old faded indigo tsumugi kimono) holds out the small white cloth bundle with both trembling hands, looking up at her daughter with humble, pleading eyes. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_79",
+   "refs": [],
+   "prompt": "Shot on 35mm film, warm muted film tone, slight grain, 1993 Japan, Japanese TV drama flashback still, 16:9. Extreme close-up of a small handmade omamori charm pouch of white cloth with a carefully hand-embroidered white crane, a thin red cord. Soft light, precious and fragile. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_80",
+   "refs": [],
+   "prompt": "Shot on 35mm film, warm muted film tone, slight grain, 1993 Japan, Japanese TV drama flashback still, 16:9. Low-angle close-up on a marble hotel floor: a white satin bridal high heel stamps down hard on a small white embroidered omamori charm, the hem of a wedding dress swirling above. Cruel, striking image. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_81",
+   "refs": [
+    "reiko93"
+   ],
+   "prompt": "Shot on 35mm film, warm muted film tone, slight grain, 1993 Japan, Japanese TV drama flashback still, 16:9. Close-up of the attached reference woman Reiko (25, a bride, beauty mark under her left eye, white satin wedding dress with large puffed sleeves, tiara and veil, bold red lipstick) looking down coldly, lips curled in disgust, spitting cruel words, her bridal tiara glinting. Hard light. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_82",
+   "refs": [
+    "reiko93",
+    "mieko93"
+   ],
+   "prompt": "Shot on 35mm film, warm muted film tone, slight grain, 1993 Japan, Japanese TV drama flashback still, 16:9. the attached reference woman Reiko (25, a bride, beauty mark under her left eye, white satin wedding dress with large puffed sleeves, tiara and veil, bold red lipstick) turns and points at the attached reference woman Mieko (25, glossy black shoulder-length hair with soft curled bangs, modest pale pink formal dress), who stands frozen nearby, telling her coldly to remember. Reiko's face hard and final, Mieko's face shocked. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_83",
+   "refs": [
+    "reiko93",
+    "kiyo93"
+   ],
+   "prompt": "Shot on 35mm film, warm muted film tone, slight grain, 1993 Japan, Japanese TV drama flashback still, 16:9. the attached reference woman Reiko (25, a bride, beauty mark under her left eye, white satin wedding dress with large puffed sleeves, tiara and veil, bold red lipstick) sweeps away toward the reception hall in her billowing wedding dress, while the attached reference woman Kiyo (aged 51, greying low bun, old faded indigo tsumugi kimono) stands alone and motionless by the public telephones, small in the vast lobby. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_84",
+   "refs": [
+    "mieko93"
+   ],
+   "prompt": "Shot on 35mm film, warm muted film tone, slight grain, 1993 Japan, Japanese TV drama flashback still, 16:9. the attached reference woman Mieko (25, glossy black shoulder-length hair with soft curled bangs, modest pale pink formal dress) kneels on the marble floor and picks up the trampled white omamori, gently brushing off the dirt with her fingers, eyes full of sorrow. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_85",
+   "refs": [
+    "mieko93",
+    "kiyo93"
+   ],
+   "prompt": "Shot on 35mm film, warm muted film tone, slight grain, 1993 Japan, Japanese TV drama flashback still, 16:9. the attached reference woman Mieko (25, glossy black shoulder-length hair with soft curled bangs, modest pale pink formal dress) holds the omamori to her chest and speaks earnestly to the attached reference woman Kiyo (aged 51, greying low bun, old faded indigo tsumugi kimono), who looks at her with tearful gratitude. Close two-shot, soft warm light amid the cold lobby. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_86",
+   "refs": [
+    "kiyo93"
+   ],
+   "prompt": "Shot on 35mm film, warm muted film tone, slight grain, 1993 Japan, Japanese TV drama flashback still, 16:9. the attached reference woman Kiyo (aged 51, greying low bun, old faded indigo tsumugi kimono) walks away alone toward the revolving door of the grand hotel lobby, her small back bent, seen from behind. Long empty marble floor, melancholy. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_87",
+   "refs": [],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Present day: close-up of the inner pocket of a simple worn handbag, a small faded white omamori with an embroidered white crane tucked carefully inside, slightly yellowed with age. Soft warm light. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_88",
+   "refs": [
+    "mieko"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Mieko (short silver-gray bob, navy knit cardigan worn open over a cream ribbed blouse, small pearl stud earrings) at the banquet table glances down at her handbag where her phone is vibrating, the screen glowing with an incoming call shown as abstract light, no readable text. Her face tightens with concern. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_89",
+   "refs": [
+    "mieko"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Mieko (short silver-gray bob, navy knit cardigan worn open over a cream ribbed blouse, small pearl stud earrings) presses her phone to her ear, covering her other ear against the party noise, leaning forward with a worried face. Warm party bokeh behind, focus on her anxious eyes. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_90",
+   "refs": [
+    "kiyo"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Night, a dim small danchi kitchen: the attached reference woman Kiyo (aged 84, short soft white permed hair, thin deeply wrinkled face, small kind eyes, beige knit cardigan over a pale floral blouse) lies on the floor beside a fallen chair, clutching a cordless phone to her ear with a pained face, one hand on her chest. Cold moonlight through a small window. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_91",
+   "refs": [
+    "mieko"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Mieko (short silver-gray bob, navy knit cardigan worn open over a cream ribbed blouse, small pearl stud earrings) rises abruptly from her chair at the banquet table, phone still at her ear, determination on her face, classmates turning to look. Medium shot, warm light on her. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_92",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob, tailored ivory luxury skirt suit, large-bead pearl necklace) calls out mockingly from her seat, wine glass in hand, laughing at someone leaving, classmates beside her smirking. Medium close-up, hard cool side light on her face. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_93",
+   "refs": [
+    "reiko58",
+    "mieko"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob, tailored ivory luxury skirt suit, large-bead pearl necklace) waves her hand dismissively in the foreground, while in the background the attached reference woman Mieko (short silver-gray bob, navy knit cardigan worn open over a cream ribbed blouse, small pearl stud earrings) walks quickly toward the exit door. Depth composition, cold vs warm light. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_94",
+   "refs": [
+    "mieko"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. At the banquet hall doorway, the attached reference woman Mieko (short silver-gray bob, navy knit cardigan worn open over a cream ribbed blouse, small pearl stud earrings) pauses and turns her head slightly over her shoulder, her face in three-quarter profile, calm and resolute, speaking quietly. Bright corridor light outlines her silver hair. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_95",
+   "refs": [],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Close-up of a half-finished glass of oolong tea on a white tablecloth beside an empty chair with a folded napkin, the party blurred behind. Quiet, poignant. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_96",
+   "refs": [
+    "mieko"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Night, the attached reference woman Mieko (short silver-gray bob, navy knit cardigan worn open over a cream ribbed blouse, small pearl stud earrings) sits in the back seat of a Japanese taxi, city lights streaking past the window, pressing a phone to her ear with a trembling hand, face lit by passing streetlights, urgent. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_97",
+   "refs": [
+    "kiyo"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. High-angle shot of a cramped old danchi kitchen at night: the attached reference woman Kiyo (aged 84, short soft white permed hair, thin deeply wrinkled face, small kind eyes, beige knit cardigan over a pale floral blouse) lies collapsed on the cold linoleum floor, a cordless phone near her hand, a fallen teacup. Dim single ceiling light, lonely. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_98",
+   "refs": [
+    "mieko",
+    "kiyo"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Mieko (short silver-gray bob, navy knit cardigan worn open over a cream ribbed blouse, small pearl stud earrings) kneels on the kitchen floor cradling the attached reference woman Kiyo (aged 84, short soft white permed hair, thin deeply wrinkled face, small kind eyes, beige knit cardigan over a pale floral blouse)'s head, holding her frail hand tightly, the old woman's thin fingers weakly squeezing back. Close-up, tender, urgent. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_99",
+   "refs": [],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Night, an ambulance with flashing red lights parked in front of an old five-story danchi building, red light washing over the concrete walls, neighbors' windows lighting up. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_100",
+   "refs": [
+    "kiyo",
+    "mieko"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Inside an ambulance: the attached reference woman Kiyo (aged 84, short soft white permed hair, thin deeply wrinkled face, small kind eyes, beige knit cardigan over a pale floral blouse) lies on a stretcher with an oxygen mask, murmuring weakly, while the attached reference woman Mieko (short silver-gray bob, navy knit cardigan worn open over a cream ribbed blouse, small pearl stud earrings) sits beside her holding her hand and leaning close to listen. Cold interior light, monitors glowing. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_101",
+   "refs": [
+    "mieko"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. A hospital emergency room corridor at night: a nurse in navy scrubs speaks quickly to the attached reference woman Mieko (short silver-gray bob, navy knit cardigan worn open over a cream ribbed blouse, small pearl stud earrings), who stands clutching her handbag, worried. Fluorescent light, hospital equipment blurred behind. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_102",
+   "refs": [
+    "mieko"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Close-up of the attached reference woman Mieko (short silver-gray bob, navy knit cardigan worn open over a cream ribbed blouse, small pearl stud earrings)'s hands opening a worn, old-fashioned clasp coin purse, a small folded slip of paper tucked inside. Her face hesitant above, softly out of focus. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_103",
+   "refs": [],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Extreme close-up of a small creased slip of paper with faint, shaky pencil scribbles that are illegible, no readable characters or numbers, a few eraser marks. Soft hospital light. Emotionally loaded detail. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_104",
+   "refs": [
+    "kiyo"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Spring daylight in the small tatami room: the attached reference woman Kiyo (aged 84, short soft white permed hair, thin deeply wrinkled face, small kind eyes, beige knit cardigan over a pale floral blouse) sits by the low table holding a cordless phone to her ear, her face lighting up with surprised hope. Cherry blossom petals visible outside the window. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_105",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob, tailored ivory luxury skirt suit, large-bead pearl necklace) talks on her smartphone in the back seat of a luxury car, her face cold and irritated, snapping harsh words, sunglasses pushed up on her head. Cold daylight. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_106",
+   "refs": [
+    "kiyo"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Close-up of the attached reference woman Kiyo (aged 84, short soft white permed hair, thin deeply wrinkled face, small kind eyes, beige knit cardigan over a pale floral blouse)'s wrinkled hand carefully writing on a small slip of paper with a short pencil, her face downcast but gentle. Spring light, the phone lying silent beside her. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_107",
+   "refs": [
+    "kiyo"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Kiyo (aged 84, short soft white permed hair, thin deeply wrinkled face, small kind eyes, beige knit cardigan over a pale floral blouse) smiles softly to herself with moist eyes, holding the small slip of paper to her chest. Warm spring light, bittersweet and tender. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_108",
+   "refs": [
+    "mieko",
+    "kiyo"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. A hospital room at night: the attached reference woman Mieko (short silver-gray bob, navy knit cardigan worn open over a cream ribbed blouse, small pearl stud earrings) sits beside the bed holding the hand of the attached reference woman Kiyo (aged 84, short soft white permed hair, thin deeply wrinkled face, small kind eyes, beige knit cardigan over a pale floral blouse), who sleeps with an IV drip. Mieko's face is torn but resolute, tears in her eyes. Soft lamp light. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_109",
+   "refs": [
+    "mieko"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Mieko (short silver-gray bob, navy knit cardigan worn open over a cream ribbed blouse, small pearl stud earrings) holds out the small folded slip of paper to a nurse at the hospital station, her face firm with decision. Fluorescent light. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_110",
+   "refs": [
+    "mieko"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Mieko (short silver-gray bob, navy knit cardigan worn open over a cream ribbed blouse, small pearl stud earrings) takes the small faded white omamori with an embroidered crane out of her handbag's inner pocket, looking at it with deep emotion. Close-up on her face and hands, soft warm light. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_111",
+   "refs": [
+    "kiyo"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Close-up of hands: a gentle hand places the small white crane omamori into the open palm of the attached reference woman Kiyo (aged 84, short soft white permed hair, thin deeply wrinkled face, small kind eyes, beige knit cardigan over a pale floral blouse), who is asleep in the hospital bed, and folds her thin fingers around it. Tender, warm. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_112",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Crosscut back to the banquet hall: the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob, tailored ivory luxury skirt suit, large-bead pearl necklace) laughs loudly with her head thrown back, raising her wine glass, oblivious. Warm party light, hard cool side light on her face. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_113",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Later in the evening at the banquet hall, the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob, tailored ivory luxury skirt suit, large-bead pearl necklace) talks loudly at the center table while the other classmates sit back looking tired and bored. Medium-wide shot. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_114",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob, tailored ivory luxury skirt suit, large-bead pearl necklace) holds up her smartphone proudly to the table, the screen showing a glowing architectural render of a glass tower apartment building, no readable text. Classmates lean in politely. hard cool side light on her face. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_115",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob, tailored ivory luxury skirt suit, large-bead pearl necklace) frowns in annoyance and clicks her tongue as her phone on the table switches to an incoming call screen of abstract light, reaching out a finger toward it. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_116",
+   "refs": [],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Extreme close-up of a red-nailed fingertip tapping a smartphone screen, the display showing only abstract call icons with no readable text. Sharp focus, ominous. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_117",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. The whole table falls silent, classmates frozen with glasses half raised, all eyes on the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob, tailored ivory luxury skirt suit, large-bead pearl necklace), whose face has gone completely blank and pale. Medium-wide shot, cold light. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_118",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob, tailored ivory luxury skirt suit, large-bead pearl necklace) jabs at the phone to hang up and slaps it face-down on the table, jaw clenched, eyes darting. Close-up, harsh light. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_119",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob, tailored ivory luxury skirt suit, large-bead pearl necklace) forces a brittle laugh, but the classmates around her stare back with cold, unsmiling faces. Medium shot, uneasy tension. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_120",
+   "refs": [
+    "yumi",
+    "reiko58"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Yumi (aged 58, short dark-brown hair, thin gold-rimmed glasses, muted lavender knit twin-set) speaks quietly with a serious face, while the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob, tailored ivory luxury skirt suit, large-bead pearl necklace) snaps back at her sharply. Two-shot across the table, tension rising. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_121",
+   "refs": [
+    "nakajima"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Close-up of the attached reference man Nakajima (aged 58, short grey hair, navy blazer over a white open-collar shirt) murmuring thoughtfully, eyes narrowing as an old memory returns. Warm dim light. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_122",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob, tailored ivory luxury skirt suit, large-bead pearl necklace) glares venomously across the table, lips twisted, spitting insults. Close-up, hard cool side light on her face. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_123",
+   "refs": [
+    "yumi"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Yumi (aged 58, short dark-brown hair, thin gold-rimmed glasses, muted lavender knit twin-set) looks up suddenly, eyes widening behind her gold-rimmed glasses as she remembers something. Close-up, dim warm light. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_124",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob, tailored ivory luxury skirt suit, large-bead pearl necklace) shoots up from her chair and shouts, slamming her palm on the table, glasses rattling, faces around her shocked. Medium shot, harsh light. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_125",
+   "refs": [],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Close-up of a trembling red-nailed finger hovering over a ringing smartphone on the tablecloth, failing to press, the screen glowing with abstract light. Shallow focus, panic. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_126",
+   "refs": [
+    "yumi",
+    "nakajima"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. The phone on speaker in the foreground; behind it the attached reference woman Yumi (aged 58, short dark-brown hair, thin gold-rimmed glasses, muted lavender knit twin-set) and the attached reference man Nakajima (aged 58, short grey hair, navy blazer over a white open-collar shirt) and other classmates sit frozen, listening with grave faces. Silent, heavy atmosphere. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_127",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob, tailored ivory luxury skirt suit, large-bead pearl necklace) screams into the phone, face red and ugly with rage, spit flying, eyes bulging, all elegance gone. Extreme close-up, harsh cold light. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_128",
+   "refs": [
+    "yumi"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Yumi (aged 58, short dark-brown hair, thin gold-rimmed glasses, muted lavender knit twin-set) gasps softly, hand to her lips, staring at Reiko in horror as she recalls the cruel words aimed at Mieko. Close-up, dim light. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_129",
+   "refs": [
+    "nakajima",
+    "yumi"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference man Nakajima (aged 58, short grey hair, navy blazer over a white open-collar shirt) and the attached reference woman Yumi (aged 58, short dark-brown hair, thin gold-rimmed glasses, muted lavender knit twin-set) exchange stunned glances, then both look at an empty chair with a half-drunk glass of oolong tea where Mieko had sat. Medium shot, realization. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_130",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob now slightly disheveled, ivory skirt suit, bare neck with no necklace, smeared makeup) glares wildly, pointing at nothing, accusing someone absent, her face twisted with paranoid rage. Close-up, cold light. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_131",
+   "refs": [
+    "yumi"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Yumi (aged 58, short dark-brown hair, thin gold-rimmed glasses, muted lavender knit twin-set) speaks firmly in a low voice, looking straight at Reiko with disappointment and anger, her glasses reflecting the chandelier. Close-up. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_132",
+   "refs": [
+    "nakajima"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference man Nakajima (aged 58, short grey hair, navy blazer over a white open-collar shirt) speaks slowly with a grave, disgusted expression, shaking his head. Close-up, dim warm light. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_133",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Close-up of the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob now slightly disheveled, ivory skirt suit, bare neck with no necklace, smeared makeup) with wide, haunted eyes, frozen, as faint ghostly images of an old danchi building appear in a soft double exposure over her face. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_134",
+   "refs": [],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Night exterior of an old five-story danchi building, all windows dark except one small ground-floor window glowing warm yellow. Lonely, poignant. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_135",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Classmates rise and walk away from the table one by one with their backs turned, while the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob now slightly disheveled, ivory skirt suit, bare neck with no necklace, smeared makeup) screams after them, one arm outstretched. Wide shot. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_136",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Extreme close-up of the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob now slightly disheveled, ivory skirt suit, bare neck with no necklace, smeared makeup) screaming a threat, mascara running, mouth wide, completely unhinged. Harsh cold light. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_137",
+   "refs": [],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Wide shot of the nearly empty banquet hall, chairs pushed back, classmates leaving through the far doors without looking back, white pearls still scattered untouched across the carpet. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_138",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob now slightly disheveled, ivory skirt suit, bare neck with no necklace, smeared makeup) stands alone beside the table in the empty banquet hall, next to a half-drunk glass of oolong tea, shoulders slumped, under a single cold light. Wide, isolated composition. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_139",
+   "refs": [],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Low-angle shot of a dim, empty hospital corridor at midnight, green emergency lights, ivory high heels clicking toward the camera along the polished floor. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_140",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob now slightly disheveled, ivory skirt suit, bare neck with no necklace, smeared makeup) emerges from the shadows of the hospital corridor, her bare neck and smeared makeup visible under the fluorescent light, face hard and cold. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_141",
+   "refs": [
+    "reiko58",
+    "mieko"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob now slightly disheveled, ivory skirt suit, bare neck with no necklace, smeared makeup) stands over the attached reference woman Mieko (short silver-gray bob, navy knit cardigan worn open over a cream ribbed blouse, small pearl stud earrings), who sits quietly on a bench outside a hospital room. Reiko leans down threateningly, Mieko looks up calmly. High-contrast, cold corridor light. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_142",
+   "refs": [
+    "mieko"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Close-up of the attached reference woman Mieko (short silver-gray bob, navy knit cardigan worn open over a cream ribbed blouse, small pearl stud earrings) slowly shaking her head, calm and unafraid, eyes steady. Soft light from the room behind her. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_143",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob now slightly disheveled, ivory skirt suit, bare neck with no necklace, smeared makeup) pulls a single official-looking document from her handbag; the paper is blank with no writing. Close-up on the paper and her red nails. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_144",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob now slightly disheveled, ivory skirt suit, bare neck with no necklace, smeared makeup) smirks coldly, waving the blank document, heartless. Close-up, harsh fluorescent light. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_145",
+   "refs": [
+    "mieko",
+    "reiko58"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Mieko (short silver-gray bob, navy knit cardigan worn open over a cream ribbed blouse, small pearl stud earrings) stands quietly between the hospital room door and the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob now slightly disheveled, ivory skirt suit, bare neck with no necklace, smeared makeup), who has her hand reaching for the handle. Mieko's posture calm and immovable. Medium two-shot. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_146",
+   "refs": [
+    "reiko58",
+    "mieko"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Tight two-shot in profile: the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob now slightly disheveled, ivory skirt suit, bare neck with no necklace, smeared makeup) glares indignantly, and the attached reference woman Mieko (short silver-gray bob, navy knit cardigan worn open over a cream ribbed blouse, small pearl stud earrings) looks straight into her eyes, unwavering. Cold light on Reiko, warm light from the room on Mieko. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_147",
+   "refs": [
+    "mieko"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Powerful close-up of the attached reference woman Mieko (short silver-gray bob, navy knit cardigan worn open over a cream ribbed blouse, small pearl stud earrings) speaking quietly, her gentle eyes now firm and clear, a calm devastating strength in her face. Warm light from the hospital room behind outlines her silver hair. Hero shot, luminous and unforgettable. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_148",
+   "refs": [],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. A blank sheet of paper fluttering down to a polished hospital floor in slow motion, ivory high heels frozen beside it. Soft focus background. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_149",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Close-up of the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob now slightly disheveled, ivory skirt suit, bare neck with no necklace, smeared makeup) frozen, eyes trembling, as faint double-exposure images of a 1990s hotel lobby with green public phones and a banquet hall drift across her face. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_150",
+   "refs": [
+    "kiyo"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. View through the small glass window of a hospital room door: the attached reference woman Kiyo (aged 84, short soft white permed hair, thin deeply wrinkled face, small kind eyes, beige knit cardigan over a pale floral blouse) sleeps peacefully in bed under soft lamp light, holding the small white crane omamori in her hand on the blanket. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_151",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Wide shot from behind: the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob now slightly disheveled, ivory skirt suit, bare neck with no necklace, smeared makeup) walks slowly away down the long, empty hospital corridor, shoulders sagging, her figure growing small under cold lights. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_152",
+   "refs": [
+    "kiyo"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Dawn light through hospital blinds: the attached reference woman Kiyo (aged 84, short soft white permed hair, thin deeply wrinkled face, small kind eyes, beige knit cardigan over a pale floral blouse) slowly opens her eyes and looks at the small white crane omamori in her hand. Pale blue-gold morning light, hushed. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_153",
+   "refs": [
+    "kiyo",
+    "mieko"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Kiyo (aged 84, short soft white permed hair, thin deeply wrinkled face, small kind eyes, beige knit cardigan over a pale floral blouse) lies in bed holding the omamori, a single tear running from the corner of her eye, while the attached reference woman Mieko (short silver-gray bob, navy knit cardigan worn open over a cream ribbed blouse, small pearl stud earrings) sits beside her smiling gently with wet eyes. Close two-shot, soft dawn light. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_154",
+   "refs": [
+    "kiyo",
+    "mieko"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Kiyo (aged 84, short soft white permed hair, thin deeply wrinkled face, small kind eyes, beige knit cardigan over a pale floral blouse) speaks softly, gazing at the ceiling, while the attached reference woman Mieko (short silver-gray bob, navy knit cardigan worn open over a cream ribbed blouse, small pearl stud earrings) looks down, unable to answer, her lips pressed together. Soft dawn light, bittersweet. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_155",
+   "refs": [
+    "kiyo",
+    "mieko"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Kiyo (aged 84, short soft white permed hair, thin deeply wrinkled face, small kind eyes, beige knit cardigan over a pale floral blouse) smiles faintly and squeezes the attached reference woman Mieko (short silver-gray bob, navy knit cardigan worn open over a cream ribbed blouse, small pearl stud earrings)'s hand tightly on the blanket. Close-up on their joined hands and faces, warm morning light. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_156",
+   "refs": [
+    "kiyo"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Tender close-up of the attached reference woman Kiyo (aged 84, short soft white permed hair, thin deeply wrinkled face, small kind eyes, beige knit cardigan over a pale floral blouse) looking up with loving, tearful eyes, speaking words of gratitude, morning light softly illuminating her white hair. Deeply moving. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_157",
+   "refs": [
+    "mieko"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Mieko (short silver-gray bob, navy knit cardigan worn open over a cream ribbed blouse, small pearl stud earrings) bends over the hospital bed and weeps openly, her face in her hands, shoulders shaking, morning light falling on her silver hair. Raw emotion, beautiful. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_158",
+   "refs": [],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. A small Japanese shopping street in daytime: housewives in their 50s and 60s gather in front of a vegetable shop, whispering with shocked faces, one holding her smartphone. Everyday gossip scene. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_159",
+   "refs": [],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Close-up of a man's hand in a dark suit sleeve placing a folded official form on a polished dark wooden table; the paper has no readable writing, a wedding ring lying beside it. Cold, final. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_160",
+   "refs": [],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Elderly residents of an old danchi estate standing together in front of their building, some smiling with relief, while workers take down a temporary construction fence. Bright autumn daylight. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_161",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Dusk at a quiet train station platform: the attached reference woman Reiko (aged 58, small beauty mark under her left eye, dyed dark-brown bob now slightly disheveled, ivory skirt suit, bare neck with no necklace, smeared makeup), now in a plain dark coat, stands alone with a single suitcase, staring at the tracks as a train approaches, her face empty. Melancholy orange light. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_162",
+   "refs": [
+    "kiyo",
+    "mieko"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. An autumn afternoon in the small tatami living room of the danchi: the attached reference woman Kiyo (aged 84, short soft white permed hair, thin deeply wrinkled face, small kind eyes, beige knit cardigan over a pale floral blouse) and the attached reference woman Mieko (short silver-gray bob, navy knit cardigan worn open over a cream ribbed blouse, small pearl stud earrings) sit together by the low table drinking tea, peaceful smiles. Warm golden light. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_163",
+   "refs": [
+    "kiyo"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Kiyo (aged 84, short soft white permed hair, thin deeply wrinkled face, small kind eyes, beige knit cardigan over a pale floral blouse) stands at a closed sliding fusuma door, her hand on its edge, beginning to slide it open, glancing back with a gentle, meaningful smile. Soft afternoon light. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_164",
+   "refs": [
+    "mieko"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Mieko (short silver-gray bob, navy knit cardigan worn open over a cream ribbed blouse, small pearl stud earrings) stands in the doorway with her hand over her mouth, eyes widening with astonishment and emotion, warm light spilling from the room onto her face. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_165",
+   "refs": [],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. A small teenage girl's room preserved exactly as it was in 1985: a faded poster of a generic 1980s-style female pop idol (not a real person), a spotless silver radio-cassette player, a small wooden study desk, a navy sailor uniform neatly folded on the desk, no dust. Golden afternoon light, frozen in time. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_166",
+   "refs": [
+    "kiyo"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. the attached reference woman Kiyo (aged 84, short soft white permed hair, thin deeply wrinkled face, small kind eyes, beige knit cardigan over a pale floral blouse) stands in the preserved room, gently touching the folded sailor uniform, smiling with quiet love and longing. Warm golden light. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_167",
+   "refs": [],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Close-up of an old faded college-ruled notebook with a plain cover and no writing, lying on a small wooden study desk next to a pencil case. Soft afternoon light, nostalgic. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_168",
+   "refs": [],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Close-up of an open old notebook page filled with round, girlish handwriting that is soft-focused and illegible, no readable characters, a small doodle of a star. Warm light. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_169",
+   "refs": [
+    "kiyo"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Close-up of the attached reference woman Kiyo (aged 84, short soft white permed hair, thin deeply wrinkled face, small kind eyes, beige knit cardigan over a pale floral blouse) tracing the handwriting in the old notebook with her finger, smiling sadly with tears in her eyes. Golden light, bittersweet. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_170",
+   "refs": [
+    "kiyo"
+   ],
+   "prompt": "Present-day 2026, cinematic Japanese TV drama still, 16:9, shallow depth of field, natural film-like color grade. Sunset through the danchi window: the attached reference woman Kiyo (aged 84, short soft white permed hair, thin deeply wrinkled face, small kind eyes, beige knit cardigan over a pale floral blouse) stands by the window, the small white crane omamori hanging from a cord at her chest, gently swaying, red-orange evening light flooding the room and the old buildings outside. Peaceful, poignant final image. Keep the faces exactly the same as the attached reference people. No text, no subtitles, no watermark, no readable writing."
+  }
+ ],
+ "shots": [
+  {
+   "id": "clip01",
+   "image": "img_01",
+   "duration": "8s",
+   "refs": [
+    "reiko58",
+    "mieko"
+   ],
+   "prompt": "8-second cinematic shot starting exactly from the attached image. The woman in the ivory suit and pearl necklace sharply brushes away the silver-haired woman's offered hand with the back of her own hand, then leans back with a disgusted sneer and speaks in Japanese, in a sharp, haughty, mocking voice of a woman in her late 50s, standard Tokyo accent, clear lip sync: 「ちょっと、触らないで、その手で何触ってきたのよ」 Then she wrinkles her nose, waves her hand in front of her face as if smelling something bad, and says: 「おむつの匂いがうつるじゃない」 The silver-haired woman freezes, slowly lowers her hand, her smile fading into quiet hurt. Classmates in the background chuckle awkwardly. Slow push-in camera toward the sneering woman. Only her voice, no narration, no music, no subtitles, no text on screen.",
+   "lines": [
+    [
+     "麗子",
+     "ちょっと、触らないで、その手で何触ってきたのよ"
+    ],
+    [
+     "麗子",
+     "おむつの匂いがうつるじゃない"
+    ]
+   ]
+  },
+  {
+   "id": "clip02",
+   "image": "img_13",
+   "duration": "5s",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Cinematic shot starting exactly from the attached image. The woman in the ivory suit and pearl necklace, panicking and furious, shouts at the smartphone in her hand in Japanese, in a shrill, hysterical voice of a woman in her late 50s, clear lip sync: 「知らないわよ！　あんな人、他人よ！」 Classmates behind her recoil. Handheld camera, slight shake. Only her voice, no narration, no music, no subtitles, no text on screen.",
+   "lines": [
+    [
+     "麗子",
+     "知らないわよ！　あんな人、他人よ！"
+    ]
+   ]
+  },
+  {
+   "id": "clip03",
+   "image": "img_15",
+   "duration": "5s",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Cinematic slow-motion shot starting exactly from the attached image. The large-bead pearl necklace at the woman's throat snaps and dozens of white pearls burst outward and fall through the air toward the carpet, glinting in the chandelier light, her face frozen in shock. Nobody speaks. Only the sound of pearls, no music, no text on screen."
+  },
+  {
+   "id": "clip04",
+   "image": "img_80",
+   "duration": "5s",
+   "refs": [],
+   "prompt": "1993 film look. Cinematic shot starting exactly from the attached image. The white satin bridal high heel grinds down on the small white embroidered omamori on the marble floor, then lifts away and steps off, the wedding dress hem swirling out of frame, leaving the charm dirty and crushed. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "clip05",
+   "image": "img_94",
+   "duration": "5s",
+   "refs": [
+    "mieko"
+   ],
+   "prompt": "Cinematic shot starting exactly from the attached image. The silver-haired woman in the navy cardigan, at the banquet hall doorway, looks back over her shoulder and says quietly and firmly in Japanese, in the calm, gentle voice of a woman in her late 50s, clear lip sync: 「行かなきゃ、待ってる人がいるの」 Then she turns and walks out into the bright corridor. Only her voice, no narration, no music, no subtitles, no text on screen.",
+   "lines": [
+    [
+     "美恵子",
+     "行かなきゃ、待ってる人がいるの"
+    ]
+   ]
+  },
+  {
+   "id": "clip06",
+   "image": "img_147",
+   "duration": "5s",
+   "refs": [
+    "mieko"
+   ],
+   "prompt": "Cinematic shot starting exactly from the attached image. Slow push-in on the silver-haired woman in the navy cardigan in the hospital corridor. She looks straight ahead and says quietly, calmly and firmly in Japanese, in the gentle voice of a woman in her late 50s, clear lip sync: 「あなたが言ったのよ、他人だって」 Her eyes stay steady. Only her voice, no narration, no music, no subtitles, no text on screen.",
+   "lines": [
+    [
+     "美恵子",
+     "あなたが言ったのよ、他人だって"
+    ]
+   ]
+  },
+  {
+   "id": "clip07",
+   "image": "img_163",
+   "duration": "5s",
+   "refs": [
+    "kiyo"
+   ],
+   "prompt": "Cinematic shot starting exactly from the attached image. The elderly white-haired woman slowly slides the fusuma door open, warm golden light spilling out from the room beyond onto her gentle face. Slow, quiet, tender. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "clip08",
+   "image": "img_170",
+   "duration": "9s",
+   "refs": [
+    "kiyo"
+   ],
+   "prompt": "Cinematic final shot starting exactly from the attached image. Sunset light floods the danchi room; the small white crane omamori at the elderly woman's chest sways gently, she looks out the window with a peaceful smile, the camera slowly pulls back as the red-orange light deepens over the old buildings. Nobody speaks. No music, no text on screen."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "s001",
+   "chapter": "intro",
+   "srt": [
+    1,
+    2
+   ],
+   "type": "clip",
+   "clips": [
+    "clip01"
+   ]
+  },
+  {
+   "id": "s003",
+   "chapter": "intro",
+   "srt": [
+    3,
+    3
+   ],
+   "image": "img_02",
+   "type": "narration",
+   "sfx": "impact",
+   "transition": "flash",
+   "motion": "punch_zoom"
+  },
+  {
+   "id": "s004",
+   "chapter": "intro",
+   "srt": [
+    4,
+    5
+   ],
+   "image": "img_03",
+   "type": "line",
+   "speaker": "麗子",
+   "motion": "zoom_in_big"
+  },
+  {
+   "id": "s006",
+   "chapter": "intro",
+   "srt": [
+    6,
+    7
+   ],
+   "image": "img_04",
+   "type": "narration",
+   "motion": "pan_right"
+  },
+  {
+   "id": "s008",
+   "chapter": "intro",
+   "srt": [
+    8,
+    9
+   ],
+   "image": "img_05",
+   "type": "narration",
+   "motion": "zoom_out_big"
+  },
+  {
+   "id": "s010",
+   "chapter": "intro",
+   "srt": [
+    10,
+    11
+   ],
+   "image": "img_06",
+   "type": "narration",
+   "motion": "pan_left"
+  },
+  {
+   "id": "s012",
+   "chapter": "intro",
+   "srt": [
+    12,
+    12
+   ],
+   "image": "img_07",
+   "type": "narration",
+   "motion": "push_slow"
+  },
+  {
+   "id": "s013",
+   "chapter": "intro",
+   "srt": [
+    13,
+    13
+   ],
+   "image": "img_08",
+   "type": "narration",
+   "motion": "pan_up"
+  },
+  {
+   "id": "s014",
+   "chapter": "intro",
+   "srt": [
+    14,
+    14
+   ],
+   "image": "img_09",
+   "type": "narration",
+   "sfx": "impact",
+   "transition": "flash",
+   "motion": "punch_zoom"
+  },
+  {
+   "id": "s015",
+   "chapter": "intro",
+   "srt": [
+    15,
+    15
+   ],
+   "image": "img_10",
+   "type": "line",
+   "speaker": "看護師",
+   "motion": "pan_down"
+  },
+  {
+   "id": "s016",
+   "chapter": "intro",
+   "srt": [
+    16,
+    16
+   ],
+   "image": "img_11",
+   "type": "narration",
+   "motion": "zoom_in_big"
+  },
+  {
+   "id": "s017",
+   "chapter": "intro",
+   "srt": [
+    17,
+    17
+   ],
+   "image": "img_12",
+   "type": "narration",
+   "motion": "pan_right"
+  },
+  {
+   "id": "s018",
+   "chapter": "intro",
+   "srt": [
+    18,
+    18
+   ],
+   "type": "clip",
+   "clips": [
+    "clip02"
+   ]
+  },
+  {
+   "id": "s019",
+   "chapter": "intro",
+   "srt": [
+    19,
+    19
+   ],
+   "image": "img_13",
+   "type": "line",
+   "speaker": "麗子",
+   "motion": "zoom_out_big"
+  },
+  {
+   "id": "s020",
+   "chapter": "intro",
+   "srt": [
+    20,
+    20
+   ],
+   "image": "img_14",
+   "type": "narration",
+   "motion": "pan_left"
+  },
+  {
+   "id": "s021",
+   "chapter": "intro",
+   "srt": [
+    21,
+    21
+   ],
+   "image": "img_14",
+   "type": "line",
+   "speaker": "看護師",
+   "motion": "push_slow"
+  },
+  {
+   "id": "s022",
+   "chapter": "intro",
+   "srt": [
+    22,
+    22
+   ],
+   "type": "clip",
+   "clips": [
+    "clip03"
+   ]
+  },
+  {
+   "id": "s023",
+   "chapter": "intro",
+   "srt": [
+    23,
+    23
+   ],
+   "image": "img_16",
+   "type": "narration",
+   "motion": "pan_up"
+  },
+  {
+   "id": "s024",
+   "chapter": "intro",
+   "srt": [
+    24,
+    24
+   ],
+   "image": "img_02",
+   "type": "narration",
+   "motion": "pan_down"
+  },
+  {
+   "id": "s025",
+   "chapter": "intro",
+   "srt": [
+    25,
+    26
+   ],
+   "image": "img_17",
+   "type": "narration",
+   "motion": "zoom_in_big"
+  },
+  {
+   "id": "s027",
+   "chapter": "ch1",
+   "srt": [
+    27,
+    28
+   ],
+   "image": "img_18",
+   "type": "narration",
+   "motion": "pan_right",
+   "transition": "fade"
+  },
+  {
+   "id": "s029",
+   "chapter": "ch1",
+   "srt": [
+    29,
+    29
+   ],
+   "image": "img_19",
+   "type": "narration",
+   "motion": "zoom_out_big"
+  },
+  {
+   "id": "s030",
+   "chapter": "ch1",
+   "srt": [
+    30,
+    31
+   ],
+   "image": "img_20",
+   "type": "narration",
+   "motion": "pan_left"
+  },
+  {
+   "id": "s032",
+   "chapter": "ch1",
+   "srt": [
+    32,
+    32
+   ],
+   "image": "img_21",
+   "type": "line",
+   "speaker": "美恵子",
+   "motion": "push_slow"
+  },
+  {
+   "id": "s033",
+   "chapter": "ch1",
+   "srt": [
+    33,
+    33
+   ],
+   "image": "img_21",
+   "type": "narration",
+   "motion": "pan_up"
+  },
+  {
+   "id": "s034",
+   "chapter": "ch1",
+   "srt": [
+    34,
+    35
+   ],
+   "image": "img_22",
+   "type": "narration",
+   "motion": "pan_down"
+  },
+  {
+   "id": "s036",
+   "chapter": "ch1",
+   "srt": [
+    36,
+    36
+   ],
+   "image": "img_23",
+   "type": "narration",
+   "motion": "zoom_in_big"
+  },
+  {
+   "id": "s037",
+   "chapter": "ch1",
+   "srt": [
+    37,
+    37
+   ],
+   "image": "img_23",
+   "type": "line",
+   "speaker": "キヨ",
+   "motion": "pan_right"
+  },
+  {
+   "id": "s038",
+   "chapter": "ch1",
+   "srt": [
+    38,
+    39
+   ],
+   "image": "img_24",
+   "type": "narration",
+   "motion": "zoom_out_big"
+  },
+  {
+   "id": "s040",
+   "chapter": "ch1",
+   "srt": [
+    40,
+    41
+   ],
+   "image": "img_25",
+   "type": "narration",
+   "motion": "pan_left"
+  },
+  {
+   "id": "s042",
+   "chapter": "ch1",
+   "srt": [
+    42,
+    42
+   ],
+   "image": "img_26",
+   "type": "narration",
+   "motion": "push_slow"
+  },
+  {
+   "id": "s043",
+   "chapter": "ch1",
+   "srt": [
+    43,
+    43
+   ],
+   "image": "img_27",
+   "type": "line",
+   "speaker": "キヨ",
+   "motion": "pan_up"
+  },
+  {
+   "id": "s044",
+   "chapter": "ch1",
+   "srt": [
+    44,
+    44
+   ],
+   "image": "img_27",
+   "type": "narration",
+   "motion": "pan_down"
+  },
+  {
+   "id": "s045",
+   "chapter": "ch1",
+   "srt": [
+    45,
+    45
+   ],
+   "image": "img_28",
+   "type": "line",
+   "speaker": "キヨ",
+   "motion": "zoom_in_big"
+  },
+  {
+   "id": "s046",
+   "chapter": "ch1",
+   "srt": [
+    46,
+    46
+   ],
+   "image": "img_28",
+   "type": "narration",
+   "motion": "pan_right"
+  },
+  {
+   "id": "s047",
+   "chapter": "ch1",
+   "srt": [
+    47,
+    48
+   ],
+   "image": "img_29",
+   "type": "narration",
+   "motion": "zoom_out_big",
+   "transition": "fade"
+  },
+  {
+   "id": "s049",
+   "chapter": "ch1",
+   "srt": [
+    49,
+    49
+   ],
+   "image": "img_30",
+   "type": "line",
+   "speaker": "由美",
+   "motion": "pan_left"
+  },
+  {
+   "id": "s050",
+   "chapter": "ch1",
+   "srt": [
+    50,
+    50
+   ],
+   "image": "img_30",
+   "type": "narration",
+   "motion": "push_slow"
+  },
+  {
+   "id": "s051",
+   "chapter": "ch1",
+   "srt": [
+    51,
+    53
+   ],
+   "image": "img_31",
+   "type": "narration",
+   "motion": "pan_up"
+  },
+  {
+   "id": "s054",
+   "chapter": "ch1",
+   "srt": [
+    54,
+    55
+   ],
+   "image": "img_32",
+   "type": "narration",
+   "motion": "pan_down"
+  },
+  {
+   "id": "s056",
+   "chapter": "ch1",
+   "srt": [
+    56,
+    58
+   ],
+   "image": "img_33",
+   "type": "narration",
+   "motion": "zoom_in_big"
+  },
+  {
+   "id": "s059",
+   "chapter": "ch1",
+   "srt": [
+    59,
+    59
+   ],
+   "image": "img_34",
+   "type": "line",
+   "speaker": "麗子",
+   "motion": "pan_right"
+  },
+  {
+   "id": "s060",
+   "chapter": "ch1",
+   "srt": [
+    60,
+    60
+   ],
+   "image": "img_34",
+   "type": "narration",
+   "motion": "zoom_out_big"
+  },
+  {
+   "id": "s061",
+   "chapter": "ch1",
+   "srt": [
+    61,
+    61
+   ],
+   "image": "img_35",
+   "type": "line",
+   "speaker": "麗子",
+   "motion": "pan_left"
+  },
+  {
+   "id": "s062",
+   "chapter": "ch1",
+   "srt": [
+    62,
+    62
+   ],
+   "image": "img_36",
+   "type": "line",
+   "speaker": "麗子",
+   "motion": "push_slow"
+  },
+  {
+   "id": "s063",
+   "chapter": "ch1",
+   "srt": [
+    63,
+    63
+   ],
+   "image": "img_36",
+   "type": "narration",
+   "motion": "pan_up"
+  },
+  {
+   "id": "s064",
+   "chapter": "ch1",
+   "srt": [
+    64,
+    65
+   ],
+   "image": "img_37",
+   "type": "line",
+   "speaker": "麗子",
+   "motion": "pan_down"
+  },
+  {
+   "id": "s066",
+   "chapter": "ch1",
+   "srt": [
+    66,
+    67
+   ],
+   "image": "img_38",
+   "type": "narration",
+   "motion": "zoom_in_big"
+  },
+  {
+   "id": "s068",
+   "chapter": "ch1",
+   "srt": [
+    68,
+    70
+   ],
+   "image": "img_39",
+   "type": "line",
+   "speaker": "麗子",
+   "motion": "pan_right"
+  },
+  {
+   "id": "s071",
+   "chapter": "ch1",
+   "srt": [
+    71,
+    71
+   ],
+   "image": "img_40",
+   "type": "line",
+   "speaker": "美恵子",
+   "motion": "zoom_out_big"
+  },
+  {
+   "id": "s072",
+   "chapter": "ch1",
+   "srt": [
+    72,
+    72
+   ],
+   "image": "img_40",
+   "type": "narration",
+   "motion": "pan_left"
+  },
+  {
+   "id": "s073",
+   "chapter": "ch1",
+   "srt": [
+    73,
+    74
+   ],
+   "image": "img_41",
+   "type": "line",
+   "speaker": "麗子",
+   "motion": "push_slow"
+  },
+  {
+   "id": "s075",
+   "chapter": "ch1",
+   "srt": [
+    75,
+    75
+   ],
+   "image": "img_42",
+   "type": "narration",
+   "motion": "pan_up"
+  },
+  {
+   "id": "s076",
+   "chapter": "ch1",
+   "srt": [
+    76,
+    76
+   ],
+   "image": "img_42",
+   "type": "line",
+   "speaker": "美恵子",
+   "motion": "pan_down"
+  },
+  {
+   "id": "s077",
+   "chapter": "ch1",
+   "srt": [
+    77,
+    77
+   ],
+   "image": "img_02",
+   "type": "narration",
+   "sfx": "impact",
+   "transition": "flash",
+   "motion": "punch_zoom"
+  },
+  {
+   "id": "s078",
+   "chapter": "ch1",
+   "srt": [
+    78,
+    79
+   ],
+   "type": "clip",
+   "clips": [
+    "clip01"
+   ]
+  },
+  {
+   "id": "s080",
+   "chapter": "ch1",
+   "srt": [
+    80,
+    81
+   ],
+   "image": "img_43",
+   "type": "narration",
+   "motion": "zoom_in_big"
+  },
+  {
+   "id": "s082",
+   "chapter": "ch1",
+   "srt": [
+    82,
+    83
+   ],
+   "image": "img_03",
+   "type": "line",
+   "speaker": "麗子",
+   "motion": "pan_right"
+  },
+  {
+   "id": "s084",
+   "chapter": "ch1",
+   "srt": [
+    84,
+    84
+   ],
+   "image": "img_44",
+   "type": "line",
+   "speaker": "麗子",
+   "motion": "zoom_out_big"
+  },
+  {
+   "id": "s085",
+   "chapter": "ch1",
+   "srt": [
+    85,
+    85
+   ],
+   "image": "img_44",
+   "type": "narration",
+   "motion": "pan_left"
+  },
+  {
+   "id": "s086",
+   "chapter": "ch1",
+   "srt": [
+    86,
+    86
+   ],
+   "image": "img_45",
+   "type": "narration",
+   "motion": "push_slow"
+  },
+  {
+   "id": "s087",
+   "chapter": "ch1",
+   "srt": [
+    87,
+    87
+   ],
+   "image": "img_45",
+   "type": "line",
+   "speaker": "美恵子",
+   "motion": "pan_up"
+  },
+  {
+   "id": "s088",
+   "chapter": "ch1",
+   "srt": [
+    88,
+    88
+   ],
+   "image": "img_46",
+   "type": "narration",
+   "motion": "pan_down"
+  },
+  {
+   "id": "s089",
+   "chapter": "ch1",
+   "srt": [
+    89,
+    90
+   ],
+   "image": "img_47",
+   "type": "narration",
+   "motion": "zoom_in_big"
+  },
+  {
+   "id": "s091",
+   "chapter": "ch2",
+   "srt": [
+    91,
+    92
+   ],
+   "image": "img_48",
+   "type": "narration",
+   "motion": "pan_right",
+   "transition": "fade"
+  },
+  {
+   "id": "s093",
+   "chapter": "ch2",
+   "srt": [
+    93,
+    93
+   ],
+   "image": "img_49",
+   "type": "narration",
+   "motion": "zoom_out_big"
+  },
+  {
+   "id": "s094",
+   "chapter": "ch2",
+   "srt": [
+    94,
+    96
+   ],
+   "image": "img_50",
+   "type": "narration",
+   "motion": "pan_left"
+  },
+  {
+   "id": "s097",
+   "chapter": "ch2",
+   "srt": [
+    97,
+    99
+   ],
+   "image": "img_51",
+   "type": "narration",
+   "motion": "push_slow"
+  },
+  {
+   "id": "s100",
+   "chapter": "ch2",
+   "srt": [
+    100,
+    100
+   ],
+   "image": "img_52",
+   "type": "line",
+   "speaker": "キヨ",
+   "motion": "pan_up"
+  },
+  {
+   "id": "s101",
+   "chapter": "ch2",
+   "srt": [
+    101,
+    101
+   ],
+   "image": "img_52",
+   "type": "narration",
+   "motion": "pan_down"
+  },
+  {
+   "id": "s102",
+   "chapter": "ch2",
+   "srt": [
+    102,
+    103
+   ],
+   "image": "img_53",
+   "type": "narration",
+   "motion": "zoom_in_big"
+  },
+  {
+   "id": "s104",
+   "chapter": "ch2",
+   "srt": [
+    104,
+    104
+   ],
+   "image": "img_54",
+   "type": "narration",
+   "motion": "pan_right"
+  },
+  {
+   "id": "s105",
+   "chapter": "ch2",
+   "srt": [
+    105,
+    105
+   ],
+   "image": "img_55",
+   "type": "narration",
+   "motion": "zoom_out_big"
+  },
+  {
+   "id": "s106",
+   "chapter": "ch2",
+   "srt": [
+    106,
+    106
+   ],
+   "image": "img_55",
+   "type": "line",
+   "speaker": "中島",
+   "motion": "pan_left"
+  },
+  {
+   "id": "s107",
+   "chapter": "ch2",
+   "srt": [
+    107,
+    107
+   ],
+   "image": "img_55",
+   "type": "narration",
+   "motion": "push_slow"
+  },
+  {
+   "id": "s108",
+   "chapter": "ch2",
+   "srt": [
+    108,
+    108
+   ],
+   "image": "img_56",
+   "type": "narration",
+   "motion": "pan_up"
+  },
+  {
+   "id": "s109",
+   "chapter": "ch2",
+   "srt": [
+    109,
+    109
+   ],
+   "image": "img_57",
+   "type": "line",
+   "speaker": "キヨ",
+   "motion": "pan_down"
+  },
+  {
+   "id": "s110",
+   "chapter": "ch2",
+   "srt": [
+    110,
+    110
+   ],
+   "image": "img_57",
+   "type": "narration",
+   "motion": "zoom_in_big"
+  },
+  {
+   "id": "s111",
+   "chapter": "ch2",
+   "srt": [
+    111,
+    112
+   ],
+   "image": "img_58",
+   "type": "narration",
+   "motion": "pan_right"
+  },
+  {
+   "id": "s113",
+   "chapter": "ch2",
+   "srt": [
+    113,
+    114
+   ],
+   "image": "img_59",
+   "type": "narration",
+   "motion": "zoom_out_big"
+  },
+  {
+   "id": "s115",
+   "chapter": "ch2",
+   "srt": [
+    115,
+    115
+   ],
+   "image": "img_60",
+   "type": "line",
+   "speaker": "キヨ",
+   "motion": "pan_left"
+  },
+  {
+   "id": "s116",
+   "chapter": "ch2",
+   "srt": [
+    116,
+    117
+   ],
+   "image": "img_61",
+   "type": "narration",
+   "motion": "push_slow"
+  },
+  {
+   "id": "s118",
+   "chapter": "ch2",
+   "srt": [
+    118,
+    119
+   ],
+   "image": "img_62",
+   "type": "narration",
+   "motion": "pan_up"
+  },
+  {
+   "id": "s120",
+   "chapter": "ch2",
+   "srt": [
+    120,
+    120
+   ],
+   "image": "img_63",
+   "type": "narration",
+   "motion": "pan_down"
+  },
+  {
+   "id": "s121",
+   "chapter": "ch2",
+   "srt": [
+    121,
+    121
+   ],
+   "image": "img_63",
+   "type": "line",
+   "speaker": "麗子",
+   "motion": "zoom_in_big"
+  },
+  {
+   "id": "s122",
+   "chapter": "ch2",
+   "srt": [
+    122,
+    124
+   ],
+   "image": "img_64",
+   "type": "line",
+   "speaker": "麗子",
+   "motion": "pan_right"
+  },
+  {
+   "id": "s125",
+   "chapter": "ch2",
+   "srt": [
+    125,
+    125
+   ],
+   "image": "img_65",
+   "type": "narration",
+   "motion": "zoom_out_big"
+  },
+  {
+   "id": "s126",
+   "chapter": "ch2",
+   "srt": [
+    126,
+    126
+   ],
+   "image": "img_66",
+   "type": "narration",
+   "motion": "pan_left"
+  },
+  {
+   "id": "s127",
+   "chapter": "ch2",
+   "srt": [
+    127,
+    128
+   ],
+   "image": "img_66",
+   "type": "line",
+   "speaker": "麗子",
+   "motion": "push_slow"
+  },
+  {
+   "id": "s129",
+   "chapter": "ch2",
+   "srt": [
+    129,
+    129
+   ],
+   "image": "img_67",
+   "type": "narration",
+   "motion": "pan_up"
+  },
+  {
+   "id": "s130",
+   "chapter": "ch2",
+   "srt": [
+    130,
+    132
+   ],
+   "image": "img_68",
+   "type": "narration",
+   "motion": "pan_down",
+   "transition": "fade"
+  },
+  {
+   "id": "s133",
+   "chapter": "ch2",
+   "srt": [
+    133,
+    134
+   ],
+   "image": "img_69",
+   "type": "narration",
+   "motion": "zoom_in_big"
+  },
+  {
+   "id": "s135",
+   "chapter": "ch2",
+   "srt": [
+    135,
+    136
+   ],
+   "image": "img_70",
+   "type": "narration",
+   "motion": "pan_right"
+  },
+  {
+   "id": "s137",
+   "chapter": "ch2",
+   "srt": [
+    137,
+    138
+   ],
+   "image": "img_71",
+   "type": "narration",
+   "motion": "zoom_out_big"
+  },
+  {
+   "id": "s139",
+   "chapter": "ch2",
+   "srt": [
+    139,
+    139
+   ],
+   "image": "img_72",
+   "type": "line",
+   "speaker": "美恵子",
+   "motion": "pan_left"
+  },
+  {
+   "id": "s140",
+   "chapter": "ch2",
+   "srt": [
+    140,
+    140
+   ],
+   "image": "img_72",
+   "type": "narration",
+   "motion": "push_slow"
+  },
+  {
+   "id": "s141",
+   "chapter": "ch2",
+   "srt": [
+    141,
+    141
+   ],
+   "image": "img_72",
+   "type": "line",
+   "speaker": "麗子",
+   "motion": "pan_up"
+  },
+  {
+   "id": "s142",
+   "chapter": "ch2",
+   "srt": [
+    142,
+    142
+   ],
+   "image": "img_73",
+   "type": "narration",
+   "motion": "pan_down"
+  },
+  {
+   "id": "s143",
+   "chapter": "ch2",
+   "srt": [
+    143,
+    145
+   ],
+   "image": "img_74",
+   "type": "narration",
+   "motion": "zoom_in_big"
+  },
+  {
+   "id": "s146",
+   "chapter": "ch2",
+   "srt": [
+    146,
+    146
+   ],
+   "image": "img_75",
+   "type": "narration",
+   "motion": "pan_right"
+  },
+  {
+   "id": "s147",
+   "chapter": "ch2",
+   "srt": [
+    147,
+    147
+   ],
+   "image": "img_76",
+   "type": "narration",
+   "motion": "zoom_out_big"
+  },
+  {
+   "id": "s148",
+   "chapter": "ch2",
+   "srt": [
+    148,
+    148
+   ],
+   "image": "img_76",
+   "type": "line",
+   "speaker": "麗子",
+   "motion": "pan_left"
+  },
+  {
+   "id": "s149",
+   "chapter": "ch2",
+   "srt": [
+    149,
+    151
+   ],
+   "image": "img_77",
+   "type": "line",
+   "speaker": "麗子",
+   "motion": "push_slow"
+  },
+  {
+   "id": "s152",
+   "chapter": "ch2",
+   "srt": [
+    152,
+    152
+   ],
+   "image": "img_78",
+   "type": "narration",
+   "motion": "pan_up"
+  },
+  {
+   "id": "s153",
+   "chapter": "ch2",
+   "srt": [
+    153,
+    153
+   ],
+   "image": "img_78",
+   "type": "line",
+   "speaker": "キヨ",
+   "motion": "pan_down"
+  },
+  {
+   "id": "s154",
+   "chapter": "ch2",
+   "srt": [
+    154,
+    155
+   ],
+   "image": "img_79",
+   "type": "narration",
+   "motion": "zoom_in_big"
+  },
+  {
+   "id": "s156",
+   "chapter": "ch2",
+   "srt": [
+    156,
+    156
+   ],
+   "type": "clip",
+   "clips": [
+    "clip04"
+   ]
+  },
+  {
+   "id": "s157",
+   "chapter": "ch2",
+   "srt": [
+    157,
+    158
+   ],
+   "image": "img_81",
+   "type": "line",
+   "speaker": "麗子",
+   "motion": "pan_right"
+  },
+  {
+   "id": "s159",
+   "chapter": "ch2",
+   "srt": [
+    159,
+    159
+   ],
+   "image": "img_82",
+   "type": "narration",
+   "motion": "zoom_out_big"
+  },
+  {
+   "id": "s160",
+   "chapter": "ch2",
+   "srt": [
+    160,
+    160
+   ],
+   "image": "img_82",
+   "type": "line",
+   "speaker": "麗子",
+   "motion": "pan_left"
+  },
+  {
+   "id": "s161",
+   "chapter": "ch2",
+   "srt": [
+    161,
+    162
+   ],
+   "image": "img_83",
+   "type": "narration",
+   "motion": "push_slow"
+  },
+  {
+   "id": "s163",
+   "chapter": "ch2",
+   "srt": [
+    163,
+    163
+   ],
+   "image": "img_84",
+   "type": "narration",
+   "motion": "pan_up"
+  },
+  {
+   "id": "s164",
+   "chapter": "ch2",
+   "srt": [
+    164,
+    165
+   ],
+   "image": "img_85",
+   "type": "line",
+   "speaker": "美恵子",
+   "motion": "pan_down"
+  },
+  {
+   "id": "s166",
+   "chapter": "ch2",
+   "srt": [
+    166,
+    167
+   ],
+   "image": "img_86",
+   "type": "narration",
+   "motion": "zoom_in_big"
+  },
+  {
+   "id": "s168",
+   "chapter": "ch2",
+   "srt": [
+    168,
+    169
+   ],
+   "image": "img_87",
+   "type": "narration",
+   "motion": "pan_right"
+  },
+  {
+   "id": "s170",
+   "chapter": "ch3",
+   "srt": [
+    170,
+    171
+   ],
+   "image": "img_88",
+   "type": "narration",
+   "motion": "zoom_out_big",
+   "transition": "fade"
+  },
+  {
+   "id": "s172",
+   "chapter": "ch3",
+   "srt": [
+    172,
+    172
+   ],
+   "image": "img_89",
+   "type": "line",
+   "speaker": "美恵子",
+   "motion": "pan_left"
+  },
+  {
+   "id": "s173",
+   "chapter": "ch3",
+   "srt": [
+    173,
+    173
+   ],
+   "image": "img_89",
+   "type": "narration",
+   "motion": "push_slow"
+  },
+  {
+   "id": "s174",
+   "chapter": "ch3",
+   "srt": [
+    174,
+    175
+   ],
+   "image": "img_90",
+   "type": "line",
+   "speaker": "キヨ",
+   "motion": "pan_up"
+  },
+  {
+   "id": "s176",
+   "chapter": "ch3",
+   "srt": [
+    176,
+    176
+   ],
+   "image": "img_91",
+   "type": "narration",
+   "motion": "pan_down"
+  },
+  {
+   "id": "s177",
+   "chapter": "ch3",
+   "srt": [
+    177,
+    177
+   ],
+   "image": "img_91",
+   "type": "line",
+   "speaker": "美恵子",
+   "motion": "zoom_in_big"
+  },
+  {
+   "id": "s178",
+   "chapter": "ch3",
+   "srt": [
+    178,
+    178
+   ],
+   "image": "img_92",
+   "type": "narration",
+   "motion": "pan_right"
+  },
+  {
+   "id": "s179",
+   "chapter": "ch3",
+   "srt": [
+    179,
+    180
+   ],
+   "image": "img_92",
+   "type": "line",
+   "speaker": "麗子",
+   "motion": "zoom_out_big"
+  },
+  {
+   "id": "s181",
+   "chapter": "ch3",
+   "srt": [
+    181,
+    182
+   ],
+   "image": "img_93",
+   "type": "line",
+   "speaker": "麗子",
+   "motion": "pan_left"
+  },
+  {
+   "id": "s183",
+   "chapter": "ch3",
+   "srt": [
+    183,
+    183
+   ],
+   "image": "img_94",
+   "type": "narration",
+   "motion": "push_slow"
+  },
+  {
+   "id": "s184",
+   "chapter": "ch3",
+   "srt": [
+    184,
+    184
+   ],
+   "type": "clip",
+   "clips": [
+    "clip05"
+   ]
+  },
+  {
+   "id": "s185",
+   "chapter": "ch3",
+   "srt": [
+    185,
+    185
+   ],
+   "image": "img_95",
+   "type": "narration",
+   "motion": "pan_up"
+  },
+  {
+   "id": "s186",
+   "chapter": "ch3",
+   "srt": [
+    186,
+    186
+   ],
+   "image": "img_96",
+   "type": "narration",
+   "motion": "pan_down"
+  },
+  {
+   "id": "s187",
+   "chapter": "ch3",
+   "srt": [
+    187,
+    188
+   ],
+   "image": "img_97",
+   "type": "narration",
+   "motion": "zoom_in_big",
+   "transition": "fade"
+  },
+  {
+   "id": "s189",
+   "chapter": "ch3",
+   "srt": [
+    189,
+    189
+   ],
+   "image": "img_98",
+   "type": "line",
+   "speaker": "美恵子",
+   "motion": "pan_right"
+  },
+  {
+   "id": "s190",
+   "chapter": "ch3",
+   "srt": [
+    190,
+    190
+   ],
+   "image": "img_98",
+   "type": "narration",
+   "motion": "zoom_out_big"
+  },
+  {
+   "id": "s191",
+   "chapter": "ch3",
+   "srt": [
+    191,
+    191
+   ],
+   "image": "img_99",
+   "type": "narration",
+   "motion": "pan_left"
+  },
+  {
+   "id": "s192",
+   "chapter": "ch3",
+   "srt": [
+    192,
+    192
+   ],
+   "image": "img_100",
+   "type": "narration",
+   "motion": "push_slow"
+  },
+  {
+   "id": "s193",
+   "chapter": "ch3",
+   "srt": [
+    193,
+    194
+   ],
+   "image": "img_100",
+   "type": "line",
+   "speaker": "キヨ",
+   "motion": "pan_up"
+  },
+  {
+   "id": "s195",
+   "chapter": "ch3",
+   "srt": [
+    195,
+    196
+   ],
+   "image": "img_101",
+   "type": "narration",
+   "motion": "pan_down"
+  },
+  {
+   "id": "s197",
+   "chapter": "ch3",
+   "srt": [
+    197,
+    197
+   ],
+   "image": "img_101",
+   "type": "line",
+   "speaker": "看護師",
+   "motion": "zoom_in_big"
+  },
+  {
+   "id": "s198",
+   "chapter": "ch3",
+   "srt": [
+    198,
+    199
+   ],
+   "image": "img_102",
+   "type": "narration",
+   "motion": "pan_right"
+  },
+  {
+   "id": "s200",
+   "chapter": "ch3",
+   "srt": [
+    200,
+    201
+   ],
+   "image": "img_103",
+   "type": "narration",
+   "motion": "zoom_out_big"
+  },
+  {
+   "id": "s202",
+   "chapter": "ch3",
+   "srt": [
+    202,
+    204
+   ],
+   "image": "img_104",
+   "type": "narration",
+   "motion": "pan_left"
+  },
+  {
+   "id": "s205",
+   "chapter": "ch3",
+   "srt": [
+    205,
+    207
+   ],
+   "image": "img_105",
+   "type": "line",
+   "speaker": "麗子",
+   "motion": "push_slow"
+  },
+  {
+   "id": "s208",
+   "chapter": "ch3",
+   "srt": [
+    208,
+    209
+   ],
+   "image": "img_106",
+   "type": "narration",
+   "motion": "pan_up"
+  },
+  {
+   "id": "s210",
+   "chapter": "ch3",
+   "srt": [
+    210,
+    210
+   ],
+   "image": "img_107",
+   "type": "line",
+   "speaker": "キヨ",
+   "motion": "pan_down"
+  },
+  {
+   "id": "s211",
+   "chapter": "ch3",
+   "srt": [
+    211,
+    211
+   ],
+   "image": "img_107",
+   "type": "narration",
+   "motion": "zoom_in_big"
+  },
+  {
+   "id": "s212",
+   "chapter": "ch3",
+   "srt": [
+    212,
+    212
+   ],
+   "image": "img_108",
+   "type": "narration",
+   "motion": "pan_right"
+  },
+  {
+   "id": "s213",
+   "chapter": "ch3",
+   "srt": [
+    213,
+    214
+   ],
+   "image": "img_108",
+   "type": "line",
+   "speaker": "美恵子",
+   "motion": "zoom_out_big"
+  },
+  {
+   "id": "s215",
+   "chapter": "ch3",
+   "srt": [
+    215,
+    215
+   ],
+   "image": "img_109",
+   "type": "narration",
+   "motion": "pan_left"
+  },
+  {
+   "id": "s216",
+   "chapter": "ch3",
+   "srt": [
+    216,
+    218
+   ],
+   "image": "img_110",
+   "type": "narration",
+   "motion": "push_slow"
+  },
+  {
+   "id": "s219",
+   "chapter": "ch3",
+   "srt": [
+    219,
+    219
+   ],
+   "image": "img_111",
+   "type": "narration",
+   "motion": "pan_up"
+  },
+  {
+   "id": "s220",
+   "chapter": "ch3",
+   "srt": [
+    220,
+    221
+   ],
+   "image": "img_112",
+   "type": "narration",
+   "motion": "pan_down"
+  },
+  {
+   "id": "s222",
+   "chapter": "ch4",
+   "srt": [
+    222,
+    223
+   ],
+   "image": "img_113",
+   "type": "narration",
+   "motion": "zoom_in_big",
+   "transition": "fade"
+  },
+  {
+   "id": "s224",
+   "chapter": "ch4",
+   "srt": [
+    224,
+    225
+   ],
+   "image": "img_114",
+   "type": "line",
+   "speaker": "麗子",
+   "motion": "pan_right"
+  },
+  {
+   "id": "s226",
+   "chapter": "ch4",
+   "srt": [
+    226,
+    226
+   ],
+   "image": "img_114",
+   "type": "narration",
+   "motion": "zoom_out_big"
+  },
+  {
+   "id": "s227",
+   "chapter": "ch4",
+   "srt": [
+    227,
+    229
+   ],
+   "image": "img_115",
+   "type": "narration",
+   "motion": "pan_left"
+  },
+  {
+   "id": "s230",
+   "chapter": "ch4",
+   "srt": [
+    230,
+    230
+   ],
+   "image": "img_116",
+   "type": "narration",
+   "motion": "push_slow"
+  },
+  {
+   "id": "s231",
+   "chapter": "ch4",
+   "srt": [
+    231,
+    231
+   ],
+   "image": "img_10",
+   "type": "line",
+   "speaker": "看護師",
+   "motion": "pan_up"
+  },
+  {
+   "id": "s232",
+   "chapter": "ch4",
+   "srt": [
+    232,
+    233
+   ],
+   "image": "img_117",
+   "type": "narration",
+   "motion": "pan_down"
+  },
+  {
+   "id": "s234",
+   "chapter": "ch4",
+   "srt": [
+    234,
+    234
+   ],
+   "image": "img_118",
+   "type": "line",
+   "speaker": "麗子",
+   "motion": "zoom_in_big"
+  },
+  {
+   "id": "s235",
+   "chapter": "ch4",
+   "srt": [
+    235,
+    235
+   ],
+   "image": "img_118",
+   "type": "narration",
+   "motion": "pan_right"
+  },
+  {
+   "id": "s236",
+   "chapter": "ch4",
+   "srt": [
+    236,
+    236
+   ],
+   "image": "img_119",
+   "type": "line",
+   "speaker": "麗子",
+   "motion": "zoom_out_big"
+  },
+  {
+   "id": "s237",
+   "chapter": "ch4",
+   "srt": [
+    237,
+    237
+   ],
+   "image": "img_119",
+   "type": "narration",
+   "motion": "pan_left"
+  },
+  {
+   "id": "s238",
+   "chapter": "ch4",
+   "srt": [
+    238,
+    238
+   ],
+   "image": "img_120",
+   "type": "narration",
+   "motion": "push_slow"
+  },
+  {
+   "id": "s239",
+   "chapter": "ch4",
+   "srt": [
+    239,
+    239
+   ],
+   "image": "img_120",
+   "type": "line",
+   "speaker": "由美",
+   "motion": "pan_up"
+  },
+  {
+   "id": "s240",
+   "chapter": "ch4",
+   "srt": [
+    240,
+    240
+   ],
+   "image": "img_120",
+   "type": "line",
+   "speaker": "麗子",
+   "motion": "pan_down"
+  },
+  {
+   "id": "s241",
+   "chapter": "ch4",
+   "srt": [
+    241,
+    241
+   ],
+   "image": "img_121",
+   "type": "narration",
+   "motion": "zoom_in_big"
+  },
+  {
+   "id": "s242",
+   "chapter": "ch4",
+   "srt": [
+    242,
+    242
+   ],
+   "image": "img_121",
+   "type": "line",
+   "speaker": "中島",
+   "motion": "pan_right"
+  },
+  {
+   "id": "s243",
+   "chapter": "ch4",
+   "srt": [
+    243,
+    244
+   ],
+   "image": "img_55",
+   "type": "line",
+   "speaker": "中島",
+   "motion": "zoom_out_big"
+  },
+  {
+   "id": "s245",
+   "chapter": "ch4",
+   "srt": [
+    245,
+    245
+   ],
+   "image": "img_122",
+   "type": "narration",
+   "motion": "pan_left"
+  },
+  {
+   "id": "s246",
+   "chapter": "ch4",
+   "srt": [
+    246,
+    246
+   ],
+   "image": "img_122",
+   "type": "line",
+   "speaker": "麗子",
+   "motion": "push_slow"
+  },
+  {
+   "id": "s247",
+   "chapter": "ch4",
+   "srt": [
+    247,
+    247
+   ],
+   "image": "img_123",
+   "type": "narration",
+   "motion": "pan_up"
+  },
+  {
+   "id": "s248",
+   "chapter": "ch4",
+   "srt": [
+    248,
+    248
+   ],
+   "image": "img_123",
+   "type": "line",
+   "speaker": "由美",
+   "motion": "pan_down"
+  },
+  {
+   "id": "s249",
+   "chapter": "ch4",
+   "srt": [
+    249,
+    249
+   ],
+   "image": "img_124",
+   "type": "line",
+   "speaker": "麗子",
+   "sfx": "impact",
+   "transition": "flash",
+   "motion": "punch_zoom"
+  },
+  {
+   "id": "s250",
+   "chapter": "ch4",
+   "srt": [
+    250,
+    250
+   ],
+   "image": "img_124",
+   "type": "narration",
+   "motion": "zoom_in_big"
+  },
+  {
+   "id": "s251",
+   "chapter": "ch4",
+   "srt": [
+    251,
+    253
+   ],
+   "image": "img_125",
+   "type": "narration",
+   "motion": "pan_right"
+  },
+  {
+   "id": "s254",
+   "chapter": "ch4",
+   "srt": [
+    254,
+    257
+   ],
+   "image": "img_126",
+   "type": "line",
+   "speaker": "看護師",
+   "motion": "zoom_out_big"
+  },
+  {
+   "id": "s258",
+   "chapter": "ch4",
+   "srt": [
+    258,
+    258
+   ],
+   "image": "img_11",
+   "type": "narration",
+   "motion": "pan_left"
+  },
+  {
+   "id": "s259",
+   "chapter": "ch4",
+   "srt": [
+    259,
+    259
+   ],
+   "image": "img_12",
+   "type": "narration",
+   "motion": "push_slow"
+  },
+  {
+   "id": "s260",
+   "chapter": "ch4",
+   "srt": [
+    260,
+    262
+   ],
+   "image": "img_127",
+   "type": "line",
+   "speaker": "麗子",
+   "motion": "pan_up"
+  },
+  {
+   "id": "s263",
+   "chapter": "ch4",
+   "srt": [
+    263,
+    263
+   ],
+   "type": "clip",
+   "clips": [
+    "clip02"
+   ]
+  },
+  {
+   "id": "s264",
+   "chapter": "ch4",
+   "srt": [
+    264,
+    264
+   ],
+   "image": "img_13",
+   "type": "line",
+   "speaker": "麗子",
+   "motion": "pan_down"
+  },
+  {
+   "id": "s265",
+   "chapter": "ch4",
+   "srt": [
+    265,
+    266
+   ],
+   "image": "img_128",
+   "type": "narration",
+   "motion": "zoom_in_big"
+  },
+  {
+   "id": "s267",
+   "chapter": "ch4",
+   "srt": [
+    267,
+    267
+   ],
+   "image": "img_128",
+   "type": "line",
+   "speaker": "麗子",
+   "motion": "pan_right"
+  },
+  {
+   "id": "s268",
+   "chapter": "ch4",
+   "srt": [
+    268,
+    268
+   ],
+   "image": "img_14",
+   "type": "narration",
+   "motion": "zoom_out_big"
+  },
+  {
+   "id": "s269",
+   "chapter": "ch4",
+   "srt": [
+    269,
+    269
+   ],
+   "image": "img_14",
+   "type": "line",
+   "speaker": "看護師",
+   "motion": "pan_left"
+  },
+  {
+   "id": "s270",
+   "chapter": "ch4",
+   "srt": [
+    270,
+    272
+   ],
+   "image": "img_129",
+   "type": "narration",
+   "motion": "push_slow"
+  },
+  {
+   "id": "s273",
+   "chapter": "ch4",
+   "srt": [
+    273,
+    273
+   ],
+   "type": "clip",
+   "clips": [
+    "clip03"
+   ]
+  },
+  {
+   "id": "s274",
+   "chapter": "ch4",
+   "srt": [
+    274,
+    274
+   ],
+   "image": "img_16",
+   "type": "narration",
+   "motion": "pan_up"
+  },
+  {
+   "id": "s275",
+   "chapter": "ch4",
+   "srt": [
+    275,
+    276
+   ],
+   "image": "img_130",
+   "type": "line",
+   "speaker": "麗子",
+   "motion": "pan_down"
+  },
+  {
+   "id": "s277",
+   "chapter": "ch4",
+   "srt": [
+    277,
+    277
+   ],
+   "image": "img_131",
+   "type": "narration",
+   "motion": "zoom_in_big"
+  },
+  {
+   "id": "s278",
+   "chapter": "ch4",
+   "srt": [
+    278,
+    279
+   ],
+   "image": "img_131",
+   "type": "line",
+   "speaker": "由美",
+   "motion": "pan_right"
+  },
+  {
+   "id": "s280",
+   "chapter": "ch4",
+   "srt": [
+    280,
+    280
+   ],
+   "image": "img_132",
+   "type": "narration",
+   "motion": "zoom_out_big"
+  },
+  {
+   "id": "s281",
+   "chapter": "ch4",
+   "srt": [
+    281,
+    282
+   ],
+   "image": "img_132",
+   "type": "line",
+   "speaker": "中島",
+   "motion": "pan_left"
+  },
+  {
+   "id": "s283",
+   "chapter": "ch4",
+   "srt": [
+    283,
+    285
+   ],
+   "image": "img_133",
+   "type": "narration",
+   "motion": "push_slow"
+  },
+  {
+   "id": "s286",
+   "chapter": "ch4",
+   "srt": [
+    286,
+    288
+   ],
+   "image": "img_134",
+   "type": "narration",
+   "motion": "pan_up"
+  },
+  {
+   "id": "s289",
+   "chapter": "ch4",
+   "srt": [
+    289,
+    290
+   ],
+   "image": "img_135",
+   "type": "narration",
+   "motion": "pan_down"
+  },
+  {
+   "id": "s291",
+   "chapter": "ch4",
+   "srt": [
+    291,
+    292
+   ],
+   "image": "img_136",
+   "type": "line",
+   "speaker": "麗子",
+   "sfx": "impact",
+   "transition": "flash",
+   "motion": "punch_zoom"
+  },
+  {
+   "id": "s293",
+   "chapter": "ch4",
+   "srt": [
+    293,
+    294
+   ],
+   "image": "img_137",
+   "type": "narration",
+   "motion": "zoom_in_big"
+  },
+  {
+   "id": "s295",
+   "chapter": "ch4",
+   "srt": [
+    295,
+    296
+   ],
+   "image": "img_138",
+   "type": "narration",
+   "motion": "pan_right"
+  },
+  {
+   "id": "s297",
+   "chapter": "ch5",
+   "srt": [
+    297,
+    298
+   ],
+   "image": "img_139",
+   "type": "narration",
+   "motion": "zoom_out_big",
+   "transition": "fade"
+  },
+  {
+   "id": "s299",
+   "chapter": "ch5",
+   "srt": [
+    299,
+    300
+   ],
+   "image": "img_140",
+   "type": "narration",
+   "motion": "pan_left"
+  },
+  {
+   "id": "s301",
+   "chapter": "ch5",
+   "srt": [
+    301,
+    301
+   ],
+   "image": "img_141",
+   "type": "narration",
+   "motion": "push_slow"
+  },
+  {
+   "id": "s302",
+   "chapter": "ch5",
+   "srt": [
+    302,
+    304
+   ],
+   "image": "img_141",
+   "type": "line",
+   "speaker": "麗子",
+   "motion": "pan_up"
+  },
+  {
+   "id": "s305",
+   "chapter": "ch5",
+   "srt": [
+    305,
+    305
+   ],
+   "image": "img_142",
+   "type": "narration",
+   "motion": "pan_down"
+  },
+  {
+   "id": "s306",
+   "chapter": "ch5",
+   "srt": [
+    306,
+    307
+   ],
+   "image": "img_143",
+   "type": "narration",
+   "motion": "zoom_in_big"
+  },
+  {
+   "id": "s308",
+   "chapter": "ch5",
+   "srt": [
+    308,
+    309
+   ],
+   "image": "img_144",
+   "type": "line",
+   "speaker": "麗子",
+   "motion": "pan_right"
+  },
+  {
+   "id": "s310",
+   "chapter": "ch5",
+   "srt": [
+    310,
+    310
+   ],
+   "image": "img_145",
+   "type": "narration",
+   "motion": "zoom_out_big"
+  },
+  {
+   "id": "s311",
+   "chapter": "ch5",
+   "srt": [
+    311,
+    312
+   ],
+   "image": "img_145",
+   "type": "line",
+   "speaker": "美恵子",
+   "motion": "pan_left"
+  },
+  {
+   "id": "s313",
+   "chapter": "ch5",
+   "srt": [
+    313,
+    313
+   ],
+   "image": "img_146",
+   "type": "line",
+   "speaker": "麗子",
+   "motion": "push_slow"
+  },
+  {
+   "id": "s314",
+   "chapter": "ch5",
+   "srt": [
+    314,
+    314
+   ],
+   "image": "img_146",
+   "type": "narration",
+   "motion": "pan_up"
+  },
+  {
+   "id": "s315",
+   "chapter": "ch5",
+   "srt": [
+    315,
+    315
+   ],
+   "type": "clip",
+   "clips": [
+    "clip06"
+   ]
+  },
+  {
+   "id": "s316",
+   "chapter": "ch5",
+   "srt": [
+    316,
+    316
+   ],
+   "image": "img_148",
+   "type": "narration",
+   "sfx": "impact",
+   "transition": "flash",
+   "motion": "punch_zoom"
+  },
+  {
+   "id": "s317",
+   "chapter": "ch5",
+   "srt": [
+    317,
+    319
+   ],
+   "image": "img_149",
+   "type": "narration",
+   "motion": "pan_down"
+  },
+  {
+   "id": "s320",
+   "chapter": "ch5",
+   "srt": [
+    320,
+    322
+   ],
+   "image": "img_150",
+   "type": "narration",
+   "motion": "zoom_in_big"
+  },
+  {
+   "id": "s323",
+   "chapter": "ch5",
+   "srt": [
+    323,
+    323
+   ],
+   "image": "img_151",
+   "type": "narration",
+   "motion": "pan_right"
+  },
+  {
+   "id": "s324",
+   "chapter": "ch5",
+   "srt": [
+    324,
+    325
+   ],
+   "image": "img_152",
+   "type": "narration",
+   "motion": "zoom_out_big",
+   "transition": "fade"
+  },
+  {
+   "id": "s326",
+   "chapter": "ch5",
+   "srt": [
+    326,
+    326
+   ],
+   "image": "img_153",
+   "type": "line",
+   "speaker": "キヨ",
+   "motion": "pan_left"
+  },
+  {
+   "id": "s327",
+   "chapter": "ch5",
+   "srt": [
+    327,
+    327
+   ],
+   "image": "img_153",
+   "type": "line",
+   "speaker": "美恵子",
+   "motion": "push_slow"
+  },
+  {
+   "id": "s328",
+   "chapter": "ch5",
+   "srt": [
+    328,
+    328
+   ],
+   "image": "img_153",
+   "type": "narration",
+   "motion": "pan_up"
+  },
+  {
+   "id": "s329",
+   "chapter": "ch5",
+   "srt": [
+    329,
+    329
+   ],
+   "image": "img_154",
+   "type": "line",
+   "speaker": "キヨ",
+   "motion": "pan_down"
+  },
+  {
+   "id": "s330",
+   "chapter": "ch5",
+   "srt": [
+    330,
+    330
+   ],
+   "image": "img_154",
+   "type": "narration",
+   "motion": "zoom_in_big"
+  },
+  {
+   "id": "s331",
+   "chapter": "ch5",
+   "srt": [
+    331,
+    331
+   ],
+   "image": "img_155",
+   "type": "narration",
+   "motion": "pan_right"
+  },
+  {
+   "id": "s332",
+   "chapter": "ch5",
+   "srt": [
+    332,
+    332
+   ],
+   "image": "img_155",
+   "type": "line",
+   "speaker": "キヨ",
+   "motion": "zoom_out_big"
+  },
+  {
+   "id": "s333",
+   "chapter": "ch5",
+   "srt": [
+    333,
+    333
+   ],
+   "image": "img_155",
+   "type": "narration",
+   "motion": "pan_left"
+  },
+  {
+   "id": "s334",
+   "chapter": "ch5",
+   "srt": [
+    334,
+    336
+   ],
+   "image": "img_156",
+   "type": "line",
+   "speaker": "キヨ",
+   "motion": "push_slow"
+  },
+  {
+   "id": "s337",
+   "chapter": "ch5",
+   "srt": [
+    337,
+    337
+   ],
+   "image": "img_157",
+   "type": "narration",
+   "motion": "pan_up"
+  },
+  {
+   "id": "s338",
+   "chapter": "epilogue",
+   "srt": [
+    338,
+    339
+   ],
+   "image": "img_158",
+   "type": "narration",
+   "motion": "pan_down",
+   "transition": "fade"
+  },
+  {
+   "id": "s340",
+   "chapter": "epilogue",
+   "srt": [
+    340,
+    341
+   ],
+   "image": "img_159",
+   "type": "narration",
+   "motion": "zoom_in_big"
+  },
+  {
+   "id": "s342",
+   "chapter": "epilogue",
+   "srt": [
+    342,
+    343
+   ],
+   "image": "img_160",
+   "type": "narration",
+   "motion": "pan_right"
+  },
+  {
+   "id": "s344",
+   "chapter": "epilogue",
+   "srt": [
+    344,
+    344
+   ],
+   "image": "img_161",
+   "type": "line",
+   "speaker": "麗子",
+   "motion": "zoom_out_big"
+  },
+  {
+   "id": "s345",
+   "chapter": "epilogue",
+   "srt": [
+    345,
+    345
+   ],
+   "image": "img_161",
+   "type": "narration",
+   "motion": "pan_left"
+  },
+  {
+   "id": "s346",
+   "chapter": "epilogue",
+   "srt": [
+    346,
+    347
+   ],
+   "image": "img_162",
+   "type": "narration",
+   "motion": "push_slow",
+   "transition": "fade"
+  },
+  {
+   "id": "s348",
+   "chapter": "epilogue",
+   "srt": [
+    348,
+    348
+   ],
+   "image": "img_163",
+   "type": "line",
+   "speaker": "キヨ",
+   "motion": "pan_up"
+  },
+  {
+   "id": "s349",
+   "chapter": "epilogue",
+   "srt": [
+    349,
+    349
+   ],
+   "type": "clip",
+   "clips": [
+    "clip07"
+   ]
+  },
+  {
+   "id": "s350",
+   "chapter": "epilogue",
+   "srt": [
+    350,
+    351
+   ],
+   "image": "img_164",
+   "type": "narration",
+   "motion": "pan_down"
+  },
+  {
+   "id": "s352",
+   "chapter": "epilogue",
+   "srt": [
+    352,
+    354
+   ],
+   "image": "img_165",
+   "type": "narration",
+   "motion": "zoom_in_big"
+  },
+  {
+   "id": "s355",
+   "chapter": "epilogue",
+   "srt": [
+    355,
+    355
+   ],
+   "image": "img_166",
+   "type": "line",
+   "speaker": "キヨ",
+   "motion": "pan_right"
+  },
+  {
+   "id": "s356",
+   "chapter": "epilogue",
+   "srt": [
+    356,
+    357
+   ],
+   "image": "img_166",
+   "type": "narration",
+   "motion": "zoom_out_big"
+  },
+  {
+   "id": "s358",
+   "chapter": "epilogue",
+   "srt": [
+    358,
+    359
+   ],
+   "image": "img_167",
+   "type": "narration",
+   "motion": "pan_left"
+  },
+  {
+   "id": "s360",
+   "chapter": "epilogue",
+   "srt": [
+    360,
+    360
+   ],
+   "image": "img_168",
+   "type": "narration",
+   "motion": "push_slow"
+  },
+  {
+   "id": "s361",
+   "chapter": "epilogue",
+   "srt": [
+    361,
+    361
+   ],
+   "image": "img_168",
+   "type": "line",
+   "speaker": "麗子",
+   "motion": "pan_up"
+  },
+  {
+   "id": "s362",
+   "chapter": "epilogue",
+   "srt": [
+    362,
+    362
+   ],
+   "image": "img_169",
+   "type": "narration",
+   "motion": "pan_down"
+  },
+  {
+   "id": "s363",
+   "chapter": "epilogue",
+   "srt": [
+    363,
+    363
+   ],
+   "image": "img_169",
+   "type": "line",
+   "speaker": "キヨ",
+   "motion": "zoom_in_big"
+  },
+  {
+   "id": "s364",
+   "chapter": "epilogue",
+   "srt": [
+    364,
+    365
+   ],
+   "type": "clip",
+   "clips": [
+    "clip08"
+   ]
+  },
+  {
+   "id": "s999",
+   "chapter": "epilogue",
+   "type": "end",
+   "ja": "本当の家族とは、誰のことでしょうか",
+   "disclaimer": "※この物語はフィクションです。",
+   "duration": 6
+  }
+ ]
+}

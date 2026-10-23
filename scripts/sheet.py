@@ -34,7 +34,7 @@ for n, iid in enumerate(ids):
         missing.append(iid)
         draw.rectangle([x + 2, y + 2, x + TW - 3, y + TH - 3], fill=(90, 0, 0))
     label = iid.replace("img_", "")
-    draw.rectangle([x + 2, y + 2, x + 70, y + 46], fill=(0, 0, 0))
+    draw.rectangle([x + 2, y + 2, x + 22 * len(iid.replace("img_", "")) + 26, y + 46], fill=(0, 0, 0))
     draw.text((x + 10, y + 6), label, fill=(255, 225, 77), font=font)
 out = ROOT / "remotion" / "out" / f"{ep}_images.jpg"
 out.parent.mkdir(parents=True, exist_ok=True)
