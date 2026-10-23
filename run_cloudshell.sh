@@ -62,7 +62,7 @@ export GOOGLE_GENAI_USE_ENTERPRISE=true
 export GOOGLE_GENAI_USE_VERTEXAI=true
 echo "▶ project: $GOOGLE_CLOUD_PROJECT"
 
-gcloud services enable aiplatform.googleapis.com --quiet
+gcloud services enable aiplatform.googleapis.com --quiet 2>/dev/null || echo "▶ (API 켜기 확인은 건너뜀 — 이미 켜져 있으면 문제없어요)"
 # ffmpeg for audio checks, Japanese fonts so captions never render as boxes
 if ! command -v ffmpeg >/dev/null || ! fc-list | grep -qi "Noto Sans CJK"; then
   sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-noto-cjk >/dev/null
@@ -116,7 +116,7 @@ if [[ "$MODE" == "clips" ]]; then
 fi
 if [[ "$FORMAT" == "longform" ]]; then
   # ── 롱폼 (16:9): 이미지 + 움직임 + 나레이션 + 입을 여는 영상 ──
-  gcloud services enable texttospeech.googleapis.com --quiet
+  gcloud services enable texttospeech.googleapis.com --quiet 2>/dev/null || true
   if [[ "$MODE" == "preview" ]]; then
     UPTO=(--upto ch1)   # 미리보기: 인트로 + 1장만
     $PY scripts/generate.py samples --ep "$EP"
