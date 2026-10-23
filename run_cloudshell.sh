@@ -61,7 +61,7 @@ if [[ ! -d .venv ]]; then
   python3 -m venv .venv
   .venv/bin/pip install -q "google-genai>=2.0.0" pillow faster-whisper
 fi
-PY=.venv/bin/python
+PY="$PWD/.venv/bin/python"  # absolute: later steps run inside remotion/
 
 $PY scripts/generate.py refs --ep "$EP"
 FORMAT="$($PY -c "import json; print(json.load(open('episodes/$EP/story.json')).get('format', 'shorts'))")"
@@ -154,6 +154,7 @@ else
     echo "file '$(basename "$PART")'" >> "$PARTS/list.txt"
   done
   ffmpeg -y -v error -f concat -safe 0 -i "$PARTS/list.txt" -c copy "out/$EP.mp4"
+  rm -rf "$PARTS"  # parts are only for resuming; free the Cloud Shell disk (5 GB)
   if $PY -c "import json,sys; sys.exit(0 if 'thumbnail' in json.load(open('../episodes/$EP/story.json')) else 1)"; then
     COMP="$(cd .. && $PY scripts/thumbnail.py --ep "$EP")"
     npx remotion still "$COMP" "out/${EP}_thumb.jpg" --props="out/${EP}_thumb_props.json" --log=error
