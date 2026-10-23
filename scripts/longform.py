@@ -185,15 +185,31 @@ def build(story, ep, upto=None):
                 "speech": [round(start - cut_in, 2), round(end - cut_in, 2)]}
 
     def vrew_clip(cid, seconds):
-        """Vrew narration plays over the clip, so the clip is silent and slowed down if it is too short."""
+        """Silent clip: the Vrew narration plays over it (slowed down if too short).
+        Talking clip ("lines"): the actor's own voice plays instead of the narration, starting
+        where the speech starts so it fits the slot of that caption line."""
+        nonlocal whisper
         path = shots_dir / f"{cid}.mp4"
         if not path.exists():
             missing.append(f"{cid}.mp4")
             return {"file": None, "id": cid, "from": 0, "seconds": seconds, "captions": [], "speech": [0, 0]}
         dur = duration(path)
         zoom = bars_zoom(path)
-        return {"file": f"shots/{ep}/{cid}.mp4", "id": cid, "from": 0, "zoom": zoom, "seconds": seconds,
+        part = {"file": f"shots/{ep}/{cid}.mp4", "id": cid, "from": 0, "zoom": zoom, "seconds": seconds,
                 "rate": round(min(1.0, dur / seconds), 3), "muted": True, "captions": [], "speech": [0, 0]}
+        if clips[cid].get("lines"):
+            if whisper is None:
+                from align import WhisperModel
+                whisper = WhisperModel("small", device="cpu", compute_type="int8")
+            from align import audio16k
+            segs, _ = whisper.transcribe(audio16k(path), language="ja", vad_filter=True)
+            segs = [x for x in segs if x.text.strip()]
+            start = segs[0].start if segs else 0.4
+            print(f"  {cid} {dur:.1f}s heard: {''.join(x.text for x in segs) or '(no speech)'}")
+            if segs and segs[-1].end - start > seconds:
+                warnings.append(f"{cid}: 대사({segs[-1].end - start:.1f}초)가 자리({seconds:.1f}초)보다 길어 끝이 잘려요 → redo ep06 {cid}")
+            part.update(rate=1.0, muted=False, **{"from": round(max(0.0, min(start - 0.2, dur - seconds)), 2)})
+        return part
 
     scenes, prev_motion = [], None
     for sc in story["scenes"]:
@@ -241,6 +257,10 @@ def build(story, ep, upto=None):
                                     "color": speakers.get(n, "#888")} for i, (n, m) in enumerate(sc["messages"])]
             elif t == "clip":
                 out["clips"] = [vrew_clip(cid, seconds / len(sc["clips"])) for cid in sc["clips"]]
+                out["talk"] = any(clips[c].get("lines") for c in sc["clips"])  # narration off, bubble captions
+                if out["talk"]:
+                    out["speaker"] = clips[sc["clips"][0]]["lines"][0][0]
+                    out["color"] = speakers.get(out["speaker"], "#888")
             elif t in ("title", "card", "end"):
                 out["text"] = sc["ja"]
                 out["disclaimer"] = sc.get("disclaimer", "")

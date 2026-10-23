@@ -51,9 +51,8 @@ def check(story):
         sec = float(str(sh.get("duration", "0")).rstrip("s"))
         if sec > OMNI_MAX_SEC:
             err.append(f"{sh['id']}: Omni 영상은 {OMNI_MAX_SEC}초까지예요 ({sec:g}초) → 대사별로 나누기 (clip01a, clip01b)")
-        if vrew:  # Vrew narration plays over silent clips
-            if sh.get("lines"):
-                err.append(f"{sh['id']}: Vrew 나레이션 편은 영상에 대사(lines)를 넣지 않아요 (목소리가 겹쳐요)")
+        if vrew:  # silent clips under the narration, or talking clips that replace one caption line
+            pass
         elif not sh.get("lines"):
             err.append(f"{sh['id']}: lines(대사)가 없어요")
         for sp, ja in sh.get("lines", []):
@@ -149,6 +148,12 @@ def check_vrew(story, shots):
         want = b + 1
         if sc.get("type") == "clip":
             sec = srt[min(b, len(srt)) - 1][1] - srt[min(a, len(srt)) - 1][0]
+            talking = [c for c in sc.get("clips", []) if shots.get(c, {}).get("lines")]
+            if talking:
+                said = "".join(ja for c in talking for _, ja in shots[c]["lines"])
+                heard = "".join(x[2] for x in srt[a - 1:b]).strip("「」")
+                if said != heard:
+                    err.append(f"{sc['id']}: 말하는 영상 대사가 자막과 달라요 (자막: {heard})")
             for c in sc.get("clips", []):
                 if c in shots and float(shots[c]["duration"].rstrip("s")) < sec:
                     err.append(f"{sc['id']}: 영상 {c}이(가) 장면({sec:.1f}초)보다 짧아요")

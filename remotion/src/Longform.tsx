@@ -63,6 +63,7 @@ type Scene = {
   letterLines?: Caption[];
   text?: string;
   disclaimer?: string;
+  talk?: boolean; // Vrew narration: an actor speaks this line, so the narration is silent here
 };
 type Timeline = {
   total: number;
@@ -314,8 +315,8 @@ const ClipScene: React.FC<{ scene: Scene }> = ({ scene }) => {
           </Sequence>
         );
       })}
-      {/* Vrew narration: the scene's own captions over silent clips */}
-      <Subtitle captions={scene.captions} />
+      {/* Vrew narration: the scene's own captions (a bubble when the actor speaks) */}
+      {scene.talk ? <Bubble captions={scene.captions} color={scene.color} /> : <Subtitle captions={scene.captions} />}
     </AbsoluteFill>
   );
 };
@@ -591,6 +592,15 @@ const duckAt = (f: number) => {
   return data.bgm.volume * (quiet + (1 - quiet) * level) * interpolate(f, [0, 15], [0, 1], clamp) * fadeOut;
 };
 
+// Vrew narration volume: silent while an actor speaks the line on screen.
+const talks = data.scenes.filter((s) => s.talk).map((s) => [s.start, s.start + s.frames]);
+const narrationAt = (f: number) => {
+  for (const [a, b] of talks) {
+    if (f >= a - 2 && f < b) return 0;
+  }
+  return 1;
+};
+
 // One song looped with a 2-second crossfade at every seam.
 const Music: React.FC = () => {
   const bgm = data.bgm;
@@ -647,7 +657,7 @@ export const Longform: React.FC = () => {
           ))}
         </Sequence>
       ))}
-      {data.narration ? <Audio src={staticFile(data.narration.file)} /> : null}
+      {data.narration ? <Audio src={staticFile(data.narration.file)} volume={narrationAt} /> : null}
       <Music />
     </AbsoluteFill>
   );
