@@ -142,6 +142,8 @@ def check_vrew(story, shots):
     srt = read_srt(srt_path)
     want = 1
     for sc in story["scenes"]:
+        if "srt" not in sc and sc.get("type") == "end" and sc is story["scenes"][-1]:
+            continue  # end card after the narration
         a, b = sc.get("srt", [0, 0])
         if a != want or b < a:
             err.append(f"{sc['id']}: srt는 [{want}, …]로 시작해야 해요 (지금 {sc.get('srt')})")
@@ -151,7 +153,7 @@ def check_vrew(story, shots):
             talking = [c for c in sc.get("clips", []) if shots.get(c, {}).get("lines")]
             if talking:
                 said = "".join(ja for c in talking for _, ja in shots[c]["lines"])
-                heard = "".join(x[2] for x in srt[a - 1:b]).strip("「」")
+                heard = "".join(x[2] for x in srt[a - 1:b]).replace("「", "").replace("」", "")
                 if said != heard:
                     err.append(f"{sc['id']}: 말하는 영상 대사가 자막과 달라요 (자막: {heard})")
             for c in sc.get("clips", []):

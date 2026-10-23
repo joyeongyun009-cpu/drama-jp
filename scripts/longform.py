@@ -111,12 +111,17 @@ def vrew_times(story, keep):
     srt = read_srt(ROOT / story["narration"]["srt"])
     audio = duration(PUBLIC / story["narration"]["audio"])
     scenes = story["scenes"]  # whole story, so a preview stops where its last scene really ends
-    starts = [0.0 if i == 0 else srt[sc["srt"][0] - 1][0] for i, sc in enumerate(scenes)]
+    end = max(audio, srt[-1][1])
+    starts = [0.0 if i == 0 else srt[sc["srt"][0] - 1][0] if "srt" in sc else end for i, sc in enumerate(scenes)]
     out = {}
     for i, sc in enumerate(scenes):
+        if "srt" not in sc:  # end card after the narration
+            if sc["chapter"] in keep:
+                out[sc["id"]] = (round(end * FPS), round((end + float(sc.get("duration", 5))) * FPS), [])
+            continue
         a, b = sc["srt"]
         t0 = starts[i]
-        t1 = starts[i + 1] if i + 1 < len(scenes) else max(audio, srt[b - 1][1]) + float(sc.get("duration", 0))
+        t1 = starts[i + 1] if i + 1 < len(scenes) else end + float(sc.get("duration", 0))
         lines = [{"text": wrap(x[2]), "start": round(x[0] - t0, 2), "end": round(min(x[1], t1) - t0, 2)}
                  for x in srt[a - 1:b]]
         if sc["chapter"] in keep:

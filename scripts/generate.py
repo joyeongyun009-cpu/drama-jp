@@ -50,10 +50,18 @@ def make_refs(client, story, only):
         out = REFS / f"{cid}.png"
         if (only and cid not in only) or out.exists():
             continue
+        if ch.get("file"):  # the user's own photo (e.g. the channel's face): use it as it is
+            from PIL import Image
+            Image.open(ROOT / ch["file"]).convert("RGB").save(out)
+            print(f"[ref] {cid}: {ch['file']} 사진 사용", flush=True)
+            continue
+        # "from": earlier portraits to keep the same face (same person at another age)
+        base = [types.Part.from_bytes(data=(REFS / f"{r}.png").read_bytes(), mime_type="image/png")
+                for r in ch.get("from", []) if (REFS / f"{r}.png").exists()]
         print(f"[ref] {cid} ...", flush=True)
         for attempt in range(6):  # busy / quota errors: wait and try again instead of stopping everything
             try:
-                resp = client.models.generate_content(model=IMAGE_MODEL, contents=ch["image_prompt"])
+                resp = client.models.generate_content(model=IMAGE_MODEL, contents=[ch["image_prompt"], *base])
             except Exception as e:  # noqa: BLE001
                 wait = min(120, 20 * (attempt + 1))
                 print(f"[ref] {cid} 잠시 후 다시 ({wait}초): {str(e)[:120]}", flush=True)
