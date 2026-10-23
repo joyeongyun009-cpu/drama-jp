@@ -5,6 +5,7 @@
 #   bash run_cloudshell.sh preview ep02   # character photos + shot 1 + short preview video
 #   bash run_cloudshell.sh all ep02       # every shot + final video
 #   bash run_cloudshell.sh thumb ep05     # YouTube thumbnail only (story.json "thumbnail")
+#   bash run_cloudshell.sh clean ep07     # delete older episodes' images/clips/videos (keeps refs)
 #
 # Longform episodes (story.json "format": "longform", 16:9), step by step:
 #   bash run_cloudshell.sh images ep06          # 1. all images + one numbered overview picture
@@ -23,6 +24,16 @@ REDO=("$@")
 [[ -f "episodes/$EP/story.json" ]] || { echo "❌ episodes/$EP/story.json 이 없어요"; exit 1; }
 # 대본 점검 (롱폼): 문제가 있으면 아무것도 만들기 전에 멈춤
 python3 scripts/check.py --ep "$EP"
+# 정리: 이번 편(epNN, epNNs) 말고 지난 편들의 그림·영상·완성본·임시 파일을 지워 공간 확보 (인물 사진 refs는 남김)
+if [[ "$MODE" == "clean" ]]; then
+  for D in remotion/public/shots/*/; do
+    N="$(basename "$D")"; [[ "$N" == "$EP" || "$N" == "${EP}s" ]] || rm -rf "$D"
+  done
+  find remotion/out -maxdepth 1 -mindepth 1 ! -name "${EP}*" -exec rm -rf {} + 2>/dev/null || true
+  rm -rf ~/.cache/pip ~/.npm/_cacache ~/drama-jp*.zip refs.zip preview.mp4
+  echo "✅ 정리 끝. 남은 공간:"; df -h ~ | tail -1
+  exit 0
+fi
 # 썸네일만: 이미 만든 그림으로 1초 만에 만듦
 if [[ "$MODE" == "thumb" ]]; then
   COMP="$(python3 scripts/thumbnail.py --ep "$EP")"
