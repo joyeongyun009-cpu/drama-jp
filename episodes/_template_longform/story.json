@@ -14,8 +14,8 @@
  "aspect": "16:9",
  "bgm": {
   "file": "bgm/bach_cello_prelude.mp3",
-  "volume": 0.25,
-  "duck": 0.08
+  "volume": 0.35,
+  "duck": 0.12
  },
  "voice": {
   "narrator": "ja-JP-Chirp3-HD-Gacrux",
