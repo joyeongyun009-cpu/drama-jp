@@ -14,7 +14,7 @@
  "aspect": "9:16",
  "bgm": {
   "file": "bgm/bach_cello_prelude.mp3",
-  "volume": 0.2
+  "volume": 0.3
  },
  "characters": {
   "misa": {
