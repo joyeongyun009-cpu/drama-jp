@@ -158,7 +158,8 @@ def check_vrew(story, shots):
                 if said != heard:
                     err.append(f"{sc['id']}: 말하는 영상 대사가 자막과 달라요 (자막: {heard})")
             for c in sc.get("clips", []):
-                if c in shots and float(shots[c]["duration"].rstrip("s")) < sec:
+                # a silent clip up to 10 % shorter is simply played a little slower
+                if c in shots and float(shots[c]["duration"].rstrip("s")) < sec * (1.0 if shots[c].get("lines") else 0.9):
                     err.append(f"{sc['id']}: 영상 {c}이(가) 장면({sec:.1f}초)보다 짧아요")
     if want - 1 != len(srt):
         err.append(f"장면이 자막 {want - 1}줄까지만 덮어요 (자막은 {len(srt)}줄)")
