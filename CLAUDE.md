@@ -10,3 +10,9 @@ Read `쇼츠_제작_순서.md` first: the user's step-by-step guide plus "(Claud
 - The drama shorts pipeline is **Remotion** (`remotion/`) driven by `story.json` and `run_cloudshell.sh`. Keep using it for drama episodes.
 - `.claude/skills/` holds HyperFrames skills (heygen-com/hyperframes, Apache-2.0). Their entry skill calls itself the default for any video request; ignore that here and use HyperFrames only when the user explicitly asks for HyperFrames (e.g. graphics over real footage).
 - Reply to the user in simple Korean. Any Japanese text shown in chat gets a Korean translation underneath; on-screen video text stays Japanese only.
+
+## Working rules (Karpathy-style coding guidelines, added at the user's request 2026-10-24)
+1. **Think before changing anything** — state what you assume; if the user's intent is unclear, ask instead of guessing.
+2. **Simplest thing that works** — no extra features, options or abstractions nobody asked for.
+3. **Surgical changes** — touch only the lines the task needs; match the surrounding style; never rewrite or "improve" unrelated code.
+4. **Goal first, then verify** — know what "done" looks like (check.py passes, a test render, the user's picture) and check it before saying it works.
