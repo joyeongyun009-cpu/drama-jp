@@ -19,8 +19,8 @@
  },
  "bgm": {
   "file": "bgm/bach_cello_prelude.mp3",
-  "volume": 0.2,
-  "duck": 0.08
+  "volume": 0.3,
+  "duck": 0.15
  },
  "voice": {
   "narrator": "ja-JP-Chirp3-HD-Gacrux",
