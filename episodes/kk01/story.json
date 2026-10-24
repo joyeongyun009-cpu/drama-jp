@@ -39,23 +39,37 @@
   "yome": {
    "name": "お嫁さん（3D）",
    "image_prompt": "Cute, warm stylized 3D animated character in a Pixar-like style, friendly and not scary, with a translucent glass-like body through which a softly glowing skeleton, brain, heart and organs are visible in warm amber light. Character reference portrait of a kind Japanese woman in her 40s with shoulder-length brown hair and a white blouse, front-facing upper body, plain soft light-grey background, warm smile, high quality 3D render, no text."
+  },
+  "obaachan_n": {
+   "name": "おばあちゃん（普通の姿）",
+   "from": [
+    "obaachan"
+   ],
+   "image_prompt": "The same character as the attached image, but with a normal opaque body: Cute, warm stylized 3D animated character in a Pixar-like style, a normal ordinary body with clothes, nothing see-through, no visible bones or organs. Character reference portrait of a gentle Japanese grandmother in her 70s with short white permed hair, round glasses and a beige knit cardigan, front-facing upper body, plain soft light-grey background, gentle smile, high quality 3D render, no text."
+  },
+  "yome_n": {
+   "name": "お嫁さん（普通の姿）",
+   "from": [
+    "yome"
+   ],
+   "image_prompt": "The same character as the attached image, but with a normal opaque body: Cute, warm stylized 3D animated character in a Pixar-like style, a normal ordinary body with clothes, nothing see-through, no visible bones or organs. Character reference portrait of a kind Japanese woman in her 40s with shoulder-length brown hair and a white blouse, front-facing upper body, plain soft light-grey background, warm smile, high quality 3D render, no text."
   }
  },
  "images": [
   {
    "id": "img_01",
    "refs": [
-    "obaachan",
-    "yome"
+    "obaachan_n",
+    "yome_n"
    ],
-   "prompt": "Cute, warm stylized 3D animated character in a Pixar-like style, friendly and not scary, with a translucent glass-like body through which a softly glowing skeleton, brain, heart and organs are visible in warm amber light: in a cozy Japanese living room, a kind Japanese woman in her 40s with shoulder-length brown hair and a white blouse smiles and hands a cup of green tea to a gentle Japanese grandmother in her 70s with short white permed hair, round glasses and a beige knit cardigan, who sits at a low table, warm soft lighting, vertical 9:16 framing, high quality 3D render, no text, no letters, no watermark"
+   "prompt": "Cute, warm stylized 3D animated character in a Pixar-like style, a normal ordinary body with clothes, nothing see-through, no visible bones or organs: in a cozy Japanese living room, a kind Japanese woman in her 40s with shoulder-length brown hair and a white blouse smiles and hands a cup of green tea to a gentle Japanese grandmother in her 70s with short white permed hair, round glasses and a beige knit cardigan, who sits at a low table, warm soft lighting, vertical 9:16 framing, high quality 3D render, no text, no letters, no watermark"
   },
   {
    "id": "img_02",
    "refs": [
-    "obaachan"
+    "obaachan_n"
    ],
-   "prompt": "Cute, warm stylized 3D animated character in a Pixar-like style, friendly and not scary, with a translucent glass-like body through which a softly glowing skeleton, brain, heart and organs are visible in warm amber light: close-up of a gentle Japanese grandmother in her 70s with short white permed hair, round glasses and a beige knit cardigan, eyes slightly widening in gentle surprise, her translucent head showing the brain still dim, warm soft lighting, vertical 9:16 framing, high quality 3D render, no text, no letters, no watermark"
+   "prompt": "Cute, warm stylized 3D animated character in a Pixar-like style, a normal ordinary body with clothes, nothing see-through, no visible bones or organs: close-up of a gentle Japanese grandmother in her 70s with short white permed hair, round glasses and a beige knit cardigan holding a teacup, eyes slightly widening in gentle, touched surprise, warm soft lighting, vertical 9:16 framing, high quality 3D render, no text, no letters, no watermark"
   },
   {
    "id": "img_03",
@@ -124,10 +138,18 @@
   {
    "id": "img_12",
    "refs": [
-    "obaachan",
-    "yome"
+    "obaachan_n",
+    "yome_n"
    ],
-   "prompt": "Cute, warm stylized 3D animated character in a Pixar-like style, friendly and not scary, with a translucent glass-like body through which a softly glowing skeleton, brain, heart and organs are visible in warm amber light: close-up of two translucent hands, an old one and a younger one, gently holding each other, soft golden light flowing between them, warm soft lighting, vertical 9:16 framing, high quality 3D render, no text, no letters, no watermark"
+   "prompt": "Cute, warm stylized 3D animated character in a Pixar-like style, a normal ordinary body with clothes, nothing see-through, no visible bones or organs: close-up of two hands, an old one in a beige cardigan sleeve and a younger one in a white blouse sleeve, gently holding each other over a low table, soft golden light, warm soft lighting, vertical 9:16 framing, high quality 3D render, no text, no letters, no watermark"
+  },
+  {
+   "id": "img_13",
+   "refs": [
+    "obaachan_n",
+    "yome_n"
+   ],
+   "prompt": "Cute, warm stylized 3D animated character in a Pixar-like style, a normal ordinary body with clothes, nothing see-through, no visible bones or organs: a gentle Japanese grandmother in her 70s with short white permed hair, round glasses and a beige knit cardigan and a kind Japanese woman in her 40s with shoulder-length brown hair and a white blouse sitting face to face at a low table in a cozy Japanese living room, laughing warmly together over cups of tea, evening light, warm soft lighting, vertical 9:16 framing, high quality 3D render, no text, no letters, no watermark"
   }
  ],
  "shots": [
@@ -136,8 +158,8 @@
    "image": "img_01",
    "duration": "5s",
    "refs": [
-    "obaachan",
-    "yome"
+    "obaachan_n",
+    "yome_n"
    ],
    "prompt": "The younger woman hands over the cup of tea with a warm smile; the grandmother takes it with both hands and looks up at her. Gentle, slow. Nobody speaks. No music, no text on screen."
   },
@@ -305,7 +327,7 @@
     18
    ],
    "type": "narration",
-   "image": "img_11",
+   "image": "img_13",
    "motion": "zoom_in_big"
   },
   {
