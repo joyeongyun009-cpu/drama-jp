@@ -29,6 +29,7 @@ type Shot = {
   duration: number;
   captions: Caption[];
   heard?: string;
+  mute?: boolean; // the actor's voice came out wrong: keep the mouth movement, show only the caption
 };
 type Bgm = { file: string; volume: number } | null;
 
@@ -235,7 +236,7 @@ export const Drama: React.FC = () => (
         {s.card ? (
           <Card text={s.card} />
         ) : (
-          <Video src={staticFile(s.file ?? "")} objectFit="cover" style={{ width: "100%", height: "100%" }} />
+          <Video src={staticFile(s.file ?? "")} muted={s.mute ?? false} objectFit="cover" style={{ width: "100%", height: "100%" }} />
         )}
         <TopText label={s.label} note={s.note} />
         <Captions captions={s.captions} />

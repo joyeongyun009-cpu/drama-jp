@@ -57,7 +57,7 @@ def main():
     model = WhisperModel("small", device="cpu", compute_type="int8")
     result = []
     for shot in story["shots"]:
-        extra = {k: shot[k] for k in ("label", "note") if shot.get(k)}
+        extra = {k: shot[k] for k in ("label", "note", "mute") if shot.get(k)}
         if shot.get("card"):  # black title card (e.g. 三週間前――), no video
             result.append({"id": shot["id"], "card": shot["card"], "duration": float(shot.get("seconds", 2)),
                            "captions": [], "heard": "", **extra})
