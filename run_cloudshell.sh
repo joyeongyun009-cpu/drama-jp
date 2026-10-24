@@ -6,6 +6,8 @@
 #   bash run_cloudshell.sh all ep02       # every shot + final video
 #   bash run_cloudshell.sh thumb ep05     # YouTube thumbnail only (story.json "thumbnail")
 #   bash run_cloudshell.sh clean ep07     # delete older episodes' images/clips/videos (keeps refs)
+#   bash run_cloudshell.sh get ep07       # big finished video → temporary download link
+#   bash run_cloudshell.sh got ep07       # after downloading: lock and empty that storage
 #
 # Longform episodes (story.json "format": "longform", 16:9), step by step:
 #   bash run_cloudshell.sh images ep06          # 1. all images + one numbered overview picture
@@ -32,6 +34,29 @@ if [[ "$MODE" == "clean" ]]; then
   find remotion/out -maxdepth 1 -mindepth 1 ! -name "${EP}*" -exec rm -rf {} + 2>/dev/null || true
   rm -rf ~/.cache/pip ~/.npm/_cacache ~/drama-jp*.zip refs.zip preview.mp4
   echo "✅ 정리 끝. 남은 공간:"; df -h ~ | tail -1
+  exit 0
+fi
+# 큰 완성본 받기: 구글 저장소에 올리고 잠깐 링크로 열기 (get) → 받은 뒤 잠그고 지우기 (got)
+if [[ "$MODE" == "get" || "$MODE" == "got" ]]; then
+  P="$(gcloud config get-value project 2>/dev/null)"
+  [[ -n "$P" ]] || { P="$(gcloud projects list --format='value(projectId)' --limit=1)"; gcloud config set project "$P" --quiet; }
+  B="gs://$P-videos"
+  if [[ "$MODE" == "got" ]]; then
+    gsutil -q iam ch -d allUsers:objectViewer "$B" 2>/dev/null || true
+    gsutil -q rm "$B/*" 2>/dev/null || true
+    echo "✅ 저장소를 잠그고 비웠어요"
+    exit 0
+  fi
+  gsutil -q mb -l asia-northeast1 "$B" 2>/dev/null || true
+  for F in "remotion/out/$EP.mp4" "remotion/out/${EP}_thumb.jpg"; do
+    [[ -f "$F" ]] && gsutil -q -o GSUtil:parallel_composite_upload_threshold=0 cp "$F" "$B/"
+  done
+  gsutil -q iam ch allUsers:objectViewer "$B"
+  echo ""
+  echo "✅ 아래 주소를 크롬 새 탭에 붙여넣고 ⋮ → 다운로드:"
+  echo "   https://storage.googleapis.com/$P-videos/$EP.mp4"
+  echo "   https://storage.googleapis.com/$P-videos/${EP}_thumb.jpg"
+  echo "   다 받은 뒤 꼭: bash run_cloudshell.sh got $EP"
   exit 0
 fi
 # 썸네일만: 이미 만든 그림으로 1초 만에 만듦
