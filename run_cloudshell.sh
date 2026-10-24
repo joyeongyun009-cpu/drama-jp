@@ -99,6 +99,7 @@ if [[ "$MODE" == "images" || "$MODE" == "redo" ]]; then
   # 그림 단계에서는 영상을 만들지 않음 (영상은 clips 단계에서)
   [[ "$MODE" == "redo" && -n "$CLIPS_STARTED" ]] && $PY scripts/generate.py shots --ep "$EP"
   $PY scripts/sheet.py --ep "$EP"
+  $PY scripts/refsheet.py --ep "$EP"
   echo "✅ 그림 단계 끝. 이상한 그림 번호를 Claude에게 알려 주거나, 괜찮으면 다음: bash run_cloudshell.sh clips $EP"
   exit 0
 fi
