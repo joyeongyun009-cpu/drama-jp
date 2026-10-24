@@ -1,0 +1,320 @@
+{
+ "format": "longform",
+ "aspect": "9:16",
+ "title": "「ありがとう」と言われた瞬間、体の中で起きていること",
+ "thumbnail": {
+  "left": "img_09",
+  "right": "img_11",
+  "lines": [
+   "「ありがとう」の瞬間",
+   "体の中で起きること"
+  ]
+ },
+ "style": "Cute stylized 3D animation in a Pixar-like style, translucent glowing anatomy bodies, warm soft light, vertical 9:16 framing.",
+ "location": "",
+ "narration": {
+  "audio": "narration/kk01.mp3",
+  "srt": "episodes/kk01/narration.srt"
+ },
+ "bgm": {
+  "file": "bgm/bach_cello_prelude.mp3",
+  "volume": 0.2,
+  "duck": 0.08
+ },
+ "voice": {
+  "narrator": "ja-JP-Chirp3-HD-Gacrux",
+  "letter": "ja-JP-Chirp3-HD-Sulafat",
+  "speaking_rate": 0.95,
+  "padding_sec": 0.6,
+  "min_scene_sec": 2.5
+ },
+ "speakers": {
+  "嫁": "#E58FA6"
+ },
+ "characters": {
+  "obaachan": {
+   "name": "おばあちゃん（3D）",
+   "image_prompt": "Cute, warm stylized 3D animated character in a Pixar-like style, friendly and not scary, with a translucent glass-like body through which a softly glowing skeleton, brain, heart and organs are visible in warm amber light. Character reference portrait of a gentle Japanese grandmother in her 70s with short white permed hair, round glasses and a beige knit cardigan, front-facing upper body, plain soft light-grey background, gentle smile, high quality 3D render, no text."
+  },
+  "yome": {
+   "name": "お嫁さん（3D）",
+   "image_prompt": "Cute, warm stylized 3D animated character in a Pixar-like style, friendly and not scary, with a translucent glass-like body through which a softly glowing skeleton, brain, heart and organs are visible in warm amber light. Character reference portrait of a kind Japanese woman in her 40s with shoulder-length brown hair and a white blouse, front-facing upper body, plain soft light-grey background, warm smile, high quality 3D render, no text."
+  }
+ },
+ "images": [
+  {
+   "id": "img_01",
+   "refs": [
+    "obaachan",
+    "yome"
+   ],
+   "prompt": "Cute, warm stylized 3D animated character in a Pixar-like style, friendly and not scary, with a translucent glass-like body through which a softly glowing skeleton, brain, heart and organs are visible in warm amber light: in a cozy Japanese living room, a kind Japanese woman in her 40s with shoulder-length brown hair and a white blouse smiles and hands a cup of green tea to a gentle Japanese grandmother in her 70s with short white permed hair, round glasses and a beige knit cardigan, who sits at a low table, warm soft lighting, vertical 9:16 framing, high quality 3D render, no text, no letters, no watermark"
+  },
+  {
+   "id": "img_02",
+   "refs": [
+    "obaachan"
+   ],
+   "prompt": "Cute, warm stylized 3D animated character in a Pixar-like style, friendly and not scary, with a translucent glass-like body through which a softly glowing skeleton, brain, heart and organs are visible in warm amber light: close-up of a gentle Japanese grandmother in her 70s with short white permed hair, round glasses and a beige knit cardigan, eyes slightly widening in gentle surprise, her translucent head showing the brain still dim, warm soft lighting, vertical 9:16 framing, high quality 3D render, no text, no letters, no watermark"
+  },
+  {
+   "id": "img_03",
+   "refs": [
+    "obaachan"
+   ],
+   "prompt": "Cute, warm stylized 3D animated character in a Pixar-like style, friendly and not scary, with a translucent glass-like body through which a softly glowing skeleton, brain, heart and organs are visible in warm amber light: side close-up of the head of a gentle Japanese grandmother in her 70s with short white permed hair, round glasses and a beige knit cardigan, a glowing golden ribbon of light traveling from her ear into her brain, warm soft lighting, vertical 9:16 framing, high quality 3D render, no text, no letters, no watermark"
+  },
+  {
+   "id": "img_04",
+   "refs": [
+    "obaachan"
+   ],
+   "prompt": "Cute, warm stylized 3D animated character in a Pixar-like style, friendly and not scary, with a translucent glass-like body through which a softly glowing skeleton, brain, heart and organs are visible in warm amber light: close-up of the translucent head of a gentle Japanese grandmother in her 70s with short white permed hair, round glasses and a beige knit cardigan, the brain lighting up in soft pink with sparkling particles spreading outward like fireworks, warm soft lighting, vertical 9:16 framing, high quality 3D render, no text, no letters, no watermark"
+  },
+  {
+   "id": "img_05",
+   "refs": [
+    "obaachan"
+   ],
+   "prompt": "Cute, warm stylized 3D animated character in a Pixar-like style, friendly and not scary, with a translucent glass-like body through which a softly glowing skeleton, brain, heart and organs are visible in warm amber light: a gentle Japanese grandmother in her 70s with short white permed hair, round glasses and a beige knit cardigan from the chest up, her translucent shoulders relaxing, tense red muscles melting into soft calm blue-green light, warm soft lighting, vertical 9:16 framing, high quality 3D render, no text, no letters, no watermark"
+  },
+  {
+   "id": "img_06",
+   "refs": [
+    "obaachan"
+   ],
+   "prompt": "Cute, warm stylized 3D animated character in a Pixar-like style, friendly and not scary, with a translucent glass-like body through which a softly glowing skeleton, brain, heart and organs are visible in warm amber light: close-up of the glowing heart inside the translucent chest of a gentle Japanese grandmother in her 70s with short white permed hair, round glasses and a beige knit cardigan, beating calmly, gentle pulses of warm light, warm soft lighting, vertical 9:16 framing, high quality 3D render, no text, no letters, no watermark"
+  },
+  {
+   "id": "img_07",
+   "refs": [
+    "obaachan"
+   ],
+   "prompt": "Cute, warm stylized 3D animated character in a Pixar-like style, friendly and not scary, with a translucent glass-like body through which a softly glowing skeleton, brain, heart and organs are visible in warm amber light: inside the translucent body of a gentle Japanese grandmother in her 70s with short white permed hair, round glasses and a beige knit cardigan, small dark red particles in the bloodstream dissolving into tiny golden sparkles, warm soft lighting, vertical 9:16 framing, high quality 3D render, no text, no letters, no watermark"
+  },
+  {
+   "id": "img_08",
+   "refs": [
+    "obaachan"
+   ],
+   "prompt": "Cute, warm stylized 3D animated character in a Pixar-like style, friendly and not scary, with a translucent glass-like body through which a softly glowing skeleton, brain, heart and organs are visible in warm amber light: the translucent hands of a gentle Japanese grandmother in her 70s with short white permed hair, round glasses and a beige knit cardigan holding a teacup, warm golden blood flowing all the way into her fingertips, warm soft lighting, vertical 9:16 framing, high quality 3D render, no text, no letters, no watermark"
+  },
+  {
+   "id": "img_09",
+   "refs": [
+    "obaachan"
+   ],
+   "prompt": "Cute, warm stylized 3D animated character in a Pixar-like style, friendly and not scary, with a translucent glass-like body through which a softly glowing skeleton, brain, heart and organs are visible in warm amber light: a gentle Japanese grandmother in her 70s with short white permed hair, round glasses and a beige knit cardigan smiling peacefully with her eyes closed, a warm orange glow lighting up the center of her chest, warm soft lighting, vertical 9:16 framing, high quality 3D render, no text, no letters, no watermark"
+  },
+  {
+   "id": "img_10",
+   "refs": [
+    "yome"
+   ],
+   "prompt": "Cute, warm stylized 3D animated character in a Pixar-like style, friendly and not scary, with a translucent glass-like body through which a softly glowing skeleton, brain, heart and organs are visible in warm amber light: a kind Japanese woman in her 40s with shoulder-length brown hair and a white blouse smiling, the same warm orange glow lighting up the center of her translucent chest, warm soft lighting, vertical 9:16 framing, high quality 3D render, no text, no letters, no watermark"
+  },
+  {
+   "id": "img_11",
+   "refs": [
+    "obaachan",
+    "yome"
+   ],
+   "prompt": "Cute, warm stylized 3D animated character in a Pixar-like style, friendly and not scary, with a translucent glass-like body through which a softly glowing skeleton, brain, heart and organs are visible in warm amber light: a gentle Japanese grandmother in her 70s with short white permed hair, round glasses and a beige knit cardigan and a kind Japanese woman in her 40s with shoulder-length brown hair and a white blouse sitting face to face at a low table in a cozy Japanese living room, both smiling, both chests glowing warm orange, warm soft lighting, vertical 9:16 framing, high quality 3D render, no text, no letters, no watermark"
+  },
+  {
+   "id": "img_12",
+   "refs": [
+    "obaachan",
+    "yome"
+   ],
+   "prompt": "Cute, warm stylized 3D animated character in a Pixar-like style, friendly and not scary, with a translucent glass-like body through which a softly glowing skeleton, brain, heart and organs are visible in warm amber light: close-up of two translucent hands, an old one and a younger one, gently holding each other, soft golden light flowing between them, warm soft lighting, vertical 9:16 framing, high quality 3D render, no text, no letters, no watermark"
+  }
+ ],
+ "shots": [
+  {
+   "id": "clip01",
+   "image": "img_01",
+   "duration": "5s",
+   "refs": [
+    "obaachan",
+    "yome"
+   ],
+   "prompt": "The younger woman hands over the cup of tea with a warm smile; the grandmother takes it with both hands and looks up at her. Gentle, slow. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "clip02",
+   "image": "img_03",
+   "duration": "6s",
+   "refs": [
+    "obaachan"
+   ],
+   "prompt": "A glowing golden ribbon of light flows from the grandmother's ear along a path into her brain, which begins to light up softly. Smooth, magical. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "clip03",
+   "image": "img_06",
+   "duration": "6s",
+   "refs": [
+    "obaachan"
+   ],
+   "prompt": "The glowing heart beats, first quickly, then slower and calmer, each beat sending a soft wave of warm light through the translucent body. Nobody speaks. No music, no text on screen."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "s01",
+   "chapter": "intro",
+   "srt": [
+    1,
+    1
+   ],
+   "type": "clip",
+   "clips": [
+    "clip01"
+   ],
+   "transition": "fade"
+  },
+  {
+   "id": "s02",
+   "chapter": "intro",
+   "srt": [
+    2,
+    2
+   ],
+   "type": "narration",
+   "image": "img_02",
+   "motion": "push_slow"
+  },
+  {
+   "id": "s03",
+   "chapter": "intro",
+   "srt": [
+    3,
+    4
+   ],
+   "type": "clip",
+   "clips": [
+    "clip02"
+   ]
+  },
+  {
+   "id": "s05",
+   "chapter": "intro",
+   "srt": [
+    5,
+    6
+   ],
+   "type": "narration",
+   "image": "img_04",
+   "motion": "zoom_in_big"
+  },
+  {
+   "id": "s07",
+   "chapter": "intro",
+   "srt": [
+    7,
+    7
+   ],
+   "type": "narration",
+   "image": "img_05",
+   "motion": "pan_down"
+  },
+  {
+   "id": "s08",
+   "chapter": "intro",
+   "srt": [
+    8,
+    8
+   ],
+   "type": "clip",
+   "clips": [
+    "clip03"
+   ]
+  },
+  {
+   "id": "s09",
+   "chapter": "intro",
+   "srt": [
+    9,
+    9
+   ],
+   "type": "narration",
+   "image": "img_07",
+   "motion": "zoom_out_big"
+  },
+  {
+   "id": "s10",
+   "chapter": "intro",
+   "srt": [
+    10,
+    10
+   ],
+   "type": "narration",
+   "image": "img_08",
+   "motion": "pan_up"
+  },
+  {
+   "id": "s11",
+   "chapter": "intro",
+   "srt": [
+    11,
+    12
+   ],
+   "type": "narration",
+   "image": "img_09",
+   "motion": "push_slow"
+  },
+  {
+   "id": "s13",
+   "chapter": "intro",
+   "srt": [
+    13,
+    14
+   ],
+   "type": "narration",
+   "image": "img_10",
+   "motion": "zoom_in_big"
+  },
+  {
+   "id": "s15",
+   "chapter": "intro",
+   "srt": [
+    15,
+    15
+   ],
+   "type": "narration",
+   "image": "img_11",
+   "motion": "zoom_out_big"
+  },
+  {
+   "id": "s16",
+   "chapter": "intro",
+   "srt": [
+    16,
+    17
+   ],
+   "type": "narration",
+   "image": "img_12",
+   "motion": "push_slow"
+  },
+  {
+   "id": "s18",
+   "chapter": "intro",
+   "srt": [
+    18,
+    18
+   ],
+   "type": "narration",
+   "image": "img_11",
+   "motion": "zoom_in_big"
+  },
+  {
+   "id": "s99",
+   "chapter": "intro",
+   "type": "end",
+   "ja": "ありがとう、コマウォヨ",
+   "disclaimer": "※イメージ映像（フィクション）です。医学的なアドバイスではありません。",
+   "duration": 3
+  }
+ ]
+}
