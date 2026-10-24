@@ -17,8 +17,11 @@ import raw from "./longform.json";
 // Omni clips, chat / letter / title cards). Screen text is Japanese only.
 
 const FPS = 30;
-const W = 1920;
-const H = 1080;
+// "aspect": "9:16" in story.json → the same timeline as a vertical short
+const VERTICAL = (raw as { aspect?: string }).aspect === "9:16";
+const W = VERTICAL ? 1080 : 1920;
+const H = VERTICAL ? 1920 : 1080;
+const CAPTION_BOTTOM = VERTICAL ? 420 : 80; // above the Shorts buttons and title
 const FONT = "M PLUS Rounded 1c";
 const FONT_STACK = `"${FONT}", "Noto Sans CJK JP", "Noto Sans JP", sans-serif`;
 const HAND = "Klee One";
@@ -220,7 +223,7 @@ const Subtitle: React.FC<{ captions: Caption[]; left?: number; right?: number }>
         position: "absolute",
         left,
         right,
-        bottom: 80,
+        bottom: CAPTION_BOTTOM,
         textAlign: "center",
         fontFamily: FONT_STACK,
         fontWeight: 800,
@@ -253,7 +256,7 @@ const Bubble: React.FC<{ captions: Caption[]; color?: string; offsetSec?: number
         position: "absolute",
         left: 0,
         right: 0,
-        bottom: 70,
+        bottom: CAPTION_BOTTOM - 10,
         display: "flex",
         justifyContent: "center",
         opacity: p,
@@ -268,7 +271,7 @@ const Bubble: React.FC<{ captions: Caption[]; color?: string; offsetSec?: number
           color: "#1d1d1d",
           borderRadius: 36,
           padding: "34px 56px 30px",
-          maxWidth: 1500,
+          maxWidth: Math.min(1500, W - 120),
           fontFamily: FONT_STACK,
           fontWeight: 800,
           fontSize: 56,

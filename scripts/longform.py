@@ -131,6 +131,9 @@ def vrew_times(story, keep):
 
 def build(story, ep, upto=None):
     from generate import tts_name  # same cache names as the voice step
+    global LINE_CHARS, CHUNK_CHARS
+    if story.get("aspect") == "9:16":  # vertical short: narrower caption lines
+        LINE_CHARS, CHUNK_CHARS = 14, 28
 
     shots_dir = PUBLIC / "shots" / ep
     v = story["voice"]
@@ -327,7 +330,7 @@ def build(story, ep, upto=None):
         print(f"⚠ BGM 파일이 없어요 (remotion/public/{bgm['file']}) → 음악 없이 만듭니다")
         bgm = None
 
-    OUT.write_text(json.dumps({"total": total, "scenes": scenes, "bgm": bgm, "narration": narration}, ensure_ascii=False, indent=1),
+    OUT.write_text(json.dumps({"total": total, "aspect": story.get("aspect", "16:9"), "scenes": scenes, "bgm": bgm, "narration": narration}, ensure_ascii=False, indent=1),
                    encoding="utf-8")
 
     # Report (in Korean, for the user)
