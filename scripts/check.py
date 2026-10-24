@@ -51,8 +51,9 @@ def check(story):
         sec = float(str(sh.get("duration", "0")).rstrip("s"))
         if sec > OMNI_MAX_SEC:
             err.append(f"{sh['id']}: Omni 영상은 {OMNI_MAX_SEC}초까지예요 ({sec:g}초) → 대사별로 나누기 (clip01a, clip01b)")
-        if vrew:  # silent clips under the narration, or talking clips that replace one caption line
-            pass
+        if vrew:  # silent clips under the Vrew narration
+            if sh.get("lines") and not story.get("allow_ai_voice"):
+                err.append(f"{sh['id']}: AI 배우 목소리 금지 (일본어 발음이 틀림, ep07s 「何語？」) → lines를 빼면 브루 음성이 나와요")
         elif not sh.get("lines"):
             err.append(f"{sh['id']}: lines(대사)가 없어요")
         for sp, ja in sh.get("lines", []):
@@ -183,6 +184,8 @@ def check_shorts(story):
         sec = float(str(sh.get("duration", "0")).rstrip("s"))
         if not 5 <= sec <= OMNI_MAX_SEC:
             err.append(f"{sid}: Omni 영상은 5~{OMNI_MAX_SEC}초예요 ({sec:g}초)")
+        if sh.get("lines") and not sh.get("mute") and not story.get("allow_ai_voice"):
+            err.append(f"{sid}: AI 배우 목소리 금지 (일본어 발음이 틀림, ep07s 「何語？」) → \"mute\": true 로 소리를 끄세요")
         for sp, ja in sh.get("lines", []):
             if f"「{ja}」" not in sh["prompt"]:
                 err.append(f"{sid}: 대사 「{ja[:15]}…」가 prompt 안에 「」로 그대로 들어 있지 않아요")
