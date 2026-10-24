@@ -180,8 +180,10 @@ if [[ "$MODE" != "preview" ]] && $PY -c "import json,sys; sys.exit(0 if 'thumbna
   npx remotion still "$COMP" "out/${EP}_thumb.jpg" --props="out/${EP}_thumb_props.json" --log=error
 fi
 # 유튜브 권장 음량(-14 LUFS)으로 맞춤 (영상은 그대로, 소리만) — 롱폼은 위에서 이미 함
-[[ -n "${LOUD_DONE:-}" ]] || ffmpeg -y -v error -i "out/$EP.mp4" -c:v copy -af loudnorm=I=-14:TP=-1.5:LRA=11 -ar 48000 -c:a aac -b:a 192k "out/$EP.loud.mp4" \
-  && mv "out/$EP.loud.mp4" "out/$EP.mp4"
+if [[ -z "${LOUD_DONE:-}" ]]; then
+  ffmpeg -y -v error -i "out/$EP.mp4" -c:v copy -af loudnorm=I=-14:TP=-1.5:LRA=11 -ar 48000 -c:a aac -b:a 192k "out/$EP.loud.mp4" \
+    && mv "out/$EP.loud.mp4" "out/$EP.mp4"
+fi
 cd ..
 
 zip -qr refs.zip refs $( [[ -d voice_samples ]] && echo voice_samples )
