@@ -167,16 +167,20 @@ else
     fi
     echo "file '$(basename "$PART")'" >> "$PARTS/list.txt"
   done
-  ffmpeg -y -v error -f concat -safe 0 -i "$PARTS/list.txt" -c copy "out/$EP.mp4"
+  # 이어 붙이면서 소리 크기(-14 LUFS)도 한 번에 맞춤 → 큰 파일을 한 벌만 더 만들어 공간을 아낌
+  rm -f "out/${EP}_clips.zip" "../preview.mp4"  # 다시 만들 수 있는 큰 파일은 먼저 지움
+  ffmpeg -y -v error -f concat -safe 0 -i "$PARTS/list.txt" -c:v copy \
+    -af loudnorm=I=-14:TP=-1.5:LRA=11 -ar 48000 -c:a aac -b:a 192k "out/$EP.mp4"
   rm -rf "$PARTS"  # parts are only for resuming; free the Cloud Shell disk (5 GB)
+  LOUD_DONE=1
 fi
 # 썸네일 (롱폼·쇼츠 모두, story.json에 "thumbnail"이 있으면)
 if [[ "$MODE" != "preview" ]] && $PY -c "import json,sys; sys.exit(0 if 'thumbnail' in json.load(open('../episodes/$EP/story.json')) else 1)"; then
   COMP="$(cd .. && $PY scripts/thumbnail.py --ep "$EP")"
   npx remotion still "$COMP" "out/${EP}_thumb.jpg" --props="out/${EP}_thumb_props.json" --log=error
 fi
-# 유튜브 권장 음량(-14 LUFS)으로 맞춤 (영상은 그대로, 소리만)
-ffmpeg -y -v error -i "out/$EP.mp4" -c:v copy -af loudnorm=I=-14:TP=-1.5:LRA=11 -ar 48000 -c:a aac -b:a 192k "out/$EP.loud.mp4" \
+# 유튜브 권장 음량(-14 LUFS)으로 맞춤 (영상은 그대로, 소리만) — 롱폼은 위에서 이미 함
+[[ -n "${LOUD_DONE:-}" ]] || ffmpeg -y -v error -i "out/$EP.mp4" -c:v copy -af loudnorm=I=-14:TP=-1.5:LRA=11 -ar 48000 -c:a aac -b:a 192k "out/$EP.loud.mp4" \
   && mv "out/$EP.loud.mp4" "out/$EP.mp4"
 cd ..
 
