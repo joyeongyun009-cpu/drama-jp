@@ -69,6 +69,7 @@ type Scene = {
   text?: string;
   disclaimer?: string;
   talk?: boolean; // Vrew narration: an actor speaks this line, so the narration is silent here
+  tag?: string; // small label that pops up over the picture, e.g. 「コルチゾール↑」
 };
 type Timeline = {
   total: number;
@@ -554,6 +555,34 @@ const SceneView: React.FC<{ scene: Scene }> = ({ scene }) => {
   }
 };
 
+// Small label that pops in near the top, e.g. 「副交感神経 ON」.
+const Tag: React.FC<{ text: string }> = ({ text }) => {
+  const frame = useCurrentFrame();
+  const pop = interpolate(frame, [8, 16], [0, 1], { ...clamp, easing: Easing.out(Easing.back(2.2)) });
+  const nichikan = BRAND === "nichikan";
+  return (
+    <div style={{ position: "absolute", left: 0, right: 0, top: VERTICAL ? 300 : 70, display: "flex", justifyContent: "center" }}>
+      <div
+        lang="ja"
+        style={{
+          transform: `scale(${pop})`,
+          opacity: Math.min(1, pop * 1.5),
+          background: nichikan ? "#8ef0d8" : "#ffe14d",
+          color: nichikan ? "#12305a" : "#1d1d1d",
+          fontFamily: FONT_STACK,
+          fontWeight: 800,
+          fontSize: VERTICAL ? 64 : 52,
+          padding: "14px 40px",
+          borderRadius: 999,
+          boxShadow: "0 8px 24px rgba(0,0,0,0.45)",
+        }}
+      >
+        {text}
+      </div>
+    </div>
+  );
+};
+
 // Wraps a scene with its entry transition (fade / flash / whip).
 const Enter: React.FC<{ scene: Scene; children: React.ReactNode }> = ({ scene, children }) => {
   const frame = useCurrentFrame();
@@ -575,7 +604,13 @@ const Enter: React.FC<{ scene: Scene; children: React.ReactNode }> = ({ scene, c
 
 // ───────────── sound ─────────────
 
-const SFX: Record<string, string> = { whoosh: "sfx/whoosh.wav", impact: "sfx/impact.wav", pop: "sfx/pop.wav" };
+const SFX: Record<string, string> = {
+  whoosh: "sfx/whoosh.wav",
+  impact: "sfx/impact.wav",
+  pop: "sfx/pop.wav",
+  heartbeat: "sfx/heartbeat.wav",
+  breath: "sfx/breath.wav",
+};
 
 // Global speech spans (frames), so the music can step aside.
 const speech = data.scenes.flatMap((s) => s.speech.map(([a, b]) => [s.start + a * FPS, s.start + b * FPS]));
@@ -645,6 +680,7 @@ export const Longform: React.FC = () => {
           <Sequence key={s.id} name={`${s.id} ${s.type}`} from={s.start} durationInFrames={s.frames + overlap}>
             <Enter scene={s}>
               <SceneView scene={s} />
+              {s.tag ? <Tag text={s.tag} /> : null}
             </Enter>
           </Sequence>
         );

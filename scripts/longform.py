@@ -227,6 +227,8 @@ def build(story, ep, upto=None):
                "transition": sc.get("transition", "cut"), "sfx": [], "captions": [], "speech": []}
         if sc.get("sfx"):
             out["sfx"].append(sc["sfx"])
+        if sc.get("tag"):  # small label that pops up, e.g. 「コルチゾール↑」 (skeleton shorts)
+            out["tag"] = sc["tag"]
         if "image" in sc:
             out["image"] = image_src(sc["image"])
             out["imageId"] = sc["image"]

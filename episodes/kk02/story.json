@@ -1,0 +1,533 @@
+{
+ "brand": "nichikan",
+ "format": "longform",
+ "aspect": "9:16",
+ "title": "定年まであと一年。50代の男に涙が出る本当の理由",
+ "thumbnail": {
+  "left": "img_02",
+  "right": "img_11",
+  "lines": [
+   "定年まであと一年",
+   "男に涙が出る理由"
+  ]
+ },
+ "style": "Cute stylized detailed 3D animation in a Pixar-like style, cinematic lighting, vertical 9:16 framing.",
+ "location": "",
+ "narration": {
+  "audio": "narration/kk02.mp3",
+  "srt": "episodes/kk02/narration.srt"
+ },
+ "bgm": {
+  "file": "bgm/bach_cello_prelude.mp3",
+  "volume": 0.3,
+  "duck": 0.15
+ },
+ "voice": {
+  "narrator": "ja-JP-Chirp3-HD-Gacrux",
+  "letter": "ja-JP-Chirp3-HD-Sulafat",
+  "speaking_rate": 0.95,
+  "padding_sec": 0.6,
+  "min_scene_sec": 2.5
+ },
+ "speakers": {
+  "妻": "#E58FA6"
+ },
+ "characters": {
+  "otto_n": {
+   "name": "夫（59歳・普通の姿）",
+   "image_prompt": "Cute, warm stylized 3D animated character in a Pixar-like style, detailed and cinematic, a normal ordinary body with clothes, nothing see-through. Character reference portrait of a tired Japanese office worker aged 59 with short grey hair, a gentle face with fine wrinkles, a navy suit and a loosened tie, front-facing upper body, plain soft light-grey background, tired gentle expression, high quality 3D render, no text."
+  },
+  "otto": {
+   "name": "夫（59歳・透ける体）",
+   "from": [
+    "otto_n"
+   ],
+   "image_prompt": "The same character as the attached image, but Cute, warm stylized 3D animated character in a Pixar-like style, detailed and cinematic, friendly and not scary, with a translucent glass-like body through which a softly glowing skeleton, brain, heart, lungs and organs are visible. Character reference portrait of a tired Japanese office worker aged 59 with short grey hair, a gentle face with fine wrinkles, a navy suit and a loosened tie, front-facing upper body, plain soft light-grey background, high quality 3D render, no text."
+  },
+  "tsuma_n": {
+   "name": "妻（57歳）",
+   "image_prompt": "Cute, warm stylized 3D animated character in a Pixar-like style, detailed and cinematic, a normal ordinary body with clothes, nothing see-through. Character reference portrait of a kind Japanese woman aged 57 with a short brown bob and a soft beige cardigan, front-facing upper body, plain soft light-grey background, warm smile, high quality 3D render, no text."
+  }
+ },
+ "images": [
+  {
+   "id": "img_01",
+   "refs": [
+    "otto_n"
+   ],
+   "prompt": "Cute, warm stylized 3D animated character in a Pixar-like style, detailed and cinematic, a normal ordinary body with clothes, nothing see-through: at night in an empty office parking lot, a tired Japanese office worker aged 59 with short grey hair, a gentle face with fine wrinkles, a navy suit and a loosened tie sits alone in the driver's seat of his car, both hands on the steering wheel, staring ahead, orange streetlight through the windshield, vertical 9:16 framing, high quality 3D render, rich lighting and detail, no text, no letters, no numbers, no watermark"
+  },
+  {
+   "id": "img_02",
+   "refs": [
+    "otto_n"
+   ],
+   "prompt": "Cute, warm stylized 3D animated character in a Pixar-like style, detailed and cinematic, a normal ordinary body with clothes, nothing see-through: inside the dark car at night, a tired Japanese office worker aged 59 with short grey hair, a gentle face with fine wrinkles, a navy suit and a loosened tie rests his forehead on the steering wheel, shoulders shaking, a tear on his cheek, streetlight glow, vertical 9:16 framing, high quality 3D render, rich lighting and detail, no text, no letters, no numbers, no watermark"
+  },
+  {
+   "id": "img_03",
+   "refs": [
+    "otto_n"
+   ],
+   "prompt": "Cute, warm stylized 3D animated character in a Pixar-like style, detailed and cinematic, a normal ordinary body with clothes, nothing see-through: a Japanese company meeting room, a tired Japanese office worker aged 59 with short grey hair, a gentle face with fine wrinkles, a navy suit and a loosened tie sits straight with a stiff expressionless face while other Japanese men in their 50s in suits talk around the table, cold fluorescent light, vertical 9:16 framing, high quality 3D render, rich lighting and detail, no text, no letters, no numbers, no watermark"
+  },
+  {
+   "id": "img_04",
+   "refs": [],
+   "prompt": "Cute, warm stylized 3D animated character in a Pixar-like style, detailed and cinematic, a normal ordinary body with clothes, nothing see-through: a 1970s Japanese home, a stern Japanese father points his finger at his small son who bites his lip, holding back tears, nostalgic faded film colors, vertical 9:16 framing, high quality 3D render, rich lighting and detail, no text, no letters, no numbers, no watermark"
+  },
+  {
+   "id": "img_05",
+   "refs": [
+    "otto"
+   ],
+   "prompt": "Cute, warm stylized 3D animated character in a Pixar-like style, detailed and cinematic, friendly and not scary, with a translucent glass-like body through which a softly glowing skeleton, brain, heart, lungs and organs are visible: a tired Japanese office worker aged 59 with short grey hair, a gentle face with fine wrinkles, a navy suit and a loosened tie sitting in the driver's seat of his car at night, his body turning translucent, glowing skeleton and organs visible, orange streetlight, vertical 9:16 framing, high quality 3D render, rich lighting and detail, no text, no letters, no numbers, no watermark"
+  },
+  {
+   "id": "img_06",
+   "refs": [
+    "otto"
+   ],
+   "prompt": "Cute, warm stylized 3D animated character in a Pixar-like style, detailed and cinematic, friendly and not scary, with a translucent glass-like body through which a softly glowing skeleton, brain, heart, lungs and organs are visible: upper body of a tired Japanese office worker aged 59 with short grey hair, a gentle face with fine wrinkles, a navy suit and a loosened tie, glowing red particles of stress hormone pouring out above the kidneys and spreading through his bloodstream, vertical 9:16 framing, high quality 3D render, rich lighting and detail, no text, no letters, no numbers, no watermark"
+  },
+  {
+   "id": "img_07",
+   "refs": [
+    "otto"
+   ],
+   "prompt": "Cute, warm stylized 3D animated character in a Pixar-like style, detailed and cinematic, friendly and not scary, with a translucent glass-like body through which a softly glowing skeleton, brain, heart, lungs and organs are visible: chest and shoulders of a tired Japanese office worker aged 59 with short grey hair, a gentle face with fine wrinkles, a navy suit and a loosened tie, the heart glowing and beating fast in red, the neck and shoulder muscles tense and glowing red, vertical 9:16 framing, high quality 3D render, rich lighting and detail, no text, no letters, no numbers, no watermark"
+  },
+  {
+   "id": "img_08",
+   "refs": [
+    "otto"
+   ],
+   "prompt": "Cute, warm stylized 3D animated character in a Pixar-like style, detailed and cinematic, friendly and not scary, with a translucent glass-like body through which a softly glowing skeleton, brain, heart, lungs and organs are visible: a tired Japanese office worker aged 59 with short grey hair, a gentle face with fine wrinkles, a navy suit and a loosened tie lying in bed at night with his eyes open, his brain still glowing bright and busy with flickering lights, a dark bedroom, a clock on the wall without numbers, vertical 9:16 framing, high quality 3D render, rich lighting and detail, no text, no letters, no numbers, no watermark"
+  },
+  {
+   "id": "img_09",
+   "refs": [
+    "otto"
+   ],
+   "prompt": "Cute, warm stylized 3D animated character in a Pixar-like style, detailed and cinematic, friendly and not scary, with a translucent glass-like body through which a softly glowing skeleton, brain, heart, lungs and organs are visible: full body of a tired Japanese office worker aged 59 with short grey hair, a gentle face with fine wrinkles, a navy suit and a loosened tie standing, a warm golden glow in his body slowly fading and dimming from the bottom up, vertical 9:16 framing, high quality 3D render, rich lighting and detail, no text, no letters, no numbers, no watermark"
+  },
+  {
+   "id": "img_10",
+   "refs": [
+    "otto"
+   ],
+   "prompt": "Cute, warm stylized 3D animated character in a Pixar-like style, detailed and cinematic, friendly and not scary, with a translucent glass-like body through which a softly glowing skeleton, brain, heart, lungs and organs are visible: close-up of the translucent head of a tired Japanese office worker aged 59 with short grey hair, a gentle face with fine wrinkles, a navy suit and a loosened tie, inside the brain a glowing ring like a brake slowly loosening, vertical 9:16 framing, high quality 3D render, rich lighting and detail, no text, no letters, no numbers, no watermark"
+  },
+  {
+   "id": "img_11",
+   "refs": [
+    "otto"
+   ],
+   "prompt": "Cute, warm stylized 3D animated character in a Pixar-like style, detailed and cinematic, friendly and not scary, with a translucent glass-like body through which a softly glowing skeleton, brain, heart, lungs and organs are visible: close-up of the translucent face of a tired Japanese office worker aged 59 with short grey hair, a gentle face with fine wrinkles, a navy suit and a loosened tie in the car, a single glowing tear rolling down his cheek, glowing skull and brain softly visible, vertical 9:16 framing, high quality 3D render, rich lighting and detail, no text, no letters, no numbers, no watermark"
+  },
+  {
+   "id": "img_12",
+   "refs": [
+    "otto"
+   ],
+   "prompt": "Cute, warm stylized 3D animated character in a Pixar-like style, detailed and cinematic, friendly and not scary, with a translucent glass-like body through which a softly glowing skeleton, brain, heart, lungs and organs are visible: a tired Japanese office worker aged 59 with short grey hair, a gentle face with fine wrinkles, a navy suit and a loosened tie in the car, a calm blue wave of light flowing from his brain down his spine, the red glow in his body fading into soft blue, vertical 9:16 framing, high quality 3D render, rich lighting and detail, no text, no letters, no numbers, no watermark"
+  },
+  {
+   "id": "img_13",
+   "refs": [
+    "otto"
+   ],
+   "prompt": "Cute, warm stylized 3D animated character in a Pixar-like style, detailed and cinematic, friendly and not scary, with a translucent glass-like body through which a softly glowing skeleton, brain, heart, lungs and organs are visible: chest of a tired Japanese office worker aged 59 with short grey hair, a gentle face with fine wrinkles, a navy suit and a loosened tie, the glowing heart beating slowly and calmly, the lungs expanding with a deep, long breath, soft blue light, vertical 9:16 framing, high quality 3D render, rich lighting and detail, no text, no letters, no numbers, no watermark"
+  },
+  {
+   "id": "img_14",
+   "refs": [
+    "otto_n"
+   ],
+   "prompt": "Cute, warm stylized 3D animated character in a Pixar-like style, detailed and cinematic, a normal ordinary body with clothes, nothing see-through: in the car at night, a tired Japanese office worker aged 59 with short grey hair, a gentle face with fine wrinkles, a navy suit and a loosened tie wipes his tears with his hand and lets out a long breath, a small relieved smile, vertical 9:16 framing, high quality 3D render, rich lighting and detail, no text, no letters, no numbers, no watermark"
+  },
+  {
+   "id": "img_15",
+   "refs": [
+    "otto_n"
+   ],
+   "prompt": "Cute, warm stylized 3D animated character in a Pixar-like style, detailed and cinematic, a normal ordinary body with clothes, nothing see-through: a tired Japanese office worker aged 59 with short grey hair, a gentle face with fine wrinkles, a navy suit and a loosened tie in the driver's seat looking down at his own open hands, calm and quiet, a little lighter, soft streetlight, vertical 9:16 framing, high quality 3D render, rich lighting and detail, no text, no letters, no numbers, no watermark"
+  },
+  {
+   "id": "img_16",
+   "refs": [
+    "otto_n",
+    "tsuma_n"
+   ],
+   "prompt": "Cute, warm stylized 3D animated character in a Pixar-like style, detailed and cinematic, a normal ordinary body with clothes, nothing see-through: the warm genkan entrance of a Japanese house at night, a kind Japanese woman aged 57 with a short brown bob and a soft beige cardigan opens the door with a gentle smile as a tired Japanese office worker aged 59 with short grey hair, a gentle face with fine wrinkles, a navy suit and a loosened tie comes home holding his briefcase, vertical 9:16 framing, high quality 3D render, rich lighting and detail, no text, no letters, no numbers, no watermark"
+  },
+  {
+   "id": "img_17",
+   "refs": [
+    "tsuma_n"
+   ],
+   "prompt": "Cute, warm stylized 3D animated character in a Pixar-like style, detailed and cinematic, a normal ordinary body with clothes, nothing see-through: close-up of a kind Japanese woman aged 57 with a short brown bob and a soft beige cardigan in the warm genkan light, smiling tenderly as she speaks to her husband, vertical 9:16 framing, high quality 3D render, rich lighting and detail, no text, no letters, no numbers, no watermark"
+  },
+  {
+   "id": "img_18",
+   "refs": [
+    "otto_n",
+    "tsuma_n"
+   ],
+   "prompt": "Cute, warm stylized 3D animated character in a Pixar-like style, detailed and cinematic, a normal ordinary body with clothes, nothing see-through: in the genkan, a kind Japanese woman aged 57 with a short brown bob and a soft beige cardigan gently puts her hand on the shoulder of a tired Japanese office worker aged 59 with short grey hair, a gentle face with fine wrinkles, a navy suit and a loosened tie, who smiles with tears in his eyes, warm golden light, vertical 9:16 framing, high quality 3D render, rich lighting and detail, no text, no letters, no numbers, no watermark"
+  }
+ ],
+ "shots": [
+  {
+   "id": "c01",
+   "image": "img_01",
+   "duration": "6s",
+   "refs": [
+    "otto_n"
+   ],
+   "prompt": "He sits still in the dark car, hands on the wheel; his jaw tightens, he swallows hard. Streetlight flickers. Slow push-in. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "c02",
+   "image": "img_02",
+   "duration": "6s",
+   "refs": [
+    "otto_n"
+   ],
+   "prompt": "He slowly lowers his forehead onto the steering wheel; his shoulders begin to shake silently as a tear falls. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "c05",
+   "image": "img_05",
+   "duration": "6s",
+   "refs": [
+    "otto"
+   ],
+   "prompt": "The camera slowly moves in; his body gradually becomes translucent like glass, revealing a softly glowing skeleton, heart and brain inside. Magical, smooth. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "c06",
+   "image": "img_06",
+   "duration": "6s",
+   "refs": [
+    "otto"
+   ],
+   "prompt": "Glowing red particles stream out above the kidneys and spread through the blood vessels across his body. The camera glides through the chest. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "c07",
+   "image": "img_07",
+   "duration": "6s",
+   "refs": [
+    "otto"
+   ],
+   "prompt": "The glowing red heart beats fast; the neck and shoulder muscles tighten with pulses of red light. Close-up camera inside the chest. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "c08",
+   "image": "img_08",
+   "duration": "6s",
+   "refs": [
+    "otto"
+   ],
+   "prompt": "He lies awake in bed; lights keep flashing busily inside his brain while the room stays dark. Slow push-in. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "c09",
+   "image": "img_09",
+   "duration": "10s",
+   "refs": [
+    "otto"
+   ],
+   "prompt": "The warm golden glow inside his body slowly fades and dims from the bottom up over time. Gentle slow camera orbit. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "c10",
+   "image": "img_10",
+   "duration": "6s",
+   "refs": [
+    "otto"
+   ],
+   "prompt": "The camera flies into the translucent head; a glowing ring inside the brain slowly loosens and opens. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "c11",
+   "image": "img_11",
+   "duration": "8s",
+   "refs": [
+    "otto"
+   ],
+   "prompt": "A single glowing tear wells up and slowly rolls down his translucent cheek. Very close, slow. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "c12",
+   "image": "img_12",
+   "duration": "8s",
+   "refs": [
+    "otto"
+   ],
+   "prompt": "A calm blue wave of light travels from his brain down his spine and spreads through the body, turning the red glow into soft blue. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "c13",
+   "image": "img_13",
+   "duration": "6s",
+   "refs": [
+    "otto"
+   ],
+   "prompt": "The glowing heart slows to a calm beat; the lungs fill with a deep, long breath and slowly release it. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "c16",
+   "image": "img_16",
+   "duration": "5s",
+   "refs": [
+    "otto_n",
+    "tsuma_n"
+   ],
+   "prompt": "The front door opens; his wife greets him with a gentle smile and he steps into the warm light. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "c19",
+   "image": "img_18",
+   "duration": "5s",
+   "refs": [
+    "otto_n",
+    "tsuma_n"
+   ],
+   "prompt": "His wife gently places her hand on his shoulder; he smiles with tears in his eyes and nods. Warm, tender. Nobody speaks. No music, no text on screen."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "s01",
+   "chapter": "intro",
+   "srt": [
+    1,
+    1
+   ],
+   "type": "clip",
+   "clips": [
+    "c01"
+   ],
+   "transition": "fade"
+  },
+  {
+   "id": "s02",
+   "chapter": "intro",
+   "srt": [
+    2,
+    2
+   ],
+   "type": "clip",
+   "clips": [
+    "c02"
+   ]
+  },
+  {
+   "id": "s03",
+   "chapter": "intro",
+   "srt": [
+    3,
+    3
+   ],
+   "type": "narration",
+   "image": "img_03",
+   "motion": "pan_right"
+  },
+  {
+   "id": "s04",
+   "chapter": "intro",
+   "srt": [
+    4,
+    4
+   ],
+   "type": "narration",
+   "image": "img_04",
+   "motion": "push_slow",
+   "filter": "sepia"
+  },
+  {
+   "id": "s05",
+   "chapter": "intro",
+   "srt": [
+    5,
+    5
+   ],
+   "type": "clip",
+   "clips": [
+    "c05"
+   ],
+   "sfx": "whoosh"
+  },
+  {
+   "id": "s06",
+   "chapter": "intro",
+   "srt": [
+    6,
+    6
+   ],
+   "type": "clip",
+   "clips": [
+    "c06"
+   ],
+   "tag": "ストレスホルモン↑"
+  },
+  {
+   "id": "s07",
+   "chapter": "intro",
+   "srt": [
+    7,
+    7
+   ],
+   "type": "clip",
+   "clips": [
+    "c07"
+   ],
+   "tag": "心拍↑",
+   "sfx": "heartbeat"
+  },
+  {
+   "id": "s08",
+   "chapter": "intro",
+   "srt": [
+    8,
+    8
+   ],
+   "type": "clip",
+   "clips": [
+    "c08"
+   ]
+  },
+  {
+   "id": "s09",
+   "chapter": "intro",
+   "srt": [
+    9,
+    9
+   ],
+   "type": "clip",
+   "clips": [
+    "c09"
+   ],
+   "tag": "男性ホルモン↓"
+  },
+  {
+   "id": "s10",
+   "chapter": "intro",
+   "srt": [
+    10,
+    10
+   ],
+   "type": "clip",
+   "clips": [
+    "c10"
+   ]
+  },
+  {
+   "id": "s11",
+   "chapter": "intro",
+   "srt": [
+    11,
+    11
+   ],
+   "type": "clip",
+   "clips": [
+    "c11"
+   ]
+  },
+  {
+   "id": "s12",
+   "chapter": "intro",
+   "srt": [
+    12,
+    12
+   ],
+   "type": "clip",
+   "clips": [
+    "c12"
+   ],
+   "tag": "副交感神経 ON",
+   "sfx": "pop"
+  },
+  {
+   "id": "s13",
+   "chapter": "intro",
+   "srt": [
+    13,
+    13
+   ],
+   "type": "clip",
+   "clips": [
+    "c13"
+   ],
+   "sfx": "breath"
+  },
+  {
+   "id": "s14",
+   "chapter": "intro",
+   "srt": [
+    14,
+    14
+   ],
+   "type": "narration",
+   "image": "img_14",
+   "motion": "zoom_in_big"
+  },
+  {
+   "id": "s15",
+   "chapter": "intro",
+   "srt": [
+    15,
+    15
+   ],
+   "type": "narration",
+   "image": "img_15",
+   "motion": "push_slow"
+  },
+  {
+   "id": "s16",
+   "chapter": "intro",
+   "srt": [
+    16,
+    16
+   ],
+   "type": "clip",
+   "clips": [
+    "c16"
+   ],
+   "transition": "fade"
+  },
+  {
+   "id": "s17",
+   "chapter": "intro",
+   "srt": [
+    17,
+    18
+   ],
+   "type": "narration",
+   "image": "img_17",
+   "motion": "zoom_in_big"
+  },
+  {
+   "id": "s19",
+   "chapter": "intro",
+   "srt": [
+    19,
+    20
+   ],
+   "type": "clip",
+   "clips": [
+    "c19"
+   ]
+  },
+  {
+   "id": "s99",
+   "chapter": "intro",
+   "type": "end",
+   "ja": "頑張ってきたあなたへ、お疲れさまでした",
+   "disclaimer": "※イメージ映像（フィクション）です。医学的なアドバイスではありません。",
+   "duration": 3
+  }
+ ]
+}
