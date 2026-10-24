@@ -1,0 +1,41 @@
+{
+ "title": "「年寄りにスマホなんて無理」と笑った嫁を救ったのは…（3편 썸네일만）",
+ "thumbnail": {
+  "left": "img_01",
+  "right": "img_02",
+  "lines": [
+   "「年寄りにスマホなんて無理」",
+   "笑った嫁を救ったのは…"
+  ]
+ },
+ "promo_for": "ep03",
+ "style": "Photorealistic cinematic Japanese TV drama, shot on a 35mm lens, shallow depth of field, soft natural daylight, realistic skin texture, vertical 9:16 framing. All dialogue is spoken in natural Japanese.",
+ "aspect": "9:16",
+ "characters": {
+  "kazuko": {
+   "name": "和子（姑・68歳）",
+   "image_prompt": "Photorealistic portrait of a 68-year-old Japanese woman, kind but dignified face, short neat gray-black bob, light makeup, beige knit cardigan over a cream blouse, thin gold reading glasses hanging on a fine chain around her neck. Upper body, facing camera, soft restaurant background, natural window light, 9:16 vertical."
+  }
+ },
+ "images": [
+  {
+   "id": "img_01",
+   "refs": [
+    "kazuko"
+   ],
+   "prompt": "68-year-old Japanese woman with a kind but dignified face, short neat gray-black bob, beige knit cardigan over a cream blouse, thin gold reading glasses hanging on a fine chain around her neck, sitting at a Japanese living-room table holding a smartphone confidently in one hand and pointing at its screen with the other, a calm proud smile, reading glasses on her nose, warm evening light, the screen shows only soft light, cinematic, photorealistic, vertical 9:16 framing, no text, no watermark, no readable writing on any screen or paper"
+  },
+  {
+   "id": "img_02",
+   "refs": [
+    "kazuko"
+   ],
+   "prompt": "close-up of 68-year-old Japanese woman with a kind but dignified face, short neat gray-black bob, beige knit cardigan over a cream blouse, thin gold reading glasses hanging on a fine chain around her neck, holding an old handwritten notebook full of careful notes against her chest, looking straight at the camera with gentle, moist, determined eyes, soft window light, cinematic, photorealistic, vertical 9:16 framing, no text, no watermark, no readable writing on any screen or paper"
+  }
+ ],
+ "shots": [],
+ "ending": {
+  "question": "",
+  "note": "※この物語はフィクションです。"
+ }
+}
