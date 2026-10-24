@@ -24,7 +24,8 @@ def src(iid):
 
 out = ROOT / "remotion" / "out" / f"{ep}_thumb_props.json"
 out.parent.mkdir(parents=True, exist_ok=True)
-out.write_text(json.dumps({"left": src(t["left"]), "right": src(t["right"]), "lines": t["lines"]},
+out.write_text(json.dumps({"left": src(t["left"]), "right": src(t["right"]), "lines": t["lines"],
+                           "brand": story.get("brand", "hitano")},
                           ensure_ascii=False), encoding="utf-8")
 # shorts (9:16) get the vertical cover
 print("ThumbnailVertical" if story.get("aspect") == "9:16" else "Thumbnail")

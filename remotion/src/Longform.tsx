@@ -21,7 +21,9 @@ const FPS = 30;
 const VERTICAL = (raw as { aspect?: string }).aspect === "9:16";
 const W = VERTICAL ? 1080 : 1920;
 const H = VERTICAL ? 1920 : 1080;
-const CAPTION_BOTTOM = VERTICAL ? 420 : 80; // above the Shorts buttons and title
+const CAPTION_BOTTOM = VERTICAL ? 860 : 80; // vertical: middle of the screen, clear of the Shorts title and buttons
+const BRAND = (raw as { brand?: string }).brand ?? "hitano";
+const OUTLINE = BRAND === "nichikan" ? "#12305a" : "#000"; // 韓日 channel: navy outline, never the same look as ひたの
 const FONT = "M PLUS Rounded 1c";
 const FONT_STACK = `"${FONT}", "Noto Sans CJK JP", "Noto Sans JP", sans-serif`;
 const HAND = "Klee One";
@@ -82,10 +84,10 @@ const easeInOut = Easing.inOut(Easing.cubic);
 const FADE = 15; // frames of crossfade
 const WHIP = 8; // frames of whip slide
 
-const outline = (r: number) =>
+const outline = (r: number, color = "#000") =>
   Array.from({ length: 16 }, (_, i) => {
     const a = (i / 16) * Math.PI * 2;
-    return `${(Math.cos(a) * r).toFixed(1)}px ${(Math.sin(a) * r).toFixed(1)}px 0 #000`;
+    return `${(Math.cos(a) * r).toFixed(1)}px ${(Math.sin(a) * r).toFixed(1)}px 0 ${color}`;
   }).join(", ") + ", 0 6px 12px rgba(0,0,0,0.6)";
 
 // ───────────── image motion ─────────────
@@ -230,7 +232,7 @@ const Subtitle: React.FC<{ captions: Caption[]; left?: number; right?: number }>
         fontSize: 62,
         lineHeight: 1.3,
         color: "#fff",
-        textShadow: outline(7),
+        textShadow: outline(7, OUTLINE),
         whiteSpace: "pre-line",
         opacity: p,
         transform: `translateY(${(1 - p) * 12}px)`,

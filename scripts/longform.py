@@ -330,7 +330,7 @@ def build(story, ep, upto=None):
         print(f"⚠ BGM 파일이 없어요 (remotion/public/{bgm['file']}) → 음악 없이 만듭니다")
         bgm = None
 
-    OUT.write_text(json.dumps({"total": total, "aspect": story.get("aspect", "16:9"), "scenes": scenes, "bgm": bgm, "narration": narration}, ensure_ascii=False, indent=1),
+    OUT.write_text(json.dumps({"total": total, "aspect": story.get("aspect", "16:9"), "brand": story.get("brand", "hitano"), "scenes": scenes, "bgm": bgm, "narration": narration}, ensure_ascii=False, indent=1),
                    encoding="utf-8")
 
     # Report (in Korean, for the user)
