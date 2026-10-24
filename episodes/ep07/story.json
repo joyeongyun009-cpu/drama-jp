@@ -1278,17 +1278,7 @@
     "reiko58",
     "mieko"
    ],
-   "prompt": "8-second cinematic shot starting exactly from the attached image. The woman in the ivory suit and pearl necklace sharply brushes away the silver-haired woman's offered hand with the back of her own hand, then leans back with a disgusted sneer and speaks in Japanese, in a sharp, haughty, mocking voice of a woman in her late 50s, standard Tokyo accent, clear lip sync: 「ちょっと、触らないで、その手で何触ってきたのよ」 Then she wrinkles her nose, waves her hand in front of her face as if smelling something bad, and says: 「おむつの匂いがうつるじゃない」 The silver-haired woman freezes, slowly lowers her hand, her smile fading into quiet hurt. Classmates in the background chuckle awkwardly. Slow push-in camera toward the sneering woman. Only her voice, no narration, no music, no subtitles, no text on screen.",
-   "lines": [
-    [
-     "麗子",
-     "ちょっと、触らないで、その手で何触ってきたのよ"
-    ],
-    [
-     "麗子",
-     "おむつの匂いがうつるじゃない"
-    ]
-   ]
+   "prompt": "8-second cinematic shot starting exactly from the attached image. The woman in the ivory suit and pearl necklace sharply brushes away the silver-haired woman's offered hand with the back of her own hand, then leans back with a disgusted sneer and speaks in Japanese, in a sharp, haughty, mocking voice of a woman in her late 50s, standard Tokyo accent, clear lip sync: 「ちょっと、触らないで、その手で何触ってきたのよ」 Then she wrinkles her nose, waves her hand in front of her face as if smelling something bad, and says: 「おむつの匂いがうつるじゃない」 The silver-haired woman freezes, slowly lowers her hand, her smile fading into quiet hurt. Classmates in the background chuckle awkwardly. Slow push-in camera toward the sneering woman. Only her voice, no narration, no music, no subtitles, no text on screen."
   },
   {
    "id": "clip02",
@@ -1322,13 +1312,7 @@
    "refs": [
     "reiko58"
    ],
-   "prompt": "Cinematic shot starting exactly from the attached image. The woman in the ivory suit and pearl necklace tilts her head with a cruel smile and says quickly in Japanese in a haughty, mocking voice of a woman in her late 50s, clear lip sync, all within four seconds: 「私だったら恥ずかしくて、同窓会なんか来られないわ」 Classmates behind her laugh awkwardly. Only her voice, no narration, no music, no subtitles, no text on screen.",
-   "lines": [
-    [
-     "麗子",
-     "私だったら恥ずかしくて、同窓会なんか来られないわ"
-    ]
-   ]
+   "prompt": "Cinematic shot starting exactly from the attached image. The woman in the ivory suit and pearl necklace tilts her head with a cruel smile and says quickly in Japanese in a haughty, mocking voice of a woman in her late 50s, clear lip sync, all within four seconds: 「私だったら恥ずかしくて、同窓会なんか来られないわ」 Classmates behind her laugh awkwardly. Only her voice, no narration, no music, no subtitles, no text on screen."
   },
   {
    "id": "clip11",
@@ -1445,13 +1429,7 @@
    "refs": [
     "mieko"
    ],
-   "prompt": "Cinematic shot starting exactly from the attached image. The silver-haired woman in the navy cardigan, at the banquet hall doorway, looks back over her shoulder and says quietly and firmly in Japanese, in the calm, gentle voice of a woman in her late 50s, clear lip sync: 「行かなきゃ、待ってる人がいるの」 Then she turns and walks out into the bright corridor. Only her voice, no narration, no music, no subtitles, no text on screen.",
-   "lines": [
-    [
-     "美恵子",
-     "行かなきゃ、待ってる人がいるの"
-    ]
-   ]
+   "prompt": "Cinematic shot starting exactly from the attached image. The silver-haired woman in the navy cardigan, at the banquet hall doorway, looks back over her shoulder and says quietly and firmly in Japanese, in the calm, gentle voice of a woman in her late 50s, clear lip sync: 「行かなきゃ、待ってる人がいるの」 Then she turns and walks out into the bright corridor. Only her voice, no narration, no music, no subtitles, no text on screen."
   },
   {
    "id": "clip06",
@@ -1460,13 +1438,7 @@
    "refs": [
     "mieko"
    ],
-   "prompt": "Cinematic shot starting exactly from the attached image. Slow push-in on the silver-haired woman in the navy cardigan in the hospital corridor. She looks straight ahead and says quietly, calmly and firmly in Japanese, in the gentle voice of a woman in her late 50s, clear lip sync: 「あなたが言ったのよ、他人だって」 Her eyes stay steady. Only her voice, no narration, no music, no subtitles, no text on screen.",
-   "lines": [
-    [
-     "美恵子",
-     "あなたが言ったのよ、他人だって"
-    ]
-   ]
+   "prompt": "Cinematic shot starting exactly from the attached image. Slow push-in on the silver-haired woman in the navy cardigan in the hospital corridor. She looks straight ahead and says quietly, calmly and firmly in Japanese, in the gentle voice of a woman in her late 50s, clear lip sync: 「あなたが言ったのよ、他人だって」 Her eyes stay steady. Only her voice, no narration, no music, no subtitles, no text on screen."
   },
   {
    "id": "clip07",

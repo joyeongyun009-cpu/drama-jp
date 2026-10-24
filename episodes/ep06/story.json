@@ -482,13 +482,7 @@
    "refs": [
     "sara_party"
    ],
-   "prompt": "Victorian London 1890s. Close-up of the 11-year-old girl with short jet-black hair in the pink party frock, thoughtful and calm, answers quietly in Japanese: 「できると思うわ。簡単ではないでしょうけど」 Only this one person speaks.",
-   "lines": [
-    [
-     "セーラ",
-     "できると思うわ。簡単ではないでしょうけど"
-    ]
-   ]
+   "prompt": "Victorian London 1890s. Close-up of the 11-year-old girl with short jet-black hair in the pink party frock, thoughtful and calm, answers quietly in Japanese: 「できると思うわ。簡単ではないでしょうけど」 Only this one person speaks."
   },
   {
    "id": "clip09",
@@ -497,13 +491,7 @@
    "refs": [
     "solicitor"
    ],
-   "prompt": "Victorian London 1890s. The thin elderly solicitor with small round eyeglasses, in a dark parlour, says flatly and drily in Japanese: 「亡くなりましたよ。熱病と事業の失敗が重なって」 Only this one person speaks.",
-   "lines": [
-    [
-     "弁護士",
-     "亡くなりましたよ。熱病と事業の失敗が重なって"
-    ]
-   ]
+   "prompt": "Victorian London 1890s. The thin elderly solicitor with small round eyeglasses, in a dark parlour, says flatly and drily in Japanese: 「亡くなりましたよ。熱病と事業の失敗が重なって」 Only this one person speaks."
   },
   {
    "id": "clip10",
@@ -512,13 +500,7 @@
    "refs": [
     "minchin"
    ],
-   "prompt": "Victorian London 1890s. The gaunt headmistress in the plum dress, furious, pointing at the door, shouts in Japanese: 「あの子を、通りに放り出してやる！」 Only this one person speaks.",
-   "lines": [
-    [
-     "ミンチン先生",
-     "あの子を、通りに放り出してやる！"
-    ]
-   ]
+   "prompt": "Victorian London 1890s. The gaunt headmistress in the plum dress, furious, pointing at the door, shouts in Japanese: 「あの子を、通りに放り出してやる！」 Only this one person speaks."
   },
   {
    "id": "clip11",
@@ -527,13 +509,7 @@
    "refs": [
     "solicitor"
    ],
-   "prompt": "Victorian London 1890s. The thin elderly solicitor by the fireplace shrugs his shoulders with a cold little smile and says in Japanese: 「追い出すより、置いて使えばいいんですよ」 Only this one person speaks.",
-   "lines": [
-    [
-     "弁護士",
-     "追い出すより、置いて使えばいいんですよ"
-    ]
-   ]
+   "prompt": "Victorian London 1890s. The thin elderly solicitor by the fireplace shrugs his shoulders with a cold little smile and says in Japanese: 「追い出すより、置いて使えばいいんですよ」 Only this one person speaks."
   },
   {
    "id": "clip12",
@@ -543,13 +519,7 @@
     "minchin",
     "sara_party"
    ],
-   "prompt": "Victorian London 1890s. In the dim corridor the gaunt headmistress looks down coldly at the little girl in the pink frock and orders in Japanese: 「黒い服に着替えさせなさい。贅沢はもう終わりよ」 Only this one person speaks.",
-   "lines": [
-    [
-     "ミンチン先生",
-     "黒い服に着替えさせなさい。贅沢はもう終わりよ"
-    ]
-   ]
+   "prompt": "Victorian London 1890s. In the dim corridor the gaunt headmistress looks down coldly at the little girl in the pink frock and orders in Japanese: 「黒い服に着替えさせなさい。贅沢はもう終わりよ」 Only this one person speaks."
   },
   {
    "id": "clip13",
@@ -558,13 +528,7 @@
    "refs": [
     "misa_daughter"
    ],
-   "prompt": "At a Japanese dinner table, the 14-year-old Japanese girl with a ponytail looks up innocently with chopsticks in hand and says casually in Japanese: 「ママ、最近ランチ行かないね」 Only this one person speaks.",
-   "lines": [
-    [
-     "娘",
-     "ママ、最近ランチ行かないね"
-    ]
-   ]
+   "prompt": "At a Japanese dinner table, the 14-year-old Japanese girl with a ponytail looks up innocently with chopsticks in hand and says casually in Japanese: 「ママ、最近ランチ行かないね」 Only this one person speaks."
   },
   {
    "id": "clip14",
@@ -573,13 +537,7 @@
    "refs": [
     "reiko"
    ],
-   "prompt": "Close-up of the Japanese woman aged 48 with a chestnut bob, defensive, eyes glistening, says in a low voice in Japanese: 「私だって、必死だったのよ」 Only this one person speaks.",
-   "lines": [
-    [
-     "玲子",
-     "私だって、必死だったのよ"
-    ]
-   ]
+   "prompt": "Close-up of the Japanese woman aged 48 with a chestnut bob, defensive, eyes glistening, says in a low voice in Japanese: 「私だって、必死だったのよ」 Only this one person speaks."
   }
  ],
  "scenes": [
