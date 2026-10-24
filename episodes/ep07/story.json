@@ -1293,17 +1293,139 @@
   {
    "id": "clip02",
    "image": "img_13",
-   "duration": "5s",
+   "duration": "6s",
    "refs": [
     "reiko58"
    ],
-   "prompt": "Cinematic shot starting exactly from the attached image. The woman in the ivory suit and pearl necklace, panicking and furious, shouts at the smartphone in her hand in Japanese, in a shrill, hysterical voice of a woman in her late 50s, clear lip sync: 「知らないわよ！　あんな人、他人よ！」 Classmates behind her recoil. Handheld camera, slight shake. Only her voice, no narration, no music, no subtitles, no text on screen.",
+   "prompt": "Cinematic shot starting exactly from the attached image. The woman in the ivory suit and pearl necklace, panicking and furious, shouts at the smartphone in her hand in Japanese, in a shrill, hysterical voice of a woman in her late 50s, clear lip sync: 「知らないわよ！　あんな人、他人よ！」 then, even louder: 「勝手に死ねばいいじゃない！」 Classmates behind her recoil. Handheld camera, slight shake. Only her voice, no narration, no music, no subtitles, no text on screen.",
    "lines": [
     [
      "麗子",
      "知らないわよ！　あんな人、他人よ！"
+    ],
+    [
+     "麗子",
+     "勝手に死ねばいいじゃない！"
     ]
    ]
+  },
+  {
+   "id": "clip09",
+   "image": "img_02",
+   "duration": "6s",
+   "refs": [],
+   "prompt": "Cinematic slow-motion shot starting exactly from the attached image. The manicured hand with red nails and a diamond ring slaps the plain work-worn hand away; the plain hand recoils and slowly withdraws. Wine glasses tremble. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "clip10",
+   "image": "img_03",
+   "duration": "10s",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Cinematic shot starting exactly from the attached image. The woman in the ivory suit and pearl necklace laughs with open contempt, wine glass raised, and says in Japanese in a haughty, mocking voice of a woman in her late 50s, clear lip sync: 「五十八にもなって、他人のお尻拭いて食べてるの？」 Then she tilts her head and adds with a cruel smile: 「私だったら恥ずかしくて、同窓会なんか来られないわ」 Classmates behind her laugh awkwardly. Only her voice, no narration, no music, no subtitles, no text on screen.",
+   "lines": [
+    [
+     "麗子",
+     "五十八にもなって、他人のお尻拭いて食べてるの？"
+    ],
+    [
+     "麗子",
+     "私だったら恥ずかしくて、同窓会なんか来られないわ"
+    ]
+   ]
+  },
+  {
+   "id": "clip11",
+   "image": "img_04",
+   "duration": "6s",
+   "refs": [],
+   "prompt": "Cinematic slow crane shot starting exactly from the attached image, gliding over the grand hotel banquet hall: classmates in their late 50s chatting and toasting at round tables, chandeliers glittering. Murmur of the crowd only, nobody's words clear. No music, no text on screen."
+  },
+  {
+   "id": "clip12",
+   "image": "img_05",
+   "duration": "8s",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Cinematic shot starting exactly from the attached image. The woman in the ivory suit and pearl necklace sits at the center of the table like a queen, laughing and waving her hand airily while classmates lean in around her. Slow low-angle push-in. Nobody's words are heard clearly. No music, no text on screen."
+  },
+  {
+   "id": "clip13",
+   "image": "img_06",
+   "duration": "6s",
+   "refs": [
+    "mieko"
+   ],
+   "prompt": "Cinematic shot starting exactly from the attached image. The silver-haired woman in the navy cardigan holds her slapped right hand against her chest, looks down, then gently breathes in, quietly hurt but dignified, the party continuing blurred behind her. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "clip14",
+   "image": "img_07",
+   "duration": "5s",
+   "refs": [
+    "mieko"
+   ],
+   "prompt": "Cinematic close-up starting exactly from the attached image. The silver-haired woman slowly closes her eyes and lowers her gaze in silence, warm golden rim light on her hair, chandelier bokeh drifting. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "clip15",
+   "image": "img_08",
+   "duration": "5s",
+   "refs": [],
+   "prompt": "Cinematic shot starting exactly from the attached image. A low candle flame flickers on the late-night banquet table, wax dripping, a slow push-in: time has passed. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "clip16",
+   "image": "img_09",
+   "duration": "6s",
+   "refs": [],
+   "prompt": "Cinematic macro shot starting exactly from the attached image. The smartphone on the white tablecloth starts vibrating and its screen lights up brightly with abstract light, ripples trembling on the red wine nearby. Only the vibration sound. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "clip17",
+   "image": "img_10",
+   "duration": "6s",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Cinematic shot starting exactly from the attached image. The glowing phone on speaker in the foreground; behind it the woman in the ivory suit and pearl necklace freezes mid-laugh and her smile slowly drains away, classmates turning their heads. Nobody on screen speaks. No music, no text on screen."
+  },
+  {
+   "id": "clip18",
+   "image": "img_11",
+   "duration": "6s",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Cinematic shot starting exactly from the attached image. In the silent banquet hall, classmates turn one after another in their seats to stare at the woman in the ivory suit standing frozen with her phone. Slow push-in toward her. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "clip19",
+   "image": "img_12",
+   "duration": "6s",
+   "refs": [
+    "reiko58"
+   ],
+   "prompt": "Cinematic extreme close-up starting exactly from the attached image. Manicured fingers with red nails tighten around the large-bead pearl necklace, trembling harder and harder, knuckles whitening. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "clip20",
+   "image": "img_14",
+   "duration": "8s",
+   "refs": [
+    "yumi",
+    "nakajima"
+   ],
+   "prompt": "Cinematic shot starting exactly from the attached image. The phone on speaker lies on the table; behind it the woman with gold-rimmed glasses slowly covers her mouth and the grey-haired man leans forward, both listening in stunned silence as realization dawns. Nobody on screen speaks. No music, no text on screen."
+  },
+  {
+   "id": "clip21",
+   "image": "img_16",
+   "duration": "8s",
+   "refs": [],
+   "prompt": "Cinematic slow-motion shot at floor level starting exactly from the attached image. White pearls bounce, roll and scatter across the patterned banquet carpet, the ivory high heels standing perfectly still. Only the sound of pearls. Nobody speaks. No music, no text on screen."
   },
   {
    "id": "clip03",
@@ -1390,11 +1512,10 @@
     3,
     3
    ],
-   "image": "img_02",
-   "type": "narration",
-   "sfx": "impact",
-   "transition": "flash",
-   "motion": "punch_zoom"
+   "type": "clip",
+   "clips": [
+    "clip09"
+   ]
   },
   {
    "id": "s004",
@@ -1403,10 +1524,10 @@
     4,
     5
    ],
-   "image": "img_03",
-   "type": "line",
-   "speaker": "麗子",
-   "motion": "zoom_in_big"
+   "type": "clip",
+   "clips": [
+    "clip10"
+   ]
   },
   {
    "id": "s006",
@@ -1415,9 +1536,10 @@
     6,
     7
    ],
-   "image": "img_04",
-   "type": "narration",
-   "motion": "pan_right"
+   "type": "clip",
+   "clips": [
+    "clip11"
+   ]
   },
   {
    "id": "s008",
@@ -1426,9 +1548,10 @@
     8,
     9
    ],
-   "image": "img_05",
-   "type": "narration",
-   "motion": "zoom_out_big"
+   "type": "clip",
+   "clips": [
+    "clip12"
+   ]
   },
   {
    "id": "s010",
@@ -1437,9 +1560,10 @@
     10,
     11
    ],
-   "image": "img_06",
-   "type": "narration",
-   "motion": "pan_left"
+   "type": "clip",
+   "clips": [
+    "clip13"
+   ]
   },
   {
    "id": "s012",
@@ -1448,9 +1572,10 @@
     12,
     12
    ],
-   "image": "img_07",
-   "type": "narration",
-   "motion": "push_slow"
+   "type": "clip",
+   "clips": [
+    "clip14"
+   ]
   },
   {
    "id": "s013",
@@ -1459,9 +1584,10 @@
     13,
     13
    ],
-   "image": "img_08",
-   "type": "narration",
-   "motion": "pan_up"
+   "type": "clip",
+   "clips": [
+    "clip15"
+   ]
   },
   {
    "id": "s014",
@@ -1470,11 +1596,10 @@
     14,
     14
    ],
-   "image": "img_09",
-   "type": "narration",
-   "sfx": "impact",
-   "transition": "flash",
-   "motion": "punch_zoom"
+   "type": "clip",
+   "clips": [
+    "clip16"
+   ]
   },
   {
    "id": "s015",
@@ -1483,10 +1608,10 @@
     15,
     15
    ],
-   "image": "img_10",
-   "type": "line",
-   "speaker": "看護師",
-   "motion": "pan_down"
+   "type": "clip",
+   "clips": [
+    "clip17"
+   ]
   },
   {
    "id": "s016",
@@ -1495,9 +1620,10 @@
     16,
     16
    ],
-   "image": "img_11",
-   "type": "narration",
-   "motion": "zoom_in_big"
+   "type": "clip",
+   "clips": [
+    "clip18"
+   ]
   },
   {
    "id": "s017",
@@ -1506,16 +1632,17 @@
     17,
     17
    ],
-   "image": "img_12",
-   "type": "narration",
-   "motion": "pan_right"
+   "type": "clip",
+   "clips": [
+    "clip19"
+   ]
   },
   {
    "id": "s018",
    "chapter": "intro",
    "srt": [
     18,
-    18
+    19
    ],
    "type": "clip",
    "clips": [
@@ -1523,39 +1650,16 @@
    ]
   },
   {
-   "id": "s019",
-   "chapter": "intro",
-   "srt": [
-    19,
-    19
-   ],
-   "image": "img_13",
-   "type": "line",
-   "speaker": "麗子",
-   "motion": "zoom_out_big"
-  },
-  {
    "id": "s020",
    "chapter": "intro",
    "srt": [
     20,
-    20
-   ],
-   "image": "img_14",
-   "type": "narration",
-   "motion": "pan_left"
-  },
-  {
-   "id": "s021",
-   "chapter": "intro",
-   "srt": [
-    21,
     21
    ],
-   "image": "img_14",
-   "type": "line",
-   "speaker": "看護師",
-   "motion": "push_slow"
+   "type": "clip",
+   "clips": [
+    "clip20"
+   ]
   },
   {
    "id": "s022",
@@ -1576,9 +1680,10 @@
     23,
     23
    ],
-   "image": "img_16",
-   "type": "narration",
-   "motion": "pan_up"
+   "type": "clip",
+   "clips": [
+    "clip21"
+   ]
   },
   {
    "id": "s024",
@@ -1589,7 +1694,7 @@
    ],
    "image": "img_02",
    "type": "narration",
-   "motion": "pan_down"
+   "motion": "zoom_in_big"
   },
   {
    "id": "s025",
@@ -1600,7 +1705,7 @@
    ],
    "image": "img_17",
    "type": "narration",
-   "motion": "zoom_in_big"
+   "motion": "pan_right"
   },
   {
    "id": "s027",
@@ -1611,7 +1716,7 @@
    ],
    "image": "img_18",
    "type": "narration",
-   "motion": "pan_right",
+   "motion": "zoom_out_big",
    "transition": "fade"
   },
   {
@@ -1623,7 +1728,7 @@
    ],
    "image": "img_19",
    "type": "narration",
-   "motion": "zoom_out_big"
+   "motion": "pan_left"
   },
   {
    "id": "s030",
@@ -1634,7 +1739,7 @@
    ],
    "image": "img_20",
    "type": "narration",
-   "motion": "pan_left"
+   "motion": "push_slow"
   },
   {
    "id": "s032",
@@ -1646,7 +1751,7 @@
    "image": "img_21",
    "type": "line",
    "speaker": "美恵子",
-   "motion": "push_slow"
+   "motion": "pan_up"
   },
   {
    "id": "s033",
@@ -1657,7 +1762,7 @@
    ],
    "image": "img_21",
    "type": "narration",
-   "motion": "pan_up"
+   "motion": "pan_down"
   },
   {
    "id": "s034",
@@ -1668,7 +1773,7 @@
    ],
    "image": "img_22",
    "type": "narration",
-   "motion": "pan_down"
+   "motion": "zoom_in_big"
   },
   {
    "id": "s036",
@@ -1679,7 +1784,7 @@
    ],
    "image": "img_23",
    "type": "narration",
-   "motion": "zoom_in_big"
+   "motion": "pan_right"
   },
   {
    "id": "s037",
@@ -1691,7 +1796,7 @@
    "image": "img_23",
    "type": "line",
    "speaker": "キヨ",
-   "motion": "pan_right"
+   "motion": "zoom_out_big"
   },
   {
    "id": "s038",
@@ -1702,7 +1807,7 @@
    ],
    "image": "img_24",
    "type": "narration",
-   "motion": "zoom_out_big"
+   "motion": "pan_left"
   },
   {
    "id": "s040",
@@ -1713,7 +1818,7 @@
    ],
    "image": "img_25",
    "type": "narration",
-   "motion": "pan_left"
+   "motion": "push_slow"
   },
   {
    "id": "s042",
@@ -1724,7 +1829,7 @@
    ],
    "image": "img_26",
    "type": "narration",
-   "motion": "push_slow"
+   "motion": "pan_up"
   },
   {
    "id": "s043",
@@ -1736,7 +1841,7 @@
    "image": "img_27",
    "type": "line",
    "speaker": "キヨ",
-   "motion": "pan_up"
+   "motion": "pan_down"
   },
   {
    "id": "s044",
@@ -1747,7 +1852,7 @@
    ],
    "image": "img_27",
    "type": "narration",
-   "motion": "pan_down"
+   "motion": "zoom_in_big"
   },
   {
    "id": "s045",
@@ -1759,7 +1864,7 @@
    "image": "img_28",
    "type": "line",
    "speaker": "キヨ",
-   "motion": "zoom_in_big"
+   "motion": "pan_right"
   },
   {
    "id": "s046",
@@ -1770,7 +1875,7 @@
    ],
    "image": "img_28",
    "type": "narration",
-   "motion": "pan_right"
+   "motion": "zoom_out_big"
   },
   {
    "id": "s047",
@@ -1781,7 +1886,7 @@
    ],
    "image": "img_29",
    "type": "narration",
-   "motion": "zoom_out_big",
+   "motion": "pan_left",
    "transition": "fade"
   },
   {
@@ -1794,7 +1899,7 @@
    "image": "img_30",
    "type": "line",
    "speaker": "由美",
-   "motion": "pan_left"
+   "motion": "push_slow"
   },
   {
    "id": "s050",
@@ -1805,7 +1910,7 @@
    ],
    "image": "img_30",
    "type": "narration",
-   "motion": "push_slow"
+   "motion": "pan_up"
   },
   {
    "id": "s051",
@@ -1816,7 +1921,7 @@
    ],
    "image": "img_31",
    "type": "narration",
-   "motion": "pan_up"
+   "motion": "pan_down"
   },
   {
    "id": "s054",
@@ -1827,7 +1932,7 @@
    ],
    "image": "img_32",
    "type": "narration",
-   "motion": "pan_down"
+   "motion": "zoom_in_big"
   },
   {
    "id": "s056",
@@ -1838,7 +1943,7 @@
    ],
    "image": "img_33",
    "type": "narration",
-   "motion": "zoom_in_big"
+   "motion": "pan_right"
   },
   {
    "id": "s059",
@@ -1850,7 +1955,7 @@
    "image": "img_34",
    "type": "line",
    "speaker": "麗子",
-   "motion": "pan_right"
+   "motion": "zoom_out_big"
   },
   {
    "id": "s060",
@@ -1861,7 +1966,7 @@
    ],
    "image": "img_34",
    "type": "narration",
-   "motion": "zoom_out_big"
+   "motion": "pan_left"
   },
   {
    "id": "s061",
@@ -1873,7 +1978,7 @@
    "image": "img_35",
    "type": "line",
    "speaker": "麗子",
-   "motion": "pan_left"
+   "motion": "push_slow"
   },
   {
    "id": "s062",
@@ -1885,7 +1990,7 @@
    "image": "img_36",
    "type": "line",
    "speaker": "麗子",
-   "motion": "push_slow"
+   "motion": "pan_up"
   },
   {
    "id": "s063",
@@ -1896,7 +2001,7 @@
    ],
    "image": "img_36",
    "type": "narration",
-   "motion": "pan_up"
+   "motion": "pan_down"
   },
   {
    "id": "s064",
@@ -1908,7 +2013,7 @@
    "image": "img_37",
    "type": "line",
    "speaker": "麗子",
-   "motion": "pan_down"
+   "motion": "zoom_in_big"
   },
   {
    "id": "s066",
@@ -1919,7 +2024,7 @@
    ],
    "image": "img_38",
    "type": "narration",
-   "motion": "zoom_in_big"
+   "motion": "pan_right"
   },
   {
    "id": "s068",
@@ -1931,7 +2036,7 @@
    "image": "img_39",
    "type": "line",
    "speaker": "麗子",
-   "motion": "pan_right"
+   "motion": "zoom_out_big"
   },
   {
    "id": "s071",
@@ -1943,7 +2048,7 @@
    "image": "img_40",
    "type": "line",
    "speaker": "美恵子",
-   "motion": "zoom_out_big"
+   "motion": "pan_left"
   },
   {
    "id": "s072",
@@ -1954,7 +2059,7 @@
    ],
    "image": "img_40",
    "type": "narration",
-   "motion": "pan_left"
+   "motion": "push_slow"
   },
   {
    "id": "s073",
@@ -1966,7 +2071,7 @@
    "image": "img_41",
    "type": "line",
    "speaker": "麗子",
-   "motion": "push_slow"
+   "motion": "pan_up"
   },
   {
    "id": "s075",
@@ -1977,7 +2082,7 @@
    ],
    "image": "img_42",
    "type": "narration",
-   "motion": "pan_up"
+   "motion": "pan_down"
   },
   {
    "id": "s076",
@@ -1989,7 +2094,7 @@
    "image": "img_42",
    "type": "line",
    "speaker": "美恵子",
-   "motion": "pan_down"
+   "motion": "zoom_in_big"
   },
   {
    "id": "s077",
@@ -2025,7 +2130,7 @@
    ],
    "image": "img_43",
    "type": "narration",
-   "motion": "zoom_in_big"
+   "motion": "pan_right"
   },
   {
    "id": "s082",
@@ -2037,7 +2142,7 @@
    "image": "img_03",
    "type": "line",
    "speaker": "麗子",
-   "motion": "pan_right"
+   "motion": "zoom_out_big"
   },
   {
    "id": "s084",
@@ -2049,7 +2154,7 @@
    "image": "img_44",
    "type": "line",
    "speaker": "麗子",
-   "motion": "zoom_out_big"
+   "motion": "pan_left"
   },
   {
    "id": "s085",
@@ -2060,7 +2165,7 @@
    ],
    "image": "img_44",
    "type": "narration",
-   "motion": "pan_left"
+   "motion": "push_slow"
   },
   {
    "id": "s086",
@@ -2071,7 +2176,7 @@
    ],
    "image": "img_45",
    "type": "narration",
-   "motion": "push_slow"
+   "motion": "pan_up"
   },
   {
    "id": "s087",
@@ -2083,7 +2188,7 @@
    "image": "img_45",
    "type": "line",
    "speaker": "美恵子",
-   "motion": "pan_up"
+   "motion": "pan_down"
   },
   {
    "id": "s088",
@@ -2094,7 +2199,7 @@
    ],
    "image": "img_46",
    "type": "narration",
-   "motion": "pan_down"
+   "motion": "zoom_in_big"
   },
   {
    "id": "s089",
@@ -2105,7 +2210,7 @@
    ],
    "image": "img_47",
    "type": "narration",
-   "motion": "zoom_in_big"
+   "motion": "pan_right"
   },
   {
    "id": "s091",
@@ -2116,7 +2221,7 @@
    ],
    "image": "img_48",
    "type": "narration",
-   "motion": "pan_right",
+   "motion": "zoom_out_big",
    "transition": "fade"
   },
   {
@@ -2128,7 +2233,7 @@
    ],
    "image": "img_49",
    "type": "narration",
-   "motion": "zoom_out_big"
+   "motion": "pan_left"
   },
   {
    "id": "s094",
@@ -2139,7 +2244,7 @@
    ],
    "image": "img_50",
    "type": "narration",
-   "motion": "pan_left"
+   "motion": "push_slow"
   },
   {
    "id": "s097",
@@ -2150,7 +2255,7 @@
    ],
    "image": "img_51",
    "type": "narration",
-   "motion": "push_slow"
+   "motion": "pan_up"
   },
   {
    "id": "s100",
@@ -2162,7 +2267,7 @@
    "image": "img_52",
    "type": "line",
    "speaker": "キヨ",
-   "motion": "pan_up"
+   "motion": "pan_down"
   },
   {
    "id": "s101",
@@ -2173,7 +2278,7 @@
    ],
    "image": "img_52",
    "type": "narration",
-   "motion": "pan_down"
+   "motion": "zoom_in_big"
   },
   {
    "id": "s102",
@@ -2184,7 +2289,7 @@
    ],
    "image": "img_53",
    "type": "narration",
-   "motion": "zoom_in_big"
+   "motion": "pan_right"
   },
   {
    "id": "s104",
@@ -2195,7 +2300,7 @@
    ],
    "image": "img_54",
    "type": "narration",
-   "motion": "pan_right"
+   "motion": "zoom_out_big"
   },
   {
    "id": "s105",
@@ -2206,7 +2311,7 @@
    ],
    "image": "img_55",
    "type": "narration",
-   "motion": "zoom_out_big"
+   "motion": "pan_left"
   },
   {
    "id": "s106",
@@ -2218,7 +2323,7 @@
    "image": "img_55",
    "type": "line",
    "speaker": "中島",
-   "motion": "pan_left"
+   "motion": "push_slow"
   },
   {
    "id": "s107",
@@ -2229,7 +2334,7 @@
    ],
    "image": "img_55",
    "type": "narration",
-   "motion": "push_slow"
+   "motion": "pan_up"
   },
   {
    "id": "s108",
@@ -2240,7 +2345,7 @@
    ],
    "image": "img_56",
    "type": "narration",
-   "motion": "pan_up"
+   "motion": "pan_down"
   },
   {
    "id": "s109",
@@ -2252,7 +2357,7 @@
    "image": "img_57",
    "type": "line",
    "speaker": "キヨ",
-   "motion": "pan_down"
+   "motion": "zoom_in_big"
   },
   {
    "id": "s110",
@@ -2263,7 +2368,7 @@
    ],
    "image": "img_57",
    "type": "narration",
-   "motion": "zoom_in_big"
+   "motion": "pan_right"
   },
   {
    "id": "s111",
@@ -2274,7 +2379,7 @@
    ],
    "image": "img_58",
    "type": "narration",
-   "motion": "pan_right"
+   "motion": "zoom_out_big"
   },
   {
    "id": "s113",
@@ -2285,7 +2390,7 @@
    ],
    "image": "img_59",
    "type": "narration",
-   "motion": "zoom_out_big"
+   "motion": "pan_left"
   },
   {
    "id": "s115",
@@ -2297,7 +2402,7 @@
    "image": "img_60",
    "type": "line",
    "speaker": "キヨ",
-   "motion": "pan_left"
+   "motion": "push_slow"
   },
   {
    "id": "s116",
@@ -2308,7 +2413,7 @@
    ],
    "image": "img_61",
    "type": "narration",
-   "motion": "push_slow"
+   "motion": "pan_up"
   },
   {
    "id": "s118",
@@ -2319,7 +2424,7 @@
    ],
    "image": "img_62",
    "type": "narration",
-   "motion": "pan_up"
+   "motion": "pan_down"
   },
   {
    "id": "s120",
@@ -2330,7 +2435,7 @@
    ],
    "image": "img_63",
    "type": "narration",
-   "motion": "pan_down"
+   "motion": "zoom_in_big"
   },
   {
    "id": "s121",
@@ -2342,7 +2447,7 @@
    "image": "img_63",
    "type": "line",
    "speaker": "麗子",
-   "motion": "zoom_in_big"
+   "motion": "pan_right"
   },
   {
    "id": "s122",
@@ -2354,7 +2459,7 @@
    "image": "img_64",
    "type": "line",
    "speaker": "麗子",
-   "motion": "pan_right"
+   "motion": "zoom_out_big"
   },
   {
    "id": "s125",
@@ -2365,7 +2470,7 @@
    ],
    "image": "img_65",
    "type": "narration",
-   "motion": "zoom_out_big"
+   "motion": "pan_left"
   },
   {
    "id": "s126",
@@ -2376,7 +2481,7 @@
    ],
    "image": "img_66",
    "type": "narration",
-   "motion": "pan_left"
+   "motion": "push_slow"
   },
   {
    "id": "s127",
@@ -2388,7 +2493,7 @@
    "image": "img_66",
    "type": "line",
    "speaker": "麗子",
-   "motion": "push_slow"
+   "motion": "pan_up"
   },
   {
    "id": "s129",
@@ -2399,7 +2504,7 @@
    ],
    "image": "img_67",
    "type": "narration",
-   "motion": "pan_up"
+   "motion": "pan_down"
   },
   {
    "id": "s130",
@@ -2410,7 +2515,7 @@
    ],
    "image": "img_68",
    "type": "narration",
-   "motion": "pan_down",
+   "motion": "zoom_in_big",
    "transition": "fade"
   },
   {
@@ -2422,7 +2527,7 @@
    ],
    "image": "img_69",
    "type": "narration",
-   "motion": "zoom_in_big"
+   "motion": "pan_right"
   },
   {
    "id": "s135",
@@ -2433,7 +2538,7 @@
    ],
    "image": "img_70",
    "type": "narration",
-   "motion": "pan_right"
+   "motion": "zoom_out_big"
   },
   {
    "id": "s137",
@@ -2444,7 +2549,7 @@
    ],
    "image": "img_71",
    "type": "narration",
-   "motion": "zoom_out_big"
+   "motion": "pan_left"
   },
   {
    "id": "s139",
@@ -2456,7 +2561,7 @@
    "image": "img_72",
    "type": "line",
    "speaker": "美恵子",
-   "motion": "pan_left"
+   "motion": "push_slow"
   },
   {
    "id": "s140",
@@ -2467,7 +2572,7 @@
    ],
    "image": "img_72",
    "type": "narration",
-   "motion": "push_slow"
+   "motion": "pan_up"
   },
   {
    "id": "s141",
@@ -2479,7 +2584,7 @@
    "image": "img_72",
    "type": "line",
    "speaker": "麗子",
-   "motion": "pan_up"
+   "motion": "pan_down"
   },
   {
    "id": "s142",
@@ -2490,7 +2595,7 @@
    ],
    "image": "img_73",
    "type": "narration",
-   "motion": "pan_down"
+   "motion": "zoom_in_big"
   },
   {
    "id": "s143",
@@ -2501,7 +2606,7 @@
    ],
    "image": "img_74",
    "type": "narration",
-   "motion": "zoom_in_big"
+   "motion": "pan_right"
   },
   {
    "id": "s146",
@@ -2512,7 +2617,7 @@
    ],
    "image": "img_75",
    "type": "narration",
-   "motion": "pan_right"
+   "motion": "zoom_out_big"
   },
   {
    "id": "s147",
@@ -2523,7 +2628,7 @@
    ],
    "image": "img_76",
    "type": "narration",
-   "motion": "zoom_out_big"
+   "motion": "pan_left"
   },
   {
    "id": "s148",
@@ -2535,7 +2640,7 @@
    "image": "img_76",
    "type": "line",
    "speaker": "麗子",
-   "motion": "pan_left"
+   "motion": "push_slow"
   },
   {
    "id": "s149",
@@ -2547,7 +2652,7 @@
    "image": "img_77",
    "type": "line",
    "speaker": "麗子",
-   "motion": "push_slow"
+   "motion": "pan_up"
   },
   {
    "id": "s152",
@@ -2558,7 +2663,7 @@
    ],
    "image": "img_78",
    "type": "narration",
-   "motion": "pan_up"
+   "motion": "pan_down"
   },
   {
    "id": "s153",
@@ -2570,7 +2675,7 @@
    "image": "img_78",
    "type": "line",
    "speaker": "キヨ",
-   "motion": "pan_down"
+   "motion": "zoom_in_big"
   },
   {
    "id": "s154",
@@ -2581,7 +2686,7 @@
    ],
    "image": "img_79",
    "type": "narration",
-   "motion": "zoom_in_big"
+   "motion": "pan_right"
   },
   {
    "id": "s156",
@@ -2605,7 +2710,7 @@
    "image": "img_81",
    "type": "line",
    "speaker": "麗子",
-   "motion": "pan_right"
+   "motion": "zoom_out_big"
   },
   {
    "id": "s159",
@@ -2616,7 +2721,7 @@
    ],
    "image": "img_82",
    "type": "narration",
-   "motion": "zoom_out_big"
+   "motion": "pan_left"
   },
   {
    "id": "s160",
@@ -2628,7 +2733,7 @@
    "image": "img_82",
    "type": "line",
    "speaker": "麗子",
-   "motion": "pan_left"
+   "motion": "push_slow"
   },
   {
    "id": "s161",
@@ -2639,7 +2744,7 @@
    ],
    "image": "img_83",
    "type": "narration",
-   "motion": "push_slow"
+   "motion": "pan_up"
   },
   {
    "id": "s163",
@@ -2650,7 +2755,7 @@
    ],
    "image": "img_84",
    "type": "narration",
-   "motion": "pan_up"
+   "motion": "pan_down"
   },
   {
    "id": "s164",
@@ -2662,7 +2767,7 @@
    "image": "img_85",
    "type": "line",
    "speaker": "美恵子",
-   "motion": "pan_down"
+   "motion": "zoom_in_big"
   },
   {
    "id": "s166",
@@ -2673,7 +2778,7 @@
    ],
    "image": "img_86",
    "type": "narration",
-   "motion": "zoom_in_big"
+   "motion": "pan_right"
   },
   {
    "id": "s168",
@@ -2684,7 +2789,7 @@
    ],
    "image": "img_87",
    "type": "narration",
-   "motion": "pan_right"
+   "motion": "zoom_out_big"
   },
   {
    "id": "s170",
@@ -2695,7 +2800,7 @@
    ],
    "image": "img_88",
    "type": "narration",
-   "motion": "zoom_out_big",
+   "motion": "pan_left",
    "transition": "fade"
   },
   {
@@ -2708,7 +2813,7 @@
    "image": "img_89",
    "type": "line",
    "speaker": "美恵子",
-   "motion": "pan_left"
+   "motion": "push_slow"
   },
   {
    "id": "s173",
@@ -2719,7 +2824,7 @@
    ],
    "image": "img_89",
    "type": "narration",
-   "motion": "push_slow"
+   "motion": "pan_up"
   },
   {
    "id": "s174",
@@ -2731,7 +2836,7 @@
    "image": "img_90",
    "type": "line",
    "speaker": "キヨ",
-   "motion": "pan_up"
+   "motion": "pan_down"
   },
   {
    "id": "s176",
@@ -2742,7 +2847,7 @@
    ],
    "image": "img_91",
    "type": "narration",
-   "motion": "pan_down"
+   "motion": "zoom_in_big"
   },
   {
    "id": "s177",
@@ -2754,7 +2859,7 @@
    "image": "img_91",
    "type": "line",
    "speaker": "美恵子",
-   "motion": "zoom_in_big"
+   "motion": "pan_right"
   },
   {
    "id": "s178",
@@ -2765,7 +2870,7 @@
    ],
    "image": "img_92",
    "type": "narration",
-   "motion": "pan_right"
+   "motion": "zoom_out_big"
   },
   {
    "id": "s179",
@@ -2777,7 +2882,7 @@
    "image": "img_92",
    "type": "line",
    "speaker": "麗子",
-   "motion": "zoom_out_big"
+   "motion": "pan_left"
   },
   {
    "id": "s181",
@@ -2789,7 +2894,7 @@
    "image": "img_93",
    "type": "line",
    "speaker": "麗子",
-   "motion": "pan_left"
+   "motion": "push_slow"
   },
   {
    "id": "s183",
@@ -2800,7 +2905,7 @@
    ],
    "image": "img_94",
    "type": "narration",
-   "motion": "push_slow"
+   "motion": "pan_up"
   },
   {
    "id": "s184",
@@ -2823,7 +2928,7 @@
    ],
    "image": "img_95",
    "type": "narration",
-   "motion": "pan_up"
+   "motion": "pan_down"
   },
   {
    "id": "s186",
@@ -2834,7 +2939,7 @@
    ],
    "image": "img_96",
    "type": "narration",
-   "motion": "pan_down"
+   "motion": "zoom_in_big"
   },
   {
    "id": "s187",
@@ -2845,7 +2950,7 @@
    ],
    "image": "img_97",
    "type": "narration",
-   "motion": "zoom_in_big",
+   "motion": "pan_right",
    "transition": "fade"
   },
   {
@@ -2858,7 +2963,7 @@
    "image": "img_98",
    "type": "line",
    "speaker": "美恵子",
-   "motion": "pan_right"
+   "motion": "zoom_out_big"
   },
   {
    "id": "s190",
@@ -2869,7 +2974,7 @@
    ],
    "image": "img_98",
    "type": "narration",
-   "motion": "zoom_out_big"
+   "motion": "pan_left"
   },
   {
    "id": "s191",
@@ -2880,7 +2985,7 @@
    ],
    "image": "img_99",
    "type": "narration",
-   "motion": "pan_left"
+   "motion": "push_slow"
   },
   {
    "id": "s192",
@@ -2891,7 +2996,7 @@
    ],
    "image": "img_100",
    "type": "narration",
-   "motion": "push_slow"
+   "motion": "pan_up"
   },
   {
    "id": "s193",
@@ -2903,7 +3008,7 @@
    "image": "img_100",
    "type": "line",
    "speaker": "キヨ",
-   "motion": "pan_up"
+   "motion": "pan_down"
   },
   {
    "id": "s195",
@@ -2914,7 +3019,7 @@
    ],
    "image": "img_101",
    "type": "narration",
-   "motion": "pan_down"
+   "motion": "zoom_in_big"
   },
   {
    "id": "s197",
@@ -2926,7 +3031,7 @@
    "image": "img_101",
    "type": "line",
    "speaker": "看護師",
-   "motion": "zoom_in_big"
+   "motion": "pan_right"
   },
   {
    "id": "s198",
@@ -2937,7 +3042,7 @@
    ],
    "image": "img_102",
    "type": "narration",
-   "motion": "pan_right"
+   "motion": "zoom_out_big"
   },
   {
    "id": "s200",
@@ -2948,7 +3053,7 @@
    ],
    "image": "img_103",
    "type": "narration",
-   "motion": "zoom_out_big"
+   "motion": "pan_left"
   },
   {
    "id": "s202",
@@ -2959,7 +3064,7 @@
    ],
    "image": "img_104",
    "type": "narration",
-   "motion": "pan_left"
+   "motion": "push_slow"
   },
   {
    "id": "s205",
@@ -2971,7 +3076,7 @@
    "image": "img_105",
    "type": "line",
    "speaker": "麗子",
-   "motion": "push_slow"
+   "motion": "pan_up"
   },
   {
    "id": "s208",
@@ -2982,7 +3087,7 @@
    ],
    "image": "img_106",
    "type": "narration",
-   "motion": "pan_up"
+   "motion": "pan_down"
   },
   {
    "id": "s210",
@@ -2994,7 +3099,7 @@
    "image": "img_107",
    "type": "line",
    "speaker": "キヨ",
-   "motion": "pan_down"
+   "motion": "zoom_in_big"
   },
   {
    "id": "s211",
@@ -3005,7 +3110,7 @@
    ],
    "image": "img_107",
    "type": "narration",
-   "motion": "zoom_in_big"
+   "motion": "pan_right"
   },
   {
    "id": "s212",
@@ -3016,7 +3121,7 @@
    ],
    "image": "img_108",
    "type": "narration",
-   "motion": "pan_right"
+   "motion": "zoom_out_big"
   },
   {
    "id": "s213",
@@ -3028,7 +3133,7 @@
    "image": "img_108",
    "type": "line",
    "speaker": "美恵子",
-   "motion": "zoom_out_big"
+   "motion": "pan_left"
   },
   {
    "id": "s215",
@@ -3039,7 +3144,7 @@
    ],
    "image": "img_109",
    "type": "narration",
-   "motion": "pan_left"
+   "motion": "push_slow"
   },
   {
    "id": "s216",
@@ -3050,7 +3155,7 @@
    ],
    "image": "img_110",
    "type": "narration",
-   "motion": "push_slow"
+   "motion": "pan_up"
   },
   {
    "id": "s219",
@@ -3061,7 +3166,7 @@
    ],
    "image": "img_111",
    "type": "narration",
-   "motion": "pan_up"
+   "motion": "pan_down"
   },
   {
    "id": "s220",
@@ -3072,7 +3177,7 @@
    ],
    "image": "img_112",
    "type": "narration",
-   "motion": "pan_down"
+   "motion": "zoom_in_big"
   },
   {
    "id": "s222",
@@ -3083,7 +3188,7 @@
    ],
    "image": "img_113",
    "type": "narration",
-   "motion": "zoom_in_big",
+   "motion": "pan_right",
    "transition": "fade"
   },
   {
@@ -3096,7 +3201,7 @@
    "image": "img_114",
    "type": "line",
    "speaker": "麗子",
-   "motion": "pan_right"
+   "motion": "zoom_out_big"
   },
   {
    "id": "s226",
@@ -3107,7 +3212,7 @@
    ],
    "image": "img_114",
    "type": "narration",
-   "motion": "zoom_out_big"
+   "motion": "pan_left"
   },
   {
    "id": "s227",
@@ -3118,7 +3223,7 @@
    ],
    "image": "img_115",
    "type": "narration",
-   "motion": "pan_left"
+   "motion": "push_slow"
   },
   {
    "id": "s230",
@@ -3129,7 +3234,7 @@
    ],
    "image": "img_116",
    "type": "narration",
-   "motion": "push_slow"
+   "motion": "pan_up"
   },
   {
    "id": "s231",
@@ -3141,7 +3246,7 @@
    "image": "img_10",
    "type": "line",
    "speaker": "看護師",
-   "motion": "pan_up"
+   "motion": "pan_down"
   },
   {
    "id": "s232",
@@ -3152,7 +3257,7 @@
    ],
    "image": "img_117",
    "type": "narration",
-   "motion": "pan_down"
+   "motion": "zoom_in_big"
   },
   {
    "id": "s234",
@@ -3164,7 +3269,7 @@
    "image": "img_118",
    "type": "line",
    "speaker": "麗子",
-   "motion": "zoom_in_big"
+   "motion": "pan_right"
   },
   {
    "id": "s235",
@@ -3175,7 +3280,7 @@
    ],
    "image": "img_118",
    "type": "narration",
-   "motion": "pan_right"
+   "motion": "zoom_out_big"
   },
   {
    "id": "s236",
@@ -3187,7 +3292,7 @@
    "image": "img_119",
    "type": "line",
    "speaker": "麗子",
-   "motion": "zoom_out_big"
+   "motion": "pan_left"
   },
   {
    "id": "s237",
@@ -3198,7 +3303,7 @@
    ],
    "image": "img_119",
    "type": "narration",
-   "motion": "pan_left"
+   "motion": "push_slow"
   },
   {
    "id": "s238",
@@ -3209,7 +3314,7 @@
    ],
    "image": "img_120",
    "type": "narration",
-   "motion": "push_slow"
+   "motion": "pan_up"
   },
   {
    "id": "s239",
@@ -3221,7 +3326,7 @@
    "image": "img_120",
    "type": "line",
    "speaker": "由美",
-   "motion": "pan_up"
+   "motion": "pan_down"
   },
   {
    "id": "s240",
@@ -3233,7 +3338,7 @@
    "image": "img_120",
    "type": "line",
    "speaker": "麗子",
-   "motion": "pan_down"
+   "motion": "zoom_in_big"
   },
   {
    "id": "s241",
@@ -3244,7 +3349,7 @@
    ],
    "image": "img_121",
    "type": "narration",
-   "motion": "zoom_in_big"
+   "motion": "pan_right"
   },
   {
    "id": "s242",
@@ -3256,7 +3361,7 @@
    "image": "img_121",
    "type": "line",
    "speaker": "中島",
-   "motion": "pan_right"
+   "motion": "zoom_out_big"
   },
   {
    "id": "s243",
@@ -3268,7 +3373,7 @@
    "image": "img_55",
    "type": "line",
    "speaker": "中島",
-   "motion": "zoom_out_big"
+   "motion": "pan_left"
   },
   {
    "id": "s245",
@@ -3279,7 +3384,7 @@
    ],
    "image": "img_122",
    "type": "narration",
-   "motion": "pan_left"
+   "motion": "push_slow"
   },
   {
    "id": "s246",
@@ -3291,7 +3396,7 @@
    "image": "img_122",
    "type": "line",
    "speaker": "麗子",
-   "motion": "push_slow"
+   "motion": "pan_up"
   },
   {
    "id": "s247",
@@ -3302,7 +3407,7 @@
    ],
    "image": "img_123",
    "type": "narration",
-   "motion": "pan_up"
+   "motion": "pan_down"
   },
   {
    "id": "s248",
@@ -3314,7 +3419,7 @@
    "image": "img_123",
    "type": "line",
    "speaker": "由美",
-   "motion": "pan_down"
+   "motion": "zoom_in_big"
   },
   {
    "id": "s249",
@@ -3339,7 +3444,7 @@
    ],
    "image": "img_124",
    "type": "narration",
-   "motion": "zoom_in_big"
+   "motion": "pan_right"
   },
   {
    "id": "s251",
@@ -3350,7 +3455,7 @@
    ],
    "image": "img_125",
    "type": "narration",
-   "motion": "pan_right"
+   "motion": "zoom_out_big"
   },
   {
    "id": "s254",
@@ -3362,7 +3467,7 @@
    "image": "img_126",
    "type": "line",
    "speaker": "看護師",
-   "motion": "zoom_out_big"
+   "motion": "pan_left"
   },
   {
    "id": "s258",
@@ -3373,7 +3478,7 @@
    ],
    "image": "img_11",
    "type": "narration",
-   "motion": "pan_left"
+   "motion": "push_slow"
   },
   {
    "id": "s259",
@@ -3384,7 +3489,7 @@
    ],
    "image": "img_12",
    "type": "narration",
-   "motion": "push_slow"
+   "motion": "pan_up"
   },
   {
    "id": "s260",
@@ -3396,31 +3501,19 @@
    "image": "img_127",
    "type": "line",
    "speaker": "麗子",
-   "motion": "pan_up"
+   "motion": "pan_down"
   },
   {
    "id": "s263",
    "chapter": "ch4",
    "srt": [
     263,
-    263
+    264
    ],
    "type": "clip",
    "clips": [
     "clip02"
    ]
-  },
-  {
-   "id": "s264",
-   "chapter": "ch4",
-   "srt": [
-    264,
-    264
-   ],
-   "image": "img_13",
-   "type": "line",
-   "speaker": "麗子",
-   "motion": "pan_down"
   },
   {
    "id": "s265",
