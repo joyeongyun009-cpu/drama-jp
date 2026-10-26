@@ -223,15 +223,6 @@
    "prompt": "She sits still with her head in her hands; the hospital corridor light flickers softly. Slow push-in. Nobody speaks. No music, no text on screen."
   },
   {
-   "id": "c13",
-   "image": "img_11",
-   "duration": "6s",
-   "refs": [
-    "misako"
-   ],
-   "prompt": "Tears fall down her cheeks; her shoulders tremble as she grips her apron and whispers. Slow push-in. Nobody speaks. No music, no text on screen."
-  },
-  {
    "id": "c14",
    "image": "img_12",
    "duration": "6s",
@@ -379,10 +370,9 @@
     13,
     13
    ],
-   "type": "clip",
-   "clips": [
-    "c13"
-   ]
+   "type": "narration",
+   "image": "img_11",
+   "motion": "push_slow"
   },
   {
    "id": "s14",
