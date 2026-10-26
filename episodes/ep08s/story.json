@@ -1,0 +1,431 @@
+{
+ "format": "longform",
+ "aspect": "9:16",
+ "title": "娘の家の家政婦は、私を見下した元親友だった…",
+ "thumbnail": {
+  "left": "img_03",
+  "right": "img_04",
+  "lines": [
+   "私を見下した親友が",
+   "娘の家の家政婦に…"
+  ]
+ },
+ "style": "Photorealistic cinematic Japanese TV drama, shot on a 35mm lens, shallow depth of field, realistic skin texture, vertical 9:16 framing. No on-screen text of any kind: no name labels, no captions, no subtitles, no watermarks, no logos.",
+ "location": "",
+ "narration": {
+  "audio": "narration/ep08s.mp3",
+  "srt": "episodes/ep08s/narration.srt"
+ },
+ "bgm": {
+  "file": "bgm/final_soliloquy.mp3",
+  "volume": 0.3,
+  "duck": 0.15
+ },
+ "voice": {
+  "narrator": "ja-JP-Chirp3-HD-Gacrux",
+  "letter": "ja-JP-Chirp3-HD-Sulafat",
+  "speaking_rate": 0.95,
+  "padding_sec": 0.6,
+  "min_scene_sec": 2.5
+ },
+ "speakers": {
+  "美佐子": "#B03A48",
+  "娘": "#5B8DC9"
+ },
+ "characters": {
+  "haha": {
+   "name": "母・私（65歳）",
+   "image_prompt": "Character reference portrait of a Japanese woman aged 65 with a short grey-black bob, a beige knit cardigan over a white blouse, small gold stud earrings, gentle but tired face, front-facing upper body, plain soft light-grey background, soft even light. Photorealistic, Japanese TV drama still quality, natural skin texture, sharp focus on the face. No text, no watermark, no logo."
+  },
+  "misako35": {
+   "name": "美佐子（30年前・35歳）",
+   "image_prompt": "Shot on 35mm film, warm muted 1990s film tone, slight grain. Character reference portrait of an elegant rich Japanese woman aged 35 with glossy permed black hair, red lipstick, a large pearl necklace and a white fur stole, a small beauty mark under her right eye, proud cold smile, chin slightly raised, front-facing upper body, plain soft light-grey background, soft even light. Photorealistic, Japanese TV drama still quality, natural skin texture, sharp focus on the face. No text, no watermark, no logo."
+  },
+  "misako": {
+   "name": "美佐子（65歳）",
+   "from": [
+    "misako35"
+   ],
+   "image_prompt": "Present-day 2026, clean cinematic look. The same woman as the attached reference, now aged 65 and poor. Keep the face exactly the same (same eyes, nose, mouth, bone structure, same beauty mark under her right eye). Japanese woman aged 65 with thin white hair tied back in a low bun, a faded navy apron over a plain grey long-sleeve top, no rings, a tired lined face, no makeup, humble lowered eyes. Front-facing upper body, plain soft light-grey background, soft even light. Photorealistic, Japanese TV drama still quality, natural skin texture, sharp focus on the face. No text, no watermark, no logo."
+  },
+  "musume": {
+   "name": "娘（35歳）",
+   "image_prompt": "Character reference portrait of a Japanese woman aged 35 with shoulder-length black hair and a white blouse, kind, serious eyes, front-facing upper body, plain soft light-grey background, soft even light. Photorealistic, Japanese TV drama still quality, natural skin texture, sharp focus on the face. No text, no watermark, no logo."
+  }
+ },
+ "images": [
+  {
+   "id": "img_01",
+   "refs": [
+    "haha"
+   ],
+   "prompt": "a Japanese woman aged 65 with a short grey-black bob, a beige knit cardigan over a white blouse, small gold stud earrings stepping into the genkan entrance of a modern Japanese apartment, taking off her shoes, smiling warmly and calling out, warm light, cinematic, photorealistic, vertical 9:16 framing, no text, no letters, no watermark"
+  },
+  {
+   "id": "img_02",
+   "refs": [
+    "misako"
+   ],
+   "prompt": "seen from behind, a Japanese woman aged 65 with thin white hair tied back in a low bun, a faded navy apron over a plain grey long-sleeve top, no rings, a tired lined face kneeling and wiping the floor with a cleaning rag in a bright modern Japanese apartment living room, soft afternoon light through the window, cinematic, photorealistic, vertical 9:16 framing, no text, no letters, no watermark"
+  },
+  {
+   "id": "img_03",
+   "refs": [
+    "misako"
+   ],
+   "prompt": "a Japanese woman aged 65 with thin white hair tied back in a low bun, a faded navy apron over a plain grey long-sleeve top, no rings, a tired lined face holding a cleaning rag, turning around toward the camera, her face draining pale in shock in a bright modern Japanese apartment living room, soft afternoon light through the window, cinematic, photorealistic, vertical 9:16 framing, no text, no letters, no watermark"
+  },
+  {
+   "id": "img_04",
+   "refs": [
+    "haha"
+   ],
+   "prompt": "close-up of a Japanese woman aged 65 with a short grey-black bob, a beige knit cardigan over a white blouse, small gold stud earrings frozen in shock, eyes wide, lips parted, her handbag slipping from her hand in a bright modern Japanese apartment living room, soft afternoon light through the window, cinematic, photorealistic, vertical 9:16 framing, no text, no letters, no watermark"
+  },
+  {
+   "id": "img_05",
+   "refs": [
+    "misako35"
+   ],
+   "prompt": "1996 flashback, warm muted film tone, slight grain: an elegant rich Japanese woman aged 35 with glossy permed black hair, red lipstick, a large pearl necklace and a white fur stole laughing mockingly with a wine glass raised at a Japanese high school reunion party in a hotel banquet hall, all guests are adults in their mid-30s, chandelier light, cinematic, photorealistic, vertical 9:16 framing, no text, no letters, no watermark"
+  },
+  {
+   "id": "img_06",
+   "refs": [
+    "haha",
+    "musume"
+   ],
+   "prompt": "a Japanese woman aged 35 with shoulder-length black hair and a white blouse gently takes the hand of an angry Japanese woman aged 65 with a short grey-black bob, a beige knit cardigan over a white blouse, small gold stud earrings who is about to speak, the mother's other hand pointing toward the kitchen in a bright modern Japanese apartment living room, soft afternoon light through the window, cinematic, photorealistic, vertical 9:16 framing, no text, no letters, no watermark"
+  },
+  {
+   "id": "img_07",
+   "refs": [
+    "musume"
+   ],
+   "prompt": "close-up of a Japanese woman aged 35 with shoulder-length black hair and a white blouse with serious teary eyes, speaking softly in a bright modern Japanese apartment living room, soft afternoon light through the window, cinematic, photorealistic, vertical 9:16 framing, no text, no letters, no watermark"
+  },
+  {
+   "id": "img_08",
+   "refs": [
+    "haha"
+   ],
+   "prompt": "close-up of the elderly hands of a Japanese woman aged 65 with a short grey-black bob, a beige knit cardigan over a white blouse, small gold stud earrings holding an old yellowed bank transfer slip, slightly trembling, soft dramatic light, cinematic, photorealistic, vertical 9:16 framing, no text, no letters, no watermark"
+  },
+  {
+   "id": "img_09",
+   "refs": [
+    "haha"
+   ],
+   "prompt": "1996 flashback, warm muted film tone, slight grain: a younger Japanese woman in her mid-30s with a short black bob and a beige cardigan, seen from behind, sitting alone on a bench in a dim night hospital corridor, head in her hands, cinematic, photorealistic, vertical 9:16 framing, no text, no letters, no watermark"
+  },
+  {
+   "id": "img_10",
+   "refs": [
+    "haha"
+   ],
+   "prompt": "extreme close-up of a Japanese woman aged 65 with a short grey-black bob, a beige knit cardigan over a white blouse, small gold stud earrings staring down at an old paper slip in her hands, eyes filling with tears, hand pressed to her mouth in a bright modern Japanese apartment living room, soft afternoon light through the window, cinematic, photorealistic, vertical 9:16 framing, no text, no letters, no watermark"
+  },
+  {
+   "id": "img_11",
+   "refs": [
+    "misako"
+   ],
+   "prompt": "a Japanese woman aged 65 with thin white hair tied back in a low bun, a faded navy apron over a plain grey long-sleeve top, no rings, a tired lined face crying silently, gripping the hem of her apron with both hands, head lowered in a bright modern Japanese apartment living room, soft afternoon light through the window, cinematic, photorealistic, vertical 9:16 framing, no text, no letters, no watermark"
+  },
+  {
+   "id": "img_12",
+   "refs": [
+    "haha"
+   ],
+   "prompt": "a Japanese woman aged 65 with a short grey-black bob, a beige knit cardigan over a white blouse, small gold stud earrings sinking to her knees on the living room floor, hand over her mouth, tears streaming, the old paper slip fallen beside her in a bright modern Japanese apartment living room, soft afternoon light through the window, cinematic, photorealistic, vertical 9:16 framing, no text, no letters, no watermark"
+  },
+  {
+   "id": "img_13",
+   "refs": [
+    "haha",
+    "misako"
+   ],
+   "prompt": "a Japanese woman aged 65 with a short grey-black bob, a beige knit cardigan over a white blouse, small gold stud earrings kneeling and taking both hands of a Japanese woman aged 65 with thin white hair tied back in a low bun, a faded navy apron over a plain grey long-sleeve top, no rings, a tired lined face, both elderly women crying, facing each other, warm sunset light through the window in a bright modern Japanese apartment living room, cinematic, photorealistic, vertical 9:16 framing, no text, no letters, no watermark"
+  },
+  {
+   "id": "img_14",
+   "refs": [
+    "haha",
+    "misako",
+    "musume"
+   ],
+   "prompt": "wide shot: two elderly Japanese women, a Japanese woman aged 65 with a short grey-black bob, a beige knit cardigan over a white blouse, small gold stud earrings and a Japanese woman aged 65 with thin white hair tied back in a low bun, a faded navy apron over a plain grey long-sleeve top, no rings, a tired lined face, holding hands in the living room while a Japanese woman aged 35 with shoulder-length black hair and a white blouse watches from the doorway with tears and a gentle smile, golden sunset light, cinematic, photorealistic, vertical 9:16 framing, no text, no letters, no watermark"
+  }
+ ],
+ "shots": [
+  {
+   "id": "c01",
+   "image": "img_01",
+   "duration": "6s",
+   "refs": [
+    "haha"
+   ],
+   "prompt": "She steps in, smiling, slips off her shoes and calls out cheerfully toward the living room. Slow push-in. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "c03",
+   "image": "img_02",
+   "duration": "6s",
+   "refs": [
+    "misako"
+   ],
+   "prompt": "She keeps wiping the floor slowly with the rag, back to the camera. Slow push-in. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "c04",
+   "image": "img_03",
+   "duration": "6s",
+   "refs": [
+    "misako"
+   ],
+   "prompt": "She slowly turns around; her face drains pale and the rag trembles in her hand. Camera slowly zooms to her face. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "c07",
+   "image": "img_05",
+   "duration": "6s",
+   "refs": [
+    "misako35"
+   ],
+   "prompt": "She tilts her head back and laughs with open contempt, raising her wine glass; film grain flickers. Slow pan. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "c08",
+   "image": "img_06",
+   "duration": "6s",
+   "refs": [
+    "haha",
+    "musume"
+   ],
+   "prompt": "The angry older woman opens her mouth to speak, but the younger woman gently grips her hand; the older woman stops. Camera moves down to their hands. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "c09",
+   "image": "img_07",
+   "duration": "6s",
+   "refs": [
+    "musume"
+   ],
+   "prompt": "She speaks softly with quiet determination, eyes glistening, lips moving slightly. Subtle breathing. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "c11",
+   "image": "img_09",
+   "duration": "6s",
+   "refs": [
+    "haha"
+   ],
+   "prompt": "She sits still with her head in her hands; the hospital corridor light flickers softly. Slow push-in. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "c13",
+   "image": "img_11",
+   "duration": "6s",
+   "refs": [
+    "misako"
+   ],
+   "prompt": "Tears fall down her cheeks; her shoulders tremble as she grips her apron and whispers. Slow push-in. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "c14",
+   "image": "img_12",
+   "duration": "6s",
+   "refs": [
+    "haha"
+   ],
+   "prompt": "In slow motion she sinks down onto her knees, hand over her mouth, sobbing silently. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "c15",
+   "image": "img_13",
+   "duration": "6s",
+   "refs": [
+    "haha",
+    "misako"
+   ],
+   "prompt": "The two women hold each other's hands tighter and cry together; sunset light flickers softly. Very slow pull-back. Nobody speaks. No music, no text on screen."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "s01",
+   "chapter": "intro",
+   "srt": [
+    1,
+    2
+   ],
+   "type": "clip",
+   "clips": [
+    "c01"
+   ],
+   "transition": "fade"
+  },
+  {
+   "id": "s03",
+   "chapter": "intro",
+   "srt": [
+    3,
+    3
+   ],
+   "type": "clip",
+   "clips": [
+    "c03"
+   ]
+  },
+  {
+   "id": "s04",
+   "chapter": "intro",
+   "srt": [
+    4,
+    4
+   ],
+   "type": "clip",
+   "clips": [
+    "c04"
+   ]
+  },
+  {
+   "id": "s05",
+   "chapter": "intro",
+   "srt": [
+    5,
+    6
+   ],
+   "type": "narration",
+   "image": "img_04",
+   "motion": "punch_zoom",
+   "sfx": "impact"
+  },
+  {
+   "id": "s07",
+   "chapter": "intro",
+   "srt": [
+    7,
+    7
+   ],
+   "type": "clip",
+   "clips": [
+    "c07"
+   ]
+  },
+  {
+   "id": "s08",
+   "chapter": "intro",
+   "srt": [
+    8,
+    8
+   ],
+   "type": "clip",
+   "clips": [
+    "c08"
+   ]
+  },
+  {
+   "id": "s09",
+   "chapter": "intro",
+   "srt": [
+    9,
+    9
+   ],
+   "type": "clip",
+   "clips": [
+    "c09"
+   ]
+  },
+  {
+   "id": "s10",
+   "chapter": "intro",
+   "srt": [
+    10,
+    10
+   ],
+   "type": "narration",
+   "image": "img_08",
+   "motion": "push_slow"
+  },
+  {
+   "id": "s11",
+   "chapter": "intro",
+   "srt": [
+    11,
+    11
+   ],
+   "type": "clip",
+   "clips": [
+    "c11"
+   ]
+  },
+  {
+   "id": "s12",
+   "chapter": "intro",
+   "srt": [
+    12,
+    12
+   ],
+   "type": "narration",
+   "image": "img_10",
+   "motion": "punch_zoom",
+   "sfx": "impact"
+  },
+  {
+   "id": "s13",
+   "chapter": "intro",
+   "srt": [
+    13,
+    13
+   ],
+   "type": "clip",
+   "clips": [
+    "c13"
+   ]
+  },
+  {
+   "id": "s14",
+   "chapter": "intro",
+   "srt": [
+    14,
+    14
+   ],
+   "type": "clip",
+   "clips": [
+    "c14"
+   ]
+  },
+  {
+   "id": "s15",
+   "chapter": "intro",
+   "srt": [
+    15,
+    15
+   ],
+   "type": "clip",
+   "clips": [
+    "c15"
+   ]
+  },
+  {
+   "id": "s16",
+   "chapter": "intro",
+   "srt": [
+    16,
+    16
+   ],
+   "type": "narration",
+   "image": "img_14",
+   "motion": "zoom_out_big"
+  },
+  {
+   "id": "s99",
+   "chapter": "intro",
+   "type": "end",
+   "ja": "あなたの答えを、コメントで教えてください",
+   "disclaimer": "※この物語はフィクションです。",
+   "duration": 3
+  }
+ ]
+}
