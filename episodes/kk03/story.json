@@ -18,7 +18,7 @@
   "srt": "episodes/kk03/narration.srt"
  },
  "bgm": {
-  "file": "bgm/mizuki.mp3",
+  "file": "bgm/bach_cello_prelude.mp3",
   "volume": 0.3,
   "duck": 0.15
  },
