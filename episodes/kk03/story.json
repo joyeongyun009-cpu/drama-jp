@@ -1,0 +1,454 @@
+{
+ "brand": "nichikan",
+ "format": "longform",
+ "aspect": "9:16",
+ "title": "エレベーターの『閉』ボタン、押す派？押さない派？",
+ "thumbnail": {
+  "left": "img_04",
+  "right": "img_10",
+  "lines": [
+   "『閉』ボタン",
+   "押す派？押さない派？"
+  ]
+ },
+ "style": "Photorealistic cinematic Japanese everyday scene, shot on a 35mm lens, shallow depth of field, realistic skin texture, vertical 9:16 framing. All people are Japanese adults in their 50s. No on-screen text of any kind: no name labels, no captions, no subtitles, no watermarks, no logos, no numbers on buttons.",
+ "location": "",
+ "narration": {
+  "audio": "narration/kk03.mp3",
+  "srt": "episodes/kk03/narration.srt"
+ },
+ "bgm": {
+  "file": "bgm/mizuki.mp3",
+  "volume": 0.3,
+  "duck": 0.15
+ },
+ "voice": {
+  "narrator": "ja-JP-Chirp3-HD-Gacrux",
+  "letter": "ja-JP-Chirp3-HD-Sulafat",
+  "speaking_rate": 0.95,
+  "padding_sec": 0.6,
+  "min_scene_sec": 2.5
+ },
+ "speakers": {},
+ "characters": {
+  "otoko": {
+   "name": "押す派の男性（56歳）",
+   "image_prompt": "Character reference portrait of a Japanese office worker aged 56 with short salt-and-pepper hair, thin silver-rimmed glasses, a navy suit and a dark tie, holding a black briefcase, a busy, slightly impatient but good-natured face, front-facing upper body, plain soft light-grey background, soft even light. Photorealistic, Japanese TV drama still quality, natural skin texture, sharp focus on the face. No text, no watermark, no logo."
+  },
+  "onna": {
+   "name": "押さない派の女性（54歳）",
+   "image_prompt": "Character reference portrait of a calm Japanese woman aged 54 with a shoulder-length dark brown bob, a light beige trench coat and a small tote bag, a gentle, patient face with a faint smile, front-facing upper body, plain soft light-grey background, soft even light. Photorealistic, Japanese TV drama still quality, natural skin texture, sharp focus on the face. No text, no watermark, no logo."
+  }
+ },
+ "images": [
+  {
+   "id": "img_01",
+   "refs": [
+    "otoko"
+   ],
+   "prompt": "Photorealistic cinematic Japanese everyday scene, shot on a 35mm lens, shallow depth of field, realistic skin texture, natural soft light: a bright morning elevator hall of a Japanese office building, the elevator doors are open and a Japanese office worker aged 56 with short salt-and-pepper hair, thin silver-rimmed glasses, a navy suit and a dark tie, holding a black briefcase steps inside, vertical 9:16 framing, no text, no letters, no numbers, no signs, no watermark"
+  },
+  {
+   "id": "img_02",
+   "refs": [
+    "otoko"
+   ],
+   "prompt": "Photorealistic cinematic Japanese everyday scene, shot on a 35mm lens, shallow depth of field, realistic skin texture, natural soft light: inside a small, clean modern Japanese office building elevator with brushed steel walls, the button panel shows only plain round buttons and arrow symbols, no numbers or characters, close-up of the hand of a Japanese office worker aged 56 with short salt-and-pepper hair, thin silver-rimmed glasses, a navy suit and a dark tie, holding a black briefcase pressing one plain round floor button that lights up, vertical 9:16 framing, no text, no letters, no numbers, no signs, no watermark"
+  },
+  {
+   "id": "img_03",
+   "refs": [
+    "otoko"
+   ],
+   "prompt": "Photorealistic cinematic Japanese everyday scene, shot on a 35mm lens, shallow depth of field, realistic skin texture, natural soft light: inside a small, clean modern Japanese office building elevator with brushed steel walls, the button panel shows only plain round buttons and arrow symbols, no numbers or characters, a Japanese office worker aged 56 with short salt-and-pepper hair, thin silver-rimmed glasses, a navy suit and a dark tie, holding a black briefcase stands by the button panel, his index finger hovering in the air near the buttons, a thoughtful look, vertical 9:16 framing, no text, no letters, no numbers, no signs, no watermark"
+  },
+  {
+   "id": "img_04",
+   "refs": [
+    "otoko"
+   ],
+   "prompt": "Photorealistic cinematic Japanese everyday scene, shot on a 35mm lens, shallow depth of field, realistic skin texture, natural soft light: inside a small, clean modern Japanese office building elevator with brushed steel walls, the button panel shows only plain round buttons and arrow symbols, no numbers or characters, extreme close-up of a man's index finger firmly pressing the door-close button marked only with two arrow symbols pointing toward each other, the button glowing, vertical 9:16 framing, no text, no letters, no numbers, no signs, no watermark"
+  },
+  {
+   "id": "img_05",
+   "refs": [
+    "onna"
+   ],
+   "prompt": "Photorealistic cinematic Japanese everyday scene, shot on a 35mm lens, shallow depth of field, realistic skin texture, natural soft light: inside a small, clean modern Japanese office building elevator with brushed steel walls, the button panel shows only plain round buttons and arrow symbols, no numbers or characters, a calm Japanese woman aged 54 with a shoulder-length dark brown bob, a light beige trench coat and a small tote bag stands quietly in the middle of the elevator with her hands folded in front, not touching any button, the doors open, vertical 9:16 framing, no text, no letters, no numbers, no signs, no watermark"
+  },
+  {
+   "id": "img_06",
+   "refs": [
+    "otoko"
+   ],
+   "prompt": "Photorealistic cinematic Japanese everyday scene, shot on a 35mm lens, shallow depth of field, realistic skin texture, natural soft light: inside a small, clean modern Japanese office building elevator with brushed steel walls, the button panel shows only plain round buttons and arrow symbols, no numbers or characters, medium shot of a Japanese office worker aged 56 with short salt-and-pepper hair, thin silver-rimmed glasses, a navy suit and a dark tie, holding a black briefcase standing close to the button panel, leaning slightly forward, eyes on the doors, vertical 9:16 framing, no text, no letters, no numbers, no signs, no watermark"
+  },
+  {
+   "id": "img_07",
+   "refs": [
+    "otoko"
+   ],
+   "prompt": "Photorealistic cinematic Japanese everyday scene, shot on a 35mm lens, shallow depth of field, realistic skin texture, natural soft light: inside a small, clean modern Japanese office building elevator with brushed steel walls, the button panel shows only plain round buttons and arrow symbols, no numbers or characters, a Japanese office worker aged 56 with short salt-and-pepper hair, thin silver-rimmed glasses, a navy suit and a dark tie, holding a black briefcase glances at his wristwatch with a restless expression, the doors still open, vertical 9:16 framing, no text, no letters, no numbers, no signs, no watermark"
+  },
+  {
+   "id": "img_09",
+   "refs": [
+    "otoko"
+   ],
+   "prompt": "Photorealistic cinematic Japanese everyday scene, shot on a 35mm lens, shallow depth of field, realistic skin texture, natural soft light: inside a small, clean modern Japanese office building elevator with brushed steel walls, the button panel shows only plain round buttons and arrow symbols, no numbers or characters, close-up of a Japanese office worker aged 56 with short salt-and-pepper hair, thin silver-rimmed glasses, a navy suit and a dark tie, holding a black briefcase pressing the door-close button with his thumb, a little impatient, vertical 9:16 framing, no text, no letters, no numbers, no signs, no watermark"
+  },
+  {
+   "id": "img_10",
+   "refs": [
+    "onna"
+   ],
+   "prompt": "Photorealistic cinematic Japanese everyday scene, shot on a 35mm lens, shallow depth of field, realistic skin texture, natural soft light: inside a small, clean modern Japanese office building elevator with brushed steel walls, the button panel shows only plain round buttons and arrow symbols, no numbers or characters, a calm Japanese woman aged 54 with a shoulder-length dark brown bob, a light beige trench coat and a small tote bag waits calmly with a relaxed, patient expression, soft light, the doors open, vertical 9:16 framing, no text, no letters, no numbers, no signs, no watermark"
+  },
+  {
+   "id": "img_11",
+   "refs": [
+    "onna"
+   ],
+   "prompt": "Photorealistic cinematic Japanese everyday scene, shot on a 35mm lens, shallow depth of field, realistic skin texture, natural soft light: inside a small, clean modern Japanese office building elevator with brushed steel walls, the button panel shows only plain round buttons and arrow symbols, no numbers or characters, view from behind a calm Japanese woman aged 54 with a shoulder-length dark brown bob, a light beige trench coat and a small tote bag as the steel elevator doors slowly close by themselves, vertical 9:16 framing, no text, no letters, no numbers, no signs, no watermark"
+  },
+  {
+   "id": "img_12",
+   "refs": [
+    "onna"
+   ],
+   "prompt": "Photorealistic cinematic Japanese everyday scene, shot on a 35mm lens, shallow depth of field, realistic skin texture, natural soft light: inside a small, clean modern Japanese office building elevator with brushed steel walls, the button panel shows only plain round buttons and arrow symbols, no numbers or characters, a calm Japanese woman aged 54 with a shoulder-length dark brown bob, a light beige trench coat and a small tote bag turns her head toward the open doors as if hearing footsteps, the empty bright elevator hall outside, vertical 9:16 framing, no text, no letters, no numbers, no signs, no watermark"
+  },
+  {
+   "id": "img_14",
+   "refs": [
+    "otoko",
+    "onna"
+   ],
+   "prompt": "Photorealistic cinematic Japanese everyday scene, shot on a 35mm lens, shallow depth of field, realistic skin texture, natural soft light: inside a small, clean modern Japanese office building elevator with brushed steel walls, the button panel shows only plain round buttons and arrow symbols, no numbers or characters, a Japanese office worker aged 56 with short salt-and-pepper hair, thin silver-rimmed glasses, a navy suit and a dark tie, holding a black briefcase and a calm Japanese woman aged 54 with a shoulder-length dark brown bob, a light beige trench coat and a small tote bag stand in opposite corners of the small elevator, both looking up at the ceiling, a quiet slightly awkward silence, vertical 9:16 framing, no text, no letters, no numbers, no signs, no watermark"
+  },
+  {
+   "id": "img_15",
+   "refs": [
+    "otoko",
+    "onna"
+   ],
+   "prompt": "Photorealistic cinematic Japanese everyday scene, shot on a 35mm lens, shallow depth of field, realistic skin texture, natural soft light: inside a small, clean modern Japanese office building elevator with brushed steel walls, the button panel shows only plain round buttons and arrow symbols, no numbers or characters, a Japanese office worker aged 56 with short salt-and-pepper hair, thin silver-rimmed glasses, a navy suit and a dark tie, holding a black briefcase and a calm Japanese woman aged 54 with a shoulder-length dark brown bob, a light beige trench coat and a small tote bag side by side facing the closed doors, both standing politely still, vertical 9:16 framing, no text, no letters, no numbers, no signs, no watermark"
+  },
+  {
+   "id": "img_17",
+   "refs": [
+    "otoko"
+   ],
+   "prompt": "Photorealistic cinematic Japanese everyday scene, shot on a 35mm lens, shallow depth of field, realistic skin texture, natural soft light: inside a small, clean modern Japanese office building elevator with brushed steel walls, the button panel shows only plain round buttons and arrow symbols, no numbers or characters, early morning light, a Japanese office worker aged 56 with short salt-and-pepper hair, thin silver-rimmed glasses, a navy suit and a dark tie, holding a black briefcase presses the door-close button but the doors stay open, a puzzled face, vertical 9:16 framing, no text, no letters, no numbers, no signs, no watermark"
+  },
+  {
+   "id": "img_19",
+   "refs": [
+    "otoko",
+    "onna"
+   ],
+   "prompt": "Photorealistic cinematic Japanese everyday scene, shot on a 35mm lens, shallow depth of field, realistic skin texture, natural soft light: inside a small, clean modern Japanese office building elevator with brushed steel walls, the button panel shows only plain round buttons and arrow symbols, no numbers or characters, a Japanese office worker aged 56 with short salt-and-pepper hair, thin silver-rimmed glasses, a navy suit and a dark tie, holding a black briefcase reaching his finger toward the door-close button while a calm Japanese woman aged 54 with a shoulder-length dark brown bob, a light beige trench coat and a small tote bag beside him stands with her hands folded, both looking toward the camera with soft smiles, vertical 9:16 framing, no text, no letters, no numbers, no signs, no watermark"
+  },
+  {
+   "id": "img_21",
+   "refs": [
+    "onna"
+   ],
+   "prompt": "Photorealistic cinematic Japanese everyday scene, shot on a 35mm lens, shallow depth of field, realistic skin texture, natural soft light: the elevator doors open onto a bright office floor, a calm Japanese woman aged 54 with a shoulder-length dark brown bob, a light beige trench coat and a small tote bag steps out and looks back over her shoulder with a warm, gentle smile, vertical 9:16 framing, no text, no letters, no numbers, no signs, no watermark"
+  }
+ ],
+ "shots": [
+  {
+   "id": "c01",
+   "image": "img_01",
+   "duration": "5s",
+   "refs": [
+    "otoko"
+   ],
+   "prompt": "He walks into the elevator from the bright hall and turns to face the doors. Smooth slow push-in. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "c02",
+   "image": "img_02",
+   "duration": "5s",
+   "refs": [
+    "otoko"
+   ],
+   "prompt": "His finger presses the round floor button and it lights up softly. Close-up, gentle camera. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "c05",
+   "image": "img_05",
+   "duration": "5s",
+   "refs": [
+    "onna"
+   ],
+   "prompt": "She stands calmly with her hands folded, breathing slowly, simply waiting. Slow push-in. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "c07",
+   "image": "img_07",
+   "duration": "8s",
+   "refs": [
+    "otoko"
+   ],
+   "prompt": "He checks his watch, shifts his weight, taps his foot lightly and looks at the still-open doors, restless. Slow handheld camera. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "c09",
+   "image": "img_09",
+   "duration": "5s",
+   "refs": [
+    "otoko"
+   ],
+   "prompt": "He quickly presses the door-close button twice in a row, click click. Close-up. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "c11",
+   "image": "img_11",
+   "duration": "5s",
+   "refs": [
+    "onna"
+   ],
+   "prompt": "The steel doors slowly close by themselves while she waits without moving. Calm, steady camera. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "c12",
+   "image": "img_12",
+   "duration": "6s",
+   "refs": [
+    "onna"
+   ],
+   "prompt": "She hears footsteps and turns her head toward the hall, then gently reaches out and holds the door open with a kind face. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "c15",
+   "image": "img_15",
+   "duration": "6s",
+   "refs": [
+    "otoko",
+    "onna"
+   ],
+   "prompt": "Both stand still in the quiet elevator; they glance at each other once and give a small polite nod, then look forward again. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "c17",
+   "image": "img_17",
+   "duration": "7s",
+   "refs": [
+    "otoko"
+   ],
+   "prompt": "He presses the door-close button, the doors do not move, he waits a moment, lets out a small sigh and presses it once more; the doors finally start to close. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "c21",
+   "image": "img_21",
+   "duration": "6s",
+   "refs": [
+    "onna"
+   ],
+   "prompt": "The doors open; she steps out onto the bright floor, looks back over her shoulder and smiles warmly at the camera. Nobody speaks. No music, no text on screen."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "s01",
+   "chapter": "intro",
+   "srt": [
+    1,
+    1
+   ],
+   "type": "clip",
+   "clips": [
+    "c01"
+   ],
+   "transition": "fade"
+  },
+  {
+   "id": "s02",
+   "chapter": "intro",
+   "srt": [
+    2,
+    2
+   ],
+   "type": "clip",
+   "clips": [
+    "c02"
+   ]
+  },
+  {
+   "id": "s03",
+   "chapter": "intro",
+   "srt": [
+    3,
+    3
+   ],
+   "type": "narration",
+   "image": "img_03",
+   "motion": "push_slow"
+  },
+  {
+   "id": "s04",
+   "chapter": "intro",
+   "srt": [
+    4,
+    4
+   ],
+   "type": "narration",
+   "image": "img_04",
+   "motion": "zoom_in_big",
+   "sfx": "pop"
+  },
+  {
+   "id": "s05",
+   "chapter": "intro",
+   "srt": [
+    5,
+    5
+   ],
+   "type": "clip",
+   "clips": [
+    "c05"
+   ]
+  },
+  {
+   "id": "s06",
+   "chapter": "intro",
+   "srt": [
+    6,
+    6
+   ],
+   "type": "narration",
+   "image": "img_06",
+   "motion": "pan_right",
+   "tag": "押す派"
+  },
+  {
+   "id": "s07",
+   "chapter": "intro",
+   "srt": [
+    7,
+    8
+   ],
+   "type": "clip",
+   "clips": [
+    "c07"
+   ]
+  },
+  {
+   "id": "s09",
+   "chapter": "intro",
+   "srt": [
+    9,
+    9
+   ],
+   "type": "clip",
+   "clips": [
+    "c09"
+   ]
+  },
+  {
+   "id": "s10",
+   "chapter": "intro",
+   "srt": [
+    10,
+    10
+   ],
+   "type": "narration",
+   "image": "img_10",
+   "motion": "push_slow",
+   "tag": "押さない派"
+  },
+  {
+   "id": "s11",
+   "chapter": "intro",
+   "srt": [
+    11,
+    11
+   ],
+   "type": "clip",
+   "clips": [
+    "c11"
+   ]
+  },
+  {
+   "id": "s12",
+   "chapter": "intro",
+   "srt": [
+    12,
+    13
+   ],
+   "type": "clip",
+   "clips": [
+    "c12"
+   ]
+  },
+  {
+   "id": "s14",
+   "chapter": "intro",
+   "srt": [
+    14,
+    14
+   ],
+   "type": "narration",
+   "image": "img_14",
+   "motion": "zoom_out_big"
+  },
+  {
+   "id": "s15",
+   "chapter": "intro",
+   "srt": [
+    15,
+    16
+   ],
+   "type": "clip",
+   "clips": [
+    "c15"
+   ]
+  },
+  {
+   "id": "s17",
+   "chapter": "intro",
+   "srt": [
+    17,
+    18
+   ],
+   "type": "clip",
+   "clips": [
+    "c17"
+   ]
+  },
+  {
+   "id": "s19",
+   "chapter": "intro",
+   "srt": [
+    19,
+    20
+   ],
+   "type": "narration",
+   "image": "img_19",
+   "motion": "zoom_in_big",
+   "tag": "押す派？押さない派？"
+  },
+  {
+   "id": "s21",
+   "chapter": "intro",
+   "srt": [
+    21,
+    22
+   ],
+   "type": "clip",
+   "clips": [
+    "c21"
+   ]
+  },
+  {
+   "id": "s99",
+   "chapter": "intro",
+   "type": "end",
+   "ja": "あなたは、押す派？押さない派？",
+   "disclaimer": "※イメージ映像（フィクション）です。",
+   "duration": 3
+  }
+ ]
+}
