@@ -936,7 +936,7 @@
    ],
    "image": "img_22",
    "type": "narration",
-   "motion": "pan_up"
+   "motion": "zoom_in_big"
   },
   {
    "id": "s023",
@@ -947,7 +947,7 @@
    ],
    "image": "img_23",
    "type": "narration",
-   "motion": "zoom_in_big"
+   "motion": "pan_right"
   },
   {
    "id": "s025",
@@ -958,7 +958,7 @@
    ],
    "image": "img_25",
    "type": "narration",
-   "motion": "pan_left"
+   "motion": "zoom_out_big"
   },
   {
    "id": "s026",
@@ -969,7 +969,7 @@
    ],
    "image": "img_26",
    "type": "narration",
-   "motion": "zoom_out_big"
+   "motion": "pan_left"
   },
   {
    "id": "s027",
@@ -980,7 +980,7 @@
    ],
    "image": "img_27",
    "type": "narration",
-   "motion": "pan_right"
+   "motion": "push_slow"
   },
   {
    "id": "s029",
@@ -991,7 +991,7 @@
    ],
    "image": "img_29",
    "type": "narration",
-   "motion": "push_slow"
+   "motion": "pan_up"
   },
   {
    "id": "s031",
@@ -1002,29 +1002,52 @@
    ],
    "image": "img_31",
    "type": "narration",
-   "motion": "pan_up"
+   "motion": "pan_down",
+   "transition": "fade"
   },
   {
    "id": "s033",
    "chapter": "ch2",
    "srt": [
     33,
-    34
+    33
    ],
    "image": "img_33",
    "type": "narration",
    "motion": "zoom_in_big"
   },
   {
+   "id": "s034",
+   "chapter": "ch2",
+   "srt": [
+    34,
+    34
+   ],
+   "image": "img_33",
+   "type": "narration",
+   "motion": "pan_left"
+  },
+  {
    "id": "s035",
    "chapter": "ch2",
    "srt": [
     35,
+    35
+   ],
+   "image": "img_35",
+   "type": "narration",
+   "motion": "zoom_out_big"
+  },
+  {
+   "id": "s036",
+   "chapter": "ch2",
+   "srt": [
+    36,
     37
    ],
    "image": "img_35",
    "type": "narration",
-   "motion": "pan_left"
+   "motion": "zoom_in_big"
   },
   {
    "id": "s038",
@@ -1035,29 +1058,51 @@
    ],
    "image": "img_38",
    "type": "narration",
-   "motion": "zoom_out_big"
+   "motion": "pan_right"
   },
   {
    "id": "s040",
    "chapter": "ch2",
    "srt": [
     40,
+    40
+   ],
+   "image": "img_40",
+   "type": "narration",
+   "motion": "zoom_out_big"
+  },
+  {
+   "id": "s041",
+   "chapter": "ch2",
+   "srt": [
+    41,
     41
    ],
    "image": "img_40",
    "type": "narration",
-   "motion": "pan_right"
+   "motion": "pan_left"
   },
   {
    "id": "s042",
    "chapter": "ch2",
    "srt": [
     42,
-    43
+    42
    ],
    "image": "img_42",
    "type": "narration",
    "motion": "push_slow"
+  },
+  {
+   "id": "s043",
+   "chapter": "ch2",
+   "srt": [
+    43,
+    43
+   ],
+   "image": "img_42",
+   "type": "narration",
+   "motion": "pan_up"
   },
   {
    "id": "s044",
@@ -1068,18 +1113,29 @@
    ],
    "image": "img_44",
    "type": "narration",
-   "motion": "pan_up"
+   "motion": "pan_down"
   },
   {
    "id": "s045",
    "chapter": "ch2",
    "srt": [
     45,
-    47
+    45
    ],
    "image": "img_45",
    "type": "narration",
    "motion": "zoom_in_big"
+  },
+  {
+   "id": "s046",
+   "chapter": "ch2",
+   "srt": [
+    46,
+    47
+   ],
+   "image": "img_45",
+   "type": "narration",
+   "motion": "pan_left"
   },
   {
    "id": "s048",
@@ -1090,7 +1146,7 @@
    ],
    "image": "img_48",
    "type": "narration",
-   "motion": "pan_left"
+   "motion": "zoom_out_big"
   },
   {
    "id": "s050",
@@ -1101,7 +1157,7 @@
    ],
    "image": "img_50",
    "type": "narration",
-   "motion": "zoom_out_big"
+   "motion": "zoom_in_big"
   },
   {
    "id": "s052",
@@ -1112,7 +1168,8 @@
    ],
    "image": "img_52",
    "type": "narration",
-   "motion": "pan_right"
+   "motion": "pan_right",
+   "sfx": "heartbeat"
   },
   {
    "id": "s053",
@@ -1123,7 +1180,7 @@
    ],
    "image": "img_53",
    "type": "narration",
-   "motion": "push_slow"
+   "motion": "zoom_out_big"
   },
   {
    "id": "s054",
@@ -1134,7 +1191,8 @@
    ],
    "image": "img_54",
    "type": "narration",
-   "motion": "pan_up"
+   "motion": "pan_left",
+   "transition": "fade"
   },
   {
    "id": "s055",
@@ -1145,18 +1203,29 @@
    ],
    "image": "img_55",
    "type": "narration",
-   "motion": "zoom_in_big"
+   "motion": "push_slow"
   },
   {
    "id": "s058",
    "chapter": "ch3",
    "srt": [
     58,
+    58
+   ],
+   "image": "img_58",
+   "type": "narration",
+   "motion": "pan_up"
+  },
+  {
+   "id": "s059",
+   "chapter": "ch3",
+   "srt": [
+    59,
     59
    ],
    "image": "img_58",
    "type": "narration",
-   "motion": "pan_left"
+   "motion": "pan_down"
   },
   {
    "id": "s060",
@@ -1167,7 +1236,8 @@
    ],
    "image": "img_60",
    "type": "narration",
-   "motion": "zoom_out_big"
+   "motion": "zoom_in_big",
+   "sfx": "heartbeat"
   },
   {
    "id": "s062",
@@ -1178,7 +1248,9 @@
    ],
    "image": "img_62",
    "type": "narration",
-   "motion": "pan_right"
+   "motion": "punch_zoom",
+   "sfx": "impact",
+   "transition": "flash"
   },
   {
    "id": "s063",
@@ -1189,7 +1261,7 @@
    ],
    "image": "img_63",
    "type": "narration",
-   "motion": "punch_zoom",
+   "motion": "shake",
    "sfx": "impact"
   },
   {
@@ -1197,22 +1269,45 @@
    "chapter": "ch3",
    "srt": [
     65,
+    65
+   ],
+   "image": "img_65",
+   "type": "narration",
+   "motion": "punch_zoom",
+   "sfx": "impact"
+  },
+  {
+   "id": "s066",
+   "chapter": "ch3",
+   "srt": [
+    66,
     66
    ],
    "image": "img_65",
    "type": "narration",
-   "motion": "pan_up"
+   "motion": "pan_right"
   },
   {
    "id": "s067",
    "chapter": "ch3",
    "srt": [
     67,
+    67
+   ],
+   "image": "img_67",
+   "type": "narration",
+   "motion": "zoom_out_big"
+  },
+  {
+   "id": "s068",
+   "chapter": "ch3",
+   "srt": [
+    68,
     68
    ],
    "image": "img_67",
    "type": "narration",
-   "motion": "zoom_in_big"
+   "motion": "pan_left"
   },
   {
    "id": "s069",
@@ -1223,7 +1318,7 @@
    ],
    "image": "img_69",
    "type": "narration",
-   "motion": "pan_left"
+   "motion": "push_slow"
   },
   {
    "id": "s071",
@@ -1234,7 +1329,7 @@
    ],
    "image": "img_71",
    "type": "narration",
-   "motion": "zoom_out_big"
+   "motion": "pan_up"
   },
   {
    "id": "s073",
@@ -1245,7 +1340,7 @@
    ],
    "image": "img_73",
    "type": "narration",
-   "motion": "pan_right"
+   "motion": "pan_down"
   },
   {
    "id": "s075",
@@ -1256,7 +1351,7 @@
    ],
    "image": "img_75",
    "type": "narration",
-   "motion": "push_slow"
+   "motion": "zoom_in_big"
   },
   {
    "id": "s077",
@@ -1267,13 +1362,24 @@
    ],
    "image": "img_77",
    "type": "narration",
-   "motion": "pan_up"
+   "motion": "pan_left"
   },
   {
    "id": "s079",
    "chapter": "ch3",
    "srt": [
     79,
+    79
+   ],
+   "image": "img_79",
+   "type": "narration",
+   "motion": "zoom_out_big"
+  },
+  {
+   "id": "s080",
+   "chapter": "ch3",
+   "srt": [
+    80,
     80
    ],
    "image": "img_79",
@@ -1289,29 +1395,53 @@
    ],
    "image": "img_81",
    "type": "narration",
-   "motion": "pan_left"
+   "motion": "slide_in_left",
+   "transition": "fade"
   },
   {
    "id": "s082",
    "chapter": "epilogue",
    "srt": [
     82,
-    83
+    82
    ],
    "image": "img_82",
    "type": "narration",
    "motion": "zoom_out_big"
   },
   {
+   "id": "s083",
+   "chapter": "epilogue",
+   "srt": [
+    83,
+    83
+   ],
+   "image": "img_82",
+   "type": "narration",
+   "motion": "pan_left"
+  },
+  {
    "id": "s084",
    "chapter": "epilogue",
    "srt": [
     84,
+    84
+   ],
+   "image": "img_84",
+   "type": "narration",
+   "motion": "push_slow",
+   "transition": "fade"
+  },
+  {
+   "id": "s085",
+   "chapter": "epilogue",
+   "srt": [
+    85,
     86
    ],
    "image": "img_84",
    "type": "narration",
-   "motion": "pan_right"
+   "motion": "pan_up"
   },
   {
    "id": "s087",
@@ -1322,18 +1452,30 @@
    ],
    "image": "img_87",
    "type": "narration",
-   "motion": "push_slow"
+   "motion": "pan_down"
   },
   {
    "id": "s088",
    "chapter": "epilogue",
    "srt": [
     88,
+    88
+   ],
+   "image": "img_88",
+   "type": "narration",
+   "motion": "zoom_in_big",
+   "transition": "fade"
+  },
+  {
+   "id": "s089",
+   "chapter": "epilogue",
+   "srt": [
+    89,
     90
    ],
    "image": "img_88",
    "type": "narration",
-   "motion": "pan_up"
+   "motion": "pan_left"
   },
   {
    "id": "s999",
