@@ -140,6 +140,11 @@ def make_shot(client, story, shot, out):
 def make_images(client, story, only, ep):
     out_dir = SHOTS_ROOT / ep
     out_dir.mkdir(parents=True, exist_ok=True)
+    for im in story.get("images", []):
+        if im.get("file") and not (out_dir / f"{im['id']}.png").exists():  # the user's own picture: use it as it is
+            from PIL import Image
+            Image.open(ROOT / im["file"]).convert("RGB").save(out_dir / f"{im['id']}.png")
+            print(f"[image] {im['id']}: {im['file']} 그림 사용", flush=True)
     todo = [im for im in story.get("images", [])
             if not (only and im["id"] not in only) and not (out_dir / f"{im['id']}.png").exists()]
     if not todo:
