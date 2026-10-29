@@ -23,7 +23,9 @@
   "padding_sec": 0.6,
   "min_scene_sec": 2.5
  },
- "speakers": {},
+ "speakers": {
+  "黒木": "#B03A48"
+ },
  "characters": {
   "kenji20": {
    "name": "健司（1987年・20歳）",
@@ -656,18 +658,153 @@
    "prompt": "Photorealistic Japanese TV drama still, 16:9, present-day 2026, clean cinematic natural light, shallow depth of field, soft film-like color grading. A 59-year-old man with short graying hair, sitting at night in his small electronics shop in front of an old boxy CRT television connected to a VHS deck, his face softly lit by the cool glow of the TV, tears gathering in his eyes and a gentle smile forming; on the CRT screen in the lower right of the frame, a faded low-resolution 1987 home-video image of a blurred, cheerful 20-year-old boy in a white T-shirt laughing at the camera. No smartphones, no flat-screen monitors. Keep the faces exactly the same as the attached reference characters. No text, no subtitles, no watermark, no readable writing."
   }
  ],
- "shots": [],
+ "shots": [
+  {
+   "id": "clip01",
+   "image": "img_01",
+   "duration": "5s",
+   "refs": [
+    "kuroki61"
+   ],
+   "prompt": "Cinematic shot starting exactly from the attached image. The silver-haired executive in the charcoal suit leans forward over the lacquer table with open contempt and speaks in Japanese, in a deep, cold, arrogant voice of a man in his early 60s, standard Tokyo accent, clear lip sync, short and sharp, within three seconds: 「泥棒の娘を、うちの嫁にしろと?」 Slow push-in toward his face. Only his voice, no narration, no music, no subtitles, no text on screen.",
+   "lines": [
+    [
+     "黒木",
+     "泥棒の娘を、うちの嫁にしろと?"
+    ]
+   ]
+  },
+  {
+   "id": "clip02",
+   "image": "img_01",
+   "duration": "5s",
+   "refs": [
+    "kuroki61"
+   ],
+   "prompt": "Cinematic shot starting exactly from the attached image. The executive slams his chopsticks down hard onto the black lacquer table, a small dish jumps and rattles, everyone around the table flinches. Quick push-in on the impact. Nobody speaks. No subtitles, no text on screen."
+  },
+  {
+   "id": "clip03",
+   "image": "img_03",
+   "duration": "5s",
+   "refs": [
+    "kenji59",
+    "misaki28",
+    "kuroki61",
+    "kurokiwife58",
+    "takuya29"
+   ],
+   "prompt": "Cinematic shot starting exactly from the attached image. The two families sit stiffly on cushions on both sides of the long lacquer table, nobody moves much, a wisp of steam rises from a teacup, lantern light flickers softly. Slow sideways camera drift along the table. Nobody speaks. No subtitles, no text on screen."
+  },
+  {
+   "id": "clip05",
+   "image": "img_05",
+   "duration": "7s",
+   "refs": [
+    "misaki28",
+    "kenji59"
+   ],
+   "prompt": "Cinematic shot starting exactly from the attached image. The young woman in the beige jacket slowly turns toward her father with a worried, questioning look; the father keeps his eyes lowered to the table, his hands tightening on his knees, his lips pressed shut. Slow push-in. Nobody speaks. No subtitles, no text on screen."
+  },
+  {
+   "id": "clip07",
+   "image": "img_07",
+   "duration": "5s",
+   "refs": [
+    "kenji59"
+   ],
+   "prompt": "Cinematic shot starting exactly from the attached image. The man's eyes slowly close for a moment and open again, holding back old pain, the lantern reflection trembling in his eyes. Very slow push-in, almost still. Nobody speaks. No subtitles, no text on screen."
+  },
+  {
+   "id": "clip08",
+   "image": "img_08",
+   "duration": "6s",
+   "refs": [
+    "misaki28"
+   ],
+   "prompt": "Cinematic shot starting exactly from the attached image. The young woman lifts the black VHS cassette out of her handbag and holds it up with an earnest hopeful smile, the family members in the blurred background turning to look. Slow push-in. Nobody speaks. No subtitles, no text on screen."
+  },
+  {
+   "id": "clip10",
+   "image": "img_10",
+   "duration": "6s",
+   "refs": [
+    "kuroki61"
+   ],
+   "prompt": "Cinematic shot starting exactly from the attached image. The color drains from the executive's face, a bead of sweat runs down his temple, his eyes dart sideways while he forces a stiff, cracked smile. Slow push-in to a tight close-up. Nobody speaks. No subtitles, no text on screen."
+  },
+  {
+   "id": "clip12",
+   "image": "img_12",
+   "duration": "7s",
+   "refs": [
+    "kuroki61"
+   ],
+   "prompt": "Cinematic shot starting exactly from the attached image. The man's hand with the gold ring hovers above the black VHS cassette on the lacquer table, his fingers tremble and slowly pull back without touching it. Slow push-in, shallow focus. Nobody speaks. No subtitles, no text on screen."
+  },
+  {
+   "id": "clip14",
+   "image": "img_14",
+   "duration": "7s",
+   "refs": [
+    "kenji20",
+    "kuroki22"
+   ],
+   "prompt": "Cinematic shot starting exactly from the attached image. 1987 film look. Morning in the old inn's tatami room: the electric fan slowly swings, a thin curl of mosquito-coil smoke rises, the students in the background move about packing, the empty cash box sits open in the foreground. Slow low camera glide toward the cash box. Nobody speaks. No subtitles, no text on screen."
+  },
+  {
+   "id": "clip16",
+   "image": "img_16",
+   "duration": "7s",
+   "refs": [
+    "kenji20",
+    "kuroki22"
+   ],
+   "prompt": "Cinematic shot starting exactly from the attached image. 1987 film look. The club president in the pink polo jabs his finger at the thin student in the white T-shirt, who stands frozen and pale; the seated club members stare in silence, dust floats in the sunbeam. Slow push-in toward the two. Nobody speaks. No subtitles, no text on screen."
+  },
+  {
+   "id": "clip18",
+   "image": "img_18",
+   "duration": "5s",
+   "refs": [
+    "kuroki22"
+   ],
+   "prompt": "Cinematic shot starting exactly from the attached image. 1987 film look. The permed club president jabs his finger toward the camera with an arrogant glare, sweat shining, the electric fan swinging behind him. Slight handheld shake, slow push-in. His mouth stays closed in a contemptuous grimace. Nobody speaks. No subtitles, no text on screen."
+  },
+  {
+   "id": "clip20",
+   "image": "img_20",
+   "duration": "6s",
+   "refs": [
+    "kenji20"
+   ],
+   "prompt": "Cinematic shot starting exactly from the attached image. 1987 film look. Night: the young student sleeps on the tatami, his chest slowly rising and falling, mosquito-coil smoke drifting in the lamplight, and on the high shelf the camcorder's small red recording light keeps glowing. Very slow push-in toward the camcorder. Nobody speaks. No subtitles, no text on screen."
+  }
+ ],
  "scenes": [
   {
    "id": "s001",
    "chapter": "intro",
    "srt": [
     1,
+    1
+   ],
+   "type": "clip",
+   "clips": [
+    "clip01"
+   ]
+  },
+  {
+   "id": "s002",
+   "chapter": "intro",
+   "srt": [
+    2,
     2
    ],
-   "image": "img_01",
-   "type": "narration",
-   "motion": "punch_zoom",
+   "type": "clip",
+   "clips": [
+    "clip02"
+   ],
    "sfx": "impact"
   },
   {
@@ -677,9 +814,10 @@
     3,
     4
    ],
-   "image": "img_03",
-   "type": "narration",
-   "motion": "pan_left"
+   "type": "clip",
+   "clips": [
+    "clip03"
+   ]
   },
   {
    "id": "s005",
@@ -688,9 +826,10 @@
     5,
     6
    ],
-   "image": "img_05",
-   "type": "narration",
-   "motion": "zoom_out_big"
+   "type": "clip",
+   "clips": [
+    "clip05"
+   ]
   },
   {
    "id": "s007",
@@ -699,9 +838,10 @@
     7,
     7
    ],
-   "image": "img_07",
-   "type": "narration",
-   "motion": "pan_right"
+   "type": "clip",
+   "clips": [
+    "clip07"
+   ]
   },
   {
    "id": "s008",
@@ -710,9 +850,10 @@
     8,
     9
    ],
-   "image": "img_08",
-   "type": "narration",
-   "motion": "push_slow"
+   "type": "clip",
+   "clips": [
+    "clip08"
+   ]
   },
   {
    "id": "s010",
@@ -721,9 +862,10 @@
     10,
     11
    ],
-   "image": "img_10",
-   "type": "narration",
-   "motion": "pan_up"
+   "type": "clip",
+   "clips": [
+    "clip10"
+   ]
   },
   {
    "id": "s012",
@@ -732,9 +874,10 @@
     12,
     13
    ],
-   "image": "img_12",
-   "type": "narration",
-   "motion": "zoom_in_big"
+   "type": "clip",
+   "clips": [
+    "clip12"
+   ]
   },
   {
    "id": "s014",
@@ -743,9 +886,10 @@
     14,
     15
    ],
-   "image": "img_14",
-   "type": "narration",
-   "motion": "pan_left"
+   "type": "clip",
+   "clips": [
+    "clip14"
+   ]
   },
   {
    "id": "s016",
@@ -754,9 +898,10 @@
     16,
     17
    ],
-   "image": "img_16",
-   "type": "narration",
-   "motion": "zoom_out_big"
+   "type": "clip",
+   "clips": [
+    "clip16"
+   ]
   },
   {
    "id": "s018",
@@ -765,9 +910,10 @@
     18,
     19
    ],
-   "image": "img_18",
-   "type": "narration",
-   "motion": "pan_right"
+   "type": "clip",
+   "clips": [
+    "clip18"
+   ]
   },
   {
    "id": "s020",
@@ -776,9 +922,10 @@
     20,
     21
    ],
-   "image": "img_20",
-   "type": "narration",
-   "motion": "push_slow"
+   "type": "clip",
+   "clips": [
+    "clip20"
+   ]
   },
   {
    "id": "s022",
@@ -1200,5 +1347,6 @@
  "narration": {
   "audio": "narration/ep09.mp3",
   "srt": "episodes/ep09/narration.srt"
- }
+ },
+ "allow_ai_voice": true
 }
