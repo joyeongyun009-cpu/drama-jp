@@ -1,13 +1,12 @@
 {
  "format": "longform",
- "note": "그림만 (23번 자막부터). 1~22번과 조립은 사용자가 Vrew에서. 그림 이름 img_NN = 그 그림이 시작되는 자막 줄 번호.",
- "title": "泥棒の娘を、うちの嫁にしろと？",
+ "title": "顔合わせで「泥棒の娘を嫁にしろと？」と箸を叩きつけた常務。39年前の夏合宿のテープに映っていたのは…【スカッとする話】",
  "thumbnail": {
   "left": "img_63",
   "right": "img_71",
   "lines": [
-   "「泥棒の娘を、うちの嫁にしろと？」",
-   "39年前のテープに映っていたのは…"
+   "「泥棒の娘を嫁にしろと？」",
+   "39年前のテープが全てを暴いた"
   ]
  },
  "style": "Photorealistic cinematic Japanese TV drama, horizontal 16:9 framing.",
@@ -63,6 +62,157 @@
   }
  },
  "images": [
+  {
+   "id": "img_01",
+   "name": "S01_c001-002",
+   "srt": [
+    1,
+    2
+   ],
+   "refs": [
+    "kuroki61"
+   ],
+   "prompt": "Photorealistic Japanese TV drama still, 16:9, present-day 2026, clean cinematic natural light, shallow depth of field, soft film-like color grading. Dramatic close-up of a 61-year-old Japanese executive with silver slicked-back hair in a charcoal suit, slamming his chopsticks down onto a black lacquer table so that a small dish jumps, his face twisted in contempt and his mouth open mid-sentence; behind him a traditional Tokyo ryotei private tatami room with a hanging scroll and warm lantern light, and the other diners blurred and stunned. Keep the face exactly the same as the attached reference character. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_03",
+   "name": "S02_c003-004",
+   "srt": [
+    3,
+    4
+   ],
+   "refs": [
+    "kenji59",
+    "misaki28",
+    "kuroki61",
+    "kurokiwife58",
+    "takuya29"
+   ],
+   "prompt": "Photorealistic Japanese TV drama still, 16:9, present-day 2026, clean cinematic natural light, shallow depth of field, soft film-like color grading. Wide shot of a private tatami room in a Tokyo ryotei during a formal pre-wedding family meeting: on the left side a 59-year-old man in a navy suit and his 28-year-old daughter in a beige jacket sit on cushions, on the right side a 61-year-old executive in a charcoal suit, his 58-year-old wife in a dark green dress and their 29-year-old son in a dark suit; a long black lacquer table with kaiseki dishes, a hanging scroll and a flower arrangement in the alcove, paper shoji, warm lantern light, stiff tense atmosphere. Keep the faces exactly the same as the attached reference characters. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_05",
+   "name": "S03_c005-006",
+   "srt": [
+    5,
+    6
+   ],
+   "refs": [
+    "misaki28",
+    "kenji59"
+   ],
+   "prompt": "Photorealistic Japanese TV drama still, 16:9, present-day 2026, clean cinematic natural light, shallow depth of field, soft film-like color grading. Medium shot at a ryotei dining table: a 28-year-old woman in a beige jacket turns anxiously toward her father with a worried questioning look, while the 59-year-old father in a navy suit stares down at the table in silence, hands on his knees, unable to answer; warm lantern light, tatami and shoji in the soft background. Keep the faces exactly the same as the attached reference characters. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_07",
+   "name": "S04_c007",
+   "srt": [
+    7,
+    7
+   ],
+   "refs": [
+    "kenji59"
+   ],
+   "prompt": "Photorealistic Japanese TV drama still, 16:9, present-day 2026, clean cinematic natural light, shallow depth of field, soft film-like color grading. Extreme close-up of a 59-year-old Japanese man's eyes and upper face, short graying hair, light wrinkles, stillness and old pain in his gaze, a faint warm reflection of lantern light in his eyes, the rest of the frame softly blurred. Keep the face exactly the same as the attached reference character. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_08",
+   "name": "S05_c008-009",
+   "srt": [
+    8,
+    9
+   ],
+   "refs": [
+    "misaki28"
+   ],
+   "prompt": "Photorealistic Japanese TV drama still, 16:9, present-day 2026, clean cinematic natural light, shallow depth of field, soft film-like color grading. A 28-year-old woman in a beige jacket at a formal ryotei dining table taking an old black VHS video cassette with a blank white label out of her handbag, an earnest hopeful expression, the other family members blurred in the background watching her; warm lantern light. Keep the face exactly the same as the attached reference character. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_10",
+   "name": "S06_c010-011",
+   "srt": [
+    10,
+    11
+   ],
+   "refs": [
+    "kuroki61"
+   ],
+   "prompt": "Photorealistic Japanese TV drama still, 16:9, present-day 2026, clean cinematic natural light, shallow depth of field, soft film-like color grading. Tight close-up of a 61-year-old Japanese executive with silver slicked-back hair whose face has gone pale, beads of sweat on his forehead, eyes wide and darting, forcing a stiff, cracked smile; the dinner table and dishes blurred behind him. Keep the face exactly the same as the attached reference character. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_12",
+   "name": "S07_c012-013",
+   "srt": [
+    12,
+    13
+   ],
+   "refs": [
+    "kuroki61"
+   ],
+   "prompt": "Photorealistic Japanese TV drama still, 16:9, present-day 2026, clean cinematic natural light, shallow depth of field, soft film-like color grading. Close-up of an old black VHS video cassette with a blank white label lying on a black lacquer table, a man's hand in a charcoal suit sleeve with a gold ring hovering above it and hesitating, his shaking fingers, dramatic tension, warm lantern light reflecting on the lacquer. Keep the hand consistent with the attached reference character. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_14",
+   "name": "S08_c014-015",
+   "srt": [
+    14,
+    15
+   ],
+   "refs": [
+    "kenji20",
+    "kuroki22"
+   ],
+   "prompt": "Photorealistic Japanese TV drama still, 16:9, shot on 35mm film, summer 1987 (Showa 62), faded warm Japanese film stock, slight magenta-orange cast in the highlights, soft halation around lights, fine film grain, shallow depth of field, nostalgic Showa-era atmosphere. Low-angle wide shot from tatami level of a worn wooden inn's large tatami room on the last morning of a university film-club summer camp: folded futons in a corner, faded paper sliding doors, a beige electric fan with a metal guard swaying, a ceramic pig-shaped mosquito-coil holder with a thin smoke curl, a dozen Japanese university students in their early twenties, mostly young men in plain white T-shirts and 1980s casual clothes, no school uniforms, gathering in the soft blurred background, and in sharp foreground a small gray steel portable cash box lying open and empty on a low wooden shelf with its key still in the lock, hazy morning sun through a wooden-framed window. Keep the faces exactly the same as the attached reference characters. No smartphones, no LED lights, no flat-screen TVs, no plastic PET bottles, no modern objects. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_16",
+   "name": "S09_c016-017",
+   "srt": [
+    16,
+    17
+   ],
+   "refs": [
+    "kenji20",
+    "kuroki22"
+   ],
+   "prompt": "Photorealistic Japanese TV drama still, 16:9, shot on 35mm film, summer 1987 (Showa 62), faded warm Japanese film stock, slight magenta-orange cast in the highlights, soft halation around lights, fine film grain, shallow depth of field, nostalgic Showa-era atmosphere. Medium shot in the same tatami room: a 22-year-old club president in a pastel pink polo with a popped collar and cream chinos pointing his finger at a thin 20-year-old student in a white T-shirt who stands pale and frozen, ten Japanese university club members, mostly young men in plain white T-shirts, sitting on floral cushions staring in silence, a round fluorescent ceiling lamp with a pull cord, dust motes in a sunbeam, a wall clock and a tall metal pot of barley tea on a low table, oppressive tension. Keep the faces exactly the same as the attached reference characters. No smartphones, no LED lights, no flat-screen TVs, no plastic PET bottles, no modern objects. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_18",
+   "name": "S10_c018-019",
+   "srt": [
+    18,
+    19
+   ],
+   "refs": [
+    "kuroki22"
+   ],
+   "prompt": "Photorealistic Japanese TV drama still, 16:9, shot on 35mm film, summer 1987 (Showa 62), faded warm Japanese film stock, slight magenta-orange cast in the highlights, soft halation around lights, fine film grain, shallow depth of field, nostalgic Showa-era atmosphere. Dramatic low-angle close-up of a 22-year-old arrogant club president, voluminous permed hair with a loose strand falling over his forehead, sweat shining in the heat, popped polo collar, jabbing his finger toward the lens while shouting, a wooden pillar and a swaying electric fan blurred behind him, hard side light, exaggerated authority and contempt. Keep the face exactly the same as the attached reference character. No smartphones, no LED lights, no flat-screen TVs, no plastic PET bottles, no modern objects. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_20",
+   "name": "S11_c020-021",
+   "srt": [
+    20,
+    21
+   ],
+   "refs": [
+    "kenji20"
+   ],
+   "prompt": "Photorealistic Japanese TV drama still, 16:9, shot on 35mm film, summer 1987 (Showa 62), faded warm Japanese film stock, slight magenta-orange cast in the highlights, soft halation around lights, fine film grain, shallow depth of field, nostalgic Showa-era atmosphere. Night in a tatami party room after a drinking party: a 20-year-old student in a white T-shirt asleep on the tatami with his head on a floral cushion and a thin towel blanket over his stomach, big brown beer bottles, a plate of peanuts, a full glass ashtray and paper cups scattered on a low table, mosquito-coil smoke curling in the warm light of a small bedside lamp, and on a high wooden shelf a silver-and-black 1980s shoulder VHS camcorder with a red recording light, pointed at the room with a small red recording lamp glowing, moonlight through the window screen. Keep the face exactly the same as the attached reference character. No smartphones, no LED lights, no flat-screen TVs, no plastic PET bottles, no modern objects. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_22",
+   "name": "S12a_c022",
+   "srt": [
+    22,
+    22
+   ],
+   "refs": [
+    "kuroki22"
+   ],
+   "prompt": "Photorealistic Japanese TV drama still, 16:9, shot on 35mm film, summer 1987 (Showa 62), faded warm Japanese film stock, slight magenta-orange cast in the highlights, soft halation around lights, fine film grain, shallow depth of field, nostalgic Showa-era atmosphere. Morning, over-the-shoulder shot from behind a 22-year-old senior's permed head: in sharp focus on the wooden shelf, a silver-and-black 1980s shoulder VHS camcorder with a red recording light still glowing; his half-profile showing tightened pupils and a clenched jaw as panic crosses his face, pale blue-white morning light, hangover mood, empty bottles blurred below. Keep the face exactly the same as the attached reference character. No smartphones, no LED lights, no flat-screen TVs, no plastic PET bottles, no modern objects. No text, no subtitles, no watermark, no readable writing."
+  },
   {
    "id": "img_23",
    "name": "S12b_c023-024",
@@ -509,292 +659,546 @@
  "shots": [],
  "scenes": [
   {
+   "id": "s001",
+   "chapter": "intro",
+   "srt": [
+    1,
+    2
+   ],
+   "image": "img_01",
+   "type": "narration",
+   "motion": "punch_zoom",
+   "sfx": "impact"
+  },
+  {
+   "id": "s003",
+   "chapter": "intro",
+   "srt": [
+    3,
+    4
+   ],
+   "image": "img_03",
+   "type": "narration",
+   "motion": "pan_left"
+  },
+  {
+   "id": "s005",
+   "chapter": "intro",
+   "srt": [
+    5,
+    6
+   ],
+   "image": "img_05",
+   "type": "narration",
+   "motion": "zoom_out_big"
+  },
+  {
+   "id": "s007",
+   "chapter": "intro",
+   "srt": [
+    7,
+    7
+   ],
+   "image": "img_07",
+   "type": "narration",
+   "motion": "pan_right"
+  },
+  {
+   "id": "s008",
+   "chapter": "intro",
+   "srt": [
+    8,
+    9
+   ],
+   "image": "img_08",
+   "type": "narration",
+   "motion": "push_slow"
+  },
+  {
+   "id": "s010",
+   "chapter": "intro",
+   "srt": [
+    10,
+    11
+   ],
+   "image": "img_10",
+   "type": "narration",
+   "motion": "pan_up"
+  },
+  {
+   "id": "s012",
+   "chapter": "intro",
+   "srt": [
+    12,
+    13
+   ],
+   "image": "img_12",
+   "type": "narration",
+   "motion": "zoom_in_big"
+  },
+  {
+   "id": "s014",
+   "chapter": "ch1",
+   "srt": [
+    14,
+    15
+   ],
+   "image": "img_14",
+   "type": "narration",
+   "motion": "pan_left"
+  },
+  {
+   "id": "s016",
+   "chapter": "ch1",
+   "srt": [
+    16,
+    17
+   ],
+   "image": "img_16",
+   "type": "narration",
+   "motion": "zoom_out_big"
+  },
+  {
+   "id": "s018",
+   "chapter": "ch1",
+   "srt": [
+    18,
+    19
+   ],
+   "image": "img_18",
+   "type": "narration",
+   "motion": "pan_right"
+  },
+  {
+   "id": "s020",
+   "chapter": "ch1",
+   "srt": [
+    20,
+    21
+   ],
+   "image": "img_20",
+   "type": "narration",
+   "motion": "push_slow"
+  },
+  {
+   "id": "s022",
+   "chapter": "ch1",
+   "srt": [
+    22,
+    22
+   ],
+   "image": "img_22",
+   "type": "narration",
+   "motion": "pan_up"
+  },
+  {
    "id": "s023",
    "chapter": "ch1",
-   "type": "image",
+   "srt": [
+    23,
+    24
+   ],
    "image": "img_23",
-   "motion": "zoom_in_big",
-   "duration": 4.61
+   "type": "narration",
+   "motion": "zoom_in_big"
   },
   {
    "id": "s025",
    "chapter": "ch1",
-   "type": "image",
+   "srt": [
+    25,
+    25
+   ],
    "image": "img_25",
-   "motion": "pan_left",
-   "duration": 2.96
+   "type": "narration",
+   "motion": "pan_left"
   },
   {
    "id": "s026",
    "chapter": "ch1",
-   "type": "image",
+   "srt": [
+    26,
+    26
+   ],
    "image": "img_26",
-   "motion": "zoom_out_big",
-   "duration": 3.47
+   "type": "narration",
+   "motion": "zoom_out_big"
   },
   {
    "id": "s027",
    "chapter": "ch1",
-   "type": "image",
+   "srt": [
+    27,
+    28
+   ],
    "image": "img_27",
-   "motion": "pan_right",
-   "duration": 4.98
+   "type": "narration",
+   "motion": "pan_right"
   },
   {
    "id": "s029",
    "chapter": "ch1",
-   "type": "image",
+   "srt": [
+    29,
+    30
+   ],
    "image": "img_29",
-   "motion": "push_slow",
-   "duration": 4.79
+   "type": "narration",
+   "motion": "push_slow"
   },
   {
    "id": "s031",
-   "chapter": "ch1",
-   "type": "image",
+   "chapter": "ch2",
+   "srt": [
+    31,
+    32
+   ],
    "image": "img_31",
-   "motion": "pan_up",
-   "duration": 4.14
+   "type": "narration",
+   "motion": "pan_up"
   },
   {
    "id": "s033",
-   "chapter": "ch1",
-   "type": "image",
+   "chapter": "ch2",
+   "srt": [
+    33,
+    34
+   ],
    "image": "img_33",
-   "motion": "zoom_in_big",
-   "duration": 6.67
+   "type": "narration",
+   "motion": "zoom_in_big"
   },
   {
    "id": "s035",
-   "chapter": "ch1",
-   "type": "image",
+   "chapter": "ch2",
+   "srt": [
+    35,
+    37
+   ],
    "image": "img_35",
-   "motion": "pan_left",
-   "duration": 6.47
+   "type": "narration",
+   "motion": "pan_left"
   },
   {
    "id": "s038",
-   "chapter": "ch1",
-   "type": "image",
+   "chapter": "ch2",
+   "srt": [
+    38,
+    39
+   ],
    "image": "img_38",
-   "motion": "zoom_out_big",
-   "duration": 4.87
+   "type": "narration",
+   "motion": "zoom_out_big"
   },
   {
    "id": "s040",
-   "chapter": "ch1",
-   "type": "image",
+   "chapter": "ch2",
+   "srt": [
+    40,
+    41
+   ],
    "image": "img_40",
-   "motion": "pan_right",
-   "duration": 6.91
+   "type": "narration",
+   "motion": "pan_right"
   },
   {
    "id": "s042",
-   "chapter": "ch1",
-   "type": "image",
+   "chapter": "ch2",
+   "srt": [
+    42,
+    43
+   ],
    "image": "img_42",
-   "motion": "push_slow",
-   "duration": 7.03
+   "type": "narration",
+   "motion": "push_slow"
   },
   {
    "id": "s044",
-   "chapter": "ch1",
-   "type": "image",
+   "chapter": "ch2",
+   "srt": [
+    44,
+    44
+   ],
    "image": "img_44",
-   "motion": "pan_up",
-   "duration": 3.81
+   "type": "narration",
+   "motion": "pan_up"
   },
   {
    "id": "s045",
-   "chapter": "ch1",
-   "type": "image",
+   "chapter": "ch2",
+   "srt": [
+    45,
+    47
+   ],
    "image": "img_45",
-   "motion": "zoom_in_big",
-   "duration": 6.59
+   "type": "narration",
+   "motion": "zoom_in_big"
   },
   {
    "id": "s048",
-   "chapter": "ch1",
-   "type": "image",
+   "chapter": "ch2",
+   "srt": [
+    48,
+    49
+   ],
    "image": "img_48",
-   "motion": "pan_left",
-   "duration": 6.0
+   "type": "narration",
+   "motion": "pan_left"
   },
   {
    "id": "s050",
-   "chapter": "ch1",
-   "type": "image",
+   "chapter": "ch2",
+   "srt": [
+    50,
+    51
+   ],
    "image": "img_50",
-   "motion": "zoom_out_big",
-   "duration": 5.09
+   "type": "narration",
+   "motion": "zoom_out_big"
   },
   {
    "id": "s052",
-   "chapter": "ch1",
-   "type": "image",
+   "chapter": "ch2",
+   "srt": [
+    52,
+    52
+   ],
    "image": "img_52",
-   "motion": "pan_right",
-   "duration": 2.4
+   "type": "narration",
+   "motion": "pan_right"
   },
   {
    "id": "s053",
-   "chapter": "ch1",
-   "type": "image",
+   "chapter": "ch2",
+   "srt": [
+    53,
+    53
+   ],
    "image": "img_53",
-   "motion": "push_slow",
-   "duration": 3.55
+   "type": "narration",
+   "motion": "push_slow"
   },
   {
    "id": "s054",
-   "chapter": "ch1",
-   "type": "image",
+   "chapter": "ch3",
+   "srt": [
+    54,
+    54
+   ],
    "image": "img_54",
-   "motion": "pan_up",
-   "duration": 3.11
+   "type": "narration",
+   "motion": "pan_up"
   },
   {
    "id": "s055",
-   "chapter": "ch1",
-   "type": "image",
+   "chapter": "ch3",
+   "srt": [
+    55,
+    57
+   ],
    "image": "img_55",
-   "motion": "zoom_in_big",
-   "duration": 3.21
+   "type": "narration",
+   "motion": "zoom_in_big"
   },
   {
    "id": "s058",
-   "chapter": "ch1",
-   "type": "image",
+   "chapter": "ch3",
+   "srt": [
+    58,
+    59
+   ],
    "image": "img_58",
-   "motion": "pan_left",
-   "duration": 6.25
+   "type": "narration",
+   "motion": "pan_left"
   },
   {
    "id": "s060",
-   "chapter": "ch1",
-   "type": "image",
+   "chapter": "ch3",
+   "srt": [
+    60,
+    61
+   ],
    "image": "img_60",
-   "motion": "zoom_out_big",
-   "duration": 5.78
+   "type": "narration",
+   "motion": "zoom_out_big"
   },
   {
    "id": "s062",
-   "chapter": "ch1",
-   "type": "image",
+   "chapter": "ch3",
+   "srt": [
+    62,
+    62
+   ],
    "image": "img_62",
-   "motion": "pan_right",
-   "duration": 3.31
+   "type": "narration",
+   "motion": "pan_right"
   },
   {
    "id": "s063",
-   "chapter": "ch1",
-   "type": "image",
+   "chapter": "ch3",
+   "srt": [
+    63,
+    64
+   ],
    "image": "img_63",
-   "motion": "push_slow",
-   "duration": 4.78
+   "type": "narration",
+   "motion": "punch_zoom",
+   "sfx": "impact"
   },
   {
    "id": "s065",
-   "chapter": "ch1",
-   "type": "image",
+   "chapter": "ch3",
+   "srt": [
+    65,
+    66
+   ],
    "image": "img_65",
-   "motion": "pan_up",
-   "duration": 6.67
+   "type": "narration",
+   "motion": "pan_up"
   },
   {
    "id": "s067",
-   "chapter": "ch1",
-   "type": "image",
+   "chapter": "ch3",
+   "srt": [
+    67,
+    68
+   ],
    "image": "img_67",
-   "motion": "zoom_in_big",
-   "duration": 6.51
+   "type": "narration",
+   "motion": "zoom_in_big"
   },
   {
    "id": "s069",
-   "chapter": "ch1",
-   "type": "image",
+   "chapter": "ch3",
+   "srt": [
+    69,
+    70
+   ],
    "image": "img_69",
-   "motion": "pan_left",
-   "duration": 5.82
+   "type": "narration",
+   "motion": "pan_left"
   },
   {
    "id": "s071",
-   "chapter": "ch1",
-   "type": "image",
+   "chapter": "ch3",
+   "srt": [
+    71,
+    72
+   ],
    "image": "img_71",
-   "motion": "zoom_out_big",
-   "duration": 4.94
+   "type": "narration",
+   "motion": "zoom_out_big"
   },
   {
    "id": "s073",
-   "chapter": "ch1",
-   "type": "image",
+   "chapter": "ch3",
+   "srt": [
+    73,
+    74
+   ],
    "image": "img_73",
-   "motion": "pan_right",
-   "duration": 3.9
+   "type": "narration",
+   "motion": "pan_right"
   },
   {
    "id": "s075",
-   "chapter": "ch1",
-   "type": "image",
+   "chapter": "ch3",
+   "srt": [
+    75,
+    76
+   ],
    "image": "img_75",
-   "motion": "push_slow",
-   "duration": 3.83
+   "type": "narration",
+   "motion": "push_slow"
   },
   {
    "id": "s077",
-   "chapter": "ch1",
-   "type": "image",
+   "chapter": "ch3",
+   "srt": [
+    77,
+    78
+   ],
    "image": "img_77",
-   "motion": "pan_up",
-   "duration": 5.82
+   "type": "narration",
+   "motion": "pan_up"
   },
   {
    "id": "s079",
-   "chapter": "ch1",
-   "type": "image",
+   "chapter": "ch3",
+   "srt": [
+    79,
+    80
+   ],
    "image": "img_79",
-   "motion": "zoom_in_big",
-   "duration": 6.24
+   "type": "narration",
+   "motion": "zoom_in_big"
   },
   {
    "id": "s081",
-   "chapter": "ch1",
-   "type": "image",
+   "chapter": "epilogue",
+   "srt": [
+    81,
+    81
+   ],
    "image": "img_81",
-   "motion": "pan_left",
-   "duration": 4.64
+   "type": "narration",
+   "motion": "pan_left"
   },
   {
    "id": "s082",
-   "chapter": "ch1",
-   "type": "image",
+   "chapter": "epilogue",
+   "srt": [
+    82,
+    83
+   ],
    "image": "img_82",
-   "motion": "zoom_out_big",
-   "duration": 6.81
+   "type": "narration",
+   "motion": "zoom_out_big"
   },
   {
    "id": "s084",
-   "chapter": "ch1",
-   "type": "image",
+   "chapter": "epilogue",
+   "srt": [
+    84,
+    86
+   ],
    "image": "img_84",
-   "motion": "pan_right",
-   "duration": 8.58
+   "type": "narration",
+   "motion": "pan_right"
   },
   {
    "id": "s087",
-   "chapter": "ch1",
-   "type": "image",
+   "chapter": "epilogue",
+   "srt": [
+    87,
+    87
+   ],
    "image": "img_87",
-   "motion": "push_slow",
-   "duration": 3.3
+   "type": "narration",
+   "motion": "push_slow"
   },
   {
    "id": "s088",
-   "chapter": "ch1",
-   "type": "image",
+   "chapter": "epilogue",
+   "srt": [
+    88,
+    90
+   ],
    "image": "img_88",
-   "motion": "pan_up",
-   "duration": 9.19
+   "type": "narration",
+   "motion": "pan_up"
+  },
+  {
+   "id": "s999",
+   "chapter": "epilogue",
+   "type": "end",
+   "ja": "あなたなら、許せますか？",
+   "disclaimer": "※この物語はフィクションです。",
+   "duration": 6
   }
- ]
+ ],
+ "narration": {
+  "audio": "narration/ep09.mp3",
+  "srt": "episodes/ep09/narration.srt"
+ }
 }
