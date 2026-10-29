@@ -1,0 +1,800 @@
+{
+ "format": "longform",
+ "note": "그림만 (23번 자막부터). 1~22번과 조립은 사용자가 Vrew에서. 그림 이름 img_NN = 그 그림이 시작되는 자막 줄 번호.",
+ "title": "泥棒の娘を、うちの嫁にしろと？",
+ "thumbnail": {
+  "left": "img_63",
+  "right": "img_71",
+  "lines": [
+   "「泥棒の娘を、うちの嫁にしろと？」",
+   "39年前のテープに映っていたのは…"
+  ]
+ },
+ "style": "Photorealistic cinematic Japanese TV drama, horizontal 16:9 framing.",
+ "location": "",
+ "aspect": "16:9",
+ "bgm": {
+  "file": "bgm/bach_cello_prelude.mp3",
+  "volume": 0.35,
+  "duck": 0.12
+ },
+ "voice": {
+  "narrator": "ja-JP-Chirp3-HD-Gacrux",
+  "speaking_rate": 0.95,
+  "padding_sec": 0.6,
+  "min_scene_sec": 2.5
+ },
+ "speakers": {},
+ "characters": {
+  "kenji20": {
+   "name": "健司（1987年・20歳）",
+   "file": "episodes/ep09/R1_kenji_20.jpg",
+   "image_prompt": "(user photo)"
+  },
+  "kenji59": {
+   "name": "健司（59歳）",
+   "file": "episodes/ep09/R2_kenji_59.jpg",
+   "image_prompt": "(user photo)"
+  },
+  "kuroki22": {
+   "name": "黒木（1987年・22歳）",
+   "file": "episodes/ep09/R3_kuroki_22.jpg",
+   "image_prompt": "(user photo)"
+  },
+  "kuroki61": {
+   "name": "黒木（61歳）",
+   "file": "episodes/ep09/R4_kuroki_61.jpg",
+   "image_prompt": "(user photo)"
+  },
+  "misaki28": {
+   "name": "美咲（28歳）",
+   "file": "episodes/ep09/R5_misaki_28.jpg",
+   "image_prompt": "(user photo)"
+  },
+  "takuya29": {
+   "name": "拓也（29歳）",
+   "file": "episodes/ep09/R6_takuya_29.jpg",
+   "image_prompt": "(user photo)"
+  },
+  "kurokiwife58": {
+   "name": "黒木の妻（58歳）",
+   "file": "episodes/ep09/R7_wife_58.jpg",
+   "image_prompt": "(user photo)"
+  }
+ },
+ "images": [
+  {
+   "id": "img_23",
+   "name": "S12b_c023-024",
+   "srt": [
+    23,
+    24
+   ],
+   "refs": [
+    "kenji20",
+    "kuroki22"
+   ],
+   "prompt": "Photorealistic Japanese TV drama still, 16:9, shot on 35mm film, summer 1987 (Showa 62), faded warm Japanese film stock, slight magenta-orange cast in the highlights, soft halation around lights, fine film grain, shallow depth of field, nostalgic Showa-era atmosphere. Dynamic medium shot in a tatami room: a 22-year-old senior in a pastel pink polo with a popped collar grabs the collar of a 20-year-old junior's stretched white T-shirt with both hands and shoves him against a paper sliding door, slight motion blur, the junior's shocked wide eyes, startled club members blurred behind them, a boxy 8mm camcorder visible out of focus on a wooden shelf, harsh morning light. Keep the faces exactly the same as the attached reference characters. No smartphones, no LED lights, no flat-screen TVs, no plastic PET bottles, no modern objects. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_25",
+   "name": "S13_c025",
+   "srt": [
+    25,
+    25
+   ],
+   "refs": [
+    "kenji20"
+   ],
+   "prompt": "Photorealistic Japanese TV drama still, 16:9, shot on 35mm film, summer 1987 (Showa 62), faded warm Japanese film stock, slight magenta-orange cast in the highlights, soft halation around lights, fine film grain, shallow depth of field, nostalgic Showa-era atmosphere. Wide shot of a lonely 20-year-old student in a white T-shirt carrying a nylon sports bag, walking down a rural asphalt road in blazing midday heat with heat shimmer rising from the road, wooden utility poles, rice paddies, a rusty bus stop sign with no readable writing, a boxy 1980s local bus far in the distance, a long hard shadow, cicada-season haze, heavy shoulders and downcast eyes. Keep the face exactly the same as the attached reference character. No smartphones, no LED lights, no flat-screen TVs, no plastic PET bottles, no modern objects. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_26",
+   "name": "S14_c026",
+   "srt": [
+    26,
+    26
+   ],
+   "refs": [
+    "kenji20"
+   ],
+   "prompt": "Photorealistic Japanese TV drama still, 16:9, shot on 35mm film, summer 1987 (Showa 62), faded warm Japanese film stock, slight magenta-orange cast in the highlights, soft halation around lights, fine film grain, shallow depth of field, nostalgic Showa-era atmosphere. A 1987 university corridor with a worn wooden floor and tall steel-framed windows, a green public telephone with a card slot on the wall, bulletin boards covered in blurred paper notices, three Japanese students in 1980s casual clothes whispering and glancing sideways in the sharp midground, and a lone 20-year-old in a white T-shirt slightly out of focus in the foreground, passing with his head down, a cold isolating mood. Keep the face exactly the same as the attached reference character. No smartphones, no LED lights, no flat-screen TVs, no plastic PET bottles, no modern objects. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_27",
+   "name": "S15_c027-028",
+   "srt": [
+    27,
+    28
+   ],
+   "refs": [
+    "kenji20",
+    "kuroki22"
+   ],
+   "prompt": "Photorealistic Japanese TV drama still, 16:9, shot on 35mm film, summer 1987 (Showa 62), faded warm Japanese film stock, slight magenta-orange cast in the highlights, soft halation around lights, fine film grain, shallow depth of field, nostalgic Showa-era atmosphere. A dim wooden corridor of an old inn under a single bare bulb: a 22-year-old senior leaning in close and pressing his fingertip against the chest of a 20-year-old junior, speaking in a low menacing voice, the junior pale and silent with one hand hiding a small 8mm video cassette in his pocket, harsh bulb light and long shadows on the wooden wall. Keep the faces exactly the same as the attached reference characters. No smartphones, no LED lights, no flat-screen TVs, no plastic PET bottles, no modern objects. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_29",
+   "name": "S16_c029-030",
+   "srt": [
+    29,
+    30
+   ],
+   "refs": [
+    "kenji20"
+   ],
+   "prompt": "Photorealistic Japanese TV drama still, 16:9, shot on 35mm film, summer 1987 (Showa 62), faded warm Japanese film stock, slight magenta-orange cast in the highlights, soft halation around lights, fine film grain, shallow depth of field, nostalgic Showa-era atmosphere. Warm lamp-lit close-up in a cramped four-and-a-half-tatami student room: a 20-year-old's hands placing a small 8mm video cassette at the bottom of a corrugated cardboard box under old film-club textbooks and a folded shirt, a gooseneck desk lamp, a tiny CRT TV and a futon in the soft background, quiet resolve, dust in the lamplight. Keep the hands and sleeve consistent with the attached reference character. No smartphones, no LED lights, no flat-screen TVs, no plastic PET bottles, no modern objects. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_31",
+   "name": "S17_c031-032",
+   "srt": [
+    31,
+    32
+   ],
+   "refs": [
+    "kenji59"
+   ],
+   "prompt": "Photorealistic Japanese TV drama still, 16:9, present-day 2026, clean cinematic natural light, shallow depth of field, soft film-like color grading. A 59-year-old Japanese man with short graying hair in a gray work vest over a white shirt, repairing an old TV at the counter of a small neighborhood electronics shop, screwdrivers, circuit boards and old television sets around him, a warm shopfront light and a glass door in the background, humble and dignified, a quiet resigned expression. Keep the face exactly the same as the attached reference character. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_33",
+   "name": "S18_c033-034",
+   "srt": [
+    33,
+    34
+   ],
+   "refs": [
+    "kenji59",
+    "kuroki61",
+    "takuya29"
+   ],
+   "prompt": "Photorealistic Japanese TV drama still, 16:9, present-day 2026, clean cinematic natural light, shallow depth of field, soft film-like color grading. Over-the-shoulder shot from behind a 59-year-old man in a navy suit, looking across a black lacquer table in a ryotei tatami room toward a 61-year-old executive in a charcoal suit with silver slicked-back hair and his 29-year-old son in a dark suit sitting beside him, the executive's proud superior posture, warm lantern light, dishes on the table. Keep the faces exactly the same as the attached reference characters. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_35",
+   "name": "S19_c035-037",
+   "srt": [
+    35,
+    37
+   ],
+   "refs": [
+    "kenji59"
+   ],
+   "prompt": "Photorealistic Japanese TV drama still, 16:9, present-day 2026, clean cinematic natural light, shallow depth of field, soft film-like color grading. Close-up of a 59-year-old man at a ryotei dining table, jaw tightly set, eyes suppressing old anger, a steaming teacup in the sharp foreground, dark restrained mood, slightly dim low-key lighting, the room blurred behind him. Keep the face exactly the same as the attached reference character. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_38",
+   "name": "S20_c038-039",
+   "srt": [
+    38,
+    39
+   ],
+   "refs": [
+    "kenji59",
+    "misaki28"
+   ],
+   "prompt": "Photorealistic Japanese TV drama still, 16:9, present-day 2026, clean cinematic natural light, shallow depth of field, soft film-like color grading. A 59-year-old father in a navy suit letting out a quiet breath, glancing gently sideways at his smiling 28-year-old daughter in a beige jacket sitting beside him, a warm and resolute expression, the ryotei tatami room softly lit by lantern light. Keep the faces exactly the same as the attached reference characters. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_40",
+   "name": "S21_c040-041",
+   "srt": [
+    40,
+    41
+   ],
+   "refs": [
+    "kuroki61"
+   ],
+   "prompt": "Photorealistic Japanese TV drama still, 16:9, present-day 2026, clean cinematic natural light, shallow depth of field, soft film-like color grading. A 61-year-old Japanese executive in a charcoal suit with silver slicked-back hair, leaning back in his seat with a mocking sneer, one hand waving dismissively, a vain and cruel expression, a ryotei tatami room with a lacquer table and lantern light behind him. Keep the face exactly the same as the attached reference character. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_42",
+   "name": "S22_c042-043",
+   "srt": [
+    42,
+    43
+   ],
+   "refs": [
+    "kuroki61",
+    "kenji59"
+   ],
+   "prompt": "Photorealistic Japanese TV drama still, 16:9, present-day 2026, clean cinematic natural light, shallow depth of field, soft film-like color grading. Over-the-shoulder view from behind the 59-year-old man in a navy suit, who sits calm and silent in the foreground edge of the frame, while across the table a 61-year-old executive in a charcoal suit points contemptuously at him, mouth open mid-insult, tense atmosphere, warm lantern light. Keep the faces exactly the same as the attached reference characters. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_44",
+   "name": "S23_c044",
+   "srt": [
+    44,
+    44
+   ],
+   "refs": [
+    "kuroki61",
+    "misaki28"
+   ],
+   "prompt": "Photorealistic Japanese TV drama still, 16:9, present-day 2026, clean cinematic natural light, shallow depth of field, soft film-like color grading. A 61-year-old executive in a charcoal suit leaning toward a 28-year-old young woman in a beige jacket with cold, superior condescension, his finger slightly raised, while she looks pale and shaken, her hands clenched on her lap, ryotei tatami room, warm lantern light. Keep the faces exactly the same as the attached reference characters. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_45",
+   "name": "S24_c045-047",
+   "srt": [
+    45,
+    47
+   ],
+   "refs": [
+    "takuya29",
+    "kuroki61"
+   ],
+   "prompt": "Photorealistic Japanese TV drama still, 16:9, present-day 2026, clean cinematic natural light, shallow depth of field, soft film-like color grading. A 29-year-old groom in a dark suit half-rising from his seat at a ryotei table with a serious pleading expression toward his father, while the 61-year-old executive in a charcoal suit with silver slicked-back hair glares back furiously, his hand slicing the air, the mother and the bride blurred in the background, a tense family confrontation, warm lantern light. Keep the faces exactly the same as the attached reference characters. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_48",
+   "name": "S25_c048-049",
+   "srt": [
+    48,
+    49
+   ],
+   "refs": [
+    "kuroki61"
+   ],
+   "prompt": "Photorealistic Japanese TV drama still, 16:9, present-day 2026, clean cinematic natural light, shallow depth of field, soft film-like color grading. A 61-year-old executive in a charcoal suit slapping the black lacquer table with his palm and pointing at an old small video cassette tape lying on it, his face flushed red, veins on his temple, agitated and desperate to hide something, tableware rattling, ryotei tatami room, warm lantern light. Keep the face exactly the same as the attached reference character. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_50",
+   "name": "S26_c050-051",
+   "srt": [
+    50,
+    51
+   ],
+   "refs": [
+    "misaki28"
+   ],
+   "prompt": "Photorealistic Japanese TV drama still, 16:9, present-day 2026, clean cinematic natural light, shallow depth of field, soft film-like color grading. A 28-year-old woman in a beige jacket looking straight across the table at someone off-camera, calm and determined, steady unblinking eyes, soft side light on her face, a ryotei tatami room blurred behind her, quiet inner strength. Keep the face exactly the same as the attached reference character. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_52",
+   "name": "S27_c052",
+   "srt": [
+    52,
+    52
+   ],
+   "refs": [
+    "kuroki61"
+   ],
+   "prompt": "Photorealistic Japanese TV drama still, 16:9, present-day 2026, clean cinematic natural light, shallow depth of field, soft film-like color grading. Extreme close-up of a man's hand in a charcoal suit sleeve with a gold ring holding a pair of chopsticks frozen in mid-air above a lacquer plate, the hand trembling slightly, a piece of food about to fall, shallow depth of field, tension. Keep the hand and sleeve consistent with the attached reference character. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_53",
+   "name": "S28_c053",
+   "srt": [
+    53,
+    53
+   ],
+   "refs": [
+    "takuya29"
+   ],
+   "prompt": "Photorealistic Japanese TV drama still, 16:9, present-day 2026, clean cinematic natural light, shallow depth of field, soft film-like color grading. A 29-year-old man in a dark suit calmly pressing the play button on a small remote control, pointing it toward a compact monitor on a low stand in the corner of a ryotei tatami room, a determined face, the other family members turning to look, the old video cassette player connected to the monitor in the foreground. Keep the face exactly the same as the attached reference character. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_54",
+   "name": "S29a_c054",
+   "srt": [
+    54,
+    54
+   ],
+   "refs": [
+    "kenji20"
+   ],
+   "prompt": "Old low-resolution 8mm camcorder footage look from 1987: 4:3 picture inside a 16:9 frame with black side bars, soft low sharpness, color smearing and bleeding, bright lights leaving comet-like lag trails, slight horizontal tracking noise at the bottom edge, oversaturated reds, faded blacks. Wide shot of a lively summer evening at an old inn's garden: Japanese students in yukata and T-shirts gathered on a wooden veranda and lawn under glowing paper lanterns, beer bottles and a watermelon on a low table, lantern lights smearing into comet trails. No text, no timestamp, no watermark."
+  },
+  {
+   "id": "img_55",
+   "name": "S29b_c055-057",
+   "srt": [
+    55,
+    57
+   ],
+   "refs": [
+    "kenji20"
+   ],
+   "prompt": "Old low-resolution 8mm camcorder footage look from 1987: 4:3 picture inside a 16:9 frame with black side bars, soft low sharpness, color smearing and bleeding, bright lights leaving comet-like lag trails, slight horizontal tracking noise at the bottom edge, oversaturated reds, faded blacks. Sparklers and fireworks over a dark garden, a blindfolded student with a towel swinging a stick at a watermelon on a blue vinyl sheet while friends laugh, a cheerful 20-year-old in a white T-shirt turning to the camera with a wide grin, bright highlights bleeding and trailing. No text, no timestamp, no watermark."
+  },
+  {
+   "id": "img_58",
+   "name": "S30_c058-059",
+   "srt": [
+    58,
+    59
+   ],
+   "refs": [],
+   "prompt": "Old low-resolution 8mm camcorder footage look from 1987: 4:3 picture inside a 16:9 frame with black side bars, soft low sharpness, color smearing and bleeding, slight horizontal tracking noise at the bottom edge, faded blacks. Almost black footage of a quiet tatami room late at night seen from a high shelf: only faint moonlight through the window screen, dim silhouettes of sleeping Japanese students under towel blankets, the outline of an electric fan, a rolling band of tracking noise, a greenish-blue cast, heavy grain. No text, no timestamp, no watermark."
+  },
+  {
+   "id": "img_60",
+   "name": "S31_c060-061",
+   "srt": [
+    60,
+    61
+   ],
+   "refs": [],
+   "prompt": "Old low-resolution 8mm camcorder footage look from 1987: 4:3 picture inside a 16:9 frame with black side bars, soft low sharpness, color smearing and bleeding, slight horizontal tracking noise at the bottom edge, faded blacks. Dark night footage: a paper sliding door opens slightly, and in the dim moonlight a hand coming from the cuff of a light cotton jacket turns a small key in a gray steel portable cash box and pulls out a thick brown envelope, shoving it into the jacket pocket; the face is outside the frame, greenish-blue cast, heavy noise and horizontal jitter. No text, no timestamp, no watermark."
+  },
+  {
+   "id": "img_62",
+   "name": "S32_c062",
+   "srt": [
+    62,
+    62
+   ],
+   "refs": [
+    "kuroki22"
+   ],
+   "prompt": "Old low-resolution 8mm camcorder footage look from 1987: 4:3 picture inside a 16:9 frame with black side bars, soft low sharpness, color smearing and bleeding, slight horizontal tracking noise at the bottom edge, faded blacks. Dark night footage: a 22-year-old man with permed hair turning around toward the camera and caught by a faint light, startled and guilty eyes, face half-lit in greenish-blue, motion smear and heavy noise, the recorded image slightly out of focus. Keep the face exactly the same as the attached reference character. No text, no timestamp, no watermark."
+  },
+  {
+   "id": "img_63",
+   "name": "S33_c063-064",
+   "srt": [
+    63,
+    64
+   ],
+   "refs": [
+    "kuroki61"
+   ],
+   "prompt": "Photorealistic Japanese TV drama still, 16:9, present-day 2026, clean cinematic natural light, shallow depth of field, soft film-like color grading. A 61-year-old executive in a charcoal suit standing up in a rage and kicking over the dining tray, dishes, bowls and chopsticks flying through the air, tatami room, dramatic frozen motion, soup splashing, other diners recoiling in the blurred background, warm lantern light. Keep the face exactly the same as the attached reference character. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_65",
+   "name": "S34_c065-066",
+   "srt": [
+    65,
+    66
+   ],
+   "refs": [
+    "kuroki61"
+   ],
+   "prompt": "Photorealistic Japanese TV drama still, 16:9, present-day 2026, clean cinematic natural light, shallow depth of field, soft film-like color grading. Close-up of a 61-year-old executive with silver slicked-back hair, shouting in panic, spittle flying, his face red and desperate, his tie crooked, shouting out a confession, a ryotei tatami room and stunned onlookers blurred behind him. Keep the face exactly the same as the attached reference character. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_67",
+   "name": "S35_c067-068",
+   "srt": [
+    67,
+    68
+   ],
+   "refs": [
+    "kurokiwife58"
+   ],
+   "prompt": "Photorealistic Japanese TV drama still, 16:9, present-day 2026, clean cinematic natural light, shallow depth of field, soft film-like color grading. A silent ryotei tatami room after an outburst, an overturned tray and scattered dishes on the tatami, everyone frozen and staring, and in the center a 58-year-old elegant Japanese woman in a dark green dress with her hair in a low bun slowly placing her chopsticks on the table, cold composure, warm lantern light. Keep the face exactly the same as the attached reference character. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_69",
+   "name": "S36_c069-070",
+   "srt": [
+    69,
+    70
+   ],
+   "refs": [
+    "kurokiwife58",
+    "kuroki61"
+   ],
+   "prompt": "Photorealistic Japanese TV drama still, 16:9, present-day 2026, clean cinematic natural light, shallow depth of field, soft film-like color grading. A 58-year-old woman in a dark green dress staring coldly at her husband in the sharp foreground-left, while the 61-year-old husband in a charcoal suit stammers with a trapped, sweaty, ingratiating smile, trying to explain himself, tension in the ryotei tatami room. Keep the faces exactly the same as the attached reference characters. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_71",
+   "name": "S37_c071-072",
+   "srt": [
+    71,
+    72
+   ],
+   "refs": [
+    "kenji59"
+   ],
+   "prompt": "Photorealistic Japanese TV drama still, 16:9, present-day 2026, clean cinematic natural light, shallow depth of field, soft film-like color grading. A 59-year-old man in a navy suit quietly setting a teacup down on its saucer, perfectly calm, steady gaze, restrained power, short graying hair, a ryotei tatami room blurred behind him, soft warm light on his face. Keep the face exactly the same as the attached reference character. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_73",
+   "name": "S38_c073-074",
+   "srt": [
+    73,
+    74
+   ],
+   "refs": [
+    "kenji59"
+   ],
+   "prompt": "Photorealistic Japanese TV drama still, 16:9, present-day 2026, clean cinematic natural light, shallow depth of field, soft film-like color grading. A 59-year-old man in a navy suit looking straight at someone across the room, quiet eyes, a slight tilt of the head, thirty-nine years of old pain turned into resolve, medium close-up, soft side light, the tatami room softly blurred. Keep the face exactly the same as the attached reference character. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_75",
+   "name": "S39_c075-076",
+   "srt": [
+    75,
+    76
+   ],
+   "refs": [
+    "kenji59"
+   ],
+   "prompt": "Photorealistic Japanese TV drama still, 16:9, present-day 2026, clean cinematic natural light, shallow depth of field, soft film-like color grading. Close-up of a 59-year-old man's calm face with short graying hair, speaking softly, a controlled cold stillness, a faint knowing hint at the corner of his mouth, soft warm side light, shallow depth of field. Keep the face exactly the same as the attached reference character. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_77",
+   "name": "S40_c077-078",
+   "srt": [
+    77,
+    78
+   ],
+   "refs": [
+    "takuya29",
+    "kuroki61"
+   ],
+   "prompt": "Photorealistic Japanese TV drama still, 16:9, present-day 2026, clean cinematic natural light, shallow depth of field, soft film-like color grading. A 29-year-old groom in a dark suit standing and looking straight at his father with a firm, ashamed expression, while the 61-year-old father in a charcoal suit sits at the table looking small and diminished, low camera angle on the son, ryotei tatami room, warm lantern light. Keep the faces exactly the same as the attached reference characters. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_79",
+   "name": "S41_c079-080",
+   "srt": [
+    79,
+    80
+   ],
+   "refs": [
+    "kuroki61",
+    "kurokiwife58"
+   ],
+   "prompt": "Photorealistic Japanese TV drama still, 16:9, present-day 2026, clean cinematic natural light, shallow depth of field, soft film-like color grading. A 61-year-old man in a charcoal suit seated at a ryotei table with his mouth hanging open, speechless and broken, in sharp focus in the foreground, while in the soft background a 58-year-old woman in a dark green dress walks out through an open paper sliding door without looking back. Keep the faces exactly the same as the attached reference characters. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_81",
+   "name": "S42_c081",
+   "srt": [
+    81,
+    81
+   ],
+   "refs": [
+    "kuroki61"
+   ],
+   "prompt": "Photorealistic Japanese TV drama still, 16:9, present-day 2026, clean cinematic natural light, shallow depth of field, soft film-like color grading. A 61-year-old man in a charcoal suit with silver hair sitting alone at a small desk in the corner of a dull subsidiary office, gray daylight through a window, stacks of cardboard boxes and filing cabinets, a deflated posture and a hollow stare, no one around him. Keep the face exactly the same as the attached reference character. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_82",
+   "name": "S43_c082-083",
+   "srt": [
+    82,
+    83
+   ],
+   "refs": [
+    "kuroki61"
+   ],
+   "prompt": "Photorealistic Japanese TV drama still, 16:9, present-day 2026, clean cinematic natural light, shallow depth of field, soft film-like color grading. A wedding banquet hall with round tables, white tablecloths and warm chandeliers, guests in formal wear lifting champagne glasses in a joyful toast in the sharp midground, and at the far-end table a lone 61-year-old man in a charcoal suit sitting with an untouched glass, ignored, the toast passing around him. Keep the face exactly the same as the attached reference character. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_84",
+   "name": "S44_c084-086",
+   "srt": [
+    84,
+    86
+   ],
+   "refs": [
+    "kenji59",
+    "misaki28"
+   ],
+   "prompt": "Photorealistic Japanese TV drama still, 16:9, present-day 2026, clean cinematic natural light, shallow depth of field, soft film-like color grading. The back seat of a car at night, city lights streaming past the windows in soft bokeh, a 28-year-old woman in a beige jacket speaking gently to her 59-year-old father in a navy suit, who looks out of the window with a quiet, pained expression, a quiet emotional mood, a cool blue night palette with warm dashboard glow. Keep the faces exactly the same as the attached reference characters. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_87",
+   "name": "S45_c087",
+   "srt": [
+    87,
+    87
+   ],
+   "refs": [
+    "kenji59",
+    "misaki28"
+   ],
+   "prompt": "Photorealistic Japanese TV drama still, 16:9, present-day 2026, clean cinematic natural light, shallow depth of field, soft film-like color grading. Close-up of a 28-year-old woman's hands offering an old small video cassette tape with a blank label to her father on her lap in a car at night, his hands in navy suit sleeves about to take it, a warm dashboard glow and blurred city lights in the window. Keep the hands and sleeves consistent with the attached reference characters. No text, no subtitles, no watermark, no readable writing."
+  },
+  {
+   "id": "img_88",
+   "name": "S46_c088-090",
+   "srt": [
+    88,
+    90
+   ],
+   "refs": [
+    "kenji59",
+    "kenji20"
+   ],
+   "prompt": "Photorealistic Japanese TV drama still, 16:9, present-day 2026, clean cinematic natural light, shallow depth of field, soft film-like color grading. A 59-year-old man with short graying hair, his face softly lit by the cool glow of a screen, tears gathering in his eyes and a gentle smile forming; on a small screen in the lower right of the frame, an old low-resolution 1987 video image of a blurred, cheerful 20-year-old boy in a white T-shirt laughing at the camera. Keep the faces exactly the same as the attached reference characters. No text, no subtitles, no watermark, no readable writing."
+  }
+ ],
+ "shots": [],
+ "scenes": [
+  {
+   "id": "s023",
+   "chapter": "ch1",
+   "type": "image",
+   "image": "img_23",
+   "motion": "zoom_in_big",
+   "duration": 4.61
+  },
+  {
+   "id": "s025",
+   "chapter": "ch1",
+   "type": "image",
+   "image": "img_25",
+   "motion": "pan_left",
+   "duration": 2.96
+  },
+  {
+   "id": "s026",
+   "chapter": "ch1",
+   "type": "image",
+   "image": "img_26",
+   "motion": "zoom_out_big",
+   "duration": 3.47
+  },
+  {
+   "id": "s027",
+   "chapter": "ch1",
+   "type": "image",
+   "image": "img_27",
+   "motion": "pan_right",
+   "duration": 4.98
+  },
+  {
+   "id": "s029",
+   "chapter": "ch1",
+   "type": "image",
+   "image": "img_29",
+   "motion": "push_slow",
+   "duration": 4.79
+  },
+  {
+   "id": "s031",
+   "chapter": "ch1",
+   "type": "image",
+   "image": "img_31",
+   "motion": "pan_up",
+   "duration": 4.14
+  },
+  {
+   "id": "s033",
+   "chapter": "ch1",
+   "type": "image",
+   "image": "img_33",
+   "motion": "zoom_in_big",
+   "duration": 6.67
+  },
+  {
+   "id": "s035",
+   "chapter": "ch1",
+   "type": "image",
+   "image": "img_35",
+   "motion": "pan_left",
+   "duration": 6.47
+  },
+  {
+   "id": "s038",
+   "chapter": "ch1",
+   "type": "image",
+   "image": "img_38",
+   "motion": "zoom_out_big",
+   "duration": 4.87
+  },
+  {
+   "id": "s040",
+   "chapter": "ch1",
+   "type": "image",
+   "image": "img_40",
+   "motion": "pan_right",
+   "duration": 6.91
+  },
+  {
+   "id": "s042",
+   "chapter": "ch1",
+   "type": "image",
+   "image": "img_42",
+   "motion": "push_slow",
+   "duration": 7.03
+  },
+  {
+   "id": "s044",
+   "chapter": "ch1",
+   "type": "image",
+   "image": "img_44",
+   "motion": "pan_up",
+   "duration": 3.81
+  },
+  {
+   "id": "s045",
+   "chapter": "ch1",
+   "type": "image",
+   "image": "img_45",
+   "motion": "zoom_in_big",
+   "duration": 6.59
+  },
+  {
+   "id": "s048",
+   "chapter": "ch1",
+   "type": "image",
+   "image": "img_48",
+   "motion": "pan_left",
+   "duration": 6.0
+  },
+  {
+   "id": "s050",
+   "chapter": "ch1",
+   "type": "image",
+   "image": "img_50",
+   "motion": "zoom_out_big",
+   "duration": 5.09
+  },
+  {
+   "id": "s052",
+   "chapter": "ch1",
+   "type": "image",
+   "image": "img_52",
+   "motion": "pan_right",
+   "duration": 2.4
+  },
+  {
+   "id": "s053",
+   "chapter": "ch1",
+   "type": "image",
+   "image": "img_53",
+   "motion": "push_slow",
+   "duration": 3.55
+  },
+  {
+   "id": "s054",
+   "chapter": "ch1",
+   "type": "image",
+   "image": "img_54",
+   "motion": "pan_up",
+   "duration": 3.11
+  },
+  {
+   "id": "s055",
+   "chapter": "ch1",
+   "type": "image",
+   "image": "img_55",
+   "motion": "zoom_in_big",
+   "duration": 3.21
+  },
+  {
+   "id": "s058",
+   "chapter": "ch1",
+   "type": "image",
+   "image": "img_58",
+   "motion": "pan_left",
+   "duration": 6.25
+  },
+  {
+   "id": "s060",
+   "chapter": "ch1",
+   "type": "image",
+   "image": "img_60",
+   "motion": "zoom_out_big",
+   "duration": 5.78
+  },
+  {
+   "id": "s062",
+   "chapter": "ch1",
+   "type": "image",
+   "image": "img_62",
+   "motion": "pan_right",
+   "duration": 3.31
+  },
+  {
+   "id": "s063",
+   "chapter": "ch1",
+   "type": "image",
+   "image": "img_63",
+   "motion": "push_slow",
+   "duration": 4.78
+  },
+  {
+   "id": "s065",
+   "chapter": "ch1",
+   "type": "image",
+   "image": "img_65",
+   "motion": "pan_up",
+   "duration": 6.67
+  },
+  {
+   "id": "s067",
+   "chapter": "ch1",
+   "type": "image",
+   "image": "img_67",
+   "motion": "zoom_in_big",
+   "duration": 6.51
+  },
+  {
+   "id": "s069",
+   "chapter": "ch1",
+   "type": "image",
+   "image": "img_69",
+   "motion": "pan_left",
+   "duration": 5.82
+  },
+  {
+   "id": "s071",
+   "chapter": "ch1",
+   "type": "image",
+   "image": "img_71",
+   "motion": "zoom_out_big",
+   "duration": 4.94
+  },
+  {
+   "id": "s073",
+   "chapter": "ch1",
+   "type": "image",
+   "image": "img_73",
+   "motion": "pan_right",
+   "duration": 3.9
+  },
+  {
+   "id": "s075",
+   "chapter": "ch1",
+   "type": "image",
+   "image": "img_75",
+   "motion": "push_slow",
+   "duration": 3.83
+  },
+  {
+   "id": "s077",
+   "chapter": "ch1",
+   "type": "image",
+   "image": "img_77",
+   "motion": "pan_up",
+   "duration": 5.82
+  },
+  {
+   "id": "s079",
+   "chapter": "ch1",
+   "type": "image",
+   "image": "img_79",
+   "motion": "zoom_in_big",
+   "duration": 6.24
+  },
+  {
+   "id": "s081",
+   "chapter": "ch1",
+   "type": "image",
+   "image": "img_81",
+   "motion": "pan_left",
+   "duration": 4.64
+  },
+  {
+   "id": "s082",
+   "chapter": "ch1",
+   "type": "image",
+   "image": "img_82",
+   "motion": "zoom_out_big",
+   "duration": 6.81
+  },
+  {
+   "id": "s084",
+   "chapter": "ch1",
+   "type": "image",
+   "image": "img_84",
+   "motion": "pan_right",
+   "duration": 8.58
+  },
+  {
+   "id": "s087",
+   "chapter": "ch1",
+   "type": "image",
+   "image": "img_87",
+   "motion": "push_slow",
+   "duration": 3.3
+  },
+  {
+   "id": "s088",
+   "chapter": "ch1",
+   "type": "image",
+   "image": "img_88",
+   "motion": "pan_up",
+   "duration": 9.19
+  }
+ ]
+}
