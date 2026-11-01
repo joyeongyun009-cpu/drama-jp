@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install --global @hypit/hypit)",
+      "Bash(npm install --global @hypit/hypit@latest)",
+      "Bash(hypit:*)"
+    ]
+  }
+}
