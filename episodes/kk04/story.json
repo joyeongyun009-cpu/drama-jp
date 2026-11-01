@@ -1,0 +1,517 @@
+{
+ "brand": "nichikan",
+ "format": "longform",
+ "aspect": "9:16",
+ "title": "家族LINE、すぐ返す派？あとでまとめて返す派？",
+ "thumbnail": {
+  "left": "img_07",
+  "right": "img_09",
+  "lines": [
+   "家族LINE",
+   "すぐ返す派？あとで派？"
+  ]
+ },
+ "style": "Photorealistic cinematic Japanese everyday scene, shot on a 35mm lens, shallow depth of field, realistic skin texture, vertical 9:16 framing. All people are Japanese adults (the parents in their 50s, the daughter in her 20s). Smartphone screens never show readable text. No on-screen text of any kind: no name labels, no captions, no subtitles, no watermarks, no logos, no numbers on buttons, no readable phone screens.",
+ "location": "",
+ "narration": {
+  "audio": "narration/kk04.mp3",
+  "srt": "episodes/kk04/narration.srt"
+ },
+ "bgm": {
+  "file": "bgm/bach_cello_prelude.mp3",
+  "volume": 0.3,
+  "duck": 0.15
+ },
+ "voice": {
+  "narrator": "ja-JP-Chirp3-HD-Gacrux",
+  "letter": "ja-JP-Chirp3-HD-Sulafat",
+  "speaking_rate": 0.95,
+  "padding_sec": 0.6,
+  "min_scene_sec": 2.5
+ },
+ "speakers": {},
+ "characters": {
+  "otoko": {
+   "name": "すぐ返す派の男性（56歳）",
+   "image_prompt": "Character reference portrait of a Japanese office worker aged 56 with short salt-and-pepper hair, thin silver-rimmed glasses, a navy suit and a dark tie, holding a black briefcase, a busy, slightly impatient but good-natured face, front-facing upper body, plain soft light-grey background, soft even light. Photorealistic, Japanese TV drama still quality, natural skin texture, sharp focus on the face. No text, no watermark, no logo."
+  },
+  "onna": {
+   "name": "あとでまとめて派の女性（54歳）",
+   "image_prompt": "Character reference portrait of a calm Japanese woman aged 54 with a shoulder-length dark brown bob, a light beige trench coat and a small tote bag, a gentle, patient face with a faint smile, front-facing upper body, plain soft light-grey background, soft even light. Photorealistic, Japanese TV drama still quality, natural skin texture, sharp focus on the face. No text, no watermark, no logo."
+  },
+  "musume": {
+   "name": "二十代の娘（24歳）",
+   "image_prompt": "Character reference portrait of a Japanese woman aged 24 with long dark hair, a casual light-blue knit sweater, a cheerful, easygoing face with a small smile, front-facing upper body, plain soft light-grey background, soft even light. Photorealistic, Japanese TV drama still quality, natural skin texture, sharp focus on the face. No text, no watermark, no logo."
+  }
+ },
+ "images": [
+  {
+   "id": "img_01",
+   "refs": [],
+   "prompt": "Photorealistic cinematic Japanese everyday scene, shot on a 35mm lens, shallow depth of field, realistic skin texture, natural soft light: extreme close-up of a smartphone lying on a tidy office desk next to a coffee mug, the screen suddenly glowing with a new notification, the smartphone screen shows only soft blurred light, no readable text, no icons, no app interface, vertical 9:16 framing, no text, no letters, no numbers, no signs, no logos, no watermark"
+  },
+  {
+   "id": "img_02",
+   "refs": [
+    "otoko"
+   ],
+   "prompt": "Photorealistic cinematic Japanese everyday scene, shot on a 35mm lens, shallow depth of field, realistic skin texture, natural soft light: close-up of the hand of a Japanese office worker aged 56 with short salt-and-pepper hair, thin silver-rimmed glasses, a navy suit and a dark tie reaching instantly for a glowing smartphone on his office desk, his index finger already stretched toward the screen, the smartphone screen shows only soft blurred light, no readable text, no icons, no app interface, vertical 9:16 framing, no text, no letters, no numbers, no signs, no logos, no watermark"
+  },
+  {
+   "id": "img_03",
+   "refs": [
+    "otoko"
+   ],
+   "prompt": "Photorealistic cinematic Japanese everyday scene, shot on a 35mm lens, shallow depth of field, realistic skin texture, natural soft light: a Japanese office worker aged 56 with short salt-and-pepper hair, thin silver-rimmed glasses, a navy suit and a dark tie at his office desk holding a smartphone in both hands, typing a reply with quick thumbs, eager focused face, the smartphone screen shows only soft blurred light, no readable text, no icons, no app interface, vertical 9:16 framing, no text, no letters, no numbers, no signs, no logos, no watermark"
+  },
+  {
+   "id": "img_04",
+   "refs": [
+    "onna"
+   ],
+   "prompt": "Photorealistic cinematic Japanese everyday scene, shot on a 35mm lens, shallow depth of field, realistic skin texture, natural soft light: a calm Japanese woman aged 54 with a shoulder-length dark brown bob, a light beige trench coat and a small tote bag sitting at a bright cafe table with a cup of tea, calmly turning her glowing smartphone face-down on the table with one hand, relaxed face, the smartphone screen shows only soft blurred light, no readable text, no icons, no app interface, vertical 9:16 framing, no text, no letters, no numbers, no signs, no logos, no watermark"
+  },
+  {
+   "id": "img_05",
+   "refs": [
+    "otoko"
+   ],
+   "prompt": "Photorealistic cinematic Japanese everyday scene, shot on a 35mm lens, shallow depth of field, realistic skin texture, natural soft light: medium shot of a Japanese office worker aged 56 with short salt-and-pepper hair, thin silver-rimmed glasses, a navy suit and a dark tie standing by the window of a bright modern office, holding his smartphone close, already looking at the screen, the smartphone screen shows only soft blurred light, no readable text, no icons, no app interface, vertical 9:16 framing, no text, no letters, no numbers, no signs, no logos, no watermark"
+  },
+  {
+   "id": "img_06",
+   "refs": [
+    "otoko"
+   ],
+   "prompt": "Photorealistic cinematic Japanese everyday scene, shot on a 35mm lens, shallow depth of field, realistic skin texture, natural soft light: a bright Japanese meeting room with colleagues softly blurred around the table, a Japanese office worker aged 56 with short salt-and-pepper hair, thin silver-rimmed glasses, a navy suit and a dark tie sits at the table secretly glancing down at a smartphone half-hidden under the table edge, restless eyes, the smartphone screen shows only soft blurred light, no readable text, no icons, no app interface, vertical 9:16 framing, no text, no letters, no numbers, no signs, no logos, no watermark"
+  },
+  {
+   "id": "img_07",
+   "refs": [
+    "otoko"
+   ],
+   "prompt": "Photorealistic cinematic Japanese everyday scene, shot on a 35mm lens, shallow depth of field, realistic skin texture, natural soft light: close-up of a Japanese office worker aged 56 with short salt-and-pepper hair, thin silver-rimmed glasses, a navy suit and a dark tie typing on his smartphone with a stiff, overly serious and formal businesslike face, as if writing to a client, slightly comic, the smartphone screen shows only soft blurred light, no readable text, no icons, no app interface, vertical 9:16 framing, no text, no letters, no numbers, no signs, no logos, no watermark"
+  },
+  {
+   "id": "img_08",
+   "refs": [
+    "otoko"
+   ],
+   "prompt": "Photorealistic cinematic Japanese everyday scene, shot on a 35mm lens, shallow depth of field, realistic skin texture, natural soft light: a Japanese office worker aged 56 with short salt-and-pepper hair, thin silver-rimmed glasses, a navy suit and a dark tie standing in an office corridor staring at his smartphone, waiting impatiently, his thumb hovering to open the screen again, the smartphone screen shows only soft blurred light, no readable text, no icons, no app interface, vertical 9:16 framing, no text, no letters, no numbers, no signs, no logos, no watermark"
+  },
+  {
+   "id": "img_09",
+   "refs": [
+    "onna"
+   ],
+   "prompt": "Photorealistic cinematic Japanese everyday scene, shot on a 35mm lens, shallow depth of field, realistic skin texture, natural soft light: medium close-up from the waist up, a calm Japanese woman aged 54 with a shoulder-length dark brown bob, a light beige trench coat and a small tote bag sitting at a bright cafe window table reading a paperback book, relaxed and patient expression, her smartphone lying face-down beside the teacup, the smartphone screen shows only soft blurred light, no readable text, no icons, no app interface, vertical 9:16 framing, no text, no letters, no numbers, no signs, no logos, no watermark"
+  },
+  {
+   "id": "img_10",
+   "refs": [
+    "onna"
+   ],
+   "prompt": "Photorealistic cinematic Japanese everyday scene, shot on a 35mm lens, shallow depth of field, realistic skin texture, natural soft light: a calm Japanese woman aged 54 with a shoulder-length dark brown bob, a light beige trench coat and a small tote bag at the cafe table, her smartphone beside the teacup lights up, she glances at it for a second and keeps reading her book calmly, the smartphone screen shows only soft blurred light, no readable text, no icons, no app interface, vertical 9:16 framing, no text, no letters, no numbers, no signs, no logos, no watermark"
+  },
+  {
+   "id": "img_11",
+   "refs": [
+    "onna"
+   ],
+   "prompt": "Photorealistic cinematic Japanese everyday scene, shot on a 35mm lens, shallow depth of field, realistic skin texture, natural soft light: evening in a warm Japanese living room, a calm Japanese woman aged 54 with a shoulder-length dark brown bob, wearing a soft beige cardigan at home relaxing on a sofa under a floor lamp, scrolling her smartphone with a contented face, a mug of tea on the side table, the smartphone screen shows only soft blurred light, no readable text, no icons, no app interface, vertical 9:16 framing, no text, no letters, no numbers, no signs, no logos, no watermark"
+  },
+  {
+   "id": "img_12",
+   "refs": [
+    "onna"
+   ],
+   "prompt": "Photorealistic cinematic Japanese everyday scene, shot on a 35mm lens, shallow depth of field, realistic skin texture, natural soft light: extreme close-up of a woman's thumb tapping one single spot on a smartphone screen, a warm living room softly blurred behind, the moment of sending, the smartphone screen shows only soft blurred light, no readable text, no icons, no app interface, vertical 9:16 framing, no text, no letters, no numbers, no signs, no logos, no watermark"
+  },
+  {
+   "id": "img_13",
+   "refs": [
+    "onna"
+   ],
+   "prompt": "Photorealistic cinematic Japanese everyday scene, shot on a 35mm lens, shallow depth of field, realistic skin texture, natural soft light: a calm Japanese woman aged 54 with a shoulder-length dark brown bob, wearing a soft beige cardigan at home on the sofa suddenly sitting bolt upright, eyes wide, holding her smartphone with both hands, a comically alarmed face, the smartphone screen shows only soft blurred light, no readable text, no icons, no app interface, vertical 9:16 framing, no text, no letters, no numbers, no signs, no logos, no watermark"
+  },
+  {
+   "id": "img_14",
+   "refs": [
+    "musume"
+   ],
+   "prompt": "Photorealistic cinematic Japanese everyday scene, shot on a 35mm lens, shallow depth of field, realistic skin texture, natural soft light: a Japanese woman aged 24 with long dark hair, wearing a casual light-blue knit sweater lounging on a cushion in a small bright apartment, tapping her smartphone once with a casual little smile, a television glowing in the background, the smartphone screen shows only soft blurred light, no readable text, no icons, no app interface, vertical 9:16 framing, no text, no letters, no numbers, no signs, no logos, no watermark"
+  },
+  {
+   "id": "img_15",
+   "refs": [
+    "otoko"
+   ],
+   "prompt": "Photorealistic cinematic Japanese everyday scene, shot on a 35mm lens, shallow depth of field, realistic skin texture, natural soft light: a Japanese office worker aged 56 with short salt-and-pepper hair, thin silver-rimmed glasses, a navy suit and a dark tie on a train platform in the evening, looking down at his smartphone with a deflated, half-laughing expression, the smartphone screen shows only soft blurred light, no readable text, no icons, no app interface, vertical 9:16 framing, no text, no letters, no numbers, no signs, no logos, no watermark"
+  },
+  {
+   "id": "img_16",
+   "refs": [
+    "onna"
+   ],
+   "prompt": "Photorealistic cinematic Japanese everyday scene, shot on a 35mm lens, shallow depth of field, realistic skin texture, natural soft light: a calm Japanese woman aged 54 with a shoulder-length dark brown bob, wearing a soft beige cardigan at home on the sofa looking at her smartphone and letting out a small resigned laugh, shoulders dropped, the smartphone screen shows only soft blurred light, no readable text, no icons, no app interface, vertical 9:16 framing, no text, no letters, no numbers, no signs, no logos, no watermark"
+  },
+  {
+   "id": "img_17",
+   "refs": [
+    "otoko"
+   ],
+   "prompt": "Photorealistic cinematic Japanese everyday scene, shot on a 35mm lens, shallow depth of field, realistic skin texture, natural soft light: a Japanese office worker aged 56 with short salt-and-pepper hair, thin silver-rimmed glasses, a navy suit and a dark tie walking on a softly lit evening street, glancing at his smartphone and breaking into a small relieved smile, the smartphone screen shows only soft blurred light, no readable text, no icons, no app interface, vertical 9:16 framing, no text, no letters, no numbers, no signs, no logos, no watermark"
+  },
+  {
+   "id": "img_18",
+   "refs": [
+    "otoko",
+    "onna"
+   ],
+   "prompt": "Photorealistic cinematic Japanese everyday scene, shot on a 35mm lens, shallow depth of field, realistic skin texture, natural soft light: inside a small, clean modern Japanese office building elevator with brushed steel walls, the button panel shows only plain round buttons and arrow symbols, a Japanese office worker aged 56 with short salt-and-pepper hair, thin silver-rimmed glasses, a navy suit and a dark tie and a calm Japanese woman aged 54 with a shoulder-length dark brown bob, a light beige trench coat and a small tote bag stand side by side, each looking down at their own smartphone, then both glance toward the camera with soft knowing smiles, the smartphone screen shows only soft blurred light, no readable text, no icons, no app interface, vertical 9:16 framing, no text, no letters, no numbers, no signs, no logos, no watermark"
+  },
+  {
+   "id": "img_20",
+   "refs": [
+    "onna"
+   ],
+   "prompt": "Photorealistic cinematic Japanese everyday scene, shot on a 35mm lens, shallow depth of field, realistic skin texture, natural soft light: medium close-up, a calm Japanese woman aged 54 with a shoulder-length dark brown bob, a light beige trench coat and a small tote bag standing in a bright elevator hall, holding her smartphone near her chest and smiling warmly at the camera, the smartphone screen shows only soft blurred light, no readable text, no icons, no app interface, vertical 9:16 framing, no text, no letters, no numbers, no signs, no logos, no watermark"
+  }
+ ],
+ "shots": [
+  {
+   "id": "c01",
+   "image": "img_01",
+   "duration": "5s",
+   "refs": [],
+   "prompt": "The phone on the desk vibrates and the screen lights up again and again. Slow push-in. Nobody is in the frame. No music, no text on screen."
+  },
+  {
+   "id": "c03",
+   "image": "img_03",
+   "duration": "5s",
+   "refs": [
+    "otoko"
+   ],
+   "prompt": "He grabs the phone the moment it lights up and types very fast with both thumbs, then taps send with satisfaction. Close, lively camera. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "c04",
+   "image": "img_04",
+   "duration": "5s",
+   "refs": [
+    "onna"
+   ],
+   "prompt": "The phone lights up; she calmly turns it face-down, lifts her teacup and sips slowly. Steady camera. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "c06",
+   "image": "img_06",
+   "duration": "6s",
+   "refs": [
+    "otoko"
+   ],
+   "prompt": "During the meeting he keeps stealing glances under the table at the phone, then quickly looks up and nods as if listening. Slow handheld camera. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "c08",
+   "image": "img_08",
+   "duration": "6s",
+   "refs": [
+    "otoko"
+   ],
+   "prompt": "He opens the phone, checks, locks it, waits two seconds, opens it again, checks again and lets out a small sigh. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "c10",
+   "image": "img_10",
+   "duration": "5s",
+   "refs": [
+    "onna"
+   ],
+   "prompt": "The phone lights up beside her; she glances at it, smiles a little and turns the page of her book without touching it. Calm camera. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "c11",
+   "image": "img_11",
+   "duration": "6s",
+   "refs": [
+    "onna"
+   ],
+   "prompt": "On the sofa she scrolls slowly through a long list of messages, nodding to herself, sipping tea. Slow push-in. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "c13",
+   "image": "img_13",
+   "duration": "7s",
+   "refs": [
+    "onna"
+   ],
+   "prompt": "She is relaxing, the phone buzzes once, she glances at it and instantly sits bolt upright, eyes wide, and opens it with both hands. Quick push-in. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "c14",
+   "image": "img_14",
+   "duration": "5s",
+   "refs": [
+    "musume"
+   ],
+   "prompt": "She taps the phone once, puts it down with a satisfied little smile and goes back to watching television. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "c17",
+   "image": "img_17",
+   "duration": "6s",
+   "refs": [
+    "otoko"
+   ],
+   "prompt": "Walking on the evening street, he glances at the phone, his face softens into a small relieved smile, and he slips it back into his pocket. Smooth tracking camera. Nobody speaks. No music, no text on screen."
+  },
+  {
+   "id": "c20",
+   "image": "img_20",
+   "duration": "6s",
+   "refs": [
+    "onna"
+   ],
+   "prompt": "She looks up from her phone, smiles warmly at the camera and gives a small nod. Slow push-in. Nobody speaks. No music, no text on screen."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "s01",
+   "chapter": "intro",
+   "srt": [
+    1,
+    1
+   ],
+   "type": "clip",
+   "clips": [
+    "c01"
+   ],
+   "transition": "fade"
+  },
+  {
+   "id": "s02",
+   "chapter": "intro",
+   "srt": [
+    2,
+    2
+   ],
+   "type": "narration",
+   "image": "img_02",
+   "motion": "push_slow"
+  },
+  {
+   "id": "s03",
+   "chapter": "intro",
+   "srt": [
+    3,
+    3
+   ],
+   "type": "clip",
+   "clips": [
+    "c03"
+   ]
+  },
+  {
+   "id": "s04",
+   "chapter": "intro",
+   "srt": [
+    4,
+    4
+   ],
+   "type": "clip",
+   "clips": [
+    "c04"
+   ]
+  },
+  {
+   "id": "s05",
+   "chapter": "intro",
+   "srt": [
+    5,
+    5
+   ],
+   "type": "narration",
+   "image": "img_05",
+   "motion": "pan_right",
+   "tag": "すぐ返す派"
+  },
+  {
+   "id": "s06",
+   "chapter": "intro",
+   "srt": [
+    6,
+    6
+   ],
+   "type": "clip",
+   "clips": [
+    "c06"
+   ]
+  },
+  {
+   "id": "s07",
+   "chapter": "intro",
+   "srt": [
+    7,
+    7
+   ],
+   "type": "narration",
+   "image": "img_07",
+   "motion": "zoom_in_big",
+   "sfx": "pop"
+  },
+  {
+   "id": "s08",
+   "chapter": "intro",
+   "srt": [
+    8,
+    8
+   ],
+   "type": "clip",
+   "clips": [
+    "c08"
+   ]
+  },
+  {
+   "id": "s09",
+   "chapter": "intro",
+   "srt": [
+    9,
+    9
+   ],
+   "type": "narration",
+   "image": "img_09",
+   "motion": "push_slow",
+   "tag": "あとでまとめて派"
+  },
+  {
+   "id": "s10",
+   "chapter": "intro",
+   "srt": [
+    10,
+    10
+   ],
+   "type": "clip",
+   "clips": [
+    "c10"
+   ]
+  },
+  {
+   "id": "s11",
+   "chapter": "intro",
+   "srt": [
+    11,
+    11
+   ],
+   "type": "clip",
+   "clips": [
+    "c11"
+   ]
+  },
+  {
+   "id": "s12",
+   "chapter": "intro",
+   "srt": [
+    12,
+    12
+   ],
+   "type": "narration",
+   "image": "img_12",
+   "motion": "zoom_in_big",
+   "sfx": "pop"
+  },
+  {
+   "id": "s13",
+   "chapter": "intro",
+   "srt": [
+    13,
+    13
+   ],
+   "type": "clip",
+   "clips": [
+    "c13"
+   ]
+  },
+  {
+   "id": "s14",
+   "chapter": "intro",
+   "srt": [
+    14,
+    14
+   ],
+   "type": "clip",
+   "clips": [
+    "c14"
+   ]
+  },
+  {
+   "id": "s15",
+   "chapter": "intro",
+   "srt": [
+    15,
+    15
+   ],
+   "type": "narration",
+   "image": "img_15",
+   "motion": "pan_left"
+  },
+  {
+   "id": "s16",
+   "chapter": "intro",
+   "srt": [
+    16,
+    16
+   ],
+   "type": "narration",
+   "image": "img_16",
+   "motion": "zoom_in_big",
+   "sfx": "pop"
+  },
+  {
+   "id": "s17",
+   "chapter": "intro",
+   "srt": [
+    17,
+    17
+   ],
+   "type": "clip",
+   "clips": [
+    "c17"
+   ]
+  },
+  {
+   "id": "s18",
+   "chapter": "intro",
+   "srt": [
+    18,
+    19
+   ],
+   "type": "narration",
+   "image": "img_18",
+   "motion": "zoom_out_big",
+   "tag": "すぐ返す派？あとで派？"
+  },
+  {
+   "id": "s20",
+   "chapter": "intro",
+   "srt": [
+    20,
+    21
+   ],
+   "type": "clip",
+   "clips": [
+    "c20"
+   ]
+  },
+  {
+   "id": "s99",
+   "chapter": "intro",
+   "type": "end",
+   "ja": "あなたは、すぐ返す派？あとで返す派？",
+   "disclaimer": "※イメージ映像（フィクション）です。",
+   "duration": 3
+  }
+ ]
+}

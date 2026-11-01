@@ -1,0 +1,2 @@
+Source: https://github.com/hypit-ai/hypit (skills/hypit) @ 0762c6be56c0af43fff3cdbdb285e21414dd249b
+License: Hypit modified Apache 2.0, see LICENSE. Personal use only; not redistributed for profit.
